@@ -1,0 +1,154 @@
+{
+  "frames": {
+    "f00000.png": {
+      "frame": {
+        "x": 595,
+        "y": 1,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "spriteSourceSize": {
+        "x": -12,
+        "y": -1.5,
+        "w": 64,
+        "h": 64
+      }
+    },
+    "f00001.png": {
+      "frame": {
+        "x": 725,
+        "y": 1,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "spriteSourceSize": {
+        "x": -12,
+        "y": -1.5,
+        "w": 64,
+        "h": 64
+      }
+    },
+    "f00002.png": {
+      "frame": {
+        "x": 855,
+        "y": 1,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "spriteSourceSize": {
+        "x": -12,
+        "y": -1.5,
+        "w": 64,
+        "h": 64
+      }
+    },
+    "f00003.png": {
+      "frame": {
+        "x": 985,
+        "y": 1,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "spriteSourceSize": {
+        "x": -12,
+        "y": -1.5,
+        "w": 64,
+        "h": 64
+      }
+    },
+    "f00004.png": {
+      "frame": {
+        "x": 1115,
+        "y": 1,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "spriteSourceSize": {
+        "x": -12,
+        "y": -1.5,
+        "w": 64,
+        "h": 64
+      }
+    },
+    "f00005.png": {
+      "frame": {
+        "x": 1245,
+        "y": 1,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "spriteSourceSize": {
+        "x": -12,
+        "y": -1.5,
+        "w": 64,
+        "h": 64
+      }
+    },
+    "f00006.png": {
+      "frame": {
+        "x": 589,
+        "y": 1,
+        "w": 4,
+        "h": 4
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 19,
+        "y": 29.5,
+        "w": 2,
+        "h": 2
+      }
+    }
+  },
+  "meta": {
+    "image": "presentation.png",
+    "size": {
+      "w": 2044,
+      "h": 174
+    },
+    "scale": "1",
+    "scaleMode": "nearest",
+    "baseUrl": "presentation/presentation-Vfx_IceBlast.atlas.json"
+  }
+}

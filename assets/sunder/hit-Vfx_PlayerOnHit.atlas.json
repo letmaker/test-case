@@ -1,0 +1,114 @@
+{
+  "frames": {
+    "f00000.png": {
+      "frame": {
+        "x": 532,
+        "y": 1,
+        "w": 32,
+        "h": 32
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 32,
+        "h": 32
+      },
+      "spriteSourceSize": {
+        "x": 20.5,
+        "y": 23.5,
+        "w": 32,
+        "h": 32
+      }
+    },
+    "f00001.png": {
+      "frame": {
+        "x": 566,
+        "y": 1,
+        "w": 32,
+        "h": 32
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 32,
+        "h": 32
+      },
+      "spriteSourceSize": {
+        "x": 20.5,
+        "y": 23.5,
+        "w": 32,
+        "h": 32
+      }
+    },
+    "f00002.png": {
+      "frame": {
+        "x": 600,
+        "y": 1,
+        "w": 32,
+        "h": 32
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 32,
+        "h": 32
+      },
+      "spriteSourceSize": {
+        "x": 20.5,
+        "y": 23.5,
+        "w": 32,
+        "h": 32
+      }
+    },
+    "f00003.png": {
+      "frame": {
+        "x": 634,
+        "y": 1,
+        "w": 32,
+        "h": 32
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 32,
+        "h": 32
+      },
+      "spriteSourceSize": {
+        "x": 20.5,
+        "y": 23.5,
+        "w": 32,
+        "h": 32
+      }
+    },
+    "f00004.png": {
+      "frame": {
+        "x": 526,
+        "y": 1,
+        "w": 4,
+        "h": 4
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 35.5,
+        "y": 38.5,
+        "w": 2,
+        "h": 2
+      }
+    }
+  },
+  "meta": {
+    "image": "hit.png",
+    "size": {
+      "w": 1983,
+      "h": 121
+    },
+    "scale": "1",
+    "scaleMode": "nearest",
+    "baseUrl": "hit/hit-Vfx_PlayerOnHit.atlas.json"
+  }
+}

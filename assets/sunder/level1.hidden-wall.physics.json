@@ -1,0 +1,808 @@
+{
+  "converterVersion": 2,
+  "serializedFile": "level2",
+  "origin": {
+    "x": -7.5,
+    "y": 0
+  },
+  "bounds": {
+    "minX": -5,
+    "maxX": 2,
+    "minY": -13,
+    "maxY": -1
+  },
+  "cellSize": {
+    "x": 1.5,
+    "y": 1.5,
+    "z": 0
+  },
+  "contours": [],
+  "friction": 0.4,
+  "materials": [],
+  "cells": [
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": -5,
+        "y": -13,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 456
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 179
+      },
+      "colliderType": 1
+    },
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": -4,
+        "y": -13,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 456
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 179
+      },
+      "colliderType": 1
+    },
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": -3,
+        "y": -13,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 457
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 217
+      },
+      "colliderType": 1
+    },
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": -2,
+        "y": -13,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 456
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 179
+      },
+      "colliderType": 1
+    },
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": -1,
+        "y": -13,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 457
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 217
+      },
+      "colliderType": 1
+    },
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": 0,
+        "y": -13,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 456
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 179
+      },
+      "colliderType": 1
+    },
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": -5,
+        "y": -12,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 446
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 169
+      },
+      "colliderType": 1
+    },
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": -4,
+        "y": -12,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 446
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 169
+      },
+      "colliderType": 1
+    },
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": -3,
+        "y": -12,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 447
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 298
+      },
+      "colliderType": 1
+    },
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": -2,
+        "y": -12,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 446
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 169
+      },
+      "colliderType": 1
+    },
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": -1,
+        "y": -12,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 447
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 298
+      },
+      "colliderType": 1
+    },
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": 0,
+        "y": -12,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 446
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 169
+      },
+      "colliderType": 1
+    },
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": 1,
+        "y": -12,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 446
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 169
+      },
+      "colliderType": 1
+    },
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": 2,
+        "y": -12,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 478
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 181
+      },
+      "colliderType": 1
+    },
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": -5,
+        "y": -11,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 456
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 179
+      },
+      "colliderType": 1
+    },
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": -4,
+        "y": -11,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 456
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 179
+      },
+      "colliderType": 1
+    },
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": -3,
+        "y": -11,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 457
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 217
+      },
+      "colliderType": 1
+    },
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": -2,
+        "y": -11,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 456
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 179
+      },
+      "colliderType": 1
+    },
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": -1,
+        "y": -11,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 457
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 217
+      },
+      "colliderType": 1
+    },
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": 0,
+        "y": -11,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 456
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 179
+      },
+      "colliderType": 1
+    },
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": 1,
+        "y": -11,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 457
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 217
+      },
+      "colliderType": 1
+    },
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": 2,
+        "y": -11,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 448
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 294
+      },
+      "colliderType": 1
+    },
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": -5,
+        "y": -10,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 446
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 169
+      },
+      "colliderType": 1
+    },
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": -4,
+        "y": -10,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 446
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 169
+      },
+      "colliderType": 1
+    },
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": -3,
+        "y": -10,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 447
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 298
+      },
+      "colliderType": 1
+    },
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": -2,
+        "y": -10,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 446
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 169
+      },
+      "colliderType": 1
+    },
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": -1,
+        "y": -10,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 447
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 298
+      },
+      "colliderType": 1
+    },
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": 0,
+        "y": -10,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 446
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 169
+      },
+      "colliderType": 1
+    },
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": 1,
+        "y": -10,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 447
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 298
+      },
+      "colliderType": 1
+    },
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": 2,
+        "y": -10,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 458
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 329
+      },
+      "colliderType": 1
+    },
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": -5,
+        "y": -9,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 456
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 179
+      },
+      "colliderType": 1
+    },
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": -4,
+        "y": -9,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 456
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 179
+      },
+      "colliderType": 1
+    },
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": -3,
+        "y": -9,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 457
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 217
+      },
+      "colliderType": 1
+    },
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": -2,
+        "y": -9,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 456
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 179
+      },
+      "colliderType": 1
+    },
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": -1,
+        "y": -9,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 457
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 217
+      },
+      "colliderType": 1
+    },
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": 0,
+        "y": -9,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 456
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 179
+      },
+      "colliderType": 1
+    },
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": 1,
+        "y": -9,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 457
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 217
+      },
+      "colliderType": 1
+    },
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": 2,
+        "y": -9,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 448
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 294
+      },
+      "colliderType": 1
+    },
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": -5,
+        "y": -8,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 446
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 169
+      },
+      "colliderType": 1
+    },
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": -4,
+        "y": -8,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 446
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 169
+      },
+      "colliderType": 1
+    },
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": -3,
+        "y": -8,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 447
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 298
+      },
+      "colliderType": 1
+    },
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": -2,
+        "y": -8,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 446
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 169
+      },
+      "colliderType": 1
+    },
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": -1,
+        "y": -8,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 447
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 298
+      },
+      "colliderType": 1
+    },
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": 0,
+        "y": -8,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 446
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 169
+      },
+      "colliderType": 1
+    },
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": 1,
+        "y": -8,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 447
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 298
+      },
+      "colliderType": 1
+    },
+    {
+      "layer": "HiddenWall",
+      "cell": {
+        "x": 2,
+        "y": -8,
+        "z": 0
+      },
+      "tile": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 480
+      },
+      "sprite": {
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 218
+      },
+      "colliderType": 1
+    }
+  ],
+  "sourcePolygonCount": 0,
+  "note": "完整原地图；chain 首点显式闭合，保留孔洞与斜坡"
+}

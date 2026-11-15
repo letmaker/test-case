@@ -1,0 +1,154 @@
+{
+  "frames": {
+    "f00000.png": {
+      "frame": {
+        "x": 668,
+        "y": 1,
+        "w": 108,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 108,
+        "h": 64
+      },
+      "spriteSourceSize": {
+        "x": -17.5,
+        "y": 7.5,
+        "w": 108,
+        "h": 64
+      }
+    },
+    "f00001.png": {
+      "frame": {
+        "x": 778,
+        "y": 1,
+        "w": 108,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 108,
+        "h": 64
+      },
+      "spriteSourceSize": {
+        "x": -17.5,
+        "y": 7.5,
+        "w": 108,
+        "h": 64
+      }
+    },
+    "f00002.png": {
+      "frame": {
+        "x": 888,
+        "y": 1,
+        "w": 108,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 108,
+        "h": 64
+      },
+      "spriteSourceSize": {
+        "x": -17.5,
+        "y": 7.5,
+        "w": 108,
+        "h": 64
+      }
+    },
+    "f00003.png": {
+      "frame": {
+        "x": 998,
+        "y": 1,
+        "w": 108,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 108,
+        "h": 64
+      },
+      "spriteSourceSize": {
+        "x": -17.5,
+        "y": 7.5,
+        "w": 108,
+        "h": 64
+      }
+    },
+    "f00004.png": {
+      "frame": {
+        "x": 1108,
+        "y": 1,
+        "w": 108,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 108,
+        "h": 64
+      },
+      "spriteSourceSize": {
+        "x": -17.5,
+        "y": 7.5,
+        "w": 108,
+        "h": 64
+      }
+    },
+    "f00005.png": {
+      "frame": {
+        "x": 1218,
+        "y": 1,
+        "w": 108,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 108,
+        "h": 64
+      },
+      "spriteSourceSize": {
+        "x": -17.5,
+        "y": 7.5,
+        "w": 108,
+        "h": 64
+      }
+    },
+    "f00006.png": {
+      "frame": {
+        "x": 526,
+        "y": 1,
+        "w": 4,
+        "h": 4
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 35.5,
+        "y": 38.5,
+        "w": 2,
+        "h": 2
+      }
+    }
+  },
+  "meta": {
+    "image": "hit.png",
+    "size": {
+      "w": 1983,
+      "h": 121
+    },
+    "scale": "1",
+    "scaleMode": "nearest",
+    "baseUrl": "hit/hit-Vfx_OnCritHit.atlas.json"
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "frames": {
+    "f00000.png": {
+      "frame": {
+        "x": 396,
+        "y": 114,
+        "w": 48,
+        "h": 32
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 48,
+        "h": 32
+      },
+      "spriteSourceSize": {
+        "x": 172.5,
+        "y": 35.5,
+        "w": 48,
+        "h": 32
+      }
+    },
+    "f00001.png": {
+      "frame": {
+        "x": 446,
+        "y": 114,
+        "w": 48,
+        "h": 32
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 48,
+        "h": 32
+      },
+      "spriteSourceSize": {
+        "x": 172.5,
+        "y": 35.5,
+        "w": 48,
+        "h": 32
+      }
+    },
+    "f00002.png": {
+      "frame": {
+        "x": 496,
+        "y": 114,
+        "w": 48,
+        "h": 32
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 48,
+        "h": 32
+      },
+      "spriteSourceSize": {
+        "x": 172.5,
+        "y": 35.5,
+        "w": 48,
+        "h": 32
+      }
+    },
+    "f00003.png": {
+      "frame": {
+        "x": 546,
+        "y": 114,
+        "w": 48,
+        "h": 32
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 48,
+        "h": 32
+      },
+      "spriteSourceSize": {
+        "x": 172.5,
+        "y": 35.5,
+        "w": 48,
+        "h": 32
+      }
+    },
+    "f00004.png": {
+      "frame": {
+        "x": 596,
+        "y": 114,
+        "w": 48,
+        "h": 32
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 48,
+        "h": 32
+      },
+      "spriteSourceSize": {
+        "x": 172.5,
+        "y": 35.5,
+        "w": 48,
+        "h": 32
+      }
+    },
+    "f00005.png": {
+      "frame": {
+        "x": 646,
+        "y": 114,
+        "w": 48,
+        "h": 32
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 48,
+        "h": 32
+      },
+      "spriteSourceSize": {
+        "x": 172.5,
+        "y": 35.5,
+        "w": 48,
+        "h": 32
+      }
+    },
+    "f00006.png": {
+      "frame": {
+        "x": 696,
+        "y": 114,
+        "w": 48,
+        "h": 32
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 48,
+        "h": 32
+      },
+      "spriteSourceSize": {
+        "x": 172.5,
+        "y": 35.5,
+        "w": 48,
+        "h": 32
+      }
+    },
+    "f00007.png": {
+      "frame": {
+        "x": 746,
+        "y": 114,
+        "w": 48,
+        "h": 32
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 48,
+        "h": 32
+      },
+      "spriteSourceSize": {
+        "x": 172.5,
+        "y": 35.5,
+        "w": 48,
+        "h": 32
+      }
+    },
+    "f00008.png": {
+      "frame": {
+        "x": 796,
+        "y": 114,
+        "w": 4,
+        "h": 4
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 195.5,
+        "y": 54.5,
+        "w": 2,
+        "h": 2
+      }
+    }
+  },
+  "meta": {
+    "image": "feedback.png",
+    "size": {
+      "w": 1976,
+      "h": 226
+    },
+    "scale": "1",
+    "scaleMode": "nearest",
+    "baseUrl": "feedback/feedback-Vfx_DashDust.atlas.json"
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "frames": {
+    "f00000.png": {
+      "frame": {
+        "x": 941,
+        "y": 1,
+        "w": 92,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 92,
+        "h": 54
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 92,
+        "h": 54
+      }
+    },
+    "f00001.png": {
+      "frame": {
+        "x": 1035,
+        "y": 1,
+        "w": 92,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 92,
+        "h": 54
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 92,
+        "h": 54
+      }
+    },
+    "f00002.png": {
+      "frame": {
+        "x": 1129,
+        "y": 1,
+        "w": 92,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 92,
+        "h": 54
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 92,
+        "h": 54
+      }
+    },
+    "f00003.png": {
+      "frame": {
+        "x": 1223,
+        "y": 1,
+        "w": 92,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 92,
+        "h": 54
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 92,
+        "h": 54
+      }
+    },
+    "f00004.png": {
+      "frame": {
+        "x": 1317,
+        "y": 1,
+        "w": 92,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 92,
+        "h": 54
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 92,
+        "h": 54
+      }
+    },
+    "f00005.png": {
+      "frame": {
+        "x": 1411,
+        "y": 1,
+        "w": 92,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 92,
+        "h": 54
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 92,
+        "h": 54
+      }
+    },
+    "f00006.png": {
+      "frame": {
+        "x": 1505,
+        "y": 1,
+        "w": 92,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 92,
+        "h": 54
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 92,
+        "h": 54
+      }
+    },
+    "f00007.png": {
+      "frame": {
+        "x": 1599,
+        "y": 1,
+        "w": 92,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 92,
+        "h": 54
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 92,
+        "h": 54
+      }
+    },
+    "f00008.png": {
+      "frame": {
+        "x": 1693,
+        "y": 1,
+        "w": 92,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 92,
+        "h": 54
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 92,
+        "h": 54
+      }
+    },
+    "f00009.png": {
+      "frame": {
+        "x": 1787,
+        "y": 1,
+        "w": 92,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 92,
+        "h": 54
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 92,
+        "h": 54
+      }
+    },
+    "f00010.png": {
+      "frame": {
+        "x": 1881,
+        "y": 1,
+        "w": 92,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 92,
+        "h": 54
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 92,
+        "h": 54
+      }
+    },
+    "f00011.png": {
+      "frame": {
+        "x": 1,
+        "y": 57,
+        "w": 92,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 92,
+        "h": 54
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 92,
+        "h": 54
+      }
+    }
+  },
+  "meta": {
+    "image": "archer.png",
+    "size": {
+      "w": 1975,
+      "h": 112
+    },
+    "scale": "1",
+    "scaleMode": "nearest",
+    "baseUrl": "archer/archer-archerAttack.atlas.json"
+  }
+}

@@ -1,0 +1,836 @@
+{
+  "description": "原帧 tight mesh / UV 恢复；共享无损 PNG，不重画、不补帧、不缩小",
+  "converterVersion": 1,
+  "width": 1843,
+  "height": 130,
+  "frames": [
+    {
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 755,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 516
+      },
+      "texture": {
+        "path": "Data/sharedassets1.assets/Texture2D.jsonl",
+        "line": 7
+      },
+      "ppu": 32,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 128,
+        "height": 128
+      },
+      "trim": {
+        "x": 44.07612228393555,
+        "y": 30.076120376586914
+      },
+      "packing": 64,
+      "uvSource": "uvTransform",
+      "emission": false,
+      "atlas": {
+        "x": 1,
+        "y": 1,
+        "w": 128,
+        "h": 128
+      }
+    },
+    {
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 774,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 535
+      },
+      "texture": {
+        "path": "Data/sharedassets1.assets/Texture2D.jsonl",
+        "line": 7
+      },
+      "ppu": 32,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "rect": {
+        "x": 128,
+        "y": 0,
+        "width": 128,
+        "height": 128
+      },
+      "trim": {
+        "x": 44.07612609863281,
+        "y": 30.076120376586914
+      },
+      "packing": 64,
+      "uvSource": "uvTransform",
+      "emission": false,
+      "atlas": {
+        "x": 131,
+        "y": 1,
+        "w": 128,
+        "h": 128
+      }
+    },
+    {
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 799,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 560
+      },
+      "texture": {
+        "path": "Data/sharedassets1.assets/Texture2D.jsonl",
+        "line": 7
+      },
+      "ppu": 32,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "rect": {
+        "x": 256,
+        "y": 0,
+        "width": 128,
+        "height": 128
+      },
+      "trim": {
+        "x": 44.07611083984375,
+        "y": 30.076120376586914
+      },
+      "packing": 64,
+      "uvSource": "uvTransform",
+      "emission": false,
+      "atlas": {
+        "x": 261,
+        "y": 1,
+        "w": 128,
+        "h": 128
+      }
+    },
+    {
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 462,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 223
+      },
+      "texture": {
+        "path": "Data/sharedassets1.assets/Texture2D.jsonl",
+        "line": 7
+      },
+      "ppu": 32,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "rect": {
+        "x": 384,
+        "y": 0,
+        "width": 128,
+        "height": 128
+      },
+      "trim": {
+        "x": 44.07611083984375,
+        "y": 30.076120376586914
+      },
+      "packing": 64,
+      "uvSource": "uvTransform",
+      "emission": false,
+      "atlas": {
+        "x": 391,
+        "y": 1,
+        "w": 128,
+        "h": 128
+      }
+    },
+    {
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 480,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 241
+      },
+      "texture": {
+        "path": "Data/sharedassets1.assets/Texture2D.jsonl",
+        "line": 7
+      },
+      "ppu": 32,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "rect": {
+        "x": 512,
+        "y": 0,
+        "width": 128,
+        "height": 128
+      },
+      "trim": {
+        "x": 44.07611083984375,
+        "y": 30.076120376586914
+      },
+      "packing": 64,
+      "uvSource": "uvTransform",
+      "emission": false,
+      "atlas": {
+        "x": 521,
+        "y": 1,
+        "w": 128,
+        "h": 128
+      }
+    },
+    {
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 407,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 168
+      },
+      "texture": {
+        "path": "Data/sharedassets1.assets/Texture2D.jsonl",
+        "line": 7
+      },
+      "ppu": 32,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "rect": {
+        "x": 640,
+        "y": 0,
+        "width": 128,
+        "height": 128
+      },
+      "trim": {
+        "x": 44.07611083984375,
+        "y": 30.076120376586914
+      },
+      "packing": 64,
+      "uvSource": "uvTransform",
+      "emission": false,
+      "atlas": {
+        "x": 651,
+        "y": 1,
+        "w": 128,
+        "h": 128
+      }
+    },
+    {
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 873,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 634
+      },
+      "texture": {
+        "path": "Data/sharedassets1.assets/Texture2D.jsonl",
+        "line": 22
+      },
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "rect": {
+        "x": 0,
+        "y": 128,
+        "width": 64,
+        "height": 32
+      },
+      "trim": {
+        "x": 19.026750564575195,
+        "y": 4.012908935546875
+      },
+      "packing": 64,
+      "uvSource": "uvTransform",
+      "emission": false,
+      "atlas": {
+        "x": 781,
+        "y": 1,
+        "w": 64,
+        "h": 32
+      }
+    },
+    {
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 882,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 643
+      },
+      "texture": {
+        "path": "Data/sharedassets1.assets/Texture2D.jsonl",
+        "line": 22
+      },
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "rect": {
+        "x": 0,
+        "y": 96,
+        "width": 64,
+        "height": 32
+      },
+      "trim": {
+        "x": 17.01291275024414,
+        "y": 3.0761184692382812
+      },
+      "packing": 64,
+      "uvSource": "uvTransform",
+      "emission": false,
+      "atlas": {
+        "x": 847,
+        "y": 1,
+        "w": 64,
+        "h": 32
+      }
+    },
+    {
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 893,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 654
+      },
+      "texture": {
+        "path": "Data/sharedassets1.assets/Texture2D.jsonl",
+        "line": 22
+      },
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "rect": {
+        "x": 0,
+        "y": 64,
+        "width": 64,
+        "height": 32
+      },
+      "trim": {
+        "x": 16.01291275024414,
+        "y": 2.012908935546875
+      },
+      "packing": 64,
+      "uvSource": "uvTransform",
+      "emission": false,
+      "atlas": {
+        "x": 913,
+        "y": 1,
+        "w": 64,
+        "h": 32
+      }
+    },
+    {
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 244,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 5
+      },
+      "texture": {
+        "path": "Data/sharedassets1.assets/Texture2D.jsonl",
+        "line": 22
+      },
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "rect": {
+        "x": 0,
+        "y": 32,
+        "width": 64,
+        "height": 32
+      },
+      "trim": {
+        "x": 15.01291275024414,
+        "y": 1.0129127502441406
+      },
+      "packing": 64,
+      "uvSource": "uvTransform",
+      "emission": false,
+      "atlas": {
+        "x": 979,
+        "y": 1,
+        "w": 64,
+        "h": 32
+      }
+    },
+    {
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 880,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 641
+      },
+      "texture": {
+        "path": "Data/sharedassets1.assets/Texture2D.jsonl",
+        "line": 82
+      },
+      "ppu": 32,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "rect": {
+        "x": 12,
+        "y": 13,
+        "width": 4,
+        "height": 4
+      },
+      "trim": {
+        "x": 0,
+        "y": 0
+      },
+      "packing": 64,
+      "uvSource": "vertex",
+      "emission": false,
+      "atlas": {
+        "x": 1045,
+        "y": 1,
+        "w": 4,
+        "h": 4
+      }
+    },
+    {
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 558,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 319
+      },
+      "texture": {
+        "path": "Data/sharedassets1.assets/Texture2D.jsonl",
+        "line": 37
+      },
+      "ppu": 32,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 64,
+        "height": 64
+      },
+      "trim": {
+        "x": 21.05131721496582,
+        "y": 23.076120376586914
+      },
+      "packing": 64,
+      "uvSource": "uvTransform",
+      "emission": false,
+      "atlas": {
+        "x": 1051,
+        "y": 1,
+        "w": 64,
+        "h": 64
+      }
+    },
+    {
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 553,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 314
+      },
+      "texture": {
+        "path": "Data/sharedassets1.assets/Texture2D.jsonl",
+        "line": 29
+      },
+      "ppu": 32,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 64,
+        "height": 64
+      },
+      "trim": {
+        "x": 12.026750564575195,
+        "y": 15.04290771484375
+      },
+      "packing": 64,
+      "uvSource": "uvTransform",
+      "emission": false,
+      "atlas": {
+        "x": 1117,
+        "y": 1,
+        "w": 64,
+        "h": 64
+      }
+    },
+    {
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 578,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 339
+      },
+      "texture": {
+        "path": "Data/sharedassets1.assets/Texture2D.jsonl",
+        "line": 81
+      },
+      "ppu": 32,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 64,
+        "height": 64
+      },
+      "trim": {
+        "x": 8.026750564575195,
+        "y": 10.026750564575195
+      },
+      "packing": 64,
+      "uvSource": "uvTransform",
+      "emission": false,
+      "atlas": {
+        "x": 1183,
+        "y": 1,
+        "w": 64,
+        "h": 64
+      }
+    },
+    {
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 582,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 343
+      },
+      "texture": {
+        "path": "Data/sharedassets1.assets/Texture2D.jsonl",
+        "line": 90
+      },
+      "ppu": 32,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 64,
+        "height": 64
+      },
+      "trim": {
+        "x": 7.0267510414123535,
+        "y": 9.026750564575195
+      },
+      "packing": 64,
+      "uvSource": "uvTransform",
+      "emission": false,
+      "atlas": {
+        "x": 1249,
+        "y": 1,
+        "w": 64,
+        "h": 64
+      }
+    },
+    {
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 549,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 310
+      },
+      "texture": {
+        "path": "Data/sharedassets1.assets/Texture2D.jsonl",
+        "line": 21
+      },
+      "ppu": 32,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 64,
+        "height": 64
+      },
+      "trim": {
+        "x": 6.012912750244141,
+        "y": 9.026750564575195
+      },
+      "packing": 64,
+      "uvSource": "uvTransform",
+      "emission": false,
+      "atlas": {
+        "x": 1315,
+        "y": 1,
+        "w": 64,
+        "h": 64
+      }
+    },
+    {
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 560,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 321
+      },
+      "texture": {
+        "path": "Data/sharedassets1.assets/Texture2D.jsonl",
+        "line": 39
+      },
+      "ppu": 32,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 64,
+        "height": 64
+      },
+      "trim": {
+        "x": 5.076120376586914,
+        "y": 9.026750564575195
+      },
+      "packing": 64,
+      "uvSource": "uvTransform",
+      "emission": false,
+      "atlas": {
+        "x": 1381,
+        "y": 1,
+        "w": 64,
+        "h": 64
+      }
+    },
+    {
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 546,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 307
+      },
+      "texture": {
+        "path": "Data/sharedassets1.assets/Texture2D.jsonl",
+        "line": 12
+      },
+      "ppu": 32,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 64,
+        "height": 64
+      },
+      "trim": {
+        "x": 4.076120376586914,
+        "y": 8.056371688842773
+      },
+      "packing": 64,
+      "uvSource": "uvTransform",
+      "emission": false,
+      "atlas": {
+        "x": 1447,
+        "y": 1,
+        "w": 64,
+        "h": 64
+      }
+    },
+    {
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 545,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 306
+      },
+      "texture": {
+        "path": "Data/sharedassets1.assets/Texture2D.jsonl",
+        "line": 11
+      },
+      "ppu": 32,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 64,
+        "height": 64
+      },
+      "trim": {
+        "x": 4.076120376586914,
+        "y": 8.056371688842773
+      },
+      "packing": 64,
+      "uvSource": "uvTransform",
+      "emission": false,
+      "atlas": {
+        "x": 1513,
+        "y": 1,
+        "w": 64,
+        "h": 64
+      }
+    },
+    {
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 548,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 309
+      },
+      "texture": {
+        "path": "Data/sharedassets1.assets/Texture2D.jsonl",
+        "line": 18
+      },
+      "ppu": 32,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 64,
+        "height": 64
+      },
+      "trim": {
+        "x": 4.076120376586914,
+        "y": 8.051316261291504
+      },
+      "packing": 64,
+      "uvSource": "uvTransform",
+      "emission": false,
+      "atlas": {
+        "x": 1579,
+        "y": 1,
+        "w": 64,
+        "h": 64
+      }
+    },
+    {
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 561,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 322
+      },
+      "texture": {
+        "path": "Data/sharedassets1.assets/Texture2D.jsonl",
+        "line": 40
+      },
+      "ppu": 32,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 64,
+        "height": 64
+      },
+      "trim": {
+        "x": 4.076120376586914,
+        "y": 12.076120376586914
+      },
+      "packing": 64,
+      "uvSource": "uvTransform",
+      "emission": false,
+      "atlas": {
+        "x": 1645,
+        "y": 1,
+        "w": 64,
+        "h": 64
+      }
+    },
+    {
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 552,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 313
+      },
+      "texture": {
+        "path": "Data/sharedassets1.assets/Texture2D.jsonl",
+        "line": 28
+      },
+      "ppu": 32,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 64,
+        "height": 64
+      },
+      "trim": {
+        "x": 4.012912750244141,
+        "y": 12.076120376586914
+      },
+      "packing": 64,
+      "uvSource": "uvTransform",
+      "emission": false,
+      "atlas": {
+        "x": 1711,
+        "y": 1,
+        "w": 64,
+        "h": 64
+      }
+    },
+    {
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 566,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 327
+      },
+      "texture": {
+        "path": "Data/sharedassets1.assets/Texture2D.jsonl",
+        "line": 52
+      },
+      "ppu": 32,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 64,
+        "height": 64
+      },
+      "trim": {
+        "x": 0,
+        "y": 0
+      },
+      "packing": 64,
+      "uvSource": "uvTransform",
+      "emission": false,
+      "atlas": {
+        "x": 1777,
+        "y": 1,
+        "w": 64,
+        "h": 64
+      }
+    }
+  ]
+}

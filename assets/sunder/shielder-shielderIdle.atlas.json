@@ -1,0 +1,94 @@
+{
+  "frames": {
+    "f00000.png": {
+      "frame": {
+        "x": 1,
+        "y": 1,
+        "w": 48,
+        "h": 48
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 48,
+        "h": 48
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "f00001.png": {
+      "frame": {
+        "x": 51,
+        "y": 1,
+        "w": 48,
+        "h": 48
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 48,
+        "h": 48
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "f00002.png": {
+      "frame": {
+        "x": 101,
+        "y": 1,
+        "w": 48,
+        "h": 48
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 48,
+        "h": 48
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "f00003.png": {
+      "frame": {
+        "x": 151,
+        "y": 1,
+        "w": 48,
+        "h": 48
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 48,
+        "h": 48
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      }
+    }
+  },
+  "meta": {
+    "image": "shielder.png",
+    "size": {
+      "w": 901,
+      "h": 50
+    },
+    "scale": "1",
+    "scaleMode": "nearest",
+    "baseUrl": "shielder/shielder-shielderIdle.atlas.json"
+  }
+}

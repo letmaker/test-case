@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "poster": {
+    "url": "mage-probe-poster.png",
+    "width": 48,
+    "height": 48
+  },
+  "defaultAction": "MageDie",
+  "actions": {
+    "MageDie": {
+      "url": "mage-probe-MageDie.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 12,
+      "loop": false,
+      "durations": [
+        1.0000000298023224,
+        1.0000000298023224,
+        0.9999999403953552,
+        1.0000001192092896,
+        4.9999998807907104
+      ],
+      "events": [
+        {
+          "time": 0.75,
+          "name": "DestroyAfterAnimation",
+          "data": 0
+        }
+      ]
+    }
+  }
+}

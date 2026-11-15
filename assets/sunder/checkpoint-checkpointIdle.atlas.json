@@ -1,0 +1,34 @@
+{
+  "frames": {
+    "f00000.png": {
+      "frame": {
+        "x": 1,
+        "y": 1,
+        "w": 29,
+        "h": 35
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 29,
+        "h": 35
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 29,
+        "h": 35
+      }
+    }
+  },
+  "meta": {
+    "image": "checkpoint.png",
+    "size": {
+      "w": 218,
+      "h": 37
+    },
+    "scale": "1",
+    "scaleMode": "nearest",
+    "baseUrl": "checkpoint/checkpoint-checkpointIdle.atlas.json"
+  }
+}

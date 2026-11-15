@@ -1,0 +1,214 @@
+{
+  "frames": {
+    "f00000.png": {
+      "frame": {
+        "x": 1593,
+        "y": 1,
+        "w": 26,
+        "h": 45
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 26,
+        "h": 45
+      },
+      "spriteSourceSize": {
+        "x": 44.5,
+        "y": 31.5,
+        "w": 26,
+        "h": 45
+      }
+    },
+    "f00001.png": {
+      "frame": {
+        "x": 1621,
+        "y": 1,
+        "w": 26,
+        "h": 45
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 26,
+        "h": 45
+      },
+      "spriteSourceSize": {
+        "x": 44.5,
+        "y": 31.5,
+        "w": 26,
+        "h": 45
+      }
+    },
+    "f00002.png": {
+      "frame": {
+        "x": 1649,
+        "y": 1,
+        "w": 26,
+        "h": 45
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 26,
+        "h": 45
+      },
+      "spriteSourceSize": {
+        "x": 44.5,
+        "y": 31.5,
+        "w": 26,
+        "h": 45
+      }
+    },
+    "f00003.png": {
+      "frame": {
+        "x": 1677,
+        "y": 1,
+        "w": 26,
+        "h": 45
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 26,
+        "h": 45
+      },
+      "spriteSourceSize": {
+        "x": 44.5,
+        "y": 31.5,
+        "w": 26,
+        "h": 45
+      }
+    },
+    "f00004.png": {
+      "frame": {
+        "x": 1705,
+        "y": 1,
+        "w": 26,
+        "h": 45
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 26,
+        "h": 45
+      },
+      "spriteSourceSize": {
+        "x": 44.5,
+        "y": 31.5,
+        "w": 26,
+        "h": 45
+      }
+    },
+    "f00005.png": {
+      "frame": {
+        "x": 1733,
+        "y": 1,
+        "w": 26,
+        "h": 45
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 26,
+        "h": 45
+      },
+      "spriteSourceSize": {
+        "x": 44.5,
+        "y": 31.5,
+        "w": 26,
+        "h": 45
+      }
+    },
+    "f00006.png": {
+      "frame": {
+        "x": 1761,
+        "y": 1,
+        "w": 26,
+        "h": 45
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 26,
+        "h": 45
+      },
+      "spriteSourceSize": {
+        "x": 44.5,
+        "y": 31.5,
+        "w": 26,
+        "h": 45
+      }
+    },
+    "f00007.png": {
+      "frame": {
+        "x": 1789,
+        "y": 1,
+        "w": 26,
+        "h": 45
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 26,
+        "h": 45
+      },
+      "spriteSourceSize": {
+        "x": 44.5,
+        "y": 31.5,
+        "w": 26,
+        "h": 45
+      }
+    },
+    "f00008.png": {
+      "frame": {
+        "x": 1817,
+        "y": 1,
+        "w": 26,
+        "h": 45
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 26,
+        "h": 45
+      },
+      "spriteSourceSize": {
+        "x": 44.5,
+        "y": 31.5,
+        "w": 26,
+        "h": 45
+      }
+    },
+    "f00009.png": {
+      "frame": {
+        "x": 1845,
+        "y": 1,
+        "w": 26,
+        "h": 45
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 26,
+        "h": 45
+      },
+      "spriteSourceSize": {
+        "x": 44.5,
+        "y": 31.5,
+        "w": 26,
+        "h": 45
+      }
+    }
+  },
+  "meta": {
+    "image": "objects.png",
+    "size": {
+      "w": 2017,
+      "h": 141
+    },
+    "scale": "1",
+    "scaleMode": "nearest",
+    "baseUrl": "objects/objects-npcMerchantIldle.atlas.json"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "原主菜单水纹",
+  "description": "原 Water_Texture 无损复制，供菜单倒影动态折射采样，不直接作为可见水面。",
+  "width": 1600,
+  "height": 1200,
+  "source": "sharedassets0.assets:30",
+  "scaleMode": "linear",
+  "wrap": "repeat"
+}

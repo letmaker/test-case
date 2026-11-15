@@ -1,0 +1,4832 @@
+{
+  "converterVersion": 2,
+  "width": 768,
+  "height": 192,
+  "cellSize": {
+    "x": 1.5,
+    "y": 1.5,
+    "z": 0
+  },
+  "tiles": [
+    {
+      "gid": 1,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 606
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 845,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 2,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 135
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 374,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 3,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 376
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 615,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 4,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 71
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 310,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 5,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 130
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 369,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 6,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 272
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 359,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 7,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 205
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 292,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 8,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 136
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 223,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 9,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 76
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 163,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 10,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 84
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 171,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 11,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 303
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 390,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 12,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 82
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 169,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 13,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 283
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 370,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 14,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 119
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 358,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 15,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 268
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 507,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 16,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 358
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 597,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 17,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 161
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 248,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 18,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 247
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 334,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 19,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 333
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 420,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 20,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 348
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 435,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 21,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 260
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 347,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 22,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 410
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 649,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 23,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 396
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 635,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 24,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 510
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 749,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 25,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 286
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 525,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 26,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 476
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 715,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 27,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 40
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 279,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 28,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 293
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 532,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 29,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 400
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 639,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 30,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 164
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 403,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 31,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 378
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 617,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 32,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 187
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 426,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 33,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 202
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 441,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 34,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 297
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 536,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 35,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 467
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 706,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 36,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 247
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 486,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 37,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 423
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 662,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 38,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 578
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 817,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 39,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 521
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 760,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 40,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 80
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 319,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 41,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 257
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 344,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 42,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 67
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 154,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 43,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 115
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 202,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 44,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 312
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 399,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 45,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 66
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 153,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 46,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 75
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 162,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 47,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 201
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 440,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 48,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 395
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 634,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 49,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 153
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 392,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 50,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 139
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 378,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 51,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 234
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 321,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 52,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 356
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 595,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 53,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 520
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 759,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 54,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 215
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 454,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 55,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 433
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 672,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 56,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 195
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 434,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 57,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 230
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 469,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 58,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 66
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 305,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 59,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 375
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 614,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 60,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 310
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 397,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 61,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 231
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 318,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 62,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 460
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 699,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 63,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 222
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 309,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 64,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 350
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 437,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 65,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 331
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 418,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 66,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 259
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 498,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 67,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 313
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 400,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 68,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 185
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 272,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 69,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 46
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 133,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 70,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 241
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 328,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 71,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 373
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 460,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 72,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 243
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 330,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 73,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 594
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 833,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 74,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 507
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 746,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 75,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 458
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 697,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 76,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 193
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 280,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 77,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 357
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 444,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 78,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 277
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 364,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 79,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 295
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 382,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 80,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 244
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 331,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 81,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 145
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 232,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 82,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 349
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 436,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 83,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 292
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 379,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 84,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 187
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 274,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 85,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 326
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 413,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 86,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 61
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 148,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 87,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 336
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 423,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 88,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 311
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 398,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 89,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 180
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 267,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 90,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 242
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 329,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 91,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 339
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 426,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 92,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 195
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 282,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 93,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 279
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 366,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 94,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 86
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 173,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 95,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 508
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 747,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 96,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 191
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 278,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 97,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 184
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 271,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 98,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 377
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 464,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 99,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 154
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 241,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 100,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 59
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 146,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 101,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 250
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 337,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 102,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 238
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 325,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 103,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 363
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 450,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 104,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 206
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 293,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 105,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 87
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 326,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 106,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 181
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 268,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 107,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 160
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 247,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 108,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 266
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 353,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 109,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 557
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 796,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 110,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 152
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 239,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 111,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 343
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 430,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 112,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 127
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 214,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 113,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 254
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 493,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 114,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 201
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 288,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 115,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 334
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 421,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 116,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 111
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 198,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 117,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 260
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 499,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 118,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 85
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 172,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 119,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 233
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 320,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 120,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 309
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 396,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 121,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 172
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 259,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 122,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 352
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 439,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 123,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 109
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 196,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 124,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 104
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 191,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 125,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 41
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 128,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 126,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 122
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 209,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 127,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 345
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 432,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 128,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 219
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 306,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 129,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 351
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 438,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 130,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 166
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 253,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 131,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 101
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 188,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 132,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 56
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 295,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 133,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 600
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 839,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 134,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 155
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 242,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 135,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 329
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 416,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 136,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 47
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 134,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 137,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 70
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 157,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 138,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 321
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 408,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 139,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 177
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 264,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 140,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 229
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 316,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 141,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 127
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 366,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 142,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 65
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 152,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 143,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 174
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 261,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 144,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 118
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 205,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 145,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 55
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 142,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 146,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 337
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 424,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 147,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 294
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 381,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 148,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 354
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 441,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 149,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 223
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 310,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 150,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 207
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 294,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 151,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 493
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 732,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 152,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 299
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 386,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 153,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 175
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 262,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 154,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 114
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 201,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 155,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 314
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 401,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 156,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 225
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 312,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 157,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 49
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 136,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 158,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 372
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 459,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 159,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 98
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 185,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 160,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 178
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 265,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 161,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 182
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 269,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 162,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 248
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 335,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 163,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 142
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 229,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 164,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 269
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 356,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 165,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 183
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 270,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 166,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 79
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 166,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 167,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 226
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 313,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 168,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 153
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 240,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 169,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 346
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 433,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 170,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 62
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 149,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 171,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 604
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 843,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 172,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 185
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 424,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 173,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 364
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 451,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 174,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 157
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 244,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 175,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 168
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 255,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 176,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 64
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 151,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 177,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 48
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 135,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 178,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 74
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 161,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 179,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 96
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 183,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 180,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 324
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 411,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 181,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 45
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 132,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 182,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 275
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 362,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 183,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 90
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 177,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 184,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 323
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 410,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 185,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 315
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 402,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 186,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 302
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 389,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 187,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 100
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 187,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 188,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 273
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 360,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 189,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 69
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 156,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 190,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 78
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 165,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 191,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 556
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 795,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 192,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 453
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 692,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 193,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 624
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 863,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 194,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 222
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 461,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 195,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 353
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 440,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 196,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 89
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 176,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 197,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 73
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 160,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 198,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 307
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 394,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 199,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 198
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 285,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 200,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 190
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 277,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 201,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 542
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 781,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 202,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 107
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 346,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 203,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 102
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 189,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 204,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 87
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 174,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 205,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 134
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 221,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 206,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 282
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 369,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 207,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 92
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 179,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 208,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 249
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 336,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 209,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 156
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 243,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 210,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 237
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 324,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 211,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 208
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 295,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 212,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 72
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 159,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 213,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 228
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 315,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 214,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 202
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 289,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 215,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 148
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 235,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 216,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 120
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 207,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 217,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 265
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 352,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 218,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 210
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 297,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 219,
+      "source": {
+        "path": "Data/sharedassets1.assets/Sprite.jsonl",
+        "line": 193
+      },
+      "serializedFile": "sharedassets1.assets",
+      "pathId": 432,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 220,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 319
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 406,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 221,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 253
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 340,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 222,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 270
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 357,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 223,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 301
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 388,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 224,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 304
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 391,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 225,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 173
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 260,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 226,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 221
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 308,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 227,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 325
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 412,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 228,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 287
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 374,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 229,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 149
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 236,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 230,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 342
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 429,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 231,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 318
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 405,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 232,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 170
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 257,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 233,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 308
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 395,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 234,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 42
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 129,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 235,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 286
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 373,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 236,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 274
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 361,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 237,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 54
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 141,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 238,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 171
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 258,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 239,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 119
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 206,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 240,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 53
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 140,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    {
+      "gid": 241,
+      "source": {
+        "path": "Data/sharedassets3.assets/Sprite.jsonl",
+        "line": 218
+      },
+      "serializedFile": "sharedassets3.assets",
+      "pathId": 305,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "frames": {
+    "f00000.png": {
+      "frame": {
+        "x": 26,
+        "y": 1,
+        "w": 32,
+        "h": 32
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 32,
+        "h": 32
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      }
+    }
+  },
+  "meta": {
+    "image": "presentation-particles.png",
+    "size": {
+      "w": 259,
+      "h": 128
+    },
+    "scale": "1",
+    "scaleMode": "nearest",
+    "baseUrl": "presentation-particles-3.atlas.json/"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "TrainingDunmmyIdle": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 166,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 38
+    },
+    "start": 0,
+    "stop": 0.0833333358168602,
+    "sampleRate": 12,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 643
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 3,
+      "m_CurveCount": 0,
+      "m_SampleRate": 12,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "TrainingDunmmyDamaged": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 165,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 37
+    },
+    "start": 0,
+    "stop": 0.4000000059604645,
+    "sampleRate": 15,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 506
+      },
+      {
+        "time": 0.06666667014360428,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 694
+      },
+      {
+        "time": 0.13333334028720856,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 468
+      },
+      {
+        "time": 0.20000000298023224,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 733
+      },
+      {
+        "time": 0.2666666805744171,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 349
+      },
+      {
+        "time": 0.3333333432674408,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 605
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 8,
+      "m_CurveCount": 0,
+      "m_SampleRate": 15,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  }
+}

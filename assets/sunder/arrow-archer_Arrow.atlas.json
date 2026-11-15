@@ -1,0 +1,94 @@
+{
+  "frames": {
+    "f00000.png": {
+      "frame": {
+        "x": 1,
+        "y": 1,
+        "w": 92,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 92,
+        "h": 54
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 92,
+        "h": 54
+      }
+    },
+    "f00001.png": {
+      "frame": {
+        "x": 95,
+        "y": 1,
+        "w": 92,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 92,
+        "h": 54
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 92,
+        "h": 54
+      }
+    },
+    "f00002.png": {
+      "frame": {
+        "x": 189,
+        "y": 1,
+        "w": 92,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 92,
+        "h": 54
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 92,
+        "h": 54
+      }
+    },
+    "f00003.png": {
+      "frame": {
+        "x": 283,
+        "y": 1,
+        "w": 92,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 92,
+        "h": 54
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 92,
+        "h": 54
+      }
+    }
+  },
+  "meta": {
+    "image": "arrow.png",
+    "size": {
+      "w": 377,
+      "h": 56
+    },
+    "scale": "1",
+    "scaleMode": "nearest",
+    "baseUrl": "arrow/arrow-archer_Arrow.atlas.json"
+  }
+}

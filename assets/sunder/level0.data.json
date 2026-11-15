@@ -1,0 +1,6835 @@
+{
+  "key": "level0",
+  "serializedFile": "level1",
+  "terrain": {
+    "origin": {
+      "x": -72,
+      "y": 24
+    },
+    "bounds": {
+      "minX": -48,
+      "maxX": 61,
+      "minY": -11,
+      "maxY": 15
+    },
+    "width": 2640,
+    "height": 648,
+    "sourcePolygonCount": 493,
+    "tileCount": 493,
+    "layers": [
+      {
+        "name": "Ground",
+        "source": {
+          "serializedFile": "level1",
+          "pathId": 5942
+        },
+        "layer": -11,
+        "order": 0,
+        "sortingLayerID": -1217059901,
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "collider": {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 181
+          },
+          "m_Enabled": 1,
+          "m_Density": 1,
+          "m_Material": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_IncludeLayers": {
+            "m_Bits": 0
+          },
+          "m_ExcludeLayers": {
+            "m_Bits": 0
+          },
+          "m_LayerOverridePriority": 0,
+          "m_ForceSendLayers": {
+            "m_Bits": 4294967295
+          },
+          "m_ForceReceiveLayers": {
+            "m_Bits": 4294967295
+          },
+          "m_ContactCaptureLayers": {
+            "m_Bits": 4294967295
+          },
+          "m_CallbackLayers": {
+            "m_Bits": 4294967295
+          },
+          "m_IsTrigger": false,
+          "m_UsedByEffector": false,
+          "m_UsedByComposite": false,
+          "m_Offset": {
+            "x": 0,
+            "y": 0
+          },
+          "m_MaximumTileChangeCount": 1000,
+          "m_ExtrusionFactor": 0,
+          "m_UseDelaunayMesh": false
+        },
+        "tiles": 493
+      }
+    ]
+  },
+  "hidden": null,
+  "actors": [
+    {
+      "serializedFile": "level1",
+      "pathId": 593,
+      "kind": "dummy",
+      "source": {
+        "path": "Data/level1/GameObject.jsonl",
+        "line": 593
+      },
+      "z": 0,
+      "world": {
+        "x": 3.819999933242798,
+        "y": -3.2100000381469727
+      },
+      "visual": {
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "layer": -8,
+        "order": 0
+      },
+      "motion": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 593
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 402
+        },
+        "m_Name": "",
+        "facingRight": 1,
+        "whatIsGround": {
+          "m_Bits": 64
+        },
+        "whatIsOneWayPlatform": {
+          "m_Bits": 0
+        },
+        "groundCheckDistance": 0.36000001430511475,
+        "wallCheckDistance": 2.4700000286102295,
+        "groundCheck": {
+          "m_FileID": 0,
+          "m_PathID": 2411
+        },
+        "primaryWallCheck": {
+          "m_FileID": 0,
+          "m_PathID": 2428
+        },
+        "secondaryWallCheck": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "wallGrabAboveCheck": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "wallGrabAboveDistance": 0,
+        "wallGrabBelowCheck": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "wallGrabBelowDistance": 0,
+        "enableAnimSpeedDebug": 1,
+        "coyoteTime": 0.20000000298023224,
+        "coyotaTimeCouter": 0,
+        "questTargetId": "Enemy_TrainDummy",
+        "startFacingRight": 1,
+        "battleMoveSpeed": 0,
+        "attackDistance": 0,
+        "attackCooldown": 0,
+        "canChasePlayer": 1,
+        "battleTimeDuration": 0,
+        "minRetreatDistance": 0,
+        "retreatVelocity": {
+          "x": 0,
+          "y": 0
+        },
+        "lastTimeAttacked": 0,
+        "stunnedDuration": 1,
+        "stunnedVelocity": {
+          "x": 7,
+          "y": 7
+        },
+        "canBeStunned": 0,
+        "idleTime": 999999,
+        "moveSpeed": 0,
+        "moveAnimSpeedMultiplier": 1,
+        "isPatrolEnabled": 1,
+        "blockKnockbackVelocity": {
+          "x": 5,
+          "y": 3
+        },
+        "blockKnockbackDuration": 0.20000000298023224,
+        "whatIsPlayer": {
+          "m_Bits": 0
+        },
+        "playerCheck": {
+          "m_FileID": 0,
+          "m_PathID": 2428
+        },
+        "playerCheck2": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "playerCheckDistance": 0,
+        "canMove": 1,
+        "canBattleMove": 1,
+        "canBeLaunched": 1
+      },
+      "combat": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 593
+        },
+        "m_Enabled": 0,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 547
+        },
+        "m_Name": "",
+        "basicAttackScale": {
+          "phyiscal": 1,
+          "elemental": 1,
+          "chillDuration": 3,
+          "chillSlowMulitplier": 0.20000000298023224,
+          "burnDuratin": 3,
+          "burnDamageScale": 1,
+          "shockDuration": 3,
+          "shockDamageScale": 1,
+          "shockCharge": 0.4000000059604645
+        },
+        "targetCheck": {
+          "m_FileID": 0,
+          "m_PathID": 2366
+        },
+        "targetCheckRadius": 0.8999999761581421,
+        "whatIsTarget": {
+          "m_Bits": 0
+        },
+        "downwardCheck": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "downwardCheckRadius": 0.800000011920929,
+        "whatIsDownwardTarget": {
+          "m_Bits": 0
+        },
+        "upwardCheck": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "upwardCheckRadius": 0.800000011920929,
+        "whatIsUpwardTarget": {
+          "m_Bits": 0
+        },
+        "hitStopDuration": 0.05999999865889549,
+        "hitStopAnimSpeed": 0.10000000149011612,
+        "enableHitStop": 1,
+        "enableHitStopDebug": 1
+      },
+      "stats": {
+        "maxHealth": 999999,
+        "healthRegen": 9999,
+        "attackSpeed": 0,
+        "damage": 0,
+        "critPower": 0,
+        "critChance": 0,
+        "armorReduction": 0,
+        "fireDamage": 0,
+        "iceDamage": 0,
+        "lightningDamage": 0,
+        "armor": 0,
+        "evasion": 0,
+        "fireRes": 0,
+        "iceRes": 0,
+        "lightningRes": 0,
+        "strength": 0,
+        "agility": 0,
+        "intelligence": 0,
+        "vitality": 0
+      },
+      "health": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 593
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 1573
+        },
+        "m_Name": "",
+        "currentHealth": 999999,
+        "regenInterval": 1,
+        "canRegenerateHealth": 1,
+        "invincibilityDuration": 1.2999999523162842,
+        "blinkInterval": 0.15000000596046448,
+        "knockbackPower": {
+          "x": 0,
+          "y": 0
+        },
+        "heavyKnockbackPower": {
+          "x": 0,
+          "y": 0
+        },
+        "knockbackDuration": 0,
+        "heavyKnockbackDuration": 0,
+        "heavyDamageThreshold": 0.30000001192092896
+      },
+      "vfx": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 593
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 964
+        },
+        "m_Name": "",
+        "popUpTextPrefab": {
+          "m_FileID": 2,
+          "m_PathID": 922
+        },
+        "imageEchoInterval": 0.05000000074505806,
+        "imageEchoPrefab": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "onDamageMaterial": {
+          "m_FileID": 2,
+          "m_PathID": 7
+        },
+        "onDamageVfxDuration": 0.20000000298023224,
+        "hitVfxColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "hitVfx": {
+          "m_FileID": 2,
+          "m_PathID": 930
+        },
+        "hitVfx2": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "critHitVfx": {
+          "m_FileID": 2,
+          "m_PathID": 932
+        },
+        "chillColur": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "burnColur": {
+          "r": 1,
+          "g": 0.2905203700065613,
+          "b": 0.0896226167678833,
+          "a": 1
+        },
+        "shockColur": {
+          "r": 1,
+          "g": 0.9215686321258545,
+          "b": 0.01568627543747425,
+          "a": 1
+        },
+        "burnVFX": {
+          "m_FileID": 0,
+          "m_PathID": 2550
+        },
+        "chillVFX": {
+          "m_FileID": 0,
+          "m_PathID": 2557
+        },
+        "shockVFX": {
+          "m_FileID": 0,
+          "m_PathID": 2552
+        },
+        "attackAlert": {
+          "m_FileID": 0,
+          "m_PathID": 799
+        }
+      },
+      "sfx": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 593
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 1678
+        },
+        "m_Name": "",
+        "attackHit": "player_attackHit",
+        "attackMiss": "player_akkactMiss",
+        "skillHit": "",
+        "footstep": "",
+        "waterFootstep": "",
+        "dash": "",
+        "slide": "",
+        "jump": "",
+        "land": "",
+        "grabClimb": "",
+        "wallJump": "",
+        "counter": "",
+        "block": "",
+        "contactHit": "",
+        "soundDistance": 15,
+        "showGizmo": 0
+      },
+      "probes": {
+        "groundCheck": {
+          "x": 2.7200000286102295,
+          "y": 15.520000457763672
+        },
+        "primaryWallCheck": {
+          "x": 0,
+          "y": 0
+        },
+        "playerCheck": {
+          "x": 0,
+          "y": 0
+        },
+        "targetCheck": {
+          "x": -16.416000366210938,
+          "y": 1.9839999675750732
+        }
+      },
+      "contact": null,
+      "material": {
+        "id": "Unity:DefaultPhysicsMaterial2D",
+        "friction": 0.4,
+        "bounciness": 0
+      },
+      "materials": {},
+      "drops": null,
+      "components": {
+        "Enemy_TrainDummy": {
+          "serializedFile": "level1",
+          "pathId": 7841,
+          "source": {
+            "path": "Data/level1/MonoBehaviour.Enemy_TrainDummy.jsonl",
+            "line": 1
+          }
+        },
+        "Entity_Combat": {
+          "serializedFile": "level1",
+          "pathId": 7243,
+          "source": {
+            "path": "Data/level1/MonoBehaviour.Entity_Combat.jsonl",
+            "line": 3
+          }
+        },
+        "Enemy_Health": {
+          "serializedFile": "level1",
+          "pathId": 8137,
+          "source": {
+            "path": "Data/level1/MonoBehaviour.Enemy_Health.jsonl",
+            "line": 3
+          }
+        },
+        "Enemy_VFX": {
+          "serializedFile": "level1",
+          "pathId": 8038,
+          "source": {
+            "path": "Data/level1/MonoBehaviour.Enemy_VFX.jsonl",
+            "line": 3
+          }
+        },
+        "Entity_Stats": {
+          "serializedFile": "level1",
+          "pathId": 7866,
+          "source": {
+            "path": "Data/level1/MonoBehaviour.Entity_Stats.jsonl",
+            "line": 1
+          }
+        },
+        "Entity_StatusHandler": {
+          "serializedFile": "level1",
+          "pathId": 7196,
+          "source": {
+            "path": "Data/level1/MonoBehaviour.Entity_StatusHandler.jsonl",
+            "line": 2
+          }
+        },
+        "Entity_SFX": {
+          "serializedFile": "level1",
+          "pathId": 8159,
+          "source": {
+            "path": "Data/level1/MonoBehaviour.Entity_SFX.jsonl",
+            "line": 4
+          }
+        },
+        "CinemachineImpulseSource": {
+          "serializedFile": "level1",
+          "pathId": 7342,
+          "source": {
+            "path": "Data/level1/MonoBehaviour.Unity.Cinemachine.CinemachineImpulseSource.jsonl",
+            "line": 1
+          }
+        }
+      },
+      "shape": {
+        "type": "capsule",
+        "width": 15.50180435180664,
+        "height": 39.186241149902344,
+        "x": -0.43375205993652344,
+        "y": 1.0421943664550781
+      },
+      "position": {
+        "x": 1213.1199989318848,
+        "y": 435.36000061035156
+      },
+      "loot": null
+    },
+    {
+      "serializedFile": "level1",
+      "pathId": 820,
+      "kind": "player",
+      "source": {
+        "path": "Data/level1/GameObject.jsonl",
+        "line": 820
+      },
+      "z": 0,
+      "world": {
+        "x": -1,
+        "y": -3.253000020980835
+      },
+      "visual": {
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "layer": -7,
+        "order": 0
+      },
+      "motion": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 820
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 626
+        },
+        "m_Name": "",
+        "facingRight": 1,
+        "whatIsGround": {
+          "m_Bits": 80
+        },
+        "whatIsOneWayPlatform": {
+          "m_Bits": 8192
+        },
+        "groundCheckDistance": 1.399999976158142,
+        "wallCheckDistance": 0.6499999761581421,
+        "groundCheck": {
+          "m_FileID": 0,
+          "m_PathID": 2333
+        },
+        "primaryWallCheck": {
+          "m_FileID": 0,
+          "m_PathID": 2327
+        },
+        "secondaryWallCheck": {
+          "m_FileID": 0,
+          "m_PathID": 2435
+        },
+        "wallGrabAboveCheck": {
+          "m_FileID": 0,
+          "m_PathID": 2388
+        },
+        "wallGrabAboveDistance": 1,
+        "wallGrabBelowCheck": {
+          "m_FileID": 0,
+          "m_PathID": 2335
+        },
+        "wallGrabBelowDistance": 0.47999998927116394,
+        "enableAnimSpeedDebug": 0,
+        "coyoteTime": 0.20000000298023224,
+        "coyotaTimeCouter": 0,
+        "attackVelocity": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ],
+        "jumpAttackVelocity": {
+          "x": 5,
+          "y": 4
+        },
+        "attackVelocityDuration": 0.10000000149011612,
+        "comboResetTime": 0.20000000298023224,
+        "wallJumpCheck": 0.800000011920929,
+        "wallJumpTimeCouter": 0,
+        "canNotMoveInAir": 0,
+        "moveX": 1,
+        "slideDuration": 0.30000001192092896,
+        "slideSpeed": 20,
+        "slideCooldown": 1,
+        "canSlide": 1,
+        "standingOffset": {
+          "x": 0.04600000008940697,
+          "y": -0.20800000429153442
+        },
+        "standingSize": {
+          "x": 0.9139999747276306,
+          "y": 2.0739998817443848
+        },
+        "crouchOffset": {
+          "x": 0.04600000008940697,
+          "y": -0.5540000200271606
+        },
+        "crouchSize": {
+          "x": 0.9139999747276306,
+          "y": 1.3799999952316284
+        },
+        "riseSpeed": 25,
+        "riseMaxDistance": 3,
+        "blockKnockbackVelocity": {
+          "x": 6,
+          "y": 1
+        },
+        "blockKnockbackDuration": 0.4000000059604645,
+        "defaultFootstepSound": "player_step",
+        "currentFootstepSound": "",
+        "jumpSoundName": "Jump",
+        "landSoundName": "player_land",
+        "waterLandSoundName": "player_waterLand",
+        "trigger_Water": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "moveSpeed": 8,
+        "jumpForce": 16,
+        "wallJumpForce": {
+          "x": 8,
+          "y": 12
+        },
+        "acceleration": 7,
+        "decceleration": 7,
+        "velocityPower": 0.8999999761581421,
+        "slipperyMaterial": {
+          "m_FileID": 2,
+          "m_PathID": 128
+        },
+        "roughMaterial": {
+          "m_FileID": 2,
+          "m_PathID": 127
+        },
+        "isForcedMoving": 0,
+        "forcedMoveSpeed": 5,
+        "forcedMoveRemainingDistance": 0,
+        "forcedMoveDirection": 1,
+        "isEntryMovement": 0,
+        "dashDustPrefab": {
+          "m_FileID": 2,
+          "m_PathID": 935
+        },
+        "enableLaunch": 1,
+        "launchForce": 8,
+        "launchableLayerMask": {
+          "m_Bits": 4294967295
+        },
+        "inAirMoveMultiplier": 0.800000011920929,
+        "wallSlideSlowMultiplier": 0.4000000059604645,
+        "dashDuration": 0.25,
+        "dashSpeed": 20
+      },
+      "combat": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 820
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 548
+        },
+        "m_Name": "",
+        "basicAttackScale": {
+          "phyiscal": 1,
+          "elemental": 0.4000000059604645,
+          "chillDuration": 3,
+          "chillSlowMulitplier": 0.20000000298023224,
+          "burnDuratin": 3,
+          "burnDamageScale": 1,
+          "shockDuration": 3,
+          "shockDamageScale": 1,
+          "shockCharge": 0.4000000059604645
+        },
+        "targetCheck": {
+          "m_FileID": 0,
+          "m_PathID": 2397
+        },
+        "targetCheckRadius": 1.2599999904632568,
+        "whatIsTarget": {
+          "m_Bits": 256
+        },
+        "downwardCheck": {
+          "m_FileID": 0,
+          "m_PathID": 2341
+        },
+        "downwardCheckRadius": 1.600000023841858,
+        "whatIsDownwardTarget": {
+          "m_Bits": 256
+        },
+        "upwardCheck": {
+          "m_FileID": 0,
+          "m_PathID": 2353
+        },
+        "upwardCheckRadius": 1.399999976158142,
+        "whatIsUpwardTarget": {
+          "m_Bits": 256
+        },
+        "hitStopDuration": 0.10000000149011612,
+        "hitStopAnimSpeed": 0.10000000149011612,
+        "enableHitStop": 1,
+        "enableHitStopDebug": 1,
+        "counterRecovery": 0.800000011920929,
+        "whatIsCounterable": {
+          "m_Bits": 2304
+        },
+        "counterShakeForce": 1.5,
+        "blockShakeForce": 1,
+        "counterSoundName": "Counter"
+      },
+      "stats": {
+        "maxHealth": 200,
+        "healthRegen": 0,
+        "attackSpeed": 1,
+        "damage": 20,
+        "critPower": 150,
+        "critChance": 0,
+        "armorReduction": 0,
+        "fireDamage": 0,
+        "iceDamage": 0,
+        "lightningDamage": 0,
+        "armor": 0,
+        "evasion": 0,
+        "fireRes": 0,
+        "iceRes": 0,
+        "lightningRes": 0,
+        "strength": 0,
+        "agility": 0,
+        "intelligence": 0,
+        "vitality": 0
+      },
+      "health": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 820
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 1112
+        },
+        "m_Name": "",
+        "currentHealth": 0,
+        "regenInterval": 1,
+        "canRegenerateHealth": 1,
+        "invincibilityDuration": 1.3,
+        "blinkInterval": 0.15,
+        "knockbackPower": {
+          "x": 5,
+          "y": 3
+        },
+        "heavyKnockbackPower": {
+          "x": 7,
+          "y": 7
+        },
+        "knockbackDuration": 0.20000000298023224,
+        "heavyKnockbackDuration": 0.5,
+        "heavyDamageThreshold": 0.30000001192092896,
+        "shielderImpactMultiplier": 2.5
+      },
+      "vfx": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 820
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 1747
+        },
+        "m_Name": "",
+        "popUpTextPrefab": {
+          "m_FileID": 2,
+          "m_PathID": 922
+        },
+        "imageEchoInterval": 0.07999999821186066,
+        "imageEchoPrefab": {
+          "m_FileID": 2,
+          "m_PathID": 901
+        },
+        "onDamageMaterial": {
+          "m_FileID": 2,
+          "m_PathID": 7
+        },
+        "onDamageVfxDuration": 0.15000000596046448,
+        "hitVfxColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "hitVfx": {
+          "m_FileID": 2,
+          "m_PathID": 907
+        },
+        "hitVfx2": {
+          "m_FileID": 2,
+          "m_PathID": 919
+        },
+        "critHitVfx": {
+          "m_FileID": 2,
+          "m_PathID": 932
+        },
+        "chillColur": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "burnColur": {
+          "r": 1,
+          "g": 0.2905203700065613,
+          "b": 0.0896226167678833,
+          "a": 1
+        },
+        "shockColur": {
+          "r": 1,
+          "g": 0.9215686321258545,
+          "b": 0.01568627543747425,
+          "a": 1
+        },
+        "burnVFX": {
+          "m_FileID": 0,
+          "m_PathID": 2556
+        },
+        "chillVFX": {
+          "m_FileID": 0,
+          "m_PathID": 2558
+        },
+        "shockVFX": {
+          "m_FileID": 0,
+          "m_PathID": 2559
+        },
+        "perfectCounterVFXPrefab": {
+          "m_FileID": 2,
+          "m_PathID": 913
+        },
+        "perfectCounterAnimationPrefab": {
+          "m_FileID": 2,
+          "m_PathID": 931
+        },
+        "perfectCounterAnimationPrefab2": {
+          "m_FileID": 2,
+          "m_PathID": 910
+        },
+        "vfxSpawnPoint": {
+          "m_FileID": 0,
+          "m_PathID": 2441
+        },
+        "blockParticlePrefab": {
+          "m_FileID": 2,
+          "m_PathID": 912
+        },
+        "blockAnimationPrefab": {
+          "m_FileID": 2,
+          "m_PathID": 910
+        },
+        "jumpDustPrefab": {
+          "m_FileID": 2,
+          "m_PathID": 902
+        },
+        "landDustPrefab": {
+          "m_FileID": 2,
+          "m_PathID": 926
+        },
+        "waterLandPrefab": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "waterSplashPrefab": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "waterSplashDuration": 0.5
+      },
+      "sfx": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 820
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 1678
+        },
+        "m_Name": "",
+        "attackHit": "player_attackHit",
+        "attackMiss": "player_akkactMiss",
+        "skillHit": "player_attackHit",
+        "footstep": "player_step",
+        "waterFootstep": "",
+        "dash": "player_dash",
+        "slide": "player_slide",
+        "jump": "player_jump",
+        "land": "player_land",
+        "grabClimb": "player_climb",
+        "wallJump": "player_wallJump",
+        "counter": "player_counter",
+        "block": "player_block",
+        "contactHit": "player_contactHit",
+        "soundDistance": 15,
+        "showGizmo": 0
+      },
+      "probes": {
+        "groundCheck": {
+          "x": 0,
+          "y": 0
+        },
+        "primaryWallCheck": {
+          "x": 0,
+          "y": -9.279999732971191
+        },
+        "secondaryWallCheck": {
+          "x": 0,
+          "y": 10.880000114440918
+        },
+        "wallGrabAboveCheck": {
+          "x": 0,
+          "y": -18.719999313354492
+        },
+        "wallGrabBelowCheck": {
+          "x": 4.831999778747559,
+          "y": -16
+        },
+        "targetCheck": {
+          "x": 22.447999954223633,
+          "y": 3.5199999809265137
+        },
+        "upwardCheck": {
+          "x": 2.240000009536743,
+          "y": -11.359999656677246
+        },
+        "downwardCheck": {
+          "x": 4,
+          "y": 16.959999084472656
+        },
+        "vfxSpawnPoint": {
+          "x": 13.4399995803833,
+          "y": 0
+        }
+      },
+      "contact": null,
+      "material": {
+        "id": "sharedassets1.assets:128",
+        "source": {
+          "path": "Data/sharedassets1.assets/PhysicsMaterial2D.jsonl",
+          "line": 2
+        },
+        "m_Name": "SlippyMaterial",
+        "friction": 0,
+        "bounciness": 0
+      },
+      "materials": {
+        "roughMaterial": {
+          "id": "sharedassets1.assets:127",
+          "source": {
+            "path": "Data/sharedassets1.assets/PhysicsMaterial2D.jsonl",
+            "line": 1
+          },
+          "m_Name": "RoughMaterial",
+          "friction": 1,
+          "bounciness": 0
+        },
+        "slipperyMaterial": {
+          "id": "sharedassets1.assets:128",
+          "source": {
+            "path": "Data/sharedassets1.assets/PhysicsMaterial2D.jsonl",
+            "line": 2
+          },
+          "m_Name": "SlippyMaterial",
+          "friction": 0,
+          "bounciness": 0
+        }
+      },
+      "drops": null,
+      "components": {
+        "Inventory_Player": {
+          "serializedFile": "level1",
+          "pathId": 6637,
+          "source": {
+            "path": "Data/level1/MonoBehaviour.Inventory_Player.jsonl",
+            "line": 1
+          }
+        },
+        "Player": {
+          "serializedFile": "level1",
+          "pathId": 7937,
+          "source": {
+            "path": "Data/level1/MonoBehaviour.Player.jsonl",
+            "line": 1
+          }
+        },
+        "Player_Combat": {
+          "serializedFile": "level1",
+          "pathId": 6754,
+          "source": {
+            "path": "Data/level1/MonoBehaviour.Player_Combat.jsonl",
+            "line": 1
+          }
+        },
+        "Entity_StatusHandler": {
+          "serializedFile": "level1",
+          "pathId": 6588,
+          "source": {
+            "path": "Data/level1/MonoBehaviour.Entity_StatusHandler.jsonl",
+            "line": 1
+          }
+        },
+        "Player_SkillManager": {
+          "serializedFile": "level1",
+          "pathId": 7445,
+          "source": {
+            "path": "Data/level1/MonoBehaviour.Player_SkillManager.jsonl",
+            "line": 1
+          }
+        },
+        "Player_VFX": {
+          "serializedFile": "level1",
+          "pathId": 7227,
+          "source": {
+            "path": "Data/level1/MonoBehaviour.Player_VFX.jsonl",
+            "line": 1
+          }
+        },
+        "Player_Stats": {
+          "serializedFile": "level1",
+          "pathId": 7676,
+          "source": {
+            "path": "Data/level1/MonoBehaviour.Player_Stats.jsonl",
+            "line": 1
+          }
+        },
+        "Player_DropManager": {
+          "serializedFile": "level1",
+          "pathId": 6876,
+          "source": {
+            "path": "Data/level1/MonoBehaviour.Player_DropManager.jsonl",
+            "line": 1
+          }
+        },
+        "Player_Health": {
+          "serializedFile": "level1",
+          "pathId": 7171,
+          "source": {
+            "path": "Data/level1/MonoBehaviour.Player_Health.jsonl",
+            "line": 1
+          }
+        },
+        "Entity_SFX": {
+          "serializedFile": "level1",
+          "pathId": 7930,
+          "source": {
+            "path": "Data/level1/MonoBehaviour.Entity_SFX.jsonl",
+            "line": 1
+          }
+        },
+        "Player_QuestManager": {
+          "serializedFile": "level1",
+          "pathId": 7784,
+          "source": {
+            "path": "Data/level1/MonoBehaviour.Player_QuestManager.jsonl",
+            "line": 1
+          }
+        },
+        "CinemachineImpulseSource": {
+          "serializedFile": "level1",
+          "pathId": 7487,
+          "source": {
+            "path": "Data/level1/MonoBehaviour.Unity.Cinemachine.CinemachineImpulseSource.jsonl",
+            "line": 2
+          }
+        }
+      },
+      "defaultStatsSource": {
+        "path": "Data/sharedassets1.assets/MonoBehaviour.Stat_SetupSO.jsonl",
+        "line": 1
+      },
+      "shape": {
+        "type": "capsule",
+        "width": 14.628311157226562,
+        "height": 33.18964385986328,
+        "x": 0.7288894653320312,
+        "y": 3.3079795837402344
+      },
+      "position": {
+        "x": 1136,
+        "y": 436.04800033569336
+      },
+      "loot": null
+    }
+  ],
+  "deferredActors": [],
+  "objects": [
+    {
+      "pathId": 28,
+      "componentId": 6515,
+      "name": "Trigger_Tip_AD",
+      "kind": "Trigger_FadeControl",
+      "position": {
+        "x": 1133.2800006866455,
+        "y": 429.11999893188477
+      },
+      "rotation": 0,
+      "shape": {
+        "type": "box",
+        "width": 280.5421447753906,
+        "height": 162.75796508789062,
+        "x": 15.669479370117188,
+        "y": -18.91211700439453
+      },
+      "sensor": true,
+      "colliderEnabled": true,
+      "values": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 28
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 2028
+        },
+        "m_Name": "",
+        "targetObjects": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 8
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 127
+          }
+        ],
+        "targetTexts3D": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 5944
+          }
+        ],
+        "controlChildren": 0,
+        "fadeInDuration": 0.5,
+        "fadeOutDuration": 0.5,
+        "disableOnFadeOut": 1,
+        "isOneTimeTrigger": 1,
+        "triggerId": "Tip_AD"
+      },
+      "drops": null,
+      "defaultSpawn": null,
+      "respawn": null,
+      "texts": [
+        {
+          "text": "移动",
+          "position": {
+            "pathId": 46,
+            "x": 1171.2319978408814,
+            "y": 396.06400027370455
+          }
+        }
+      ],
+      "dialogue": [],
+      "ambient": null,
+      "parents": [],
+      "loot": null,
+      "fadeVisuals": [
+        8,
+        127
+      ],
+      "npcVisuals": [],
+      "interactVisuals": [],
+      "animationVisuals": []
+    },
+    {
+      "pathId": 65,
+      "componentId": 6523,
+      "name": "Trigger_Slope",
+      "kind": "Trigger_Slope",
+      "position": {
+        "x": 601.6799926757812,
+        "y": 458.23999786376953
+      },
+      "rotation": 0,
+      "shape": {
+        "type": "box",
+        "width": 47.187255859375,
+        "height": 24.009746551513672,
+        "x": -24.032470703125,
+        "y": 9.726118087768555
+      },
+      "sensor": true,
+      "colliderEnabled": true,
+      "values": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 65
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 165
+        },
+        "m_Name": "",
+        "roughMaterial": {
+          "m_FileID": 2,
+          "m_PathID": 127
+        },
+        "slipperyMaterial": {
+          "m_FileID": 2,
+          "m_PathID": 128
+        }
+      },
+      "drops": null,
+      "defaultSpawn": null,
+      "respawn": null,
+      "texts": [],
+      "dialogue": [],
+      "ambient": null,
+      "parents": [],
+      "loot": null,
+      "fadeVisuals": [],
+      "npcVisuals": [],
+      "interactVisuals": [],
+      "animationVisuals": []
+    },
+    {
+      "pathId": 82,
+      "componentId": 6533,
+      "name": "Trigger_Tip_L",
+      "kind": "Trigger_FadeControl",
+      "position": {
+        "x": 1522.23828125,
+        "y": 406.55995178222656
+      },
+      "rotation": 0,
+      "shape": {
+        "type": "box",
+        "width": 280.5421447753906,
+        "height": 162.75796508789062,
+        "x": 15.669479370117188,
+        "y": -18.91211700439453
+      },
+      "sensor": true,
+      "colliderEnabled": true,
+      "values": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 82
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 2028
+        },
+        "m_Name": "",
+        "targetObjects": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 104
+          }
+        ],
+        "targetTexts3D": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 5945
+          }
+        ],
+        "controlChildren": 0,
+        "fadeInDuration": 0.5,
+        "fadeOutDuration": 0.5,
+        "disableOnFadeOut": 1,
+        "isOneTimeTrigger": 1,
+        "triggerId": "Tip_L"
+      },
+      "drops": null,
+      "defaultSpawn": null,
+      "respawn": null,
+      "texts": [
+        {
+          "text": "冲刺",
+          "position": {
+            "pathId": 64,
+            "x": 1556.5439985427856,
+            "y": 396.57600025558474
+          }
+        }
+      ],
+      "dialogue": [],
+      "ambient": null,
+      "parents": [],
+      "loot": null,
+      "fadeVisuals": [
+        104
+      ],
+      "npcVisuals": [],
+      "interactVisuals": [],
+      "animationVisuals": []
+    },
+    {
+      "pathId": 143,
+      "componentId": 6547,
+      "name": "Trigger_ExitMove",
+      "kind": "Trigger_ForcedMove",
+      "position": {
+        "x": 1784.1599731445312,
+        "y": 419.36000061035156
+      },
+      "rotation": 0,
+      "shape": {
+        "type": "box",
+        "width": 11.938720703125,
+        "height": 181.7304229736328,
+        "x": 0,
+        "y": -50.19054412841797
+      },
+      "sensor": true,
+      "colliderEnabled": true,
+      "values": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 143
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 910
+        },
+        "m_Name": "",
+        "moveDistance": 10,
+        "moveSpeed": 5,
+        "moveRight": 1,
+        "isOneTime": 0,
+        "isEntryMove": 0,
+        "visualIndicator": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "drops": null,
+      "defaultSpawn": null,
+      "respawn": null,
+      "texts": [],
+      "dialogue": [],
+      "ambient": null,
+      "parents": [],
+      "loot": null,
+      "fadeVisuals": [],
+      "npcVisuals": [],
+      "interactVisuals": [],
+      "animationVisuals": []
+    },
+    {
+      "pathId": 485,
+      "componentId": 7271,
+      "name": "Object_BankNPC",
+      "kind": "Object_Bank",
+      "position": {
+        "x": 876.7999877929688,
+        "y": 443.5200004577637
+      },
+      "rotation": 0,
+      "shape": {
+        "type": "box",
+        "width": 39.31675720214844,
+        "height": 59.427467346191406,
+        "x": 31.03203582763672,
+        "y": -17.23373031616211
+      },
+      "sensor": true,
+      "colliderEnabled": true,
+      "values": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 485
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 503
+        },
+        "m_Name": "",
+        "npcTargetQuestId": "Bank_yang",
+        "rewardNpc": 2,
+        "npc": {
+          "m_FileID": 0,
+          "m_PathID": 2326
+        },
+        "interactToolTip": {
+          "m_FileID": 0,
+          "m_PathID": 611
+        },
+        "facingRight": 1,
+        "floatSpeed": 8,
+        "floatRange": 0.10000000149011612,
+        "facePlayer": 1,
+        "firstDialogueLine": {
+          "m_FileID": 2,
+          "m_PathID": 1061
+        },
+        "quests": []
+      },
+      "drops": null,
+      "defaultSpawn": null,
+      "respawn": null,
+      "texts": [],
+      "dialogue": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 1,
+            "m_PathID": 2107
+          },
+          "m_Name": "Line - 仓库_1",
+          "dialogueGroupName": "仓库",
+          "speaker": {
+            "m_FileID": 0,
+            "m_PathID": 1074
+          },
+          "textLine": [
+            "看起来精神不错，一切都顺利吧。",
+            "最近怎么样？冒险也要注意休息。",
+            "见到你真高兴。",
+            "行囊杂物尽可托付于我悉心收纳。",
+            "来了？有事尽管吩咐。",
+            "一路辛苦，稍作歇息吧。",
+            "可要取出寄存之物，或是存放新的物品？",
+            "一切安好吗？可要整理行囊？",
+            "繁杂辎重不便随行，交由库房保管最为稳妥。"
+          ],
+          "playerChoiceAnswer": "",
+          "choiceLines": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 1062
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 1063
+            }
+          ],
+          "actionLine": "",
+          "actionType": 5,
+          "requiredQuestId": "",
+          "showOnlyIfQuestActive": 0
+        }
+      ],
+      "ambient": null,
+      "parents": [],
+      "loot": null,
+      "fadeVisuals": [],
+      "npcVisuals": [],
+      "interactVisuals": [
+        1562
+      ],
+      "animationVisuals": [
+        1562,
+        1745
+      ]
+    },
+    {
+      "pathId": 852,
+      "componentId": 7278,
+      "name": "Object_MerchantNPC",
+      "kind": "Object_Merchant",
+      "position": {
+        "x": 1045.7600021362305,
+        "y": 443.6959991455078
+      },
+      "rotation": 0,
+      "shape": {
+        "type": "box",
+        "width": 32.5537109375,
+        "height": 40,
+        "x": 0.5279922485351562,
+        "y": -7.520000457763672
+      },
+      "sensor": true,
+      "colliderEnabled": true,
+      "values": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 852
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 517
+        },
+        "m_Name": "",
+        "npcTargetQuestId": "merchant_ao",
+        "rewardNpc": 0,
+        "npc": {
+          "m_FileID": 0,
+          "m_PathID": 2398
+        },
+        "interactToolTip": {
+          "m_FileID": 0,
+          "m_PathID": 471
+        },
+        "facingRight": 1,
+        "floatSpeed": 8,
+        "floatRange": 0.10000000149011612,
+        "facePlayer": 1,
+        "firstDialogueLine": {
+          "m_FileID": 2,
+          "m_PathID": 1064
+        },
+        "quests": [
+          {
+            "m_FileID": 2,
+            "m_PathID": 1165
+          },
+          {
+            "m_FileID": 2,
+            "m_PathID": 1166
+          },
+          {
+            "m_FileID": 2,
+            "m_PathID": 1164
+          }
+        ]
+      },
+      "drops": null,
+      "defaultSpawn": null,
+      "respawn": null,
+      "texts": [],
+      "dialogue": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 1,
+            "m_PathID": 2107
+          },
+          "m_Name": "Line - 商人_1",
+          "dialogueGroupName": "商人",
+          "speaker": {
+            "m_FileID": 0,
+            "m_PathID": 1075
+          },
+          "textLine": [
+            "今天真是太忙了，但还是想喝上一壶。",
+            "很高兴又见到你，想要点什么吗？ ",
+            "我进了点新货，要看看吗？",
+            "嘿，天气真好。适合喝上一杯不是吗？",
+            "又见面啦，看看新货吧！",
+            "旅途辛苦，选购些补给吧。",
+            "身上物资是不是快要用完了，尽管挑选就行。",
+            "好久不见，近来一路还顺利吗？"
+          ],
+          "playerChoiceAnswer": "",
+          "choiceLines": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 1065
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 1068
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 1069
+            }
+          ],
+          "actionLine": "",
+          "actionType": 5,
+          "requiredQuestId": "",
+          "showOnlyIfQuestActive": 0
+        }
+      ],
+      "ambient": null,
+      "parents": [],
+      "loot": null,
+      "fadeVisuals": [],
+      "npcVisuals": [],
+      "interactVisuals": [
+        1072
+      ],
+      "animationVisuals": [
+        1072,
+        1275
+      ]
+    },
+    {
+      "pathId": 877,
+      "componentId": 6626,
+      "name": "Object_BlacksmithNPC",
+      "kind": "Object_Blacksmith",
+      "position": {
+        "x": 707.6799926757812,
+        "y": 466.87999725341797
+      },
+      "rotation": 0,
+      "shape": {
+        "type": "box",
+        "width": 39.31675720214844,
+        "height": 59.427467346191406,
+        "x": 31.03203582763672,
+        "y": -17.23373031616211
+      },
+      "sensor": true,
+      "colliderEnabled": true,
+      "values": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 877
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 935
+        },
+        "m_Name": "",
+        "npcTargetQuestId": "Blacksmith_yang",
+        "rewardNpc": 1,
+        "npc": {
+          "m_FileID": 0,
+          "m_PathID": 2334
+        },
+        "interactToolTip": {
+          "m_FileID": 0,
+          "m_PathID": 234
+        },
+        "facingRight": 1,
+        "floatSpeed": 8,
+        "floatRange": 0.10000000149011612,
+        "facePlayer": 1,
+        "firstDialogueLine": {
+          "m_FileID": 2,
+          "m_PathID": 1070
+        },
+        "quests": [],
+        "blacksmithHitSound": "npc_blacksmithHit"
+      },
+      "drops": null,
+      "defaultSpawn": null,
+      "respawn": null,
+      "texts": [],
+      "dialogue": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 1,
+            "m_PathID": 2107
+          },
+          "m_Name": "Line - 铁匠_1",
+          "dialogueGroupName": "铁匠",
+          "speaker": {
+            "m_FileID": 0,
+            "m_PathID": 1076
+          },
+          "textLine": [
+            "嘿少年！来打造兵器吗？",
+            "刚做好的工具就被敖丙拿去了…我要教训他一下！",
+            "嚯，来啦！炉火正旺，找我打家伙吗？",
+            "我这儿打铁不讲究虚礼，有话直说便好。",
+            "欢迎光临铁匠铺，刀剑盔甲皆可打造。",
+            "想要锻打什么，尽管开口。",
+            "嘿，今日来得正巧，刚淬完一批好钢，随便瞧瞧。",
+            "炉火日夜不歇，随时能给你打制铁器。"
+          ],
+          "playerChoiceAnswer": "",
+          "choiceLines": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 1071
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 1072
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 1073
+            }
+          ],
+          "actionLine": "",
+          "actionType": 5,
+          "requiredQuestId": "",
+          "showOnlyIfQuestActive": 0
+        }
+      ],
+      "ambient": null,
+      "parents": [],
+      "loot": null,
+      "fadeVisuals": [],
+      "npcVisuals": [],
+      "interactVisuals": [
+        676
+      ],
+      "animationVisuals": [
+        351,
+        676,
+        1154
+      ]
+    },
+    {
+      "pathId": 940,
+      "componentId": 7777,
+      "name": "Object_Teleport",
+      "kind": "Object_Portal",
+      "position": {
+        "x": 1168,
+        "y": 435.20000076293945
+      },
+      "rotation": 0,
+      "shape": {
+        "type": "box",
+        "width": 17.58380889892578,
+        "height": 48.65681457519531,
+        "x": 1.4902839660644531,
+        "y": -1.108952522277832
+      },
+      "sensor": true,
+      "colliderEnabled": true,
+      "values": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 940
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 2143
+        },
+        "m_Name": "",
+        "interactToolTip": {
+          "m_FileID": 0,
+          "m_PathID": 2099
+        },
+        "defaultPosition": {
+          "x": 1,
+          "y": -3.200000047683716
+        },
+        "townSceneName": "Level_0",
+        "respawnPoint": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "canBeTriggered": 1,
+        "portalOpenSoundName": "object_portalOpen",
+        "returningFromTown": 0
+      },
+      "drops": null,
+      "defaultSpawn": {
+        "x": 1168,
+        "y": 435.20000076293945
+      },
+      "respawn": null,
+      "texts": [],
+      "dialogue": [],
+      "ambient": null,
+      "parents": [],
+      "loot": null,
+      "fadeVisuals": [],
+      "npcVisuals": [],
+      "interactVisuals": [
+        1739
+      ],
+      "animationVisuals": [
+        1192,
+        1739
+      ]
+    },
+    {
+      "pathId": 997,
+      "componentId": 6677,
+      "name": "Object_Waypoint - Exit - Level_1",
+      "kind": "Object_Waypoint",
+      "position": {
+        "x": 1797.1199951171875,
+        "y": 426.0800018310547
+      },
+      "rotation": 0,
+      "shape": {
+        "type": "box",
+        "width": 17.9346923828125,
+        "height": 143.53395080566406,
+        "x": 24.61334228515625,
+        "y": -38.82617950439453
+      },
+      "sensor": true,
+      "colliderEnabled": true,
+      "values": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 997
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 2201
+        },
+        "m_Name": "",
+        "transferToScene": "Level_1",
+        "waypointType": 1,
+        "conntedWaypoint": 0,
+        "waypointId": "L0_Exit_To_L1",
+        "targetEnterId": "L1_Enter_From_L0",
+        "respwanPoint": {
+          "m_FileID": 0,
+          "m_PathID": 4134
+        },
+        "spawnFacingLeft": 1
+      },
+      "drops": null,
+      "defaultSpawn": null,
+      "respawn": {
+        "pathId": 50,
+        "x": 1757.4399948120117,
+        "y": 438.2400016784668
+      },
+      "texts": [],
+      "dialogue": [],
+      "ambient": null,
+      "parents": [],
+      "loot": null,
+      "fadeVisuals": [],
+      "npcVisuals": [],
+      "interactVisuals": [],
+      "animationVisuals": [
+        1872
+      ]
+    }
+  ],
+  "decorations": [
+    {
+      "pathId": 3,
+      "name": "rock_2 (4)",
+      "position": {
+        "x": 1361.342544555664,
+        "y": 451.0400085449219
+      },
+      "url": "static-sharedassets0-assets-125.png",
+      "width": 27,
+      "height": 12,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": -2,
+      "z": 0.10747110098600388,
+      "parents": [
+        132,
+        188
+      ]
+    },
+    {
+      "pathId": 6,
+      "name": "Tussock1",
+      "position": {
+        "x": 1246.4625549316406,
+        "y": 444.1600036621094
+      },
+      "url": "static-sharedassets0-assets-130.png",
+      "width": 124,
+      "height": 43,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": -3,
+      "z": 0.10747110098600388,
+      "parents": [
+        132,
+        10
+      ]
+    },
+    {
+      "pathId": 8,
+      "name": "Animator",
+      "position": {
+        "x": 1125.792001159668,
+        "y": 395.6800003051758
+      },
+      "url": "static-sharedassets1-assets-460.png",
+      "width": 18,
+      "height": 18,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 0.7999999523162842,
+      "scaleY": 0.7999999523162842,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -1,
+      "sortingLayerID": -1520224307,
+      "order": 1,
+      "z": 0,
+      "parents": [
+        56
+      ]
+    },
+    {
+      "pathId": 11,
+      "name": "leaves2 (8)",
+      "position": {
+        "x": 844.9599990844727,
+        "y": 548.4799957275391
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        194,
+        122
+      ]
+    },
+    {
+      "pathId": 12,
+      "name": "mask_down",
+      "position": {
+        "x": 1443.8128051757812,
+        "y": 510.9791957139969
+      },
+      "url": "static-sharedassets0-assets-126.png",
+      "width": 637,
+      "height": 99,
+      "scale": 1.1428571428571428,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.2173359734671456,
+      "scaleY": 0.3451405593327113,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 0.0941176488995552
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 1,
+      "z": 0,
+      "parents": [
+        194
+      ]
+    },
+    {
+      "pathId": 14,
+      "name": "leaves2 (9)",
+      "position": {
+        "x": 1395.0400085449219,
+        "y": 536.9599952697754
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        194,
+        122
+      ]
+    },
+    {
+      "pathId": 18,
+      "name": "grass_1 (6)",
+      "position": {
+        "x": 1484.619773864746,
+        "y": 454.7199983596802
+      },
+      "url": "static-sharedassets1-assets-579.png",
+      "width": 8,
+      "height": 3,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": -0.051277920603752136,
+      "parents": [
+        5
+      ]
+    },
+    {
+      "pathId": 19,
+      "name": "rock_1",
+      "position": {
+        "x": 1726.0799713134766,
+        "y": 452
+      },
+      "url": "static-sharedassets1-assets-573.png",
+      "width": 20,
+      "height": 11,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": -2,
+      "z": 0.10747110098600388,
+      "parents": [
+        132,
+        188
+      ]
+    },
+    {
+      "pathId": 20,
+      "name": "leaves2 (5)",
+      "position": {
+        "x": 415.67999267578125,
+        "y": 543.5199966430664
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        194,
+        122
+      ]
+    },
+    {
+      "pathId": 21,
+      "name": "Tussock1 (5)",
+      "position": {
+        "x": 574.3025665283203,
+        "y": 440.8000030517578
+      },
+      "url": "static-sharedassets0-assets-130.png",
+      "width": 124,
+      "height": 43,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": -1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": -3,
+      "z": 0.10747110098600388,
+      "parents": [
+        132,
+        10
+      ]
+    },
+    {
+      "pathId": 22,
+      "name": "grass_3 (10)",
+      "position": {
+        "x": 818.3797836303711,
+        "y": 454.23999881744385
+      },
+      "url": "static-sharedassets1-assets-555.png",
+      "width": 9,
+      "height": 4,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": -0.051277920603752136,
+      "parents": [
+        5
+      ]
+    },
+    {
+      "pathId": 27,
+      "name": "grass_1 (2)",
+      "position": {
+        "x": 600.139762878418,
+        "y": 478.87999725341797
+      },
+      "url": "static-sharedassets1-assets-579.png",
+      "width": 8,
+      "height": 3,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": -0.051277920603752136,
+      "parents": [
+        5
+      ]
+    },
+    {
+      "pathId": 30,
+      "name": "Tussock2 (5)",
+      "position": {
+        "x": 765.8225555419922,
+        "y": 468.1600036621094
+      },
+      "url": "static-sharedassets0-assets-129.png",
+      "width": 124,
+      "height": 43,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": -5,
+      "z": 0.10747110098600388,
+      "parents": [
+        132,
+        29
+      ]
+    },
+    {
+      "pathId": 31,
+      "name": "rock_3 (2)",
+      "position": {
+        "x": 534.9425506591797,
+        "y": 449.2799987792969
+      },
+      "url": "static-sharedassets0-assets-134.png",
+      "width": 45,
+      "height": 18,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": -2,
+      "z": 0.10747110098600388,
+      "parents": [
+        132,
+        188
+      ]
+    },
+    {
+      "pathId": 32,
+      "name": "leaves1",
+      "position": {
+        "x": 1824.9600219726562,
+        "y": 253.4399871826172
+      },
+      "url": "static-sharedassets1-assets-557.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": 0,
+      "sortingLayerID": 0,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        194,
+        122
+      ]
+    },
+    {
+      "pathId": 33,
+      "name": "Tussock2 (3)",
+      "position": {
+        "x": 1606.1425323486328,
+        "y": 456.1600036621094
+      },
+      "url": "static-sharedassets0-assets-129.png",
+      "width": 124,
+      "height": 43,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": -5,
+      "z": 0.10747110098600388,
+      "parents": [
+        132,
+        29
+      ]
+    },
+    {
+      "pathId": 34,
+      "name": "grass_2 (3)",
+      "position": {
+        "x": 654.2197799682617,
+        "y": 478.39999771118164
+      },
+      "url": "static-sharedassets1-assets-569.png",
+      "width": 10,
+      "height": 5,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": -0.051277920603752136,
+      "parents": [
+        5
+      ]
+    },
+    {
+      "pathId": 35,
+      "name": "rock_1 (3)",
+      "position": {
+        "x": 636.5425567626953,
+        "y": 475.36000061035156
+      },
+      "url": "static-sharedassets1-assets-573.png",
+      "width": 20,
+      "height": 11,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": -2,
+      "z": 0.10747110098600388,
+      "parents": [
+        132,
+        188
+      ]
+    },
+    {
+      "pathId": 38,
+      "name": "leaves1 (21)",
+      "position": {
+        "x": 1472.000015258789,
+        "y": 547.8399963378906
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        194,
+        142
+      ]
+    },
+    {
+      "pathId": 39,
+      "name": "leaves1 (5)",
+      "position": {
+        "x": 790.4000396728516,
+        "y": 551.9999980926514
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        194,
+        142
+      ]
+    },
+    {
+      "pathId": 40,
+      "name": "Tussock1 (1)",
+      "position": {
+        "x": 967.9025573730469,
+        "y": 436.3199996948242
+      },
+      "url": "static-sharedassets0-assets-130.png",
+      "width": 124,
+      "height": 43,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": -3,
+      "z": 0.10747110098600388,
+      "parents": [
+        132,
+        10
+      ]
+    },
+    {
+      "pathId": 42,
+      "name": "grass_3 (9)",
+      "position": {
+        "x": 1045.7397766113281,
+        "y": 454.5439987182617
+      },
+      "url": "static-sharedassets1-assets-555.png",
+      "width": 9,
+      "height": 4,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": -0.051277920603752136,
+      "parents": [
+        5
+      ]
+    },
+    {
+      "pathId": 44,
+      "name": "grass_2 (1)",
+      "position": {
+        "x": 765.6496810913086,
+        "y": 477.9199981689453
+      },
+      "url": "static-sharedassets1-assets-569.png",
+      "width": 10,
+      "height": 5,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": -0.051277920603752136,
+      "parents": [
+        5
+      ]
+    },
+    {
+      "pathId": 49,
+      "name": "grass_2 (4)",
+      "position": {
+        "x": 1503.7296981811523,
+        "y": 454.23999404907227
+      },
+      "url": "static-sharedassets1-assets-569.png",
+      "width": 10,
+      "height": 5,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": -0.051277920603752136,
+      "parents": [
+        5
+      ]
+    },
+    {
+      "pathId": 55,
+      "name": "rock_2 (2)",
+      "position": {
+        "x": 1248.702392578125,
+        "y": 450.24000549316406
+      },
+      "url": "static-sharedassets0-assets-125.png",
+      "width": 27,
+      "height": 12,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": -2,
+      "z": 0.10747110098600388,
+      "parents": [
+        132,
+        188
+      ]
+    },
+    {
+      "pathId": 57,
+      "name": "leaves2_b (10)",
+      "position": {
+        "x": 1301.9199829101562,
+        "y": 547.3599967956543
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        194,
+        122
+      ]
+    },
+    {
+      "pathId": 59,
+      "name": "grass_3 (3)",
+      "position": {
+        "x": 1833.899772644043,
+        "y": 454.07999897003174
+      },
+      "url": "static-sharedassets1-assets-555.png",
+      "width": 9,
+      "height": 4,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": -0.051277920603752136,
+      "parents": [
+        5
+      ]
+    },
+    {
+      "pathId": 60,
+      "name": "grass_1 (3)",
+      "position": {
+        "x": 779.9797897338867,
+        "y": 478.7728958129883
+      },
+      "url": "static-sharedassets1-assets-579.png",
+      "width": 8,
+      "height": 3,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": -0.051277920603752136,
+      "parents": [
+        5
+      ]
+    },
+    {
+      "pathId": 62,
+      "name": "grass_1 (8)",
+      "position": {
+        "x": 1846.0597457885742,
+        "y": 455.0399990081787
+      },
+      "url": "static-sharedassets1-assets-579.png",
+      "width": 8,
+      "height": 3,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": -0.051277920603752136,
+      "parents": [
+        5
+      ]
+    },
+    {
+      "pathId": 63,
+      "name": "Tussock1 (2)",
+      "position": {
+        "x": 1155.9025573730469,
+        "y": 461.1199951171875
+      },
+      "url": "static-sharedassets0-assets-130.png",
+      "width": 124,
+      "height": 43,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": -3,
+      "z": 0.10747110098600388,
+      "parents": [
+        132,
+        10
+      ]
+    },
+    {
+      "pathId": 66,
+      "name": "leaves1 (25)",
+      "position": {
+        "x": 1746.8800201416016,
+        "y": 526.8799962997437
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        194,
+        142
+      ]
+    },
+    {
+      "pathId": 68,
+      "name": "leaves2 (6)",
+      "position": {
+        "x": 498.0799865722656,
+        "y": 558.5599975585938
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        194,
+        122
+      ]
+    },
+    {
+      "pathId": 69,
+      "name": "leaves1 (6)",
+      "position": {
+        "x": 851.6800079345703,
+        "y": 543.0399951934814
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        194,
+        142
+      ]
+    },
+    {
+      "pathId": 71,
+      "name": "leaves2 (10)",
+      "position": {
+        "x": 1479.6799926757812,
+        "y": 540.4799957275391
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        194,
+        122
+      ]
+    },
+    {
+      "pathId": 72,
+      "name": "leaves2 (16)",
+      "position": {
+        "x": 1814.5599975585938,
+        "y": 534.8799953460693
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": -1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        194,
+        122
+      ]
+    },
+    {
+      "pathId": 73,
+      "name": "leaves2_b (11)",
+      "position": {
+        "x": 730.5599975585938,
+        "y": 578.3999938964844
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        194,
+        122
+      ]
+    },
+    {
+      "pathId": 74,
+      "name": "fence_2",
+      "position": {
+        "x": 1414.9425506591797,
+        "y": 446.98089599609375
+      },
+      "url": "static-sharedassets1-assets-554.png",
+      "width": 72,
+      "height": 19,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": -2,
+      "z": 0.10747110098600388,
+      "parents": [
+        132,
+        188
+      ]
+    },
+    {
+      "pathId": 78,
+      "name": "grass_2 (2)",
+      "position": {
+        "x": 687.4997787475586,
+        "y": 478.87999725341797
+      },
+      "url": "static-sharedassets1-assets-569.png",
+      "width": 10,
+      "height": 5,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": -0.051277920603752136,
+      "parents": [
+        5
+      ]
+    },
+    {
+      "pathId": 79,
+      "name": "leaves1_b (2)",
+      "position": {
+        "x": 1547.3600006103516,
+        "y": 542.239996433258
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": -1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        194,
+        142
+      ]
+    },
+    {
+      "pathId": 87,
+      "name": "rock_1 (1)",
+      "position": {
+        "x": 1234.142562866211,
+        "y": 453.2799987792969
+      },
+      "url": "static-sharedassets1-assets-573.png",
+      "width": 20,
+      "height": 11,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": -2,
+      "z": 0.10747110098600388,
+      "parents": [
+        132,
+        188
+      ]
+    },
+    {
+      "pathId": 91,
+      "name": "grass_1 (7)",
+      "position": {
+        "x": 1644.9397506713867,
+        "y": 454.9119987487793
+      },
+      "url": "static-sharedassets1-assets-579.png",
+      "width": 8,
+      "height": 3,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": -0.051277920603752136,
+      "parents": [
+        5
+      ]
+    },
+    {
+      "pathId": 92,
+      "name": "grass_1 (9)",
+      "position": {
+        "x": 1009.5797729492188,
+        "y": 455.11999893188477
+      },
+      "url": "static-sharedassets1-assets-579.png",
+      "width": 8,
+      "height": 3,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": -0.051277920603752136,
+      "parents": [
+        5
+      ]
+    },
+    {
+      "pathId": 96,
+      "name": "rock_3 (1)",
+      "position": {
+        "x": 1195.5825500488281,
+        "y": 453.9199981689453
+      },
+      "url": "static-sharedassets0-assets-134.png",
+      "width": 45,
+      "height": 18,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": -2,
+      "z": 0.10747110098600388,
+      "parents": [
+        132,
+        188
+      ]
+    },
+    {
+      "pathId": 98,
+      "name": "Tussock1 (4)",
+      "position": {
+        "x": 669.8225555419922,
+        "y": 465.6000061035156
+      },
+      "url": "static-sharedassets0-assets-130.png",
+      "width": 124,
+      "height": 43,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": -1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": -3,
+      "z": 0.10747110098600388,
+      "parents": [
+        132,
+        10
+      ]
+    },
+    {
+      "pathId": 100,
+      "name": "Tussock2 (4)",
+      "position": {
+        "x": 1054.4625568389893,
+        "y": 444
+      },
+      "url": "static-sharedassets0-assets-129.png",
+      "width": 124,
+      "height": 43,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": -5,
+      "z": 0.10747110098600388,
+      "parents": [
+        132,
+        29
+      ]
+    },
+    {
+      "pathId": 101,
+      "name": "Tussock2 (2)",
+      "position": {
+        "x": 1406.9425506591797,
+        "y": 456.1600036621094
+      },
+      "url": "static-sharedassets0-assets-129.png",
+      "width": 124,
+      "height": 43,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": -5,
+      "z": 0.10747110098600388,
+      "parents": [
+        132,
+        29
+      ]
+    },
+    {
+      "pathId": 102,
+      "name": "leaves2 (12)",
+      "position": {
+        "x": 1666.719970703125,
+        "y": 547.8399963378906
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        194,
+        122
+      ]
+    },
+    {
+      "pathId": 104,
+      "name": "Animator",
+      "position": {
+        "x": 1528,
+        "y": 395.6800003051758
+      },
+      "url": "static-sharedassets1-assets-417.png",
+      "width": 18,
+      "height": 18,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 0.7999999523162842,
+      "scaleY": 0.7999999523162842,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -1,
+      "sortingLayerID": -1520224307,
+      "order": 1,
+      "z": 0,
+      "parents": [
+        83
+      ]
+    },
+    {
+      "pathId": 105,
+      "name": "leaves1 (16)",
+      "position": {
+        "x": 945.2800445556641,
+        "y": 520.7999973297119
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        194,
+        142
+      ]
+    },
+    {
+      "pathId": 106,
+      "name": "rock_1 (2)",
+      "position": {
+        "x": 963.9025573730469,
+        "y": 451.6800079345703
+      },
+      "url": "static-sharedassets1-assets-573.png",
+      "width": 20,
+      "height": 11,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": -2,
+      "z": 0.10747110098600388,
+      "parents": [
+        132,
+        188
+      ]
+    },
+    {
+      "pathId": 107,
+      "name": "leaves1 (2)",
+      "position": {
+        "x": 502.5600128173828,
+        "y": 516.4799957275391
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        194,
+        142
+      ]
+    },
+    {
+      "pathId": 109,
+      "name": "grass_3",
+      "position": {
+        "x": 1201.7600021362305,
+        "y": 454.29911041259766
+      },
+      "url": "static-sharedassets1-assets-555.png",
+      "width": 9,
+      "height": 4,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": -0.051277920603752136,
+      "parents": [
+        5
+      ]
+    },
+    {
+      "pathId": 111,
+      "name": "leaves2 (20)",
+      "position": {
+        "x": 1086.7200012207031,
+        "y": 521.2799959182739
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        194,
+        122
+      ]
+    },
+    {
+      "pathId": 112,
+      "name": "Tussock2",
+      "position": {
+        "x": 1291.7425689697266,
+        "y": 446.23999786376953
+      },
+      "url": "static-sharedassets0-assets-129.png",
+      "width": 124,
+      "height": 43,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": -5,
+      "z": 0.10747110098600388,
+      "parents": [
+        132,
+        29
+      ]
+    },
+    {
+      "pathId": 113,
+      "name": "grass_3 (2)",
+      "position": {
+        "x": 496.6198043823242,
+        "y": 454.55999851226807
+      },
+      "url": "static-sharedassets1-assets-555.png",
+      "width": 9,
+      "height": 4,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": -0.051277920603752136,
+      "parents": [
+        5
+      ]
+    },
+    {
+      "pathId": 114,
+      "name": "Tussock1 (3)",
+      "position": {
+        "x": 1465.6625518798828,
+        "y": 443.36000061035156
+      },
+      "url": "static-sharedassets0-assets-130.png",
+      "width": 124,
+      "height": 43,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": -1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": -3,
+      "z": 0.10747110098600388,
+      "parents": [
+        132,
+        10
+      ]
+    },
+    {
+      "pathId": 115,
+      "name": "Tussock1 (6)",
+      "position": {
+        "x": 825.8225555419922,
+        "y": 463.0400085449219
+      },
+      "url": "static-sharedassets0-assets-130.png",
+      "width": 124,
+      "height": 43,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": -1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": -3,
+      "z": 0.10747110098600388,
+      "parents": [
+        132,
+        10
+      ]
+    },
+    {
+      "pathId": 116,
+      "name": "VillageGate2",
+      "position": {
+        "x": 1628.619773864746,
+        "y": 419.87199783325195
+      },
+      "url": "static-sharedassets1-assets-576.png",
+      "width": 29,
+      "height": 73,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": -0.051277920603752136,
+      "parents": [
+        5
+      ]
+    },
+    {
+      "pathId": 117,
+      "name": "grass_3 (7)",
+      "position": {
+        "x": 1604.7797775268555,
+        "y": 454.9808931350708
+      },
+      "url": "static-sharedassets1-assets-555.png",
+      "width": 9,
+      "height": 4,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": -0.051277920603752136,
+      "parents": [
+        5
+      ]
+    },
+    {
+      "pathId": 118,
+      "name": "grass_2 (8)",
+      "position": {
+        "x": 1868.7797775268555,
+        "y": 454.23999881744385
+      },
+      "url": "static-sharedassets1-assets-569.png",
+      "width": 10,
+      "height": 5,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": -0.051277920603752136,
+      "parents": [
+        5
+      ]
+    },
+    {
+      "pathId": 120,
+      "name": "grass_3 (6)",
+      "position": {
+        "x": 1532.0305099487305,
+        "y": 455.20000171661377
+      },
+      "url": "static-sharedassets1-assets-555.png",
+      "width": 9,
+      "height": 4,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": -0.051277920603752136,
+      "parents": [
+        5
+      ]
+    },
+    {
+      "pathId": 124,
+      "name": "grass_1 (5)",
+      "position": {
+        "x": 1449.2597885131836,
+        "y": 455.0399971008301
+      },
+      "url": "static-sharedassets1-assets-579.png",
+      "width": 8,
+      "height": 3,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": -0.051277920603752136,
+      "parents": [
+        5
+      ]
+    },
+    {
+      "pathId": 125,
+      "name": "leaves2 (15)",
+      "position": {
+        "x": 1624.3200073242188,
+        "y": 536.9599952697754
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        194,
+        122
+      ]
+    },
+    {
+      "pathId": 126,
+      "name": "leaves1_b (3)",
+      "position": {
+        "x": 1651.199966430664,
+        "y": 542.7199964523315
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        194,
+        142
+      ]
+    },
+    {
+      "pathId": 127,
+      "name": "Animator (1)",
+      "position": {
+        "x": 1143.711999786377,
+        "y": 395.6800003051758
+      },
+      "url": "static-sharedassets1-assets-625.png",
+      "width": 18,
+      "height": 18,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 0.7999999523162842,
+      "scaleY": 0.7999999523162842,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -1,
+      "sortingLayerID": -1520224307,
+      "order": 1,
+      "z": 0,
+      "parents": [
+        56
+      ]
+    },
+    {
+      "pathId": 128,
+      "name": "rock_2 (1)",
+      "position": {
+        "x": 1671.7619171142578,
+        "y": 450.7036437988281
+      },
+      "url": "static-sharedassets0-assets-125.png",
+      "width": 27,
+      "height": 12,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": -2,
+      "z": 0.10747110098600388,
+      "parents": [
+        132,
+        188
+      ]
+    },
+    {
+      "pathId": 129,
+      "name": "grass_3 (1)",
+      "position": {
+        "x": 744.2997665405273,
+        "y": 478.0799980163574
+      },
+      "url": "static-sharedassets1-assets-555.png",
+      "width": 9,
+      "height": 4,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": -0.051277920603752136,
+      "parents": [
+        5
+      ]
+    },
+    {
+      "pathId": 130,
+      "name": "rock_3 (3)",
+      "position": {
+        "x": 1530.622543334961,
+        "y": 448.32000732421875
+      },
+      "url": "static-sharedassets0-assets-134.png",
+      "width": 45,
+      "height": 18,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": -2,
+      "z": 0.10747110098600388,
+      "parents": [
+        132,
+        188
+      ]
+    },
+    {
+      "pathId": 131,
+      "name": "grass_2 (10)",
+      "position": {
+        "x": 1317.899772644043,
+        "y": 454.1391077041626
+      },
+      "url": "static-sharedassets1-assets-569.png",
+      "width": 10,
+      "height": 5,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": -0.051277920603752136,
+      "parents": [
+        5
+      ]
+    },
+    {
+      "pathId": 133,
+      "name": "grass_1 (10)",
+      "position": {
+        "x": 973.2597732543945,
+        "y": 454.99199867248535
+      },
+      "url": "static-sharedassets1-assets-579.png",
+      "width": 8,
+      "height": 3,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": -0.051277920603752136,
+      "parents": [
+        5
+      ]
+    },
+    {
+      "pathId": 135,
+      "name": "leaves1 (20)",
+      "position": {
+        "x": 1133.759994506836,
+        "y": 523.6799964904785
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        194,
+        142
+      ]
+    },
+    {
+      "pathId": 136,
+      "name": "grass_1",
+      "position": {
+        "x": 1118.9893827438354,
+        "y": 454.99199867248535
+      },
+      "url": "static-sharedassets1-assets-579.png",
+      "width": 8,
+      "height": 3,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": -0.051277920603752136,
+      "parents": [
+        5
+      ]
+    },
+    {
+      "pathId": 138,
+      "name": "leaves2 (7)",
+      "position": {
+        "x": 908.959997177124,
+        "y": 527.5199956893921
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        194,
+        122
+      ]
+    },
+    {
+      "pathId": 140,
+      "name": "grass_2 (9)",
+      "position": {
+        "x": 1259.8197708129883,
+        "y": 454.1391077041626
+      },
+      "url": "static-sharedassets1-assets-569.png",
+      "width": 10,
+      "height": 5,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": -0.051277920603752136,
+      "parents": [
+        5
+      ]
+    },
+    {
+      "pathId": 144,
+      "name": "leaves1 (4)",
+      "position": {
+        "x": 711.0399932861328,
+        "y": 540.6399936676025
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        194,
+        142
+      ]
+    },
+    {
+      "pathId": 145,
+      "name": "rock_3",
+      "position": {
+        "x": 1327.5825653076172,
+        "y": 447.6800079345703
+      },
+      "url": "static-sharedassets0-assets-134.png",
+      "width": 45,
+      "height": 18,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": -2,
+      "z": 0.10747110098600388,
+      "parents": [
+        132,
+        188
+      ]
+    },
+    {
+      "pathId": 146,
+      "name": "leaves2 (13)",
+      "position": {
+        "x": 1732,
+        "y": 540.6399955749512
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": -1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        194,
+        122
+      ]
+    },
+    {
+      "pathId": 147,
+      "name": "leaves1",
+      "position": {
+        "x": 430.71998596191406,
+        "y": 510.399995803833
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        194,
+        142
+      ]
+    },
+    {
+      "pathId": 148,
+      "name": "leaves1 (3)",
+      "position": {
+        "x": 637.2799835205078,
+        "y": 537.4399967193604
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        194,
+        142
+      ]
+    },
+    {
+      "pathId": 150,
+      "name": "rock_2 (3)",
+      "position": {
+        "x": 761.1825714111328,
+        "y": 475.0400085449219
+      },
+      "url": "static-sharedassets0-assets-125.png",
+      "width": 27,
+      "height": 12,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": -2,
+      "z": 0.10747110098600388,
+      "parents": [
+        132,
+        188
+      ]
+    },
+    {
+      "pathId": 151,
+      "name": "leaves1 (10)",
+      "position": {
+        "x": 1424.8000030517578,
+        "y": 524.3199968338013
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        194,
+        142
+      ]
+    },
+    {
+      "pathId": 152,
+      "name": "VillageGate",
+      "position": {
+        "x": 1613.1637802124023,
+        "y": 411.80799865722656
+      },
+      "url": "static-sharedassets1-assets-581.png",
+      "width": 60,
+      "height": 89,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 0,
+      "z": -0.051277920603752136,
+      "parents": [
+        5
+      ]
+    },
+    {
+      "pathId": 155,
+      "name": "grass_3 (5)",
+      "position": {
+        "x": 580.7797775268555,
+        "y": 478.39999771118164
+      },
+      "url": "static-sharedassets1-assets-555.png",
+      "width": 9,
+      "height": 4,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": -0.051277920603752136,
+      "parents": [
+        5
+      ]
+    },
+    {
+      "pathId": 157,
+      "name": "leaves1 (8)",
+      "position": {
+        "x": 1219.0399932861328,
+        "y": 531.6799964904785
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        194,
+        142
+      ]
+    },
+    {
+      "pathId": 158,
+      "name": "grass_2 (7)",
+      "position": {
+        "x": 1796.7797775268555,
+        "y": 454.55999851226807
+      },
+      "url": "static-sharedassets1-assets-569.png",
+      "width": 10,
+      "height": 5,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": -0.051277920603752136,
+      "parents": [
+        5
+      ]
+    },
+    {
+      "pathId": 160,
+      "name": "grass_3 (4)",
+      "position": {
+        "x": 695.0197677612305,
+        "y": 478.0799980163574
+      },
+      "url": "static-sharedassets1-assets-555.png",
+      "width": 9,
+      "height": 4,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": -0.051277920603752136,
+      "parents": [
+        5
+      ]
+    },
+    {
+      "pathId": 161,
+      "name": "rock_2",
+      "position": {
+        "x": 1127.7425537109375,
+        "y": 451.0400085449219
+      },
+      "url": "static-sharedassets0-assets-125.png",
+      "width": 27,
+      "height": 12,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": -2,
+      "z": 0.10747110098600388,
+      "parents": [
+        132,
+        188
+      ]
+    },
+    {
+      "pathId": 162,
+      "name": "leaves2_b (13)",
+      "position": {
+        "x": 598.0799865722656,
+        "y": 579.5199966430664
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        194,
+        122
+      ]
+    },
+    {
+      "pathId": 164,
+      "name": "grass_2 (6)",
+      "position": {
+        "x": 1628.379783630371,
+        "y": 454.1808891296387
+      },
+      "url": "static-sharedassets1-assets-569.png",
+      "width": 10,
+      "height": 5,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 1,
+      "z": -0.051277920603752136,
+      "parents": [
+        5
+      ]
+    },
+    {
+      "pathId": 165,
+      "name": "leaves1 (17)",
+      "position": {
+        "x": 1044.6399993896484,
+        "y": 526.0799961090088
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        194,
+        142
+      ]
+    },
+    {
+      "pathId": 166,
+      "name": "leaves2 (19)",
+      "position": {
+        "x": 1191.0399932861328,
+        "y": 523.5199956893921
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        194,
+        122
+      ]
+    },
+    {
+      "pathId": 167,
+      "name": "leaves1 (13)",
+      "position": {
+        "x": 1332.959976196289,
+        "y": 521.5999965667725
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        194,
+        142
+      ]
+    },
+    {
+      "pathId": 170,
+      "name": "leaves1 (14)",
+      "position": {
+        "x": 565.4399871826172,
+        "y": 548.1599960327148
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        194,
+        142
+      ]
+    },
+    {
+      "pathId": 171,
+      "name": "leaves2 (14)",
+      "position": {
+        "x": 1895.8400268554688,
+        "y": 505.11999559402466
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        194,
+        122
+      ]
+    },
+    {
+      "pathId": 172,
+      "name": "grass_1 (1)",
+      "position": {
+        "x": 711.1797714233398,
+        "y": 478.7728958129883
+      },
+      "url": "static-sharedassets1-assets-579.png",
+      "width": 8,
+      "height": 3,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": -0.051277920603752136,
+      "parents": [
+        5
+      ]
+    },
+    {
+      "pathId": 173,
+      "name": "fence_1",
+      "position": {
+        "x": 1420.9599533081055,
+        "y": 446.87999868392944
+      },
+      "url": "static-sharedassets1-assets-571.png",
+      "width": 73,
+      "height": 19,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": -1,
+      "z": -0.051277920603752136,
+      "parents": [
+        5
+      ]
+    },
+    {
+      "pathId": 174,
+      "name": "grass_3 (8)",
+      "position": {
+        "x": 1593.2277755737305,
+        "y": 454.5600061416626
+      },
+      "url": "static-sharedassets1-assets-555.png",
+      "width": 9,
+      "height": 4,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": -0.051277920603752136,
+      "parents": [
+        5
+      ]
+    },
+    {
+      "pathId": 175,
+      "name": "grass_1 (4)",
+      "position": {
+        "x": 510.2197799682617,
+        "y": 454.70400524139404
+      },
+      "url": "static-sharedassets1-assets-579.png",
+      "width": 8,
+      "height": 3,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": -0.051277920603752136,
+      "parents": [
+        5
+      ]
+    },
+    {
+      "pathId": 179,
+      "name": "grass_2",
+      "position": {
+        "x": 1173.4592323303223,
+        "y": 454.1391077041626
+      },
+      "url": "static-sharedassets1-assets-569.png",
+      "width": 10,
+      "height": 5,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": -0.051277920603752136,
+      "parents": [
+        5
+      ]
+    },
+    {
+      "pathId": 180,
+      "name": "leaves2 (4)",
+      "position": {
+        "x": 990.3999977111816,
+        "y": 518.2399959564209
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        194,
+        122
+      ]
+    },
+    {
+      "pathId": 183,
+      "name": "leaves1 (22)",
+      "position": {
+        "x": 1813.919937133789,
+        "y": 513.5999965667725
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        194,
+        142
+      ]
+    },
+    {
+      "pathId": 189,
+      "name": "leaves2 (11)",
+      "position": {
+        "x": 1559.8400268554688,
+        "y": 542.399995803833
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        194,
+        122
+      ]
+    },
+    {
+      "pathId": 191,
+      "name": "leaves2_b (12)",
+      "position": {
+        "x": 314.719970703125,
+        "y": 544.7999954223633
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        194,
+        122
+      ]
+    },
+    {
+      "pathId": 193,
+      "name": "Tussock2 (1)",
+      "position": {
+        "x": 1129.6625595092773,
+        "y": 446.23999786376953
+      },
+      "url": "static-sharedassets0-assets-129.png",
+      "width": 124,
+      "height": 43,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": -5,
+      "z": 0.10747110098600388,
+      "parents": [
+        132,
+        29
+      ]
+    },
+    {
+      "pathId": 195,
+      "name": "mask_down2",
+      "position": {
+        "x": 684.0399932861328,
+        "y": 545.5119972229004
+      },
+      "url": "static-sharedassets0-assets-126.png",
+      "width": 637,
+      "height": 99,
+      "scale": 1.1428571428571428,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 0.8908711160932268,
+      "scaleY": 0.9733896936689104,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 0.0941176488995552
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 1,
+      "z": 0,
+      "parents": [
+        194
+      ]
+    },
+    {
+      "pathId": 196,
+      "name": "Tussock2 (6)",
+      "position": {
+        "x": 1505.8225555419922,
+        "y": 444
+      },
+      "url": "static-sharedassets0-assets-129.png",
+      "width": 124,
+      "height": 43,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": -5,
+      "z": 0.10747110098600388,
+      "parents": [
+        132,
+        29
+      ]
+    },
+    {
+      "pathId": 197,
+      "name": "grass_2 (5)",
+      "position": {
+        "x": 1413.4197616577148,
+        "y": 454.23999404907227
+      },
+      "url": "static-sharedassets1-assets-569.png",
+      "width": 10,
+      "height": 5,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": -0.051277920603752136,
+      "parents": [
+        5
+      ]
+    },
+    {
+      "pathId": 199,
+      "name": "leaves1 (1)",
+      "position": {
+        "x": 1885.1199951171875,
+        "y": 270.0800018310547
+      },
+      "url": "static-sharedassets1-assets-557.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": 0,
+      "sortingLayerID": 0,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        194,
+        122
+      ]
+    },
+    {
+      "pathId": 351,
+      "name": "Blacksmith_Corner",
+      "position": {
+        "x": 733.5999927520752,
+        "y": 426.0639953613281
+      },
+      "url": "static-sharedassets1-assets-247.png",
+      "width": 115,
+      "height": 108,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "owner": 877,
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -11,
+      "sortingLayerID": -1217059901,
+      "order": -1,
+      "z": 0,
+      "parents": [
+        877
+      ]
+    },
+    {
+      "pathId": 353,
+      "name": "BG_Trees_3_Right",
+      "position": {
+        "x": 1548,
+        "y": 397.120000064373
+      },
+      "url": "static-sharedassets0-assets-121.png",
+      "width": 320,
+      "height": 232,
+      "scale": 1.2307692307692308,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.2307692307692308,
+      "scaleY": 1.2307692307692308,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": -6,
+      "z": 0,
+      "parents": [
+        1334,
+        1570
+      ]
+    },
+    {
+      "pathId": 371,
+      "name": "mask_down",
+      "position": {
+        "x": 1131.7635498046875,
+        "y": 456.5023986697197
+      },
+      "url": "static-sharedassets0-assets-126.png",
+      "width": 637,
+      "height": 99,
+      "scale": 1.1428571428571428,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.1428571428571428,
+      "scaleY": 1.0139710562569755,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 0.545098066329956
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": -4,
+      "z": 0,
+      "parents": [
+        1334
+      ]
+    },
+    {
+      "pathId": 676,
+      "name": "Animator",
+      "position": {
+        "x": 739.5199775695801,
+        "y": 429.34399795532227
+      },
+      "url": "static-sharedassets1-assets-290.png",
+      "width": 18,
+      "height": 18,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "owner": 877,
+      "animation": {
+        "bank": "interactions",
+        "action": "UI_button"
+      },
+      "rotation": 0,
+      "scaleX": 0.800000011920929,
+      "scaleY": 0.800000011920929,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -7,
+      "sortingLayerID": 16220261,
+      "order": -1,
+      "z": 0,
+      "parents": [
+        877,
+        234
+      ]
+    },
+    {
+      "pathId": 678,
+      "name": "BG_Trees",
+      "position": {
+        "x": 1156.4800000190735,
+        "y": 376.31999987363815
+      },
+      "url": "static-sharedassets0-assets-120.png",
+      "width": 320,
+      "height": 180,
+      "scale": 1.2307692307692308,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.2307692307692308,
+      "scaleY": 1.2307692307692308,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -13,
+      "sortingLayerID": 2120407225,
+      "order": -10,
+      "z": 0,
+      "parents": [
+        1334
+      ]
+    },
+    {
+      "pathId": 947,
+      "name": "Object_Lamp (1)",
+      "position": {
+        "x": 1264.206558227539,
+        "y": 422.7679977416992
+      },
+      "url": "static-sharedassets0-assets-123.png",
+      "width": 26,
+      "height": 67,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": -2,
+      "z": 0.10747110098600388,
+      "parents": [
+        132,
+        188
+      ]
+    },
+    {
+      "pathId": 948,
+      "name": "Object_Lamp",
+      "position": {
+        "x": 1657.342544555664,
+        "y": 422.8800048828125
+      },
+      "url": "static-sharedassets0-assets-123.png",
+      "width": 26,
+      "height": 67,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": -1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": -2,
+      "z": 0.10747110098600388,
+      "parents": [
+        132,
+        188
+      ]
+    },
+    {
+      "pathId": 949,
+      "name": "Object_Lamp",
+      "position": {
+        "x": 673.3425445556641,
+        "y": 446.55999755859375
+      },
+      "url": "static-sharedassets0-assets-123.png",
+      "width": 26,
+      "height": 67,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": -1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": -2,
+      "z": 0.21494220197200775,
+      "parents": [
+        132,
+        188
+      ]
+    },
+    {
+      "pathId": 1072,
+      "name": "Animator",
+      "position": {
+        "x": 1045.7600021362305,
+        "y": 406.1599998474121
+      },
+      "url": "static-sharedassets1-assets-290.png",
+      "width": 18,
+      "height": 18,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "owner": 852,
+      "animation": {
+        "bank": "interactions",
+        "action": "UI_button"
+      },
+      "rotation": 0,
+      "scaleX": 0.800000011920929,
+      "scaleY": 0.800000011920929,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -7,
+      "sortingLayerID": 16220261,
+      "order": -1,
+      "z": 0,
+      "parents": [
+        852,
+        471
+      ]
+    },
+    {
+      "pathId": 1083,
+      "name": "BG_Trees_2_Right",
+      "position": {
+        "x": 1549.1199951171875,
+        "y": 374.72000044584274
+      },
+      "url": "static-sharedassets0-assets-128.png",
+      "width": 320,
+      "height": 180,
+      "scale": 1.2307692307692308,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.2307692307692308,
+      "scaleY": 1.2307692307692308,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -13,
+      "sortingLayerID": 2120407225,
+      "order": -9,
+      "z": 0,
+      "parents": [
+        1334,
+        1435
+      ]
+    },
+    {
+      "pathId": 1110,
+      "name": "BG_Trees_3_Left",
+      "position": {
+        "x": 764,
+        "y": 397.120000064373
+      },
+      "url": "static-sharedassets0-assets-121.png",
+      "width": 320,
+      "height": 232,
+      "scale": 1.2307692307692308,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.2307692307692308,
+      "scaleY": 1.2307692307692308,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": -6,
+      "z": 0,
+      "parents": [
+        1334,
+        1570
+      ]
+    },
+    {
+      "pathId": 1154,
+      "name": "NPC_Blacksmith",
+      "position": {
+        "x": 745.5999908447266,
+        "y": 459.4399971961975
+      },
+      "url": "static-sharedassets1-assets-688.png",
+      "width": 39,
+      "height": 41,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "owner": 877,
+      "animation": null,
+      "rotation": -3.141592653589793,
+      "scaleX": 1,
+      "scaleY": -1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -7,
+      "sortingLayerID": 16220261,
+      "order": -1,
+      "z": 0,
+      "parents": [
+        877
+      ]
+    },
+    {
+      "pathId": 1192,
+      "name": "Animator",
+      "position": {
+        "x": 1168,
+        "y": 432.00000071525574
+      },
+      "url": "static-sharedassets1-assets-250.png",
+      "width": 32,
+      "height": 32,
+      "scale": 0.5,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "owner": 940,
+      "animation": {
+        "bank": "interactions",
+        "action": "teleportIdle"
+      },
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -7,
+      "sortingLayerID": 16220261,
+      "order": -10,
+      "z": 0,
+      "parents": [
+        940
+      ]
+    },
+    {
+      "pathId": 1275,
+      "name": "NPC_Merchant",
+      "position": {
+        "x": 1044.640002131462,
+        "y": 437.2959990501404
+      },
+      "url": "static-sharedassets1-assets-874.png",
+      "width": 26,
+      "height": 45,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "owner": 852,
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -7,
+      "sortingLayerID": 16220261,
+      "order": -1,
+      "z": 0,
+      "parents": [
+        852
+      ]
+    },
+    {
+      "pathId": 1283,
+      "name": "BG_Trees_2_Left",
+      "position": {
+        "x": 762.8800048828125,
+        "y": 374.72000044584274
+      },
+      "url": "static-sharedassets0-assets-128.png",
+      "width": 320,
+      "height": 180,
+      "scale": 1.2307692307692308,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.2307692307692308,
+      "scaleY": 1.2307692307692308,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -13,
+      "sortingLayerID": 2120407225,
+      "order": -9,
+      "z": 0,
+      "parents": [
+        1334,
+        1435
+      ]
+    },
+    {
+      "pathId": 1435,
+      "name": "BG_Trees_2",
+      "position": {
+        "x": 1156,
+        "y": 374.72000044584274
+      },
+      "url": "static-sharedassets0-assets-128.png",
+      "width": 320,
+      "height": 180,
+      "scale": 1.2307692307692308,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.2307692307692308,
+      "scaleY": 1.2307692307692308,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -13,
+      "sortingLayerID": 2120407225,
+      "order": -9,
+      "z": 0,
+      "parents": [
+        1334
+      ]
+    },
+    {
+      "pathId": 1562,
+      "name": "Animator",
+      "position": {
+        "x": 908.6399726867676,
+        "y": 405.98400115966797
+      },
+      "url": "static-sharedassets1-assets-290.png",
+      "width": 18,
+      "height": 18,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "owner": 485,
+      "animation": {
+        "bank": "interactions",
+        "action": "UI_button"
+      },
+      "rotation": 0,
+      "scaleX": 0.800000011920929,
+      "scaleY": 0.800000011920929,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -7,
+      "sortingLayerID": 16220261,
+      "order": -1,
+      "z": 0,
+      "parents": [
+        485,
+        611
+      ]
+    },
+    {
+      "pathId": 1570,
+      "name": "BG_Trees_3",
+      "position": {
+        "x": 1156,
+        "y": 397.120000064373
+      },
+      "url": "static-sharedassets0-assets-121.png",
+      "width": 320,
+      "height": 232,
+      "scale": 1.2307692307692308,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.2307692307692308,
+      "scaleY": 1.2307692307692308,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": -6,
+      "z": 0,
+      "parents": [
+        1334
+      ]
+    },
+    {
+      "pathId": 1647,
+      "name": "Bank",
+      "position": {
+        "x": 883.0399875640869,
+        "y": 413.4560012817383
+      },
+      "url": "static-sharedassets1-assets-580.png",
+      "width": 116,
+      "height": 85,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "owner": 485,
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -11,
+      "sortingLayerID": -1217059901,
+      "order": -1,
+      "z": 0,
+      "parents": [
+        485
+      ]
+    },
+    {
+      "pathId": 1739,
+      "name": "Animator",
+      "position": {
+        "x": 1170.079999923706,
+        "y": 399.5200004577637
+      },
+      "url": "static-sharedassets1-assets-290.png",
+      "width": 18,
+      "height": 18,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "owner": 940,
+      "animation": {
+        "bank": "interactions",
+        "action": "UI_button"
+      },
+      "rotation": 0,
+      "scaleX": 0.800000011920929,
+      "scaleY": 0.800000011920929,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -7,
+      "sortingLayerID": 16220261,
+      "order": -1,
+      "z": 0,
+      "parents": [
+        940,
+        2099
+      ]
+    },
+    {
+      "pathId": 1745,
+      "name": "NPC_Bank",
+      "position": {
+        "x": 911.263988494873,
+        "y": 438.36800050735474
+      },
+      "url": "static-sharedassets1-assets-737.png",
+      "width": 29,
+      "height": 35,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "owner": 485,
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -7,
+      "sortingLayerID": 16220261,
+      "order": -1,
+      "z": 0,
+      "parents": [
+        485
+      ]
+    },
+    {
+      "pathId": 1755,
+      "name": "BG_Trees_Right",
+      "position": {
+        "x": 1549.7599987983704,
+        "y": 376.31999987363815
+      },
+      "url": "static-sharedassets0-assets-120.png",
+      "width": 320,
+      "height": 180,
+      "scale": 1.2307692307692308,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.2307692307692308,
+      "scaleY": 1.2307692307692308,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -13,
+      "sortingLayerID": 2120407225,
+      "order": -10,
+      "z": 0,
+      "parents": [
+        1334,
+        678
+      ]
+    },
+    {
+      "pathId": 1802,
+      "name": "mask_up",
+      "position": {
+        "x": 1144,
+        "y": 311.1711990237236
+      },
+      "url": "static-sharedassets0-assets-132.png",
+      "width": 637,
+      "height": 175,
+      "scale": 1.1428571428571428,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.1428571428571428,
+      "scaleY": 0.6469714300973074,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 0.2549019753932953
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": -8,
+      "z": 0,
+      "parents": [
+        1334
+      ]
+    },
+    {
+      "pathId": 1872,
+      "name": "Object_Waypoint",
+      "position": {
+        "x": 1745.760009765625,
+        "y": 426.0800018310547
+      },
+      "url": "static-sharedassets1-assets-550.png",
+      "width": 47,
+      "height": 60,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "owner": 997,
+      "animation": {
+        "bank": "interactions",
+        "action": "objectWapoint"
+      },
+      "rotation": 0,
+      "scaleX": -1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -11,
+      "sortingLayerID": -1217059901,
+      "order": -5,
+      "z": 0,
+      "parents": [
+        997
+      ]
+    },
+    {
+      "pathId": 1886,
+      "name": "BG_Trees_Left",
+      "position": {
+        "x": 779.2000012397766,
+        "y": 376.31999987363815
+      },
+      "url": "static-sharedassets0-assets-120.png",
+      "width": 320,
+      "height": 180,
+      "scale": 1.2307692307692308,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.2307692307692308,
+      "scaleY": 1.2307692307692308,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -13,
+      "sortingLayerID": 2120407225,
+      "order": -10,
+      "z": 0,
+      "parents": [
+        1334,
+        678
+      ]
+    },
+    {
+      "pathId": 2058,
+      "name": "Merchant_Wagon",
+      "position": {
+        "x": 1047.200002193451,
+        "y": 414.5759983062744
+      },
+      "url": "static-sharedassets1-assets-255.png",
+      "width": 129,
+      "height": 83,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "owner": 852,
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -11,
+      "sortingLayerID": -1217059901,
+      "order": -1,
+      "z": 0,
+      "parents": [
+        852
+      ]
+    }
+  ],
+  "platforms": [],
+  "independent": [
+    {
+      "pathId": 152,
+      "position": {
+        "x": 1613.1637802124023,
+        "y": 411.80799865722656
+      },
+      "shape": {
+        "type": "box",
+        "friction": 0.4,
+        "width": 60,
+        "height": 33.73767852783203,
+        "x": 0,
+        "y": -27.47051239013672
+      },
+      "shapes": [
+        {
+          "type": "box",
+          "friction": 0.4,
+          "width": 60,
+          "height": 33.73767852783203,
+          "x": 0,
+          "y": -27.47051239013672
+        }
+      ],
+      "rotation": 0
+    }
+  ],
+  "disabled": [
+    {
+      "pathId": 1136,
+      "name": "Enemy_Vagrant",
+      "parents": []
+    },
+    {
+      "pathId": 1137,
+      "name": "Enemy_Vagrant (1)",
+      "parents": []
+    }
+  ],
+  "worldTexts": [
+    {
+      "pathId": 46,
+      "position": {
+        "x": 1171.2319978408814,
+        "y": 396.06400027370455
+      },
+      "parents": [
+        56
+      ],
+      "text": "移动",
+      "font": "sharedassets1.assets:1229",
+      "fontFamily": "SunderWenkai",
+      "fontSize": 10.239999389648437,
+      "lineHeight": 12.124159433593741,
+      "bold": true,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "align": "left",
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "offset": {
+        "x": -0.1413818275104859,
+        "y": 0.28280714256720785
+      },
+      "wrapWidth": 0,
+      "rotation": 0,
+      "layer": 0,
+      "order": 0,
+      "source": {
+        "serializedFile": "level1",
+        "componentId": 5944,
+        "values": {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 46
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 1,
+            "m_PathID": 1438
+          },
+          "m_Name": "",
+          "m_Material": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_Color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "m_RaycastTarget": 1,
+          "m_RaycastPadding": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 0
+          },
+          "m_Maskable": 1,
+          "m_OnCullStateChanged": {
+            "m_PersistentCalls": {
+              "m_Calls": []
+            }
+          },
+          "m_text": "移动",
+          "m_isRightToLeft": 0,
+          "m_fontAsset": {
+            "m_FileID": 2,
+            "m_PathID": 1229
+          },
+          "m_sharedMaterial": {
+            "m_FileID": 2,
+            "m_PathID": 18
+          },
+          "m_fontSharedMaterials": [],
+          "m_fontMaterial": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_fontMaterials": [],
+          "m_fontColor32": {
+            "rgba": 4294967295
+          },
+          "m_fontColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "m_enableVertexGradient": 0,
+          "m_colorMode": 3,
+          "m_fontColorGradient": {
+            "topLeft": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "topRight": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "bottomLeft": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "bottomRight": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            }
+          },
+          "m_fontColorGradientPreset": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_spriteAsset": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_tintAllSprites": 0,
+          "m_StyleSheet": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_TextStyleHashCode": -1183493901,
+          "m_overrideHtmlColors": 0,
+          "m_faceColor": {
+            "rgba": 4294967295
+          },
+          "m_fontSize": 8,
+          "m_fontSizeBase": 8,
+          "m_fontWeight": 400,
+          "m_enableAutoSizing": 0,
+          "m_fontSizeMin": 18,
+          "m_fontSizeMax": 72,
+          "m_fontStyle": 1,
+          "m_HorizontalAlignment": 1,
+          "m_VerticalAlignment": 256,
+          "m_textAlignment": 65535,
+          "m_characterSpacing": 0,
+          "m_wordSpacing": 0,
+          "m_lineSpacing": 0,
+          "m_lineSpacingMax": 0,
+          "m_paragraphSpacing": 0,
+          "m_charWidthMaxAdj": 0,
+          "m_enableWordWrapping": 0,
+          "m_wordWrappingRatios": 0.4000000059604645,
+          "m_overflowMode": 0,
+          "m_linkedTextComponent": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "parentLinkedComponent": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_enableKerning": 1,
+          "m_enableExtraPadding": 0,
+          "checkPaddingRequired": 0,
+          "m_isRichText": 1,
+          "m_parseCtrlCharacters": 1,
+          "m_isOrthographic": 0,
+          "m_isCullingEnabled": 0,
+          "m_horizontalMapping": 0,
+          "m_verticalMapping": 0,
+          "m_uvLineOffset": 0,
+          "m_geometrySortingOrder": 0,
+          "m_IsTextObjectScaleStatic": 0,
+          "m_VertexBufferAutoSizeReduction": 0,
+          "m_useMaxVisibleDescender": 1,
+          "m_pageToDisplay": 1,
+          "m_margin": {
+            "x": 9.014347076416016,
+            "y": 1.8558956384658813,
+            "z": 9.03643798828125,
+            "w": 1.8117070198059082
+          },
+          "m_isUsingLegacyAnimationComponent": 0,
+          "m_isVolumetricText": 0,
+          "_SortingLayer": 0,
+          "_SortingLayerID": 0,
+          "_SortingOrder": 0,
+          "m_hasFontAssetChanged": 0,
+          "m_renderer": {
+            "m_FileID": 0,
+            "m_PathID": 2446
+          },
+          "m_maskType": 0
+        }
+      }
+    },
+    {
+      "pathId": 64,
+      "position": {
+        "x": 1556.5439985427856,
+        "y": 396.57600025558474
+      },
+      "parents": [
+        83
+      ],
+      "text": "冲刺",
+      "font": "sharedassets1.assets:1229",
+      "fontFamily": "SunderWenkai",
+      "fontSize": 10.239999389648437,
+      "lineHeight": 12.124159433593741,
+      "bold": true,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "align": "left",
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "offset": {
+        "x": -0.1413818275104859,
+        "y": 0.28280714256720785
+      },
+      "wrapWidth": 0,
+      "rotation": 0,
+      "layer": 0,
+      "order": 0,
+      "source": {
+        "serializedFile": "level1",
+        "componentId": 5945,
+        "values": {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 64
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 1,
+            "m_PathID": 1438
+          },
+          "m_Name": "",
+          "m_Material": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_Color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "m_RaycastTarget": 1,
+          "m_RaycastPadding": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 0
+          },
+          "m_Maskable": 1,
+          "m_OnCullStateChanged": {
+            "m_PersistentCalls": {
+              "m_Calls": []
+            }
+          },
+          "m_text": "冲刺",
+          "m_isRightToLeft": 0,
+          "m_fontAsset": {
+            "m_FileID": 2,
+            "m_PathID": 1229
+          },
+          "m_sharedMaterial": {
+            "m_FileID": 2,
+            "m_PathID": 18
+          },
+          "m_fontSharedMaterials": [],
+          "m_fontMaterial": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_fontMaterials": [],
+          "m_fontColor32": {
+            "rgba": 4294967295
+          },
+          "m_fontColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "m_enableVertexGradient": 0,
+          "m_colorMode": 3,
+          "m_fontColorGradient": {
+            "topLeft": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "topRight": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "bottomLeft": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "bottomRight": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            }
+          },
+          "m_fontColorGradientPreset": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_spriteAsset": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_tintAllSprites": 0,
+          "m_StyleSheet": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_TextStyleHashCode": -1183493901,
+          "m_overrideHtmlColors": 0,
+          "m_faceColor": {
+            "rgba": 4294967295
+          },
+          "m_fontSize": 8,
+          "m_fontSizeBase": 8,
+          "m_fontWeight": 400,
+          "m_enableAutoSizing": 0,
+          "m_fontSizeMin": 18,
+          "m_fontSizeMax": 72,
+          "m_fontStyle": 1,
+          "m_HorizontalAlignment": 1,
+          "m_VerticalAlignment": 256,
+          "m_textAlignment": 65535,
+          "m_characterSpacing": 0,
+          "m_wordSpacing": 0,
+          "m_lineSpacing": 0,
+          "m_lineSpacingMax": 0,
+          "m_paragraphSpacing": 0,
+          "m_charWidthMaxAdj": 0,
+          "m_enableWordWrapping": 0,
+          "m_wordWrappingRatios": 0.4000000059604645,
+          "m_overflowMode": 0,
+          "m_linkedTextComponent": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "parentLinkedComponent": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_enableKerning": 1,
+          "m_enableExtraPadding": 0,
+          "checkPaddingRequired": 0,
+          "m_isRichText": 1,
+          "m_parseCtrlCharacters": 1,
+          "m_isOrthographic": 0,
+          "m_isCullingEnabled": 0,
+          "m_horizontalMapping": 0,
+          "m_verticalMapping": 0,
+          "m_uvLineOffset": 0,
+          "m_geometrySortingOrder": 0,
+          "m_IsTextObjectScaleStatic": 0,
+          "m_VertexBufferAutoSizeReduction": 0,
+          "m_useMaxVisibleDescender": 1,
+          "m_pageToDisplay": 1,
+          "m_margin": {
+            "x": 9.014347076416016,
+            "y": 1.8558956384658813,
+            "z": 9.03643798828125,
+            "w": 1.8117070198059082
+          },
+          "m_isUsingLegacyAnimationComponent": 0,
+          "m_isVolumetricText": 0,
+          "_SortingLayer": 0,
+          "_SortingLayerID": 0,
+          "_SortingOrder": 0,
+          "m_hasFontAssetChanged": 0,
+          "m_renderer": {
+            "m_FileID": 0,
+            "m_PathID": 2447
+          },
+          "m_maskType": 0
+        }
+      }
+    }
+  ]
+}

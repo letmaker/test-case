@@ -1,0 +1,192 @@
+{
+  "skillObjectShardIdle": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 201,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 73
+    },
+    "start": 0,
+    "stop": 0.3333333432674408,
+    "sampleRate": 18,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 755
+      },
+      {
+        "time": 0.0555555559694767,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 774
+      },
+      {
+        "time": 0.1111111119389534,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 799
+      },
+      {
+        "time": 0.1666666716337204,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 462
+      },
+      {
+        "time": 0.2222222238779068,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 480
+      },
+      {
+        "time": 0.2777777910232544,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 407
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 8,
+      "m_CurveCount": 0,
+      "m_SampleRate": 18,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "Vfx_ShardExplosion": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 184,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 56
+    },
+    "start": 0,
+    "stop": 0.3333333432674408,
+    "sampleRate": 15,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 873
+      },
+      {
+        "time": 0.06666667014360428,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 882
+      },
+      {
+        "time": 0.13333334028720856,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 893
+      },
+      {
+        "time": 0.20000000298023224,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 244
+      },
+      {
+        "time": 0.2666666805744171,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 880
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 7,
+      "m_CurveCount": 0,
+      "m_SampleRate": 15,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "Vfx_SmokeCloud": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 185,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 57
+    },
+    "start": 0,
+    "stop": 0.6666666865348816,
+    "sampleRate": 18,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 558
+      },
+      {
+        "time": 0.0555555559694767,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 553
+      },
+      {
+        "time": 0.1111111119389534,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 578
+      },
+      {
+        "time": 0.1666666716337204,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 582
+      },
+      {
+        "time": 0.2222222238779068,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 549
+      },
+      {
+        "time": 0.2777777910232544,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 560
+      },
+      {
+        "time": 0.3333333432674408,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 546
+      },
+      {
+        "time": 0.3888888955116272,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 545
+      },
+      {
+        "time": 0.4444444477558136,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 548
+      },
+      {
+        "time": 0.5,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 561
+      },
+      {
+        "time": 0.5555555820465088,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 552
+      },
+      {
+        "time": 0.6111111044883728,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 566
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 14,
+      "m_CurveCount": 0,
+      "m_SampleRate": 18,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  }
+}

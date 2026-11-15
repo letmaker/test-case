@@ -1,0 +1,500 @@
+{
+  "BlacksmithCornerIdle": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 129,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 1
+    },
+    "start": 0,
+    "stop": 0.5,
+    "sampleRate": 12,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 247
+      },
+      {
+        "time": 0.0833333358168602,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 265
+      },
+      {
+        "time": 0.1666666716337204,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 256
+      },
+      {
+        "time": 0.25,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 263
+      },
+      {
+        "time": 0.3333333432674408,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 245
+      },
+      {
+        "time": 0.4166666567325592,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 266
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 8,
+      "m_CurveCount": 0,
+      "m_SampleRate": 12,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "chestIdle": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 131,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 3
+    },
+    "start": 0,
+    "stop": 0.01666666753590107,
+    "sampleRate": 60,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 551
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 3,
+      "m_CurveCount": 0,
+      "m_SampleRate": 60,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "npcBankIdle": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 192,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 64
+    },
+    "start": 0,
+    "stop": 0.625,
+    "sampleRate": 8,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 737
+      },
+      {
+        "time": 0.125,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 623
+      },
+      {
+        "time": 0.25,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 399
+      },
+      {
+        "time": 0.375,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 513
+      },
+      {
+        "time": 0.5,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 806
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 7,
+      "m_CurveCount": 0,
+      "m_SampleRate": 8,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "levelFloorIdle": {
+    "serializedFile": "sharedassets2.assets",
+    "pathId": 97,
+    "source": {
+      "path": "Data/sharedassets2.assets/AnimationClip.jsonl",
+      "line": 33
+    },
+    "start": 0,
+    "stop": 0.01666666753590107,
+    "sampleRate": 60,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 270
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 3,
+      "m_CurveCount": 0,
+      "m_SampleRate": 60,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "chestOpen": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 132,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 4
+    },
+    "start": 0,
+    "stop": 0.4166666567325592,
+    "sampleRate": 12,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 551
+      },
+      {
+        "time": 0.0833333358168602,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 570
+      },
+      {
+        "time": 0.1666666716337204,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 572
+      },
+      {
+        "time": 0.25,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 568
+      },
+      {
+        "time": 0.3333333432674408,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 575
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 7,
+      "m_CurveCount": 0,
+      "m_SampleRate": 12,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "npcBlacksmithldle": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 193,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 65
+    },
+    "start": 0,
+    "stop": 1,
+    "sampleRate": 12,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 688
+      },
+      {
+        "time": 0.0833333358168602,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 452
+      },
+      {
+        "time": 0.1666666716337204,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 698
+      },
+      {
+        "time": 0.25,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 771
+      },
+      {
+        "time": 0.3333333432674408,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 327
+      },
+      {
+        "time": 0.4166666567325592,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 720
+      },
+      {
+        "time": 0.5,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 383
+      },
+      {
+        "time": 0.5833333134651184,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 483
+      },
+      {
+        "time": 0.6666666865348816,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 831
+      },
+      {
+        "time": 0.75,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 856
+      },
+      {
+        "time": 0.8333333134651184,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 414
+      },
+      {
+        "time": 0.9166666865348816,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 316
+      }
+    ],
+    "events": [
+      {
+        "time": 0.1666666716337204,
+        "functionName": "PlayBlacksmithHit",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      }
+    ],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 14,
+      "m_CurveCount": 0,
+      "m_SampleRate": 12,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "npcMerchantIldle": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 195,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 67
+    },
+    "start": 0,
+    "stop": 0.8333333134651184,
+    "sampleRate": 12,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 874
+      },
+      {
+        "time": 0.0833333358168602,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 262
+      },
+      {
+        "time": 0.1666666716337204,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 891
+      },
+      {
+        "time": 0.25,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 271
+      },
+      {
+        "time": 0.3333333432674408,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 889
+      },
+      {
+        "time": 0.4166666567325592,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 879
+      },
+      {
+        "time": 0.5,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 886
+      },
+      {
+        "time": 0.5833333134651184,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 878
+      },
+      {
+        "time": 0.6666666865348816,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 254
+      },
+      {
+        "time": 0.75,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 257
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 12,
+      "m_CurveCount": 0,
+      "m_SampleRate": 12,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "npcSwordswoman": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 196,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 68
+    },
+    "start": 0,
+    "stop": 0.8333333730697632,
+    "sampleRate": 6,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 737
+      },
+      {
+        "time": 0.1666666716337204,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 623
+      },
+      {
+        "time": 0.3333333432674408,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 399
+      },
+      {
+        "time": 0.5,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 513
+      },
+      {
+        "time": 0.6666666865348816,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 806
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 7,
+      "m_CurveCount": 0,
+      "m_SampleRate": 6,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "levelFloorOpen": {
+    "serializedFile": "sharedassets2.assets",
+    "pathId": 98,
+    "source": {
+      "path": "Data/sharedassets2.assets/AnimationClip.jsonl",
+      "line": 34
+    },
+    "start": 0,
+    "stop": 0.5833333134651184,
+    "sampleRate": 12,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 270
+      },
+      {
+        "time": 0.0833333358168602,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 246
+      },
+      {
+        "time": 0.1666666716337204,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 257
+      },
+      {
+        "time": 0.25,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 233
+      },
+      {
+        "time": 0.3333333432674408,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 256
+      },
+      {
+        "time": 0.4166666567325592,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 261
+      },
+      {
+        "time": 0.5,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 244
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 9,
+      "m_CurveCount": 0,
+      "m_SampleRate": 12,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  }
+}

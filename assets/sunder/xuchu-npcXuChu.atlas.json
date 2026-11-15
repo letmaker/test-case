@@ -1,0 +1,254 @@
+{
+  "frames": {
+    "f00000.png": {
+      "frame": {
+        "x": 1,
+        "y": 1,
+        "w": 75,
+        "h": 75
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 75,
+        "h": 75
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 75,
+        "h": 75
+      }
+    },
+    "f00001.png": {
+      "frame": {
+        "x": 78,
+        "y": 1,
+        "w": 75,
+        "h": 75
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 75,
+        "h": 75
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 75,
+        "h": 75
+      }
+    },
+    "f00002.png": {
+      "frame": {
+        "x": 155,
+        "y": 1,
+        "w": 75,
+        "h": 75
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 75,
+        "h": 75
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 75,
+        "h": 75
+      }
+    },
+    "f00003.png": {
+      "frame": {
+        "x": 232,
+        "y": 1,
+        "w": 75,
+        "h": 75
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 75,
+        "h": 75
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 75,
+        "h": 75
+      }
+    },
+    "f00004.png": {
+      "frame": {
+        "x": 309,
+        "y": 1,
+        "w": 75,
+        "h": 75
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 75,
+        "h": 75
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 75,
+        "h": 75
+      }
+    },
+    "f00005.png": {
+      "frame": {
+        "x": 386,
+        "y": 1,
+        "w": 75,
+        "h": 75
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 75,
+        "h": 75
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 75,
+        "h": 75
+      }
+    },
+    "f00006.png": {
+      "frame": {
+        "x": 463,
+        "y": 1,
+        "w": 75,
+        "h": 75
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 75,
+        "h": 75
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 75,
+        "h": 75
+      }
+    },
+    "f00007.png": {
+      "frame": {
+        "x": 540,
+        "y": 1,
+        "w": 75,
+        "h": 75
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 75,
+        "h": 75
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 75,
+        "h": 75
+      }
+    },
+    "f00008.png": {
+      "frame": {
+        "x": 617,
+        "y": 1,
+        "w": 75,
+        "h": 75
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 75,
+        "h": 75
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 75,
+        "h": 75
+      }
+    },
+    "f00009.png": {
+      "frame": {
+        "x": 694,
+        "y": 1,
+        "w": 75,
+        "h": 75
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 75,
+        "h": 75
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 75,
+        "h": 75
+      }
+    },
+    "f00010.png": {
+      "frame": {
+        "x": 771,
+        "y": 1,
+        "w": 75,
+        "h": 75
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 75,
+        "h": 75
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 75,
+        "h": 75
+      }
+    },
+    "f00011.png": {
+      "frame": {
+        "x": 848,
+        "y": 1,
+        "w": 75,
+        "h": 75
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 75,
+        "h": 75
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 75,
+        "h": 75
+      }
+    }
+  },
+  "meta": {
+    "image": "xuchu.png",
+    "size": {
+      "w": 925,
+      "h": 77
+    },
+    "scale": "1",
+    "scaleMode": "nearest",
+    "baseUrl": "xuchu/xuchu-npcXuChu.atlas.json"
+  }
+}

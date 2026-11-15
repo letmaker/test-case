@@ -1,0 +1,114 @@
+{
+  "frames": {
+    "f00000.png": {
+      "frame": {
+        "x": 20,
+        "y": 1,
+        "w": 4,
+        "h": 3
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 4,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 3
+      }
+    },
+    "f00001.png": {
+      "frame": {
+        "x": 1,
+        "y": 1,
+        "w": 2,
+        "h": 2
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 2,
+        "h": 2
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 2,
+        "h": 2
+      }
+    },
+    "f00002.png": {
+      "frame": {
+        "x": 10,
+        "y": 1,
+        "w": 2,
+        "h": 2
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 2,
+        "h": 2
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 2,
+        "h": 2
+      }
+    },
+    "f00003.png": {
+      "frame": {
+        "x": 14,
+        "y": 1,
+        "w": 4,
+        "h": 3
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 4,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 3
+      }
+    },
+    "f00004.png": {
+      "frame": {
+        "x": 5,
+        "y": 1,
+        "w": 3,
+        "h": 4
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 3,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 3,
+        "h": 4
+      }
+    }
+  },
+  "meta": {
+    "image": "presentation-particles.png",
+    "size": {
+      "w": 259,
+      "h": 128
+    },
+    "scale": "1",
+    "scaleMode": "nearest",
+    "baseUrl": "presentation-particles-1.atlas.json/"
+  }
+}

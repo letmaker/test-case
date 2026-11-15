@@ -1,0 +1,194 @@
+{
+  "frames": {
+    "f00000.png": {
+      "frame": {
+        "x": 1375,
+        "y": 1,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "spriteSourceSize": {
+        "x": -12,
+        "y": -1.5,
+        "w": 64,
+        "h": 64
+      }
+    },
+    "f00001.png": {
+      "frame": {
+        "x": 1441,
+        "y": 1,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "spriteSourceSize": {
+        "x": -12,
+        "y": -1.5,
+        "w": 64,
+        "h": 64
+      }
+    },
+    "f00002.png": {
+      "frame": {
+        "x": 1507,
+        "y": 1,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "spriteSourceSize": {
+        "x": -12,
+        "y": -1.5,
+        "w": 64,
+        "h": 64
+      }
+    },
+    "f00003.png": {
+      "frame": {
+        "x": 1573,
+        "y": 1,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "spriteSourceSize": {
+        "x": -12,
+        "y": -1.5,
+        "w": 64,
+        "h": 64
+      }
+    },
+    "f00004.png": {
+      "frame": {
+        "x": 1639,
+        "y": 1,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "spriteSourceSize": {
+        "x": -12,
+        "y": -1.5,
+        "w": 64,
+        "h": 64
+      }
+    },
+    "f00005.png": {
+      "frame": {
+        "x": 1705,
+        "y": 1,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "spriteSourceSize": {
+        "x": -12,
+        "y": -1.5,
+        "w": 64,
+        "h": 64
+      }
+    },
+    "f00006.png": {
+      "frame": {
+        "x": 1771,
+        "y": 1,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "spriteSourceSize": {
+        "x": -12,
+        "y": -1.5,
+        "w": 64,
+        "h": 64
+      }
+    },
+    "f00007.png": {
+      "frame": {
+        "x": 1837,
+        "y": 1,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "spriteSourceSize": {
+        "x": -12,
+        "y": -1.5,
+        "w": 64,
+        "h": 64
+      }
+    },
+    "f00008.png": {
+      "frame": {
+        "x": 1903,
+        "y": 1,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "spriteSourceSize": {
+        "x": -12,
+        "y": -1.5,
+        "w": 64,
+        "h": 64
+      }
+    }
+  },
+  "meta": {
+    "image": "presentation.png",
+    "size": {
+      "w": 2044,
+      "h": 174
+    },
+    "scale": "1",
+    "scaleMode": "nearest",
+    "baseUrl": "presentation/presentation-Vfx_LightningStrike.atlas.json"
+  }
+}

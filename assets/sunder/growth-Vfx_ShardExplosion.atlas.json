@@ -1,0 +1,114 @@
+{
+  "frames": {
+    "f00000.png": {
+      "frame": {
+        "x": 781,
+        "y": 1,
+        "w": 64,
+        "h": 32
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 32
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 32,
+        "w": 128,
+        "h": 64
+      }
+    },
+    "f00001.png": {
+      "frame": {
+        "x": 847,
+        "y": 1,
+        "w": 64,
+        "h": 32
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 32
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 32,
+        "w": 128,
+        "h": 64
+      }
+    },
+    "f00002.png": {
+      "frame": {
+        "x": 913,
+        "y": 1,
+        "w": 64,
+        "h": 32
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 32
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 32,
+        "w": 128,
+        "h": 64
+      }
+    },
+    "f00003.png": {
+      "frame": {
+        "x": 979,
+        "y": 1,
+        "w": 64,
+        "h": 32
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 32
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 32,
+        "w": 128,
+        "h": 64
+      }
+    },
+    "f00004.png": {
+      "frame": {
+        "x": 1045,
+        "y": 1,
+        "w": 4,
+        "h": 4
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 62,
+        "y": 62,
+        "w": 4,
+        "h": 4
+      }
+    }
+  },
+  "meta": {
+    "image": "growth.png",
+    "size": {
+      "w": 1843,
+      "h": 130
+    },
+    "scale": "1",
+    "scaleMode": "nearest",
+    "baseUrl": "growth/growth-Vfx_ShardExplosion.atlas.json"
+  }
+}

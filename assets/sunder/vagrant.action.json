@@ -1,0 +1,170 @@
+{
+  "version": 1,
+  "poster": {
+    "url": "vagrant-poster.png",
+    "width": 92,
+    "height": 53
+  },
+  "defaultAction": "VagrantIdle",
+  "actions": {
+    "VagrantIdle": {
+      "url": "vagrant-VagrantIdle.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 10,
+      "loop": true,
+      "durations": [
+        1.0000000149011612,
+        1.0000000149011612,
+        1.0000000894069672,
+        0.9999999403953552,
+        0.9999999403953552
+      ],
+      "events": []
+    },
+    "VagrantAttack": {
+      "url": "vagrant-VagrantAttack.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 20,
+      "loop": false,
+      "durations": [
+        2.0000000298023224,
+        2.0000000298023224,
+        2.0000001788139343,
+        1.9999998807907104,
+        1.9999998807907104,
+        3.999999761581421,
+        1.000000238418579,
+        2.000000476837158,
+        1.9999992847442627,
+        1.9999992847442627,
+        2.000000476837158,
+        2.000000476837158,
+        2.000000476837158,
+        2.000000476837158,
+        1.9999980926513672,
+        2.000000476837158,
+        0.9999990463256836
+      ],
+      "events": [
+        {
+          "time": 0.20000000298023224,
+          "name": "EnableCounterWindow",
+          "data": 0
+        },
+        {
+          "time": 0.30000001192092896,
+          "name": "AttackTrigger",
+          "data": 1
+        },
+        {
+          "time": 0.30000001192092896,
+          "name": "DisableCounterWindow",
+          "data": 2
+        },
+        {
+          "time": 0.699999988079071,
+          "name": "BlockWindowEndTrigger",
+          "data": 3
+        },
+        {
+          "time": 1.649999976158142,
+          "name": "CurrentStateTrigger",
+          "data": 4
+        }
+      ]
+    },
+    "VagrantDie": {
+      "url": "vagrant-VagrantDie.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 12,
+      "loop": false,
+      "durations": [
+        1.0000000298023224,
+        1.0000000298023224,
+        0.9999999403953552,
+        1.0000001192092896,
+        0.9999997615814209,
+        1.0000001192092896,
+        0.9999997615814209,
+        1.0000004768371582,
+        3
+      ],
+      "events": [
+        {
+          "time": 0.9166666865348816,
+          "name": "DestroyAfterAnimation",
+          "data": 0
+        }
+      ]
+    },
+    "VagrantHurt": {
+      "url": "vagrant-VagrantHurt.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 12,
+      "loop": false,
+      "durations": [
+        1.0000000298023224,
+        1.0000000298023224,
+        0.9999999403953552,
+        1.0000001192092896
+      ],
+      "events": []
+    },
+    "VagrantMove": {
+      "url": "vagrant-VagrantMove.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 12,
+      "loop": true,
+      "durations": [
+        1.0000000298023224,
+        1.0000000298023224,
+        0.9999999403953552,
+        1.0000001192092896,
+        0.9999997615814209,
+        1.0000001192092896,
+        0.9999997615814209,
+        0.9999997615814209
+      ],
+      "events": [
+        {
+          "time": 0.1666666716337204,
+          "name": "Footstep",
+          "data": 0
+        },
+        {
+          "time": 0.5,
+          "name": "Footstep",
+          "data": 1
+        }
+      ]
+    },
+    "VagrantStunned": {
+      "url": "vagrant-VagrantStunned.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 60,
+      "loop": true,
+      "durations": [
+        1.0000000521540642
+      ],
+      "events": []
+    }
+  }
+}

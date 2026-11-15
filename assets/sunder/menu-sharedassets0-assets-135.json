@@ -1,0 +1,12 @@
+{
+  "name": "HuayanTample",
+  "description": "原 tight mesh / UV 恢复，不重画",
+  "source": "sharedassets0.assets:135",
+  "width": 351,
+  "height": 177,
+  "pivot": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "ppu": 16
+}

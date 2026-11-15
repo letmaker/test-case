@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "poster": {
+    "url": "checkpoint-poster.png",
+    "width": 29,
+    "height": 35
+  },
+  "defaultAction": "checkpointIdle",
+  "actions": {
+    "checkpointIdle": {
+      "url": "checkpoint-checkpointIdle.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 60,
+      "loop": true,
+      "durations": [
+        1.0000000521540642
+      ],
+      "events": []
+    },
+    "checkpointActive": {
+      "url": "checkpoint-checkpointActive.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 20,
+      "loop": true,
+      "durations": [
+        1.0000000149011612,
+        1.0000000149011612,
+        1.0000000894069672,
+        0.9999999403953552,
+        0.9999999403953552,
+        1.000000238418579
+      ],
+      "events": []
+    }
+  }
+}

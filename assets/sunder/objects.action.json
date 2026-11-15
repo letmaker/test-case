@@ -1,0 +1,177 @@
+{
+  "version": 1,
+  "poster": {
+    "url": "objects-poster.png",
+    "width": 115,
+    "height": 108
+  },
+  "defaultAction": "BlacksmithCornerIdle",
+  "actions": {
+    "BlacksmithCornerIdle": {
+      "url": "objects-BlacksmithCornerIdle.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 12,
+      "loop": true,
+      "durations": [
+        1.0000000298023224,
+        1.0000000298023224,
+        0.9999999403953552,
+        1.0000001192092896,
+        0.9999997615814209,
+        1.0000001192092896
+      ],
+      "events": []
+    },
+    "chestIdle": {
+      "url": "objects-chestIdle.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 60,
+      "loop": true,
+      "durations": [
+        1.0000000521540642
+      ],
+      "events": []
+    },
+    "npcBankIdle": {
+      "url": "objects-npcBankIdle.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 8,
+      "loop": true,
+      "durations": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "events": []
+    },
+    "levelFloorIdle": {
+      "url": "objects-levelFloorIdle.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 60,
+      "loop": true,
+      "durations": [
+        1.0000000521540642
+      ],
+      "events": []
+    },
+    "chestOpen": {
+      "url": "objects-chestOpen.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 12,
+      "loop": false,
+      "durations": [
+        1.0000000298023224,
+        1.0000000298023224,
+        0.9999999403953552,
+        1.0000001192092896,
+        0.9999997615814209
+      ],
+      "events": []
+    },
+    "npcBlacksmithldle": {
+      "url": "objects-npcBlacksmithldle.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 12,
+      "loop": true,
+      "durations": [
+        1.0000000298023224,
+        1.0000000298023224,
+        0.9999999403953552,
+        1.0000001192092896,
+        0.9999997615814209,
+        1.0000001192092896,
+        0.9999997615814209,
+        1.0000004768371582,
+        0.9999997615814209,
+        0.9999997615814209,
+        1.0000004768371582,
+        0.9999997615814209
+      ],
+      "events": [
+        {
+          "time": 0.1666666716337204,
+          "name": "PlayBlacksmithHit",
+          "data": 0
+        }
+      ]
+    },
+    "npcMerchantIldle": {
+      "url": "objects-npcMerchantIldle.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 12,
+      "loop": true,
+      "durations": [
+        1.0000000298023224,
+        1.0000000298023224,
+        0.9999999403953552,
+        1.0000001192092896,
+        0.9999997615814209,
+        1.0000001192092896,
+        0.9999997615814209,
+        1.0000004768371582,
+        0.9999997615814209,
+        0.9999997615814209
+      ],
+      "events": []
+    },
+    "npcSwordswoman": {
+      "url": "objects-npcSwordswoman.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 6,
+      "loop": true,
+      "durations": [
+        1.0000000298023224,
+        1.0000000298023224,
+        0.9999999403953552,
+        1.0000001192092896,
+        1.0000001192092896
+      ],
+      "events": []
+    },
+    "levelFloorOpen": {
+      "url": "objects-levelFloorOpen.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 12,
+      "loop": false,
+      "durations": [
+        1.0000000298023224,
+        1.0000000298023224,
+        0.9999999403953552,
+        1.0000001192092896,
+        0.9999997615814209,
+        1.0000001192092896,
+        0.9999997615814209
+      ],
+      "events": []
+    }
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "version": 1,
+  "poster": {
+    "url": "mage-poster.png",
+    "width": 48,
+    "height": 48
+  },
+  "defaultAction": "MageIdle",
+  "actions": {
+    "MageIdle": {
+      "url": "mage-MageIdle.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 6,
+      "loop": true,
+      "durations": [
+        1.0000000298023224,
+        1.0000000298023224,
+        0.9999999403953552,
+        1.0000001192092896,
+        1.0000001192092896
+      ],
+      "events": []
+    },
+    "MageAttack": {
+      "url": "mage-MageAttack.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 10,
+      "loop": false,
+      "durations": [
+        1.0000000149011612,
+        1.0000000149011612,
+        1.0000000894069672,
+        0.9999999403953552,
+        0.9999999403953552,
+        1.000000238418579,
+        1.000000238418579
+      ],
+      "events": [
+        {
+          "time": 0.10000000149011612,
+          "name": "EnableCounterWindow",
+          "data": 0
+        },
+        {
+          "time": 0.30000001192092896,
+          "name": "AttackTrigger",
+          "data": 1
+        },
+        {
+          "time": 0.30000001192092896,
+          "name": "DisableCounterWindow",
+          "data": 2
+        },
+        {
+          "time": 0.6000000238418579,
+          "name": "CurrentStateTrigger",
+          "data": 3
+        },
+        {
+          "time": 0.6000000238418579,
+          "name": "BlockWindowEndTrigger",
+          "data": 4
+        }
+      ]
+    },
+    "MageDie": {
+      "url": "mage-MageDie.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 12,
+      "loop": false,
+      "durations": [
+        1.0000000298023224,
+        1.0000000298023224,
+        0.9999999403953552,
+        1.0000001192092896,
+        4.9999998807907104
+      ],
+      "events": [
+        {
+          "time": 0.75,
+          "name": "DestroyAfterAnimation",
+          "data": 0
+        }
+      ]
+    },
+    "MageHurt": {
+      "url": "mage-MageHurt.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 12,
+      "loop": false,
+      "durations": [
+        1.0000000298023224,
+        1.0000000298023224,
+        0.9999999403953552,
+        1.0000001192092896
+      ],
+      "events": []
+    },
+    "MageMove": {
+      "url": "mage-MageMove.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 7,
+      "loop": true,
+      "durations": [
+        1.0000000447034836,
+        1.0000000447034836,
+        0.9999999403953552,
+        1.000000149011612,
+        0.9999999403953552,
+        0.9999999403953552,
+        0.9999999403953552,
+        1.0000003576278687,
+        0.9999995231628418,
+        1.0000003576278687,
+        0.9999995231628418,
+        1.0000003576278687
+      ],
+      "events": [
+        {
+          "time": 0.2857142984867096,
+          "name": "Footstep",
+          "data": 0
+        },
+        {
+          "time": 1.1428571939468384,
+          "name": "Footstep",
+          "data": 1
+        }
+      ]
+    },
+    "MageSpellCast": {
+      "url": "mage-MageSpellCast.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 10,
+      "loop": false,
+      "durations": [
+        1.0000000149011612,
+        1.0000000149011612,
+        1.0000000894069672,
+        1.9999998807907104,
+        1.000000238418579
+      ],
+      "events": [
+        {
+          "time": 0.5,
+          "name": "SpecialAttackTrigger",
+          "data": 0
+        }
+      ]
+    },
+    "MageSpellCast_performed": {
+      "url": "mage-MageSpellCast_performed.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 10,
+      "loop": false,
+      "durations": [
+        1.0000000149011612,
+        1.0000000149011612,
+        1.0000000894069672,
+        0.9999999403953552
+      ],
+      "events": [
+        {
+          "time": 0,
+          "name": "AttackTrigger",
+          "data": 0
+        },
+        {
+          "time": 0.30000001192092896,
+          "name": "CurrentStateTrigger",
+          "data": 1
+        },
+        {
+          "time": 0.30000001192092896,
+          "name": "BlockWindowEndTrigger",
+          "data": 2
+        }
+      ]
+    },
+    "MageStunned": {
+      "url": "mage-MageStunned.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 12,
+      "loop": false,
+      "durations": [
+        1.0000000298023224,
+        1.0000000298023224,
+        0.9999999403953552,
+        1.0000001192092896
+      ],
+      "events": []
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "frames": {
+    "f00000.png": {
+      "frame": {
+        "x": 1,
+        "y": 1,
+        "w": 16,
+        "h": 15
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 16,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 15
+      }
+    },
+    "f00001.png": {
+      "frame": {
+        "x": 19,
+        "y": 1,
+        "w": 16,
+        "h": 15
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 16,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 15
+      }
+    },
+    "f00002.png": {
+      "frame": {
+        "x": 37,
+        "y": 1,
+        "w": 16,
+        "h": 15
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 16,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 15
+      }
+    },
+    "f00003.png": {
+      "frame": {
+        "x": 55,
+        "y": 1,
+        "w": 16,
+        "h": 15
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 16,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 15
+      }
+    },
+    "f00004.png": {
+      "frame": {
+        "x": 73,
+        "y": 1,
+        "w": 16,
+        "h": 15
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 16,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 15
+      }
+    },
+    "f00005.png": {
+      "frame": {
+        "x": 91,
+        "y": 1,
+        "w": 16,
+        "h": 15
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 16,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 15
+      }
+    },
+    "f00006.png": {
+      "frame": {
+        "x": 109,
+        "y": 1,
+        "w": 16,
+        "h": 15
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 16,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 15
+      }
+    },
+    "f00007.png": {
+      "frame": {
+        "x": 127,
+        "y": 1,
+        "w": 4,
+        "h": 4
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 7,
+        "y": 6.5,
+        "w": 2,
+        "h": 2
+      }
+    }
+  },
+  "meta": {
+    "image": "water.png",
+    "size": {
+      "w": 133,
+      "h": 17
+    },
+    "scale": "1",
+    "scaleMode": "nearest",
+    "baseUrl": "water/water-Vfx_Splash_s.atlas.json"
+  }
+}

@@ -1,0 +1,736 @@
+{
+  "version": 1,
+  "poster": {
+    "url": "player-poster.png",
+    "width": 96,
+    "height": 96
+  },
+  "defaultAction": "playerIdle",
+  "actions": {
+    "playerIdle": {
+      "url": "player-playerIdle.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 10,
+      "loop": true,
+      "durations": [
+        1.0000000149011612,
+        1.0000000149011612,
+        1.0000000894069672,
+        0.9999999403953552,
+        0.9999999403953552,
+        1.000000238418579,
+        0.9999996423721313,
+        1.000000238418579,
+        0.9999996423721313,
+        1.000000238418579
+      ],
+      "events": []
+    },
+    "playerWallGrabIdle": {
+      "url": "player-playerWallGrabIdle.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 5,
+      "loop": true,
+      "durations": [
+        1.0000000149011612
+      ],
+      "events": []
+    },
+    "playerAirAttack": {
+      "url": "player-playerAirAttack.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 18,
+      "loop": false,
+      "durations": [
+        1.0000000074505806,
+        1.0000000074505806,
+        1.000000074505806,
+        0.9999999403953552,
+        1.0000002086162567,
+        0.9999999403953552,
+        0.9999999403953552
+      ],
+      "events": [
+        {
+          "time": 0.1111111119389534,
+          "name": "AttackTrigger",
+          "data": 0
+        },
+        {
+          "time": 0.3333333432674408,
+          "name": "CurrentStateTrigger",
+          "data": 1
+        }
+      ]
+    },
+    "playerAirUpwardStrike": {
+      "url": "player-playerAirUpwardStrike.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 18,
+      "loop": false,
+      "durations": [
+        1.0000000074505806,
+        1.0000000074505806,
+        1.000000074505806,
+        0.9999999403953552,
+        1.0000002086162567,
+        0.9999999403953552,
+        0.9999999403953552
+      ],
+      "events": [
+        {
+          "time": 0.1111111119389534,
+          "name": "UpwardAttackTrigger",
+          "data": 0
+        },
+        {
+          "time": 0.3333333432674408,
+          "name": "CurrentStateTrigger",
+          "data": 1
+        }
+      ]
+    },
+    "playerBasicAttack_1": {
+      "url": "player-playerBasicAttack_1.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 18,
+      "loop": false,
+      "durations": [
+        1.0000000074505806,
+        1.0000000074505806,
+        1.000000074505806,
+        0.9999999403953552,
+        1.0000002086162567,
+        0.9999999403953552,
+        0.9999999403953552
+      ],
+      "events": [
+        {
+          "time": 0.1111111119389534,
+          "name": "AttackTrigger",
+          "data": 0
+        },
+        {
+          "time": 0.3333333432674408,
+          "name": "CurrentStateTrigger",
+          "data": 1
+        }
+      ]
+    },
+    "playerBasicAttack_2": {
+      "url": "player-playerBasicAttack_2.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 16,
+      "loop": false,
+      "durations": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "events": [
+        {
+          "time": 0,
+          "name": "AttackTrigger",
+          "data": 0
+        },
+        {
+          "time": 0.1875,
+          "name": "CurrentStateTrigger",
+          "data": 1
+        }
+      ]
+    },
+    "playerBasicAttack_3": {
+      "url": "player-playerBasicAttack_3.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 18,
+      "loop": false,
+      "durations": [
+        1.0000000074505806,
+        1.0000000074505806,
+        1.000000074505806,
+        0.9999999403953552,
+        1.0000002086162567,
+        0.9999999403953552
+      ],
+      "events": [
+        {
+          "time": 0.0555555559694767,
+          "name": "AttackTrigger",
+          "data": 0
+        },
+        {
+          "time": 0.2777777910232544,
+          "name": "CurrentStateTrigger",
+          "data": 1
+        }
+      ]
+    },
+    "playerCatchSword": {
+      "url": "player-playerCatchSword.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 14,
+      "loop": false,
+      "durations": [
+        1.0000000447034836,
+        1.0000000447034836,
+        0.9999999403953552,
+        1.000000149011612,
+        0.9999999403953552
+      ],
+      "events": [
+        {
+          "time": 0.2857142984867096,
+          "name": "AnimationTrigger",
+          "data": 0
+        }
+      ]
+    },
+    "playerChargeAttack": {
+      "url": "player-playerChargeAttack.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 15,
+      "loop": false,
+      "durations": [
+        1.0000000521540642,
+        1.0000000521540642,
+        0.9999999403953552,
+        1.0000001639127731,
+        0.9999999403953552,
+        0.9999999403953552,
+        0.9999999403953552,
+        1.000000387430191,
+        0.9999999403953552,
+        0.9999999403953552,
+        0.9999999403953552,
+        0.9999999403953552,
+        0.9999999403953552
+      ],
+      "events": [
+        {
+          "time": 0.20000000298023224,
+          "name": "AttackTrigger",
+          "data": 0
+        },
+        {
+          "time": 0.800000011920929,
+          "name": "CurrentStateTrigger",
+          "data": 1
+        }
+      ]
+    },
+    "playerCounterAttack": {
+      "url": "player-playerCounterAttack.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 60,
+      "loop": true,
+      "durations": [
+        1.0000000521540642
+      ],
+      "events": []
+    },
+    "playerCrouch": {
+      "url": "player-playerCrouch.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 8,
+      "loop": true,
+      "durations": [
+        1,
+        1,
+        24,
+        1,
+        1,
+        1,
+        16,
+        1
+      ],
+      "events": []
+    },
+    "playerCrouchAttack": {
+      "url": "player-playerCrouchAttack.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 18,
+      "loop": false,
+      "durations": [
+        2.000000014901161,
+        1.000000074505806,
+        0.9999999403953552,
+        1.0000002086162567,
+        0.9999999403953552
+      ],
+      "events": [
+        {
+          "time": 0.1111111119389534,
+          "name": "AttackTrigger",
+          "data": 0
+        },
+        {
+          "time": 0.2777777910232544,
+          "name": "CurrentStateTrigger",
+          "data": 1
+        }
+      ]
+    },
+    "playerDash": {
+      "url": "player-playerDash.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 60,
+      "loop": true,
+      "durations": [
+        1.0000000521540642
+      ],
+      "events": []
+    },
+    "playerDie": {
+      "url": "player-playerDie.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 12,
+      "loop": false,
+      "durations": [
+        1.0000000298023224,
+        1.0000000298023224,
+        0.9999999403953552,
+        1.0000001192092896,
+        0.9999997615814209,
+        1.0000001192092896,
+        0.9999997615814209,
+        1.0000004768371582,
+        0.9999997615814209
+      ],
+      "events": []
+    },
+    "playerDownwardStrike": {
+      "url": "player-playerDownwardStrike.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 18,
+      "loop": false,
+      "durations": [
+        1.0000000074505806,
+        1.0000000074505806,
+        1.000000074505806,
+        0.9999999403953552
+      ],
+      "events": [
+        {
+          "time": 0.0555555559694767,
+          "name": "DownwardAttackTrigger",
+          "data": 0
+        },
+        {
+          "time": 0.1666666716337204,
+          "name": "CurrentStateTrigger",
+          "data": 1
+        }
+      ]
+    },
+    "playerFall": {
+      "url": "player-playerFall.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 10,
+      "loop": true,
+      "durations": [
+        1.0000000149011612,
+        1.0000000149011612,
+        1.0000000894069672
+      ],
+      "events": []
+    },
+    "playerGrabClimb": {
+      "url": "player-playerGrabClimb.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 18,
+      "loop": false,
+      "durations": [
+        1.0000000074505806,
+        1.0000000074505806,
+        1.000000074505806,
+        0.9999999403953552,
+        1.0000002086162567,
+        0.9999999403953552,
+        0.9999999403953552,
+        0.9999999403953552,
+        0.9999999403953552
+      ],
+      "events": [
+        {
+          "time": 0.4444444477558136,
+          "name": "GrabClimbMoveTrigger",
+          "data": 0
+        },
+        {
+          "time": 0.4444444477558136,
+          "name": "CurrentStateTrigger",
+          "data": 1
+        }
+      ]
+    },
+    "playerHurt": {
+      "url": "player-playerHurt.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 12,
+      "loop": false,
+      "durations": [
+        1.0000000298023224,
+        1.0000000298023224,
+        0.9999999403953552,
+        1.0000001192092896
+      ],
+      "events": []
+    },
+    "playerJump": {
+      "url": "player-playerJump.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 10,
+      "loop": true,
+      "durations": [
+        1.0000000149011612,
+        1.0000000149011612,
+        1.0000000894069672
+      ],
+      "events": []
+    },
+    "playerJump2": {
+      "url": "player-playerJump2.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 10,
+      "loop": true,
+      "durations": [
+        1.0000000149011612,
+        1.0000000149011612,
+        1.0000000894069672
+      ],
+      "events": []
+    },
+    "playerJumpAttack_end": {
+      "url": "player-playerJumpAttack_end.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 18,
+      "loop": false,
+      "durations": [
+        1.0000000074505806,
+        1.0000000074505806,
+        1.000000074505806,
+        0.9999999403953552,
+        1.0000002086162567
+      ],
+      "events": [
+        {
+          "time": 0,
+          "name": "AttackTrigger",
+          "data": 0
+        },
+        {
+          "time": 0.2222222238779068,
+          "name": "CurrentStateTrigger",
+          "data": 1
+        }
+      ]
+    },
+    "playerJumpAttack_start": {
+      "url": "player-playerJumpAttack_start.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 18,
+      "loop": false,
+      "durations": [
+        1.0000000074505806,
+        1.0000000074505806,
+        1.000000074505806
+      ],
+      "events": []
+    },
+    "playerMove": {
+      "url": "player-playerMove.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 20,
+      "loop": true,
+      "durations": [
+        1.0000000149011612,
+        1.0000000149011612,
+        1.0000000894069672,
+        0.9999999403953552,
+        0.9999999403953552,
+        1.000000238418579,
+        0.9999996423721313,
+        1.000000238418579,
+        0.9999996423721313,
+        1.000000238418579,
+        1.000000238418579,
+        1.000000238418579,
+        0.9999990463256836,
+        1.000000238418579,
+        1.000000238418579,
+        1.000000238418579
+      ],
+      "events": [
+        {
+          "time": 0.25,
+          "name": "Footstep",
+          "data": 0
+        },
+        {
+          "time": 0.6499999761581421,
+          "name": "Footstep",
+          "data": 1
+        }
+      ]
+    },
+    "playerSlide": {
+      "url": "player-playerSlide.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 12,
+      "loop": true,
+      "durations": [
+        1.0000000298023224,
+        1.0000000298023224,
+        0.9999999403953552,
+        1.0000001192092896
+      ],
+      "events": []
+    },
+    "playerSuccessfulCounterAttack": {
+      "url": "player-playerSuccessfulCounterAttack.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 20,
+      "loop": true,
+      "durations": [
+        1.0000000149011612,
+        1.0000000149011612,
+        1.0000000894069672,
+        0.9999999403953552,
+        0.9999999403953552
+      ],
+      "events": [
+        {
+          "time": 0.20000000298023224,
+          "name": "CurrentStateTrigger",
+          "data": 0
+        }
+      ]
+    },
+    "playerThrowSword": {
+      "url": "player-playerThrowSword.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 14,
+      "loop": false,
+      "durations": [
+        1.0000000447034836,
+        1.0000000447034836,
+        1.000000149011612
+      ],
+      "events": []
+    },
+    "playerThrowSword_Performed": {
+      "url": "player-playerThrowSword_Performed.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 14,
+      "loop": false,
+      "durations": [
+        1.0000000447034836,
+        1.0000000447034836,
+        0.9999999403953552,
+        1.000000149011612
+      ],
+      "events": [
+        {
+          "time": 0.0714285746216774,
+          "name": "ThrowSword",
+          "data": 0
+        },
+        {
+          "time": 0.2142857164144516,
+          "name": "CurrentStateTrigger",
+          "data": 1
+        }
+      ]
+    },
+    "playerUpwardStrike": {
+      "url": "player-playerUpwardStrike.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 17,
+      "loop": false,
+      "durations": [
+        1.0000000037252903,
+        1.0000000037252903,
+        1.0000000670552254,
+        0.9999999403953552,
+        1.0000001937150955,
+        0.9999999403953552
+      ],
+      "events": [
+        {
+          "time": 0.11764705926179886,
+          "name": "UpwardAttackTrigger",
+          "data": 0
+        },
+        {
+          "time": 0.29411765933036804,
+          "name": "CurrentStateTrigger",
+          "data": 1
+        }
+      ]
+    },
+    "playerWalk": {
+      "url": "player-playerWalk.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 12,
+      "loop": true,
+      "durations": [
+        1.0000000298023224,
+        1.0000000298023224,
+        0.9999999403953552,
+        1.0000001192092896,
+        0.9999997615814209,
+        1.0000001192092896,
+        0.9999997615814209,
+        1.0000004768371582,
+        0.9999997615814209,
+        0.9999997615814209,
+        1.0000004768371582,
+        0.9999997615814209
+      ],
+      "events": [
+        {
+          "time": 0.1666666716337204,
+          "name": "Footstep",
+          "data": 0
+        },
+        {
+          "time": 0.6666666865348816,
+          "name": "Footstep",
+          "data": 1
+        }
+      ]
+    },
+    "playerWallGrab": {
+      "url": "player-playerWallGrab.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 5,
+      "loop": false,
+      "durations": [
+        1.0000000149011612
+      ],
+      "events": []
+    },
+    "playerWallGrabClimb": {
+      "url": "player-playerWallGrabClimb.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 10,
+      "loop": true,
+      "durations": [
+        1.0000000149011612,
+        1.0000000149011612,
+        1.0000000894069672
+      ],
+      "events": []
+    },
+    "playerWallSlide": {
+      "url": "player-playerWallSlide.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 10,
+      "loop": true,
+      "durations": [
+        1.0000000149011612,
+        1.0000000149011612,
+        1.0000000894069672
+      ],
+      "events": []
+    }
+  }
+}

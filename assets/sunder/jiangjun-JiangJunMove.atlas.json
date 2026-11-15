@@ -1,0 +1,174 @@
+{
+  "frames": {
+    "f00000.png": {
+      "frame": {
+        "x": 990,
+        "y": 295,
+        "w": 96,
+        "h": 96
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      }
+    },
+    "f00001.png": {
+      "frame": {
+        "x": 892,
+        "y": 295,
+        "w": 96,
+        "h": 96
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      }
+    },
+    "f00002.png": {
+      "frame": {
+        "x": 1088,
+        "y": 295,
+        "w": 96,
+        "h": 96
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      }
+    },
+    "f00003.png": {
+      "frame": {
+        "x": 1186,
+        "y": 295,
+        "w": 96,
+        "h": 96
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      }
+    },
+    "f00004.png": {
+      "frame": {
+        "x": 1284,
+        "y": 295,
+        "w": 96,
+        "h": 96
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      }
+    },
+    "f00005.png": {
+      "frame": {
+        "x": 1382,
+        "y": 295,
+        "w": 96,
+        "h": 96
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      }
+    },
+    "f00006.png": {
+      "frame": {
+        "x": 1480,
+        "y": 295,
+        "w": 96,
+        "h": 96
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      }
+    },
+    "f00007.png": {
+      "frame": {
+        "x": 1578,
+        "y": 295,
+        "w": 96,
+        "h": 96
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      }
+    }
+  },
+  "meta": {
+    "image": "jiangjun.png",
+    "size": {
+      "w": 1971,
+      "h": 492
+    },
+    "scale": "1",
+    "scaleMode": "nearest",
+    "baseUrl": "jiangjun/jiangjun-JiangJunMove.atlas.json"
+  }
+}

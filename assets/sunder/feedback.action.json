@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "poster": {
+    "url": "feedback-poster.png",
+    "width": 393,
+    "height": 111
+  },
+  "defaultAction": "Vfx_Counter",
+  "actions": {
+    "Vfx_Counter": {
+      "url": "feedback-Vfx_Counter.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 20,
+      "loop": false,
+      "durations": [
+        1.0000000149011612,
+        1.0000000149011612,
+        1.0000000894069672,
+        0.9999999403953552,
+        0.9999999403953552,
+        1.000000238418579
+      ],
+      "events": []
+    },
+    "Vfx_DashDust": {
+      "url": "feedback-Vfx_DashDust.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 18,
+      "loop": false,
+      "durations": [
+        1.0000000074505806,
+        1.0000000074505806,
+        1.000000074505806,
+        0.9999999403953552,
+        1.0000002086162567,
+        0.9999999403953552,
+        0.9999999403953552,
+        0.9999999403953552,
+        0.9999999403953552
+      ],
+      "events": []
+    },
+    "Vfx_JumpDust": {
+      "url": "feedback-Vfx_JumpDust.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 14,
+      "loop": false,
+      "durations": [
+        1.0000000447034836,
+        1.0000000447034836,
+        0.9999999403953552,
+        1.000000149011612,
+        0.9999999403953552,
+        0.9999999403953552
+      ],
+      "events": []
+    },
+    "Vfx_LandDust": {
+      "url": "feedback-Vfx_LandDust.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 12,
+      "loop": false,
+      "durations": [
+        1.0000000298023224,
+        1.0000000298023224,
+        0.9999999403953552,
+        1.0000001192092896,
+        0.9999997615814209
+      ],
+      "events": []
+    }
+  }
+}

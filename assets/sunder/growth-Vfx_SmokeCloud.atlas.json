@@ -1,0 +1,254 @@
+{
+  "frames": {
+    "f00000.png": {
+      "frame": {
+        "x": 1051,
+        "y": 1,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "spriteSourceSize": {
+        "x": 32,
+        "y": 32,
+        "w": 64,
+        "h": 64
+      }
+    },
+    "f00001.png": {
+      "frame": {
+        "x": 1117,
+        "y": 1,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "spriteSourceSize": {
+        "x": 32,
+        "y": 32,
+        "w": 64,
+        "h": 64
+      }
+    },
+    "f00002.png": {
+      "frame": {
+        "x": 1183,
+        "y": 1,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "spriteSourceSize": {
+        "x": 32,
+        "y": 32,
+        "w": 64,
+        "h": 64
+      }
+    },
+    "f00003.png": {
+      "frame": {
+        "x": 1249,
+        "y": 1,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "spriteSourceSize": {
+        "x": 32,
+        "y": 32,
+        "w": 64,
+        "h": 64
+      }
+    },
+    "f00004.png": {
+      "frame": {
+        "x": 1315,
+        "y": 1,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "spriteSourceSize": {
+        "x": 32,
+        "y": 32,
+        "w": 64,
+        "h": 64
+      }
+    },
+    "f00005.png": {
+      "frame": {
+        "x": 1381,
+        "y": 1,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "spriteSourceSize": {
+        "x": 32,
+        "y": 32,
+        "w": 64,
+        "h": 64
+      }
+    },
+    "f00006.png": {
+      "frame": {
+        "x": 1447,
+        "y": 1,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "spriteSourceSize": {
+        "x": 32,
+        "y": 32,
+        "w": 64,
+        "h": 64
+      }
+    },
+    "f00007.png": {
+      "frame": {
+        "x": 1513,
+        "y": 1,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "spriteSourceSize": {
+        "x": 32,
+        "y": 32,
+        "w": 64,
+        "h": 64
+      }
+    },
+    "f00008.png": {
+      "frame": {
+        "x": 1579,
+        "y": 1,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "spriteSourceSize": {
+        "x": 32,
+        "y": 32,
+        "w": 64,
+        "h": 64
+      }
+    },
+    "f00009.png": {
+      "frame": {
+        "x": 1645,
+        "y": 1,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "spriteSourceSize": {
+        "x": 32,
+        "y": 32,
+        "w": 64,
+        "h": 64
+      }
+    },
+    "f00010.png": {
+      "frame": {
+        "x": 1711,
+        "y": 1,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "spriteSourceSize": {
+        "x": 32,
+        "y": 32,
+        "w": 64,
+        "h": 64
+      }
+    },
+    "f00011.png": {
+      "frame": {
+        "x": 1777,
+        "y": 1,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "spriteSourceSize": {
+        "x": 32,
+        "y": 32,
+        "w": 64,
+        "h": 64
+      }
+    }
+  },
+  "meta": {
+    "image": "growth.png",
+    "size": {
+      "w": 1843,
+      "h": 130
+    },
+    "scale": "1",
+    "scaleMode": "nearest",
+    "baseUrl": "growth/growth-Vfx_SmokeCloud.atlas.json"
+  }
+}

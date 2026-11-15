@@ -1,0 +1,24 @@
+{
+  "name": "飞剑",
+  "description": "细长银钢直剑指向右方，剑后有短促青蓝残影。",
+  "type": "ui",
+  "designWidth": 36,
+  "designHeight": 36,
+  "width": 36,
+  "height": 36,
+  "generation": {
+    "model": "gpt-image-2",
+    "artStyle": "src/test/x/remake/art-style.json",
+    "source": "破阵触屏动作图标精灵图",
+    "row": 1,
+    "column": 3,
+    "crop": {
+      "left": 650,
+      "top": 85,
+      "width": 310,
+      "height": 80
+    },
+    "sizing": "最近邻缩放到指定可见尺寸，居中放在透明正方形中",
+    "visibleExtent": 34
+  }
+}

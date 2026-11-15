@@ -1,0 +1,134 @@
+{
+  "frames": {
+    "f00000.png": {
+      "frame": {
+        "x": 1969,
+        "y": 1,
+        "w": 13,
+        "h": 42
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 13,
+        "h": 42
+      },
+      "spriteSourceSize": {
+        "x": 13.5,
+        "y": 9.5,
+        "w": 13,
+        "h": 42
+      }
+    },
+    "f00001.png": {
+      "frame": {
+        "x": 1984,
+        "y": 1,
+        "w": 13,
+        "h": 42
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 13,
+        "h": 42
+      },
+      "spriteSourceSize": {
+        "x": 13.5,
+        "y": 9.5,
+        "w": 13,
+        "h": 42
+      }
+    },
+    "f00002.png": {
+      "frame": {
+        "x": 1999,
+        "y": 1,
+        "w": 13,
+        "h": 42
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 13,
+        "h": 42
+      },
+      "spriteSourceSize": {
+        "x": 13.5,
+        "y": 9.5,
+        "w": 13,
+        "h": 42
+      }
+    },
+    "f00003.png": {
+      "frame": {
+        "x": 2014,
+        "y": 1,
+        "w": 13,
+        "h": 42
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 13,
+        "h": 42
+      },
+      "spriteSourceSize": {
+        "x": 13.5,
+        "y": 9.5,
+        "w": 13,
+        "h": 42
+      }
+    },
+    "f00004.png": {
+      "frame": {
+        "x": 2029,
+        "y": 1,
+        "w": 13,
+        "h": 42
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 13,
+        "h": 42
+      },
+      "spriteSourceSize": {
+        "x": 13.5,
+        "y": 9.5,
+        "w": 13,
+        "h": 42
+      }
+    },
+    "f00005.png": {
+      "frame": {
+        "x": 1,
+        "y": 131,
+        "w": 13,
+        "h": 42
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 13,
+        "h": 42
+      },
+      "spriteSourceSize": {
+        "x": 13.5,
+        "y": 9.5,
+        "w": 13,
+        "h": 42
+      }
+    }
+  },
+  "meta": {
+    "image": "presentation.png",
+    "size": {
+      "w": 2044,
+      "h": 174
+    },
+    "scale": "1",
+    "scaleMode": "nearest",
+    "baseUrl": "presentation/presentation-torch.atlas.json"
+  }
+}

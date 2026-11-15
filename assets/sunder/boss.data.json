@@ -1,0 +1,5060 @@
+{
+  "origin": {
+    "x": -72,
+    "y": 24
+  },
+  "first": {
+    "serializedFile": "level3",
+    "pathId": 1874,
+    "kind": "jiangjun",
+    "source": {
+      "path": "Data/level3/GameObject.jsonl",
+      "line": 1874
+    },
+    "z": 0,
+    "world": {
+      "x": 220.43600463867188,
+      "y": -1.4270000457763672
+    },
+    "visual": {
+      "x": 0,
+      "y": -19.920000076293945,
+      "scaleX": 1,
+      "scaleY": 1,
+      "layer": -8,
+      "order": 0
+    },
+    "motion": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 1874
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 1,
+        "m_PathID": 489
+      },
+      "m_Name": "",
+      "facingRight": 1,
+      "whatIsGround": {
+        "m_Bits": 64
+      },
+      "whatIsOneWayPlatform": {
+        "m_Bits": 8192
+      },
+      "groundCheckDistance": 0.4300000071525574,
+      "wallCheckDistance": 1.9299999475479126,
+      "groundCheck": {
+        "m_FileID": 0,
+        "m_PathID": 2914
+      },
+      "primaryWallCheck": {
+        "m_FileID": 0,
+        "m_PathID": 3094
+      },
+      "secondaryWallCheck": {
+        "m_FileID": 0,
+        "m_PathID": 3021
+      },
+      "wallGrabAboveCheck": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "wallGrabAboveDistance": 0,
+      "wallGrabBelowCheck": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "wallGrabBelowDistance": 0,
+      "enableAnimSpeedDebug": 1,
+      "coyoteTime": 0.20000000298023224,
+      "coyotaTimeCouter": 0,
+      "questTargetId": "Enemy_JiangJun",
+      "startFacingRight": 0,
+      "battleMoveSpeed": 7,
+      "attackDistance": 2.9000000953674316,
+      "attackCooldown": 0.5,
+      "canChasePlayer": 1,
+      "battleTimeDuration": 50,
+      "minRetreatDistance": 1,
+      "retreatVelocity": {
+        "x": 5,
+        "y": 3
+      },
+      "lastTimeAttacked": 0,
+      "stunnedDuration": 3,
+      "stunnedVelocity": {
+        "x": 7,
+        "y": 7
+      },
+      "canBeStunned": 0,
+      "idleTime": 2,
+      "moveSpeed": 2,
+      "moveAnimSpeedMultiplier": 1,
+      "isPatrolEnabled": 1,
+      "blockKnockbackVelocity": {
+        "x": 8,
+        "y": 3
+      },
+      "blockKnockbackDuration": 0.5,
+      "whatIsPlayer": {
+        "m_Bits": 128
+      },
+      "playerCheck": {
+        "m_FileID": 0,
+        "m_PathID": 3013
+      },
+      "playerCheck2": {
+        "m_FileID": 0,
+        "m_PathID": 3013
+      },
+      "playerCheckDistance": 15,
+      "canMove": 0,
+      "canBattleMove": 1,
+      "canBeLaunched": 1,
+      "jiangjunLv2Prefab": {
+        "m_FileID": 3,
+        "m_PathID": 535
+      },
+      "newJiangjunvelocity": {
+        "x": 0,
+        "y": 0
+      },
+      "attackWeights": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "attackBoolNames": [
+        "attack",
+        "attack2",
+        "specialAttack",
+        "chargeStab"
+      ],
+      "stabTargetCheck": {
+        "m_FileID": 0,
+        "m_PathID": 2845
+      },
+      "stabTargetCheckRadius": 1.9800000190734863,
+      "specialAttackCheck": {
+        "m_FileID": 0,
+        "m_PathID": 2876
+      },
+      "specialAttackCheckRadius": 2.2699999809265137,
+      "playerAboveTriggerTime": 1,
+      "aboveCheckHorizontalRange": 2.5,
+      "aboveCheckMinHeight": 1.9900000095367432,
+      "aboveGraceDuration": 0.30000001192092896,
+      "bgmIntro": "jiangJunLv1_Intro",
+      "bgmLoop": "jiangJunLv1_Loop",
+      "bgmOutro": "jiangJunLv1_Outro"
+    },
+    "combat": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 1874
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 1,
+        "m_PathID": 547
+      },
+      "m_Name": "",
+      "basicAttackScale": {
+        "phyiscal": 1,
+        "elemental": 1,
+        "chillDuration": 3,
+        "chillSlowMulitplier": 0.20000000298023224,
+        "burnDuratin": 3,
+        "burnDamageScale": 1,
+        "shockDuration": 3,
+        "shockDamageScale": 1,
+        "shockCharge": 0.4000000059604645
+      },
+      "targetCheck": {
+        "m_FileID": 0,
+        "m_PathID": 2957
+      },
+      "targetCheckRadius": 1.8600000143051147,
+      "whatIsTarget": {
+        "m_Bits": 128
+      },
+      "downwardCheck": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "downwardCheckRadius": 0.800000011920929,
+      "whatIsDownwardTarget": {
+        "m_Bits": 0
+      },
+      "upwardCheck": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "upwardCheckRadius": 0.800000011920929,
+      "whatIsUpwardTarget": {
+        "m_Bits": 0
+      },
+      "hitStopDuration": 0.05999999865889549,
+      "hitStopAnimSpeed": 0.10000000149011612,
+      "enableHitStop": 1,
+      "enableHitStopDebug": 1
+    },
+    "stats": {
+      "maxHealth": 2000,
+      "healthRegen": 0,
+      "attackSpeed": 1,
+      "damage": 15,
+      "critPower": 40,
+      "critChance": 0,
+      "armorReduction": 0,
+      "fireDamage": 0,
+      "iceDamage": 0,
+      "lightningDamage": 0,
+      "armor": 0,
+      "evasion": 0,
+      "fireRes": 0,
+      "iceRes": 0,
+      "lightningRes": 0,
+      "strength": 0,
+      "agility": 0,
+      "intelligence": 0,
+      "vitality": 0
+    },
+    "health": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 1874
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 1,
+        "m_PathID": 1573
+      },
+      "m_Name": "",
+      "currentHealth": 0,
+      "regenInterval": 1,
+      "canRegenerateHealth": 1,
+      "invincibilityDuration": 3,
+      "blinkInterval": 0.10000000149011612,
+      "knockbackPower": {
+        "x": 1.5,
+        "y": 2.5
+      },
+      "heavyKnockbackPower": {
+        "x": 7,
+        "y": 7
+      },
+      "knockbackDuration": 0.20000000298023224,
+      "heavyKnockbackDuration": 0.5,
+      "heavyDamageThreshold": 0.30000001192092896
+    },
+    "vfx": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 1874
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 1,
+        "m_PathID": 964
+      },
+      "m_Name": "",
+      "popUpTextPrefab": {
+        "m_FileID": 4,
+        "m_PathID": 922
+      },
+      "imageEchoInterval": 0.05000000074505806,
+      "imageEchoPrefab": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "onDamageMaterial": {
+        "m_FileID": 4,
+        "m_PathID": 7
+      },
+      "onDamageVfxDuration": 0.20000000298023224,
+      "hitVfxColor": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "hitVfx": {
+        "m_FileID": 4,
+        "m_PathID": 930
+      },
+      "hitVfx2": {
+        "m_FileID": 4,
+        "m_PathID": 919
+      },
+      "critHitVfx": {
+        "m_FileID": 4,
+        "m_PathID": 932
+      },
+      "chillColur": {
+        "r": 0,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "burnColur": {
+        "r": 1,
+        "g": 0.2905203700065613,
+        "b": 0.0896226167678833,
+        "a": 1
+      },
+      "shockColur": {
+        "r": 1,
+        "g": 0.9215686321258545,
+        "b": 0.01568627543747425,
+        "a": 1
+      },
+      "burnVFX": {
+        "m_FileID": 0,
+        "m_PathID": 3304
+      },
+      "chillVFX": {
+        "m_FileID": 0,
+        "m_PathID": 3291
+      },
+      "shockVFX": {
+        "m_FileID": 0,
+        "m_PathID": 3285
+      },
+      "attackAlert": {
+        "m_FileID": 0,
+        "m_PathID": 467
+      }
+    },
+    "sfx": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 1874
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 1,
+        "m_PathID": 1678
+      },
+      "m_Name": "",
+      "attackHit": "player_attackHit",
+      "attackMiss": "player_akkactMiss",
+      "skillHit": "",
+      "footstep": "",
+      "waterFootstep": "",
+      "dash": "",
+      "slide": "",
+      "jump": "",
+      "land": "",
+      "grabClimb": "",
+      "wallJump": "",
+      "counter": "",
+      "block": "",
+      "contactHit": "",
+      "soundDistance": 999,
+      "showGizmo": 0
+    },
+    "probes": {
+      "groundCheck": {
+        "x": 22.8799991607666,
+        "y": 20.799999237060547
+      },
+      "primaryWallCheck": {
+        "x": 0,
+        "y": 13.071999549865723
+      },
+      "secondaryWallCheck": {
+        "x": 0,
+        "y": -8.960000038146973
+      },
+      "playerCheck": {
+        "x": 0,
+        "y": 0
+      },
+      "playerCheck2": {
+        "x": 0,
+        "y": 0
+      },
+      "targetCheck": {
+        "x": 15.199999809265137,
+        "y": 1.9199999570846558
+      },
+      "stabTargetCheck": {
+        "x": 27.040000915527344,
+        "y": 1.9199999570846558
+      },
+      "specialAttackCheck": {
+        "x": 11.680000305175781,
+        "y": -30.719999313354492
+      }
+    },
+    "contact": {
+      "multiplier": 0.5,
+      "shape": {
+        "type": "capsule",
+        "width": 17.0535888671875,
+        "height": 45.1622314453125,
+        "x": -0.64666748046875,
+        "y": 2.0563125610351562
+      }
+    },
+    "material": {
+      "id": "Unity:DefaultPhysicsMaterial2D",
+      "friction": 0.4,
+      "bounciness": 0
+    },
+    "materials": {},
+    "drops": null,
+    "components": {
+      "Enemy_Jiangjun": {
+        "serializedFile": "level3",
+        "pathId": 7779,
+        "source": {
+          "path": "Data/level3/MonoBehaviour.Enemy_Jiangjun.jsonl",
+          "line": 1
+        }
+      },
+      "Entity_Combat": {
+        "serializedFile": "level3",
+        "pathId": 8638,
+        "source": {
+          "path": "Data/level3/MonoBehaviour.Entity_Combat.jsonl",
+          "line": 8
+        }
+      },
+      "Enemy_Health": {
+        "serializedFile": "level3",
+        "pathId": 8189,
+        "source": {
+          "path": "Data/level3/MonoBehaviour.Enemy_Health.jsonl",
+          "line": 4
+        }
+      },
+      "Enemy_VFX": {
+        "serializedFile": "level3",
+        "pathId": 9234,
+        "source": {
+          "path": "Data/level3/MonoBehaviour.Enemy_VFX.jsonl",
+          "line": 13
+        }
+      },
+      "Entity_Stats": {
+        "serializedFile": "level3",
+        "pathId": 8307,
+        "source": {
+          "path": "Data/level3/MonoBehaviour.Entity_Stats.jsonl",
+          "line": 1
+        }
+      },
+      "Entity_StatusHandler": {
+        "serializedFile": "level3",
+        "pathId": 8886,
+        "source": {
+          "path": "Data/level3/MonoBehaviour.Entity_StatusHandler.jsonl",
+          "line": 13
+        }
+      },
+      "Entity_SFX": {
+        "serializedFile": "level3",
+        "pathId": 8821,
+        "source": {
+          "path": "Data/level3/MonoBehaviour.Entity_SFX.jsonl",
+          "line": 5
+        }
+      },
+      "CinemachineImpulseSource": {
+        "serializedFile": "level3",
+        "pathId": 7877,
+        "source": {
+          "path": "Data/level3/MonoBehaviour.Unity.Cinemachine.CinemachineImpulseSource.jsonl",
+          "line": 2
+        }
+      }
+    },
+    "shape": {
+      "type": "capsule",
+      "width": 16.768310546875,
+      "height": 45.23557662963867,
+      "x": -0.7847900390625,
+      "y": 2.379964828491211
+    },
+    "position": {
+      "x": 4678.97607421875,
+      "y": 406.8320007324219
+    }
+  },
+  "second": {
+    "serializedFile": "sharedassets3.assets",
+    "pathId": 535,
+    "kind": "jiangjunlv2",
+    "source": {
+      "path": "Data/sharedassets3.assets/GameObject.jsonl",
+      "line": 24
+    },
+    "z": 0,
+    "world": {
+      "x": 100.44000244140625,
+      "y": -1.4270000457763672
+    },
+    "visual": {
+      "x": 0,
+      "y": -19.920000076293945,
+      "scaleX": 1,
+      "scaleY": 1,
+      "layer": -8,
+      "order": 0
+    },
+    "motion": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 535
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 1,
+        "m_PathID": 1756
+      },
+      "m_Name": "",
+      "facingRight": 1,
+      "whatIsGround": {
+        "m_Bits": 64
+      },
+      "whatIsOneWayPlatform": {
+        "m_Bits": 8192
+      },
+      "groundCheckDistance": 0.4300000071525574,
+      "wallCheckDistance": 1.9299999475479126,
+      "groundCheck": {
+        "m_FileID": 0,
+        "m_PathID": 570
+      },
+      "primaryWallCheck": {
+        "m_FileID": 0,
+        "m_PathID": 554
+      },
+      "secondaryWallCheck": {
+        "m_FileID": 0,
+        "m_PathID": 562
+      },
+      "wallGrabAboveCheck": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "wallGrabAboveDistance": 0,
+      "wallGrabBelowCheck": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "wallGrabBelowDistance": 0,
+      "enableAnimSpeedDebug": 1,
+      "coyoteTime": 0.20000000298023224,
+      "coyotaTimeCouter": 0,
+      "questTargetId": "Enemy_JiangJun_Lv2",
+      "startFacingRight": 0,
+      "battleMoveSpeed": 7,
+      "attackDistance": 2.9000000953674316,
+      "attackCooldown": 0.5,
+      "canChasePlayer": 1,
+      "battleTimeDuration": 50,
+      "minRetreatDistance": 1,
+      "retreatVelocity": {
+        "x": 5,
+        "y": 3
+      },
+      "lastTimeAttacked": 0,
+      "stunnedDuration": 3,
+      "stunnedVelocity": {
+        "x": 7,
+        "y": 7
+      },
+      "canBeStunned": 0,
+      "idleTime": 2,
+      "moveSpeed": 2,
+      "moveAnimSpeedMultiplier": 1,
+      "isPatrolEnabled": 1,
+      "blockKnockbackVelocity": {
+        "x": 8,
+        "y": 3
+      },
+      "blockKnockbackDuration": 0.5,
+      "whatIsPlayer": {
+        "m_Bits": 128
+      },
+      "playerCheck": {
+        "m_FileID": 0,
+        "m_PathID": 571
+      },
+      "playerCheck2": {
+        "m_FileID": 0,
+        "m_PathID": 571
+      },
+      "playerCheckDistance": 15,
+      "canMove": 1,
+      "canBattleMove": 1,
+      "canBeLaunched": 1,
+      "attackWeights": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "attackBoolNames": [
+        "attack",
+        "attack2",
+        "specialAttack",
+        "chargeStab"
+      ],
+      "stabTargetCheck": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "stabTargetCheckRadius": 1,
+      "meteoritePrefab": {
+        "m_FileID": 0,
+        "m_PathID": 534
+      },
+      "meteoriteCount": 8,
+      "meteoriteSpawnHeight": 15,
+      "meteoriteSpawnRangeX": 12,
+      "meteoriteSpawnInterval": 0.15000000596046448,
+      "spawnZoneTag": "MeteoriteSpawnZone",
+      "useSpawnZone": 1,
+      "healthBarPrefab": {
+        "m_FileID": 0,
+        "m_PathID": 512
+      },
+      "doorOpenTag": "DoorOpen",
+      "doorOpenName": "SwitchTrigger_DoorOpen",
+      "specialAttackCheck": {
+        "m_FileID": 0,
+        "m_PathID": 561
+      },
+      "specialAttackCheckRadius": 2.2699999809265137,
+      "bgmIntro": "jiangJunLv2_Intro",
+      "bgmLoop": "jiangJunLv2_Loop",
+      "bgmOutro": "jiangJunLv2_Outro"
+    },
+    "combat": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 535
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 1,
+        "m_PathID": 547
+      },
+      "m_Name": "",
+      "basicAttackScale": {
+        "phyiscal": 1,
+        "elemental": 1,
+        "chillDuration": 3,
+        "chillSlowMulitplier": 0.20000000298023224,
+        "burnDuratin": 3,
+        "burnDamageScale": 1,
+        "shockDuration": 3,
+        "shockDamageScale": 1,
+        "shockCharge": 0.4000000059604645
+      },
+      "targetCheck": {
+        "m_FileID": 0,
+        "m_PathID": 557
+      },
+      "targetCheckRadius": 1.8600000143051147,
+      "whatIsTarget": {
+        "m_Bits": 128
+      },
+      "downwardCheck": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "downwardCheckRadius": 0.800000011920929,
+      "whatIsDownwardTarget": {
+        "m_Bits": 0
+      },
+      "upwardCheck": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "upwardCheckRadius": 0.800000011920929,
+      "whatIsUpwardTarget": {
+        "m_Bits": 0
+      },
+      "hitStopDuration": 0.05999999865889549,
+      "hitStopAnimSpeed": 0.10000000149011612,
+      "enableHitStop": 1,
+      "enableHitStopDebug": 1
+    },
+    "stats": {
+      "maxHealth": 3500,
+      "healthRegen": 0,
+      "attackSpeed": 1,
+      "damage": 25,
+      "critPower": 40,
+      "critChance": 0,
+      "armorReduction": 0,
+      "fireDamage": 50,
+      "iceDamage": 0,
+      "lightningDamage": 0,
+      "armor": 0,
+      "evasion": 0,
+      "fireRes": 100,
+      "iceRes": 0,
+      "lightningRes": 0,
+      "strength": 0,
+      "agility": 0,
+      "intelligence": 0,
+      "vitality": 0
+    },
+    "health": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 535
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 1,
+        "m_PathID": 1573
+      },
+      "m_Name": "",
+      "currentHealth": 0,
+      "regenInterval": 1,
+      "canRegenerateHealth": 1,
+      "invincibilityDuration": 1.2999999523162842,
+      "blinkInterval": 0.15000000596046448,
+      "knockbackPower": {
+        "x": 1.5,
+        "y": 2.5
+      },
+      "heavyKnockbackPower": {
+        "x": 7,
+        "y": 7
+      },
+      "knockbackDuration": 0.20000000298023224,
+      "heavyKnockbackDuration": 0.5,
+      "heavyDamageThreshold": 0.30000001192092896
+    },
+    "vfx": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 535
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 1,
+        "m_PathID": 964
+      },
+      "m_Name": "",
+      "popUpTextPrefab": {
+        "m_FileID": 5,
+        "m_PathID": 922
+      },
+      "imageEchoInterval": 0.05000000074505806,
+      "imageEchoPrefab": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "onDamageMaterial": {
+        "m_FileID": 5,
+        "m_PathID": 7
+      },
+      "onDamageVfxDuration": 0.20000000298023224,
+      "hitVfxColor": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "hitVfx": {
+        "m_FileID": 5,
+        "m_PathID": 930
+      },
+      "hitVfx2": {
+        "m_FileID": 5,
+        "m_PathID": 919
+      },
+      "critHitVfx": {
+        "m_FileID": 5,
+        "m_PathID": 932
+      },
+      "chillColur": {
+        "r": 0,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "burnColur": {
+        "r": 1,
+        "g": 0.2905203700065613,
+        "b": 0.0896226167678833,
+        "a": 1
+      },
+      "shockColur": {
+        "r": 1,
+        "g": 0.9215686321258545,
+        "b": 0.01568627543747425,
+        "a": 1
+      },
+      "burnVFX": {
+        "m_FileID": 0,
+        "m_PathID": 587
+      },
+      "chillVFX": {
+        "m_FileID": 0,
+        "m_PathID": 589
+      },
+      "shockVFX": {
+        "m_FileID": 0,
+        "m_PathID": 590
+      },
+      "attackAlert": {
+        "m_FileID": 0,
+        "m_PathID": 539
+      }
+    },
+    "sfx": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 535
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 1,
+        "m_PathID": 1678
+      },
+      "m_Name": "",
+      "attackHit": "player_attackHit",
+      "attackMiss": "player_akkactMiss",
+      "skillHit": "",
+      "footstep": "",
+      "waterFootstep": "",
+      "dash": "",
+      "slide": "",
+      "jump": "",
+      "land": "",
+      "grabClimb": "",
+      "wallJump": "",
+      "counter": "",
+      "block": "",
+      "contactHit": "",
+      "soundDistance": 999,
+      "showGizmo": 0
+    },
+    "probes": {
+      "groundCheck": {
+        "x": 22.8799991607666,
+        "y": 20.799999237060547
+      },
+      "primaryWallCheck": {
+        "x": 0,
+        "y": 13.071999549865723
+      },
+      "secondaryWallCheck": {
+        "x": 0,
+        "y": -8.960000038146973
+      },
+      "playerCheck": {
+        "x": 0,
+        "y": 0
+      },
+      "playerCheck2": {
+        "x": 0,
+        "y": 0
+      },
+      "targetCheck": {
+        "x": 15.199999809265137,
+        "y": 1.9199999570846558
+      },
+      "specialAttackCheck": {
+        "x": 11.6800537109375,
+        "y": -30.719999313354492
+      }
+    },
+    "contact": {
+      "multiplier": 0.5,
+      "shape": {
+        "type": "capsule",
+        "width": 17.0535888671875,
+        "height": 45.1622314453125,
+        "x": -0.64666748046875,
+        "y": 2.0563125610351562
+      }
+    },
+    "material": {
+      "id": "Unity:DefaultPhysicsMaterial2D",
+      "friction": 0.4,
+      "bounciness": 0
+    },
+    "materials": {},
+    "drops": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 535
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 1,
+        "m_PathID": 1500
+      },
+      "m_Name": "",
+      "itemDropPrefab": {
+        "m_FileID": 5,
+        "m_PathID": 923
+      },
+      "dropData": {
+        "m_FileID": 0,
+        "m_PathID": 628
+      },
+      "maxRarityAmount": 1200,
+      "maxItemsToDrop": 3,
+      "guaranteedDrops": [
+        {
+          "m_FileID": 5,
+          "m_PathID": 1127
+        },
+        {
+          "m_FileID": 5,
+          "m_PathID": 1128
+        }
+      ]
+    },
+    "components": {
+      "Enemy_JiangjunLv2": {
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 859,
+        "source": {
+          "path": "Data/sharedassets3.assets/MonoBehaviour.Enemy_JiangjunLv2.jsonl",
+          "line": 1
+        }
+      },
+      "Entity_Combat": {
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 840,
+        "source": {
+          "path": "Data/sharedassets3.assets/MonoBehaviour.Entity_Combat.jsonl",
+          "line": 1
+        }
+      },
+      "Enemy_Health": {
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 847,
+        "source": {
+          "path": "Data/sharedassets3.assets/MonoBehaviour.Enemy_Health.jsonl",
+          "line": 1
+        }
+      },
+      "Enemy_VFX": {
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 849,
+        "source": {
+          "path": "Data/sharedassets3.assets/MonoBehaviour.Enemy_VFX.jsonl",
+          "line": 1
+        }
+      },
+      "Entity_Stats": {
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 844,
+        "source": {
+          "path": "Data/sharedassets3.assets/MonoBehaviour.Entity_Stats.jsonl",
+          "line": 1
+        }
+      },
+      "Entity_StatusHandler": {
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 868,
+        "source": {
+          "path": "Data/sharedassets3.assets/MonoBehaviour.Entity_StatusHandler.jsonl",
+          "line": 1
+        }
+      },
+      "Entity_SFX": {
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 864,
+        "source": {
+          "path": "Data/sharedassets3.assets/MonoBehaviour.Entity_SFX.jsonl",
+          "line": 1
+        }
+      },
+      "CinemachineImpulseSource": {
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 866,
+        "source": {
+          "path": "Data/sharedassets3.assets/MonoBehaviour.Unity.Cinemachine.CinemachineImpulseSource.jsonl",
+          "line": 2
+        }
+      },
+      "Entity_DropManager": {
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 838,
+        "source": {
+          "path": "Data/sharedassets3.assets/MonoBehaviour.Entity_DropManager.jsonl",
+          "line": 1
+        }
+      }
+    },
+    "shape": {
+      "type": "capsule",
+      "width": 16.768310546875,
+      "height": 45.23557662963867,
+      "x": -0.7847900390625,
+      "y": 2.379964828491211
+    },
+    "position": {
+      "x": 4678.97607421875,
+      "y": 406.8320007324219
+    },
+    "loot": {
+      "maxRarityAmount": 1200,
+      "maxItemsToDrop": 3,
+      "guaranteed": [
+        "sharedassets1.assets:1127",
+        "sharedassets1.assets:1128"
+      ],
+      "items": [
+        "sharedassets1.assets:1132",
+        "sharedassets1.assets:1138",
+        "sharedassets1.assets:1086",
+        "sharedassets1.assets:1083",
+        "sharedassets1.assets:1080"
+      ]
+    }
+  },
+  "environment": [
+    {
+      "id": 24,
+      "kind": "Trigger_Water",
+      "name": "Trigger_Water",
+      "position": {
+        "x": 3110.0799560546875,
+        "y": 408.8222427368164
+      },
+      "values": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 24
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 819
+        },
+        "m_Name": "",
+        "footstepSoundName": "player_stepWater",
+        "enterSoundName": "player_waterLand",
+        "soundDistance": 10,
+        "waterSplashVFXPrefab": {
+          "m_FileID": 3,
+          "m_PathID": 542
+        },
+        "vfxDuration": 0.5,
+        "fixedWaterY": -4.395625114440918,
+        "splashXOffset": 0.800000011920929,
+        "isInWater": 0
+      },
+      "sound": null,
+      "shape": {
+        "type": "box",
+        "width": 1046.95947265625,
+        "height": 74.85519409179688,
+        "x": 4.0596923828125,
+        "y": 80.54747009277344
+      }
+    },
+    {
+      "id": 47,
+      "kind": "Door_Close",
+      "name": "SwitchTrigger_DoorClose",
+      "position": {
+        "x": 4389.9521484375,
+        "y": 380.24640011787415
+      },
+      "values": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 47
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 218
+        },
+        "m_Name": "",
+        "playerTag": "Player",
+        "doorOpenScript": {
+          "m_FileID": 0,
+          "m_PathID": 7608
+        },
+        "onTriggerEnter": {
+          "m_PersistentCalls": {
+            "m_Calls": [
+              {
+                "m_Target": {
+                  "m_FileID": 0,
+                  "m_PathID": 3226
+                },
+                "m_TargetAssemblyTypeName": "UnityEngine.Animator, UnityEngine",
+                "m_MethodName": "SetTrigger",
+                "m_Mode": 5,
+                "m_Arguments": {
+                  "m_ObjectArgument": {
+                    "m_FileID": 0,
+                    "m_PathID": 0
+                  },
+                  "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+                  "m_IntArgument": 1,
+                  "m_FloatArgument": 0,
+                  "m_StringArgument": "close",
+                  "m_BoolArgument": 0
+                },
+                "m_CallState": 2
+              }
+            ]
+          }
+        },
+        "visualIndicator": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "activeColor": {
+          "r": 0,
+          "g": 1,
+          "b": 0,
+          "a": 1
+        },
+        "inactiveColor": {
+          "r": 1,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        },
+        "bossHealthBar": {
+          "m_FileID": 0,
+          "m_PathID": 1514
+        },
+        "showHealthBar": 1
+      },
+      "sound": null,
+      "shape": {
+        "type": "box",
+        "width": 5.9188232421875,
+        "height": 255.924560546875,
+        "x": -3.00994873046875,
+        "y": -59.33837890625
+      }
+    },
+    {
+      "id": 74,
+      "kind": "Object_BossDoor",
+      "name": "Door",
+      "position": {
+        "x": 4263.072021484375,
+        "y": 384
+      },
+      "values": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 74
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 611
+        },
+        "m_Name": ""
+      },
+      "sound": null,
+      "shape": null
+    },
+    {
+      "id": 138,
+      "kind": "Trigger_WaterSound",
+      "name": "AudioSound",
+      "position": {
+        "x": 3152.6898193359375,
+        "y": 463.2399597167969
+      },
+      "values": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 138
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 2029
+        },
+        "m_Name": ""
+      },
+      "sound": {
+        "url": "boss-ambient-138.wav",
+        "volume": 1,
+        "loop": true,
+        "range": 1120
+      },
+      "shape": {
+        "type": "box",
+        "width": 1093.4495849609375,
+        "height": 347.1105651855469,
+        "x": -46.05401611328125,
+        "y": -100.05854797363281
+      }
+    },
+    {
+      "id": 177,
+      "kind": "MeteoriteSpawnZone",
+      "name": "Trigger_MeteoriteSpawnZone",
+      "position": {
+        "x": 4308.792724609375,
+        "y": 320.8442611694336
+      },
+      "values": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 177
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 1583
+        },
+        "m_Name": "",
+        "showGizmo": 1,
+        "gizmoColor": {
+          "r": 1,
+          "g": 0.5,
+          "b": 0,
+          "a": 0.30000001192092896
+        }
+      },
+      "sound": null,
+      "shape": {
+        "type": "box",
+        "width": 521.998046875,
+        "height": 29.958580017089844,
+        "x": 226.82666015625,
+        "y": -103.81681823730469
+      }
+    },
+    {
+      "id": 264,
+      "kind": "Trigger_WaterSound",
+      "name": "AudioSound",
+      "position": {
+        "x": 1153.0640006065369,
+        "y": 416.0111999511719
+      },
+      "values": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 264
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 2029
+        },
+        "m_Name": ""
+      },
+      "sound": {
+        "url": "boss-ambient-264.wav",
+        "volume": 1,
+        "loop": true,
+        "range": 800
+      },
+      "shape": {
+        "type": "box",
+        "width": 570.6763305664062,
+        "height": 220.90008544921875,
+        "x": 1.524261474609375,
+        "y": -72.33946228027344
+      }
+    },
+    {
+      "id": 316,
+      "kind": "Trigger_StopBGM",
+      "name": "Trigger_StopBGM",
+      "position": {
+        "x": 4255.52001953125,
+        "y": 384
+      },
+      "values": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 316
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 813
+        },
+        "m_Name": "",
+        "fadeOutDuration": 1.5,
+        "requireBossAlive": 1
+      },
+      "sound": null,
+      "shape": {
+        "type": "box",
+        "width": 16,
+        "height": 109.36380767822266,
+        "x": 0,
+        "y": 1.2448463439941406
+      }
+    },
+    {
+      "id": 355,
+      "kind": "Door_Open",
+      "name": "SwitchTrigger_DoorOpen",
+      "position": {
+        "x": 4169.760009765625,
+        "y": 392.960000038147
+      },
+      "values": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 355
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 1780
+        },
+        "m_Name": "",
+        "playerTag": "Player",
+        "isLocked": 0,
+        "isOpen": 0,
+        "onTriggerEnter": {
+          "m_PersistentCalls": {
+            "m_Calls": [
+              {
+                "m_Target": {
+                  "m_FileID": 0,
+                  "m_PathID": 3226
+                },
+                "m_TargetAssemblyTypeName": "UnityEngine.Animator, UnityEngine",
+                "m_MethodName": "SetTrigger",
+                "m_Mode": 5,
+                "m_Arguments": {
+                  "m_ObjectArgument": {
+                    "m_FileID": 0,
+                    "m_PathID": 0
+                  },
+                  "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+                  "m_IntArgument": 0,
+                  "m_FloatArgument": 0,
+                  "m_StringArgument": "open",
+                  "m_BoolArgument": 0
+                },
+                "m_CallState": 2
+              }
+            ]
+          }
+        },
+        "onDoorOpen": {
+          "m_PersistentCalls": {
+            "m_Calls": [
+              {
+                "m_Target": {
+                  "m_FileID": 0,
+                  "m_PathID": 3226
+                },
+                "m_TargetAssemblyTypeName": "UnityEngine.Animator, UnityEngine",
+                "m_MethodName": "SetTrigger",
+                "m_Mode": 5,
+                "m_Arguments": {
+                  "m_ObjectArgument": {
+                    "m_FileID": 0,
+                    "m_PathID": 0
+                  },
+                  "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+                  "m_IntArgument": 0,
+                  "m_FloatArgument": 0,
+                  "m_StringArgument": "open",
+                  "m_BoolArgument": 0
+                },
+                "m_CallState": 2
+              }
+            ]
+          }
+        },
+        "visualIndicator": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "activeColor": {
+          "r": 0,
+          "g": 1,
+          "b": 0,
+          "a": 1
+        },
+        "inactiveColor": {
+          "r": 1,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        },
+        "bossHealthBar": {
+          "m_FileID": 0,
+          "m_PathID": 1514
+        },
+        "showHealthBar": 0
+      },
+      "sound": null,
+      "shape": {
+        "type": "box",
+        "width": 11.938720703125,
+        "height": 96.82891082763672,
+        "x": 0,
+        "y": -7.739788055419922
+      }
+    }
+  ],
+  "doorBodies": [
+    {
+      "id": 168,
+      "position": {
+        "x": 4257.152021408081,
+        "y": 384
+      },
+      "shape": {
+        "type": "box",
+        "width": 21.915771484375,
+        "height": 110.6917602645899,
+        "x": -0.1285400390625,
+        "y": 0.28792381286621094
+      }
+    }
+  ],
+  "doorAnimations": {
+    "Door_Close": {
+      "name": "Door_Close",
+      "source": {
+        "path": "Data/sharedassets2.assets/AnimationClip.jsonl",
+        "line": 11
+      },
+      "sample_rate": 60,
+      "start": 0,
+      "stop": 0.3333333432674408,
+      "loop": false,
+      "events": [],
+      "tracks": [
+        {
+          "curve_offset": 0,
+          "curve_width": 3,
+          "binding": {
+            "path": 0,
+            "attribute": 1,
+            "script": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "typeID": 4,
+            "customType": 0,
+            "isPPtrCurve": 0,
+            "isIntCurve": 0,
+            "isSerializeReferenceCurve": 0
+          },
+          "keys": [
+            {
+              "time": 0,
+              "component": 0,
+              "value": 194.44200134277344,
+              "coefficients": [
+                0,
+                0,
+                0,
+                194.44200134277344
+              ],
+              "initial_sentinel": true
+            },
+            {
+              "time": 0,
+              "component": 1,
+              "value": 6.460000038146973,
+              "coefficients": [
+                0,
+                0,
+                0,
+                6.460000038146973
+              ],
+              "initial_sentinel": true
+            },
+            {
+              "time": 0,
+              "component": 2,
+              "value": 0,
+              "coefficients": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "initial_sentinel": true
+            },
+            {
+              "time": 0,
+              "component": 0,
+              "value": 194.44200134277344,
+              "coefficients": [
+                0,
+                0,
+                0,
+                194.44200134277344
+              ],
+              "initial_sentinel": false
+            },
+            {
+              "time": 0,
+              "component": 1,
+              "value": 6.460000038146973,
+              "coefficients": [
+                348.8399963378906,
+                -174.42001342773438,
+                0,
+                6.460000038146973
+              ],
+              "initial_sentinel": false
+            },
+            {
+              "time": 0,
+              "component": 2,
+              "value": 0,
+              "coefficients": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "initial_sentinel": false
+            },
+            {
+              "time": 0.3333333432674408,
+              "component": 0,
+              "value": 194.44200134277344,
+              "coefficients": [
+                0,
+                0,
+                0,
+                194.44200134277344
+              ],
+              "initial_sentinel": false
+            },
+            {
+              "time": 0.3333333432674408,
+              "component": 1,
+              "value": 0,
+              "coefficients": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "initial_sentinel": false
+            },
+            {
+              "time": 0.3333333432674408,
+              "component": 2,
+              "value": 0,
+              "coefficients": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "initial_sentinel": false
+            }
+          ]
+        }
+      ],
+      "streamed_frames": [
+        {
+          "time": null,
+          "sentinel": "initial",
+          "keys": [
+            {
+              "curve_index": 0,
+              "coefficients": [
+                0,
+                0,
+                0,
+                194.44200134277344
+              ],
+              "value": 194.44200134277344
+            },
+            {
+              "curve_index": 1,
+              "coefficients": [
+                0,
+                0,
+                0,
+                6.460000038146973
+              ],
+              "value": 6.460000038146973
+            },
+            {
+              "curve_index": 2,
+              "coefficients": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "value": 0
+            }
+          ]
+        },
+        {
+          "time": 0,
+          "sentinel": null,
+          "keys": [
+            {
+              "curve_index": 0,
+              "coefficients": [
+                0,
+                0,
+                0,
+                194.44200134277344
+              ],
+              "value": 194.44200134277344
+            },
+            {
+              "curve_index": 1,
+              "coefficients": [
+                348.8399963378906,
+                -174.42001342773438,
+                0,
+                6.460000038146973
+              ],
+              "value": 6.460000038146973
+            },
+            {
+              "curve_index": 2,
+              "coefficients": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "value": 0
+            }
+          ]
+        },
+        {
+          "time": 0.3333333432674408,
+          "sentinel": null,
+          "keys": [
+            {
+              "curve_index": 0,
+              "coefficients": [
+                0,
+                0,
+                0,
+                194.44200134277344
+              ],
+              "value": 194.44200134277344
+            },
+            {
+              "curve_index": 1,
+              "coefficients": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "value": 0
+            },
+            {
+              "curve_index": 2,
+              "coefficients": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "value": 0
+            }
+          ]
+        },
+        {
+          "time": null,
+          "sentinel": "terminal",
+          "keys": []
+        }
+      ],
+      "dense_curves": {
+        "m_FrameCount": 22,
+        "m_CurveCount": 0,
+        "m_SampleRate": 60,
+        "m_BeginTime": 0,
+        "m_SampleArray": []
+      },
+      "constant_curves": {
+        "data": []
+      },
+      "object_mapping": [],
+      "notes": [
+        "Sprite PPtr 的 value 是 object_mapping 下标；time 为原始秒值，未按固定帧率重采样。",
+        "初始哨兵合并为 start 时刻但保留 initial_sentinel；terminal 哨兵不表示可播放帧。",
+        "dense/constant 保留原始采样及曲线顺序；位移曲线的三次插值系数未经近似。"
+      ]
+    },
+    "Door_Open": {
+      "name": "Door_Open",
+      "source": {
+        "path": "Data/sharedassets2.assets/AnimationClip.jsonl",
+        "line": 12
+      },
+      "sample_rate": 30,
+      "start": 0,
+      "stop": 0.8333333134651184,
+      "loop": false,
+      "events": [],
+      "tracks": [
+        {
+          "curve_offset": 0,
+          "curve_width": 3,
+          "binding": {
+            "path": 0,
+            "attribute": 1,
+            "script": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "typeID": 4,
+            "customType": 0,
+            "isPPtrCurve": 0,
+            "isIntCurve": 0,
+            "isSerializeReferenceCurve": 0
+          },
+          "keys": [
+            {
+              "time": 0,
+              "component": 0,
+              "value": 194.44200134277344,
+              "coefficients": [
+                0,
+                0,
+                0,
+                194.44200134277344
+              ],
+              "initial_sentinel": true
+            },
+            {
+              "time": 0,
+              "component": 1,
+              "value": 0,
+              "coefficients": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "initial_sentinel": true
+            },
+            {
+              "time": 0,
+              "component": 2,
+              "value": 0,
+              "coefficients": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "initial_sentinel": true
+            },
+            {
+              "time": 0,
+              "component": 0,
+              "value": 194.44200134277344,
+              "coefficients": [
+                0,
+                0,
+                0,
+                194.44200134277344
+              ],
+              "initial_sentinel": false
+            },
+            {
+              "time": 0,
+              "component": 1,
+              "value": 0,
+              "coefficients": [
+                -29.786588668823242,
+                14.848161697387695,
+                0,
+                0
+              ],
+              "initial_sentinel": false
+            },
+            {
+              "time": 0,
+              "component": 2,
+              "value": 0,
+              "coefficients": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "initial_sentinel": false
+            },
+            {
+              "time": 0.23333333432674408,
+              "component": 0,
+              "value": 194.44200134277344,
+              "coefficients": [
+                0,
+                0,
+                0,
+                194.44200134277344
+              ],
+              "initial_sentinel": false
+            },
+            {
+              "time": 0.23333333432674408,
+              "component": 1,
+              "value": 0.4300000071525574,
+              "coefficients": [
+                -50.100006103515625,
+                43.37001037597656,
+                2.063999891281128,
+                0.4300000071525574
+              ],
+              "initial_sentinel": false
+            },
+            {
+              "time": 0.23333333432674408,
+              "component": 2,
+              "value": 0,
+              "coefficients": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "initial_sentinel": false
+            },
+            {
+              "time": 0.8333333134651184,
+              "component": 0,
+              "value": 194.44200134277344,
+              "coefficients": [
+                0,
+                0,
+                0,
+                194.44200134277344
+              ],
+              "initial_sentinel": false
+            },
+            {
+              "time": 0.8333333134651184,
+              "component": 1,
+              "value": 6.460000038146973,
+              "coefficients": [
+                0,
+                0,
+                0,
+                6.460000038146973
+              ],
+              "initial_sentinel": false
+            },
+            {
+              "time": 0.8333333134651184,
+              "component": 2,
+              "value": 0,
+              "coefficients": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "initial_sentinel": false
+            }
+          ]
+        }
+      ],
+      "streamed_frames": [
+        {
+          "time": null,
+          "sentinel": "initial",
+          "keys": [
+            {
+              "curve_index": 0,
+              "coefficients": [
+                0,
+                0,
+                0,
+                194.44200134277344
+              ],
+              "value": 194.44200134277344
+            },
+            {
+              "curve_index": 1,
+              "coefficients": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "value": 0
+            },
+            {
+              "curve_index": 2,
+              "coefficients": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "value": 0
+            }
+          ]
+        },
+        {
+          "time": 0,
+          "sentinel": null,
+          "keys": [
+            {
+              "curve_index": 0,
+              "coefficients": [
+                0,
+                0,
+                0,
+                194.44200134277344
+              ],
+              "value": 194.44200134277344
+            },
+            {
+              "curve_index": 1,
+              "coefficients": [
+                -29.786588668823242,
+                14.848161697387695,
+                0,
+                0
+              ],
+              "value": 0
+            },
+            {
+              "curve_index": 2,
+              "coefficients": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "value": 0
+            }
+          ]
+        },
+        {
+          "time": 0.23333333432674408,
+          "sentinel": null,
+          "keys": [
+            {
+              "curve_index": 0,
+              "coefficients": [
+                0,
+                0,
+                0,
+                194.44200134277344
+              ],
+              "value": 194.44200134277344
+            },
+            {
+              "curve_index": 1,
+              "coefficients": [
+                -50.100006103515625,
+                43.37001037597656,
+                2.063999891281128,
+                0.4300000071525574
+              ],
+              "value": 0.4300000071525574
+            },
+            {
+              "curve_index": 2,
+              "coefficients": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "value": 0
+            }
+          ]
+        },
+        {
+          "time": 0.8333333134651184,
+          "sentinel": null,
+          "keys": [
+            {
+              "curve_index": 0,
+              "coefficients": [
+                0,
+                0,
+                0,
+                194.44200134277344
+              ],
+              "value": 194.44200134277344
+            },
+            {
+              "curve_index": 1,
+              "coefficients": [
+                0,
+                0,
+                0,
+                6.460000038146973
+              ],
+              "value": 6.460000038146973
+            },
+            {
+              "curve_index": 2,
+              "coefficients": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "value": 0
+            }
+          ]
+        },
+        {
+          "time": null,
+          "sentinel": "terminal",
+          "keys": []
+        }
+      ],
+      "dense_curves": {
+        "m_FrameCount": 27,
+        "m_CurveCount": 0,
+        "m_SampleRate": 30,
+        "m_BeginTime": 0,
+        "m_SampleArray": []
+      },
+      "constant_curves": {
+        "data": []
+      },
+      "object_mapping": [],
+      "notes": [
+        "Sprite PPtr 的 value 是 object_mapping 下标；time 为原始秒值，未按固定帧率重采样。",
+        "初始哨兵合并为 start 时刻但保留 initial_sentinel；terminal 哨兵不表示可播放帧。",
+        "dense/constant 保留原始采样及曲线顺序；位移曲线的三次插值系数未经近似。"
+      ]
+    }
+  },
+  "bars": [
+    {
+      "kind": "UI_Jiangjun_HealthBar",
+      "values": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1214
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 1241
+        },
+        "m_Name": "",
+        "healthRect": {
+          "m_FileID": 0,
+          "m_PathID": 5579
+        },
+        "healthSlider": {
+          "m_FileID": 0,
+          "m_PathID": 9203
+        },
+        "healthDelaySlider": {
+          "m_FileID": 0,
+          "m_PathID": 9251
+        },
+        "healthText": {
+          "m_FileID": 0,
+          "m_PathID": 7084
+        },
+        "hideDelay": 8,
+        "delayPauseTime": 0.30000001192092896,
+        "delaySpeed": 0.10000000149011612
+      },
+      "nodes": [
+        {
+          "path_id": 454,
+          "name": "Background",
+          "active": true,
+          "layer": 5,
+          "tag_index": 0,
+          "components": [
+            {
+              "file": "level3",
+              "path_id": 5812,
+              "type": "RectTransform",
+              "name": "",
+              "data": {
+                "path": "Data/level3/RectTransform.jsonl",
+                "line": 700
+              }
+            },
+            {
+              "file": "level3",
+              "path_id": 4782,
+              "type": "CanvasRenderer",
+              "name": "",
+              "data": {
+                "path": "Data/level3/CanvasRenderer.jsonl",
+                "line": 1054
+              }
+            },
+            {
+              "file": "level3",
+              "path_id": 7985,
+              "type": "MonoBehaviour",
+              "name": "",
+              "data": {
+                "path": "Data/level3/MonoBehaviour.UnityEngine.UI.Image.jsonl",
+                "line": 170
+              },
+              "script": {
+                "assembly": "UnityEngine.UI",
+                "namespace": "UnityEngine.UI",
+                "class": "Image",
+                "full_name": "UnityEngine.UI.Image"
+              }
+            }
+          ],
+          "transform": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 454
+            },
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_Children": [],
+            "m_Father": {
+              "m_FileID": 0,
+              "m_PathID": 5579
+            },
+            "m_AnchorMin": {
+              "x": 0,
+              "y": 0.5
+            },
+            "m_AnchorMax": {
+              "x": 1,
+              "y": 0.5
+            },
+            "m_AnchoredPosition": {
+              "x": 16.9534912109375,
+              "y": 3.2197265625
+            },
+            "m_SizeDelta": {
+              "x": 25.83769989013672,
+              "y": 31.702999114990234
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "source": {
+            "path": "Data/level3/GameObject.jsonl",
+            "line": 454
+          }
+        },
+        {
+          "path_id": 500,
+          "name": "FillRed",
+          "active": true,
+          "layer": 5,
+          "tag_index": 0,
+          "components": [
+            {
+              "file": "level3",
+              "path_id": 5529,
+              "type": "RectTransform",
+              "name": "",
+              "data": {
+                "path": "Data/level3/RectTransform.jsonl",
+                "line": 417
+              }
+            },
+            {
+              "file": "level3",
+              "path_id": 5095,
+              "type": "CanvasRenderer",
+              "name": "",
+              "data": {
+                "path": "Data/level3/CanvasRenderer.jsonl",
+                "line": 1367
+              }
+            },
+            {
+              "file": "level3",
+              "path_id": 7625,
+              "type": "MonoBehaviour",
+              "name": "",
+              "data": {
+                "path": "Data/level3/MonoBehaviour.UnityEngine.UI.Image.jsonl",
+                "line": 6
+              },
+              "script": {
+                "assembly": "UnityEngine.UI",
+                "namespace": "UnityEngine.UI",
+                "class": "Image",
+                "full_name": "UnityEngine.UI.Image"
+              }
+            }
+          ],
+          "transform": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 500
+            },
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_Children": [],
+            "m_Father": {
+              "m_FileID": 0,
+              "m_PathID": 5129
+            },
+            "m_AnchorMin": {
+              "x": 0,
+              "y": 0
+            },
+            "m_AnchorMax": {
+              "x": 1,
+              "y": 1
+            },
+            "m_AnchoredPosition": {
+              "x": 0.68597412109375,
+              "y": 1.522308349609375
+            },
+            "m_SizeDelta": {
+              "x": -1.3717999458312988,
+              "y": -19.029399871826172
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "source": {
+            "path": "Data/level3/GameObject.jsonl",
+            "line": 500
+          }
+        },
+        {
+          "path_id": 618,
+          "name": "UI_JiangjunHealthDelay",
+          "active": true,
+          "layer": 5,
+          "tag_index": 0,
+          "components": [
+            {
+              "file": "level3",
+              "path_id": 6603,
+              "type": "RectTransform",
+              "name": "",
+              "data": {
+                "path": "Data/level3/RectTransform.jsonl",
+                "line": 1491
+              }
+            },
+            {
+              "file": "level3",
+              "path_id": 9251,
+              "type": "MonoBehaviour",
+              "name": "",
+              "data": {
+                "path": "Data/level3/MonoBehaviour.UnityEngine.UI.Slider.jsonl",
+                "line": 20
+              },
+              "script": {
+                "assembly": "UnityEngine.UI",
+                "namespace": "UnityEngine.UI",
+                "class": "Slider",
+                "full_name": "UnityEngine.UI.Slider"
+              }
+            }
+          ],
+          "transform": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 618
+            },
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_Children": [
+              {
+                "m_FileID": 0,
+                "m_PathID": 5336
+              }
+            ],
+            "m_Father": {
+              "m_FileID": 0,
+              "m_PathID": 5579
+            },
+            "m_AnchorMin": {
+              "x": 0,
+              "y": 0.5
+            },
+            "m_AnchorMax": {
+              "x": 1,
+              "y": 0.5
+            },
+            "m_AnchoredPosition": {
+              "x": 8.984375,
+              "y": 0
+            },
+            "m_SizeDelta": {
+              "x": 17.968700408935547,
+              "y": 60
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "source": {
+            "path": "Data/level3/GameObject.jsonl",
+            "line": 618
+          }
+        },
+        {
+          "path_id": 927,
+          "name": "HealthValueText",
+          "active": false,
+          "layer": 5,
+          "tag_index": 0,
+          "components": [
+            {
+              "file": "level3",
+              "path_id": 5918,
+              "type": "RectTransform",
+              "name": "",
+              "data": {
+                "path": "Data/level3/RectTransform.jsonl",
+                "line": 806
+              }
+            },
+            {
+              "file": "level3",
+              "path_id": 3797,
+              "type": "CanvasRenderer",
+              "name": "",
+              "data": {
+                "path": "Data/level3/CanvasRenderer.jsonl",
+                "line": 69
+              }
+            },
+            {
+              "file": "level3",
+              "path_id": 7316,
+              "type": "MonoBehaviour",
+              "name": "",
+              "data": {
+                "path": "Data/level3/MonoBehaviour.TMPro.TextMeshProUGUI.jsonl",
+                "line": 339
+              },
+              "script": {
+                "assembly": "Unity.TextMeshPro",
+                "namespace": "TMPro",
+                "class": "TextMeshProUGUI",
+                "full_name": "TMPro.TextMeshProUGUI"
+              }
+            }
+          ],
+          "transform": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 927
+            },
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_Children": [],
+            "m_Father": {
+              "m_FileID": 0,
+              "m_PathID": 5579
+            },
+            "m_AnchorMin": {
+              "x": 1,
+              "y": 0.5
+            },
+            "m_AnchorMax": {
+              "x": 1,
+              "y": 0.5
+            },
+            "m_AnchoredPosition": {
+              "x": -8.68505859375,
+              "y": 0
+            },
+            "m_SizeDelta": {
+              "x": 151.30999755859375,
+              "y": 50
+            },
+            "m_Pivot": {
+              "x": 1,
+              "y": 0.5
+            }
+          },
+          "source": {
+            "path": "Data/level3/GameObject.jsonl",
+            "line": 927
+          }
+        },
+        {
+          "path_id": 1214,
+          "name": "Panel",
+          "active": true,
+          "layer": 5,
+          "tag_index": 0,
+          "components": [
+            {
+              "file": "level3",
+              "path_id": 6138,
+              "type": "RectTransform",
+              "name": "",
+              "data": {
+                "path": "Data/level3/RectTransform.jsonl",
+                "line": 1026
+              }
+            },
+            {
+              "file": "level3",
+              "path_id": 8999,
+              "type": "MonoBehaviour",
+              "name": "",
+              "data": {
+                "path": "Data/level3/MonoBehaviour.UI_Jiangjun_HealthBar.jsonl",
+                "line": 1
+              },
+              "script": {
+                "assembly": "Assembly-CSharp",
+                "namespace": "",
+                "class": "UI_Jiangjun_HealthBar",
+                "full_name": "UI_Jiangjun_HealthBar"
+              }
+            }
+          ],
+          "transform": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 1214
+            },
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_Children": [
+              {
+                "m_FileID": 0,
+                "m_PathID": 5579
+              }
+            ],
+            "m_Father": {
+              "m_FileID": 0,
+              "m_PathID": 6594
+            },
+            "m_AnchorMin": {
+              "x": 0,
+              "y": 0
+            },
+            "m_AnchorMax": {
+              "x": 1,
+              "y": 1
+            },
+            "m_AnchoredPosition": {
+              "x": 0,
+              "y": 0
+            },
+            "m_SizeDelta": {
+              "x": 0,
+              "y": 0
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "source": {
+            "path": "Data/level3/GameObject.jsonl",
+            "line": 1214
+          }
+        },
+        {
+          "path_id": 1458,
+          "name": "Fill Area",
+          "active": true,
+          "layer": 5,
+          "tag_index": 0,
+          "components": [
+            {
+              "file": "level3",
+              "path_id": 5336,
+              "type": "RectTransform",
+              "name": "",
+              "data": {
+                "path": "Data/level3/RectTransform.jsonl",
+                "line": 224
+              }
+            }
+          ],
+          "transform": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 1458
+            },
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_Children": [
+              {
+                "m_FileID": 0,
+                "m_PathID": 5796
+              }
+            ],
+            "m_Father": {
+              "m_FileID": 0,
+              "m_PathID": 6603
+            },
+            "m_AnchorMin": {
+              "x": 0,
+              "y": 0.25
+            },
+            "m_AnchorMax": {
+              "x": 1,
+              "y": 0.75
+            },
+            "m_AnchoredPosition": {
+              "x": 0.8612060546875,
+              "y": 0.06464385986328125
+            },
+            "m_SizeDelta": {
+              "x": 0.3176000118255615,
+              "y": 7.442599773406982
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "source": {
+            "path": "Data/level3/GameObject.jsonl",
+            "line": 1458
+          }
+        },
+        {
+          "path_id": 1514,
+          "name": "UI_JiangjunHealthBar",
+          "active": false,
+          "layer": 5,
+          "tag_index": 0,
+          "components": [
+            {
+              "file": "level3",
+              "path_id": 5579,
+              "type": "RectTransform",
+              "name": "",
+              "data": {
+                "path": "Data/level3/RectTransform.jsonl",
+                "line": 467
+              }
+            },
+            {
+              "file": "level3",
+              "path_id": 9203,
+              "type": "MonoBehaviour",
+              "name": "",
+              "data": {
+                "path": "Data/level3/MonoBehaviour.UnityEngine.UI.Slider.jsonl",
+                "line": 19
+              },
+              "script": {
+                "assembly": "UnityEngine.UI",
+                "namespace": "UnityEngine.UI",
+                "class": "Slider",
+                "full_name": "UnityEngine.UI.Slider"
+              }
+            }
+          ],
+          "transform": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 1514
+            },
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": -1
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_Children": [
+              {
+                "m_FileID": 0,
+                "m_PathID": 5812
+              },
+              {
+                "m_FileID": 0,
+                "m_PathID": 6603
+              },
+              {
+                "m_FileID": 0,
+                "m_PathID": 5129
+              },
+              {
+                "m_FileID": 0,
+                "m_PathID": 6151
+              },
+              {
+                "m_FileID": 0,
+                "m_PathID": 5918
+              },
+              {
+                "m_FileID": 0,
+                "m_PathID": 6196
+              }
+            ],
+            "m_Father": {
+              "m_FileID": 0,
+              "m_PathID": 6138
+            },
+            "m_AnchorMin": {
+              "x": 0.5,
+              "y": 0
+            },
+            "m_AnchorMax": {
+              "x": 0.5,
+              "y": 0
+            },
+            "m_AnchoredPosition": {
+              "x": -36,
+              "y": 65
+            },
+            "m_SizeDelta": {
+              "x": 644,
+              "y": 60
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0
+            }
+          },
+          "source": {
+            "path": "Data/level3/GameObject.jsonl",
+            "line": 1514
+          }
+        },
+        {
+          "path_id": 1707,
+          "name": "Borders",
+          "active": true,
+          "layer": 5,
+          "tag_index": 0,
+          "components": [
+            {
+              "file": "level3",
+              "path_id": 6151,
+              "type": "RectTransform",
+              "name": "",
+              "data": {
+                "path": "Data/level3/RectTransform.jsonl",
+                "line": 1039
+              }
+            },
+            {
+              "file": "level3",
+              "path_id": 5002,
+              "type": "CanvasRenderer",
+              "name": "",
+              "data": {
+                "path": "Data/level3/CanvasRenderer.jsonl",
+                "line": 1274
+              }
+            },
+            {
+              "file": "level3",
+              "path_id": 7807,
+              "type": "MonoBehaviour",
+              "name": "",
+              "data": {
+                "path": "Data/level3/MonoBehaviour.UnityEngine.UI.Image.jsonl",
+                "line": 90
+              },
+              "script": {
+                "assembly": "UnityEngine.UI",
+                "namespace": "UnityEngine.UI",
+                "class": "Image",
+                "full_name": "UnityEngine.UI.Image"
+              }
+            }
+          ],
+          "transform": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 1707
+            },
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_Children": [],
+            "m_Father": {
+              "m_FileID": 0,
+              "m_PathID": 5579
+            },
+            "m_AnchorMin": {
+              "x": 0,
+              "y": 0.25
+            },
+            "m_AnchorMax": {
+              "x": 1,
+              "y": 0.75
+            },
+            "m_AnchoredPosition": {
+              "x": 40.884002685546875,
+              "y": 0
+            },
+            "m_SizeDelta": {
+              "x": 109.1978988647461,
+              "y": 10
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "source": {
+            "path": "Data/level3/GameObject.jsonl",
+            "line": 1707
+          }
+        },
+        {
+          "path_id": 1724,
+          "name": "Name_Jiangjun",
+          "active": true,
+          "layer": 5,
+          "tag_index": 0,
+          "components": [
+            {
+              "file": "level3",
+              "path_id": 6196,
+              "type": "RectTransform",
+              "name": "",
+              "data": {
+                "path": "Data/level3/RectTransform.jsonl",
+                "line": 1084
+              }
+            },
+            {
+              "file": "level3",
+              "path_id": 4951,
+              "type": "CanvasRenderer",
+              "name": "",
+              "data": {
+                "path": "Data/level3/CanvasRenderer.jsonl",
+                "line": 1223
+              }
+            },
+            {
+              "file": "level3",
+              "path_id": 7084,
+              "type": "MonoBehaviour",
+              "name": "",
+              "data": {
+                "path": "Data/level3/MonoBehaviour.TMPro.TextMeshProUGUI.jsonl",
+                "line": 107
+              },
+              "script": {
+                "assembly": "Unity.TextMeshPro",
+                "namespace": "TMPro",
+                "class": "TextMeshProUGUI",
+                "full_name": "TMPro.TextMeshProUGUI"
+              }
+            }
+          ],
+          "transform": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 1724
+            },
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_Children": [],
+            "m_Father": {
+              "m_FileID": 0,
+              "m_PathID": 5579
+            },
+            "m_AnchorMin": {
+              "x": 0,
+              "y": 0.5
+            },
+            "m_AnchorMax": {
+              "x": 0,
+              "y": 0.5
+            },
+            "m_AnchoredPosition": {
+              "x": 0,
+              "y": 42
+            },
+            "m_SizeDelta": {
+              "x": 200,
+              "y": 50
+            },
+            "m_Pivot": {
+              "x": 0,
+              "y": 0.5
+            }
+          },
+          "source": {
+            "path": "Data/level3/GameObject.jsonl",
+            "line": 1724
+          }
+        },
+        {
+          "path_id": 1829,
+          "name": "Fill Area",
+          "active": true,
+          "layer": 5,
+          "tag_index": 0,
+          "components": [
+            {
+              "file": "level3",
+              "path_id": 5129,
+              "type": "RectTransform",
+              "name": "",
+              "data": {
+                "path": "Data/level3/RectTransform.jsonl",
+                "line": 17
+              }
+            }
+          ],
+          "transform": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 1829
+            },
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_Children": [
+              {
+                "m_FileID": 0,
+                "m_PathID": 5529
+              }
+            ],
+            "m_Father": {
+              "m_FileID": 0,
+              "m_PathID": 5579
+            },
+            "m_AnchorMin": {
+              "x": 0,
+              "y": 0.25
+            },
+            "m_AnchorMax": {
+              "x": 1,
+              "y": 0.75
+            },
+            "m_AnchoredPosition": {
+              "x": 9.335693359375,
+              "y": 0.06463623046875
+            },
+            "m_SizeDelta": {
+              "x": 17.266000747680664,
+              "y": 7.442599773406982
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "source": {
+            "path": "Data/level3/GameObject.jsonl",
+            "line": 1829
+          }
+        },
+        {
+          "path_id": 2428,
+          "name": "FillRed",
+          "active": true,
+          "layer": 5,
+          "tag_index": 0,
+          "components": [
+            {
+              "file": "level3",
+              "path_id": 5796,
+              "type": "RectTransform",
+              "name": "",
+              "data": {
+                "path": "Data/level3/RectTransform.jsonl",
+                "line": 684
+              }
+            },
+            {
+              "file": "level3",
+              "path_id": 4840,
+              "type": "CanvasRenderer",
+              "name": "",
+              "data": {
+                "path": "Data/level3/CanvasRenderer.jsonl",
+                "line": 1112
+              }
+            },
+            {
+              "file": "level3",
+              "path_id": 8227,
+              "type": "MonoBehaviour",
+              "name": "",
+              "data": {
+                "path": "Data/level3/MonoBehaviour.UnityEngine.UI.Image.jsonl",
+                "line": 285
+              },
+              "script": {
+                "assembly": "UnityEngine.UI",
+                "namespace": "UnityEngine.UI",
+                "class": "Image",
+                "full_name": "UnityEngine.UI.Image"
+              }
+            }
+          ],
+          "transform": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 2428
+            },
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_Children": [],
+            "m_Father": {
+              "m_FileID": 0,
+              "m_PathID": 5336
+            },
+            "m_AnchorMin": {
+              "x": 0,
+              "y": 0
+            },
+            "m_AnchorMax": {
+              "x": 1,
+              "y": 1
+            },
+            "m_AnchoredPosition": {
+              "x": -0.010009765625,
+              "y": 1.5354995727539062
+            },
+            "m_SizeDelta": {
+              "x": -2.440000057220459,
+              "y": -19.442899703979492
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "source": {
+            "path": "Data/level3/GameObject.jsonl",
+            "line": 2428
+          }
+        }
+      ]
+    },
+    {
+      "kind": "UI_JiangjunLv2_HealthBar",
+      "values": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 512
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 141
+        },
+        "m_Name": "",
+        "healthRect": {
+          "m_FileID": 0,
+          "m_PathID": 622
+        },
+        "healthSlider": {
+          "m_FileID": 0,
+          "m_PathID": 867
+        },
+        "healthDelaySlider": {
+          "m_FileID": 0,
+          "m_PathID": 841
+        },
+        "healthText": {
+          "m_FileID": 0,
+          "m_PathID": 846
+        },
+        "hideDelay": 4,
+        "delayPauseTime": 0.30000001192092896,
+        "delaySpeed": 0.10000000149011612
+      },
+      "nodes": [
+        {
+          "file": "sharedassets3.assets",
+          "path_id": 512,
+          "name": "UI_JiangjunLv2HealthBar",
+          "active": true,
+          "layer": 5,
+          "source": {
+            "path": "Data/sharedassets3.assets/GameObject.jsonl",
+            "line": 1
+          },
+          "transform": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 512
+            },
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_Children": [
+              {
+                "m_FileID": 0,
+                "m_PathID": 614
+              }
+            ],
+            "m_Father": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "m_AnchorMin": {
+              "x": 0,
+              "y": 0
+            },
+            "m_AnchorMax": {
+              "x": 0,
+              "y": 0
+            },
+            "m_AnchoredPosition": {
+              "x": 0,
+              "y": 0
+            },
+            "m_SizeDelta": {
+              "x": 0,
+              "y": 0
+            },
+            "m_Pivot": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "components": [
+            {
+              "file": "sharedassets3.assets",
+              "path_id": 626,
+              "type": "RectTransform",
+              "class_id": 224,
+              "byte_offset": 654032,
+              "byte_size": 120,
+              "raw_sha256": "7a47bf4cc6dab4da48bf52d061d3f9104b89daca629126ccc1b97974465c85a7",
+              "decoded": true,
+              "name": "",
+              "references": [
+                {
+                  "field": "$.m_GameObject",
+                  "file": "sharedassets3.assets",
+                  "path_id": 512
+                },
+                {
+                  "field": "$.m_Children[0]",
+                  "file": "sharedassets3.assets",
+                  "path_id": 614
+                }
+              ],
+              "data": {
+                "path": "Data/sharedassets3.assets/RectTransform.jsonl",
+                "line": 16
+              }
+            },
+            {
+              "file": "sharedassets3.assets",
+              "path_id": 610,
+              "type": "Canvas",
+              "class_id": 223,
+              "byte_offset": 652152,
+              "byte_size": 63,
+              "raw_sha256": "05308ceea123a5a91ad65eefa931a267d3215f7dc6281d2e6a5fc1e3db447fe7",
+              "decoded": true,
+              "name": "",
+              "references": [
+                {
+                  "field": "$.m_GameObject",
+                  "file": "sharedassets3.assets",
+                  "path_id": 512
+                }
+              ],
+              "data": {
+                "path": "Data/sharedassets3.assets/Canvas.jsonl",
+                "line": 2
+              }
+            },
+            {
+              "file": "sharedassets3.assets",
+              "path_id": 850,
+              "type": "MonoBehaviour",
+              "class_id": 114,
+              "byte_offset": 691920,
+              "byte_size": 80,
+              "raw_sha256": "2c35c379b103790890b9fed93e210d343e80d4229787563c41ca81c275cdd79a",
+              "decoded": true,
+              "name": "",
+              "script": {
+                "assembly": "UnityEngine.UI",
+                "namespace": "UnityEngine.UI",
+                "class": "CanvasScaler",
+                "full_name": "UnityEngine.UI.CanvasScaler"
+              },
+              "references": [
+                {
+                  "field": "$.m_GameObject",
+                  "file": "sharedassets3.assets",
+                  "path_id": 512
+                },
+                {
+                  "field": "$.m_Script",
+                  "file": "globalgamemanagers.assets",
+                  "path_id": 222
+                }
+              ],
+              "data": {
+                "path": "Data/sharedassets3.assets/MonoBehaviour.UnityEngine.UI.CanvasScaler.jsonl",
+                "line": 2
+              }
+            },
+            {
+              "file": "sharedassets3.assets",
+              "path_id": 865,
+              "type": "MonoBehaviour",
+              "class_id": 114,
+              "byte_offset": 694352,
+              "byte_size": 44,
+              "raw_sha256": "75262bc05090e3073693d7eb2cc2f59baf06ff6dca10956f9014c831aa893f38",
+              "decoded": true,
+              "name": "",
+              "script": {
+                "assembly": "UnityEngine.UI",
+                "namespace": "UnityEngine.UI",
+                "class": "GraphicRaycaster",
+                "full_name": "UnityEngine.UI.GraphicRaycaster"
+              },
+              "references": [
+                {
+                  "field": "$.m_GameObject",
+                  "file": "sharedassets3.assets",
+                  "path_id": 512
+                },
+                {
+                  "field": "$.m_Script",
+                  "file": "globalgamemanagers.assets",
+                  "path_id": 2077
+                }
+              ],
+              "data": {
+                "path": "Data/sharedassets3.assets/MonoBehaviour.UnityEngine.UI.GraphicRaycaster.jsonl",
+                "line": 2
+              }
+            },
+            {
+              "file": "sharedassets3.assets",
+              "path_id": 845,
+              "type": "MonoBehaviour",
+              "class_id": 114,
+              "byte_offset": 690648,
+              "byte_size": 92,
+              "raw_sha256": "e595156fcee5ca1bc80530f39315ca14b26c8d5acca7f3135fbc65deddf7d41b",
+              "decoded": true,
+              "name": "",
+              "script": {
+                "assembly": "Assembly-CSharp",
+                "namespace": "",
+                "class": "UI_JiangjunLv2_HealthBar",
+                "full_name": "UI_JiangjunLv2_HealthBar"
+              },
+              "references": [
+                {
+                  "field": "$.m_GameObject",
+                  "file": "sharedassets3.assets",
+                  "path_id": 512
+                },
+                {
+                  "field": "$.m_Script",
+                  "file": "globalgamemanagers.assets",
+                  "path_id": 141
+                },
+                {
+                  "field": "$.healthRect",
+                  "file": "sharedassets3.assets",
+                  "path_id": 622
+                },
+                {
+                  "field": "$.healthSlider",
+                  "file": "sharedassets3.assets",
+                  "path_id": 867
+                },
+                {
+                  "field": "$.healthDelaySlider",
+                  "file": "sharedassets3.assets",
+                  "path_id": 841
+                },
+                {
+                  "field": "$.healthText",
+                  "file": "sharedassets3.assets",
+                  "path_id": 846
+                }
+              ],
+              "data": {
+                "path": "Data/sharedassets3.assets/MonoBehaviour.UI_JiangjunLv2_HealthBar.jsonl",
+                "line": 1
+              }
+            }
+          ]
+        },
+        {
+          "file": "sharedassets3.assets",
+          "path_id": 551,
+          "name": "Panel",
+          "active": true,
+          "layer": 5,
+          "source": {
+            "path": "Data/sharedassets3.assets/GameObject.jsonl",
+            "line": 40
+          },
+          "transform": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 551
+            },
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_Children": [
+              {
+                "m_FileID": 0,
+                "m_PathID": 622
+              }
+            ],
+            "m_Father": {
+              "m_FileID": 0,
+              "m_PathID": 626
+            },
+            "m_AnchorMin": {
+              "x": 0,
+              "y": 0
+            },
+            "m_AnchorMax": {
+              "x": 1,
+              "y": 1
+            },
+            "m_AnchoredPosition": {
+              "x": 0,
+              "y": 0
+            },
+            "m_SizeDelta": {
+              "x": 0,
+              "y": 0
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "components": [
+            {
+              "file": "sharedassets3.assets",
+              "path_id": 614,
+              "type": "RectTransform",
+              "class_id": 224,
+              "byte_offset": 652584,
+              "byte_size": 120,
+              "raw_sha256": "e4a4a0116f1f0eb3d6843d679615b6deee7dc28d26de6b8639ff014fed216797",
+              "decoded": true,
+              "name": "",
+              "references": [
+                {
+                  "field": "$.m_GameObject",
+                  "file": "sharedassets3.assets",
+                  "path_id": 551
+                },
+                {
+                  "field": "$.m_Children[0]",
+                  "file": "sharedassets3.assets",
+                  "path_id": 622
+                },
+                {
+                  "field": "$.m_Father",
+                  "file": "sharedassets3.assets",
+                  "path_id": 626
+                }
+              ],
+              "data": {
+                "path": "Data/sharedassets3.assets/RectTransform.jsonl",
+                "line": 4
+              }
+            }
+          ]
+        },
+        {
+          "file": "sharedassets3.assets",
+          "path_id": 548,
+          "name": "UI_JiangjunLv2HealthBar",
+          "active": true,
+          "layer": 5,
+          "source": {
+            "path": "Data/sharedassets3.assets/GameObject.jsonl",
+            "line": 37
+          },
+          "transform": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 548
+            },
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": -1
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_Children": [
+              {
+                "m_FileID": 0,
+                "m_PathID": 617
+              },
+              {
+                "m_FileID": 0,
+                "m_PathID": 611
+              },
+              {
+                "m_FileID": 0,
+                "m_PathID": 616
+              },
+              {
+                "m_FileID": 0,
+                "m_PathID": 613
+              },
+              {
+                "m_FileID": 0,
+                "m_PathID": 620
+              },
+              {
+                "m_FileID": 0,
+                "m_PathID": 615
+              }
+            ],
+            "m_Father": {
+              "m_FileID": 0,
+              "m_PathID": 614
+            },
+            "m_AnchorMin": {
+              "x": 0.5,
+              "y": 0
+            },
+            "m_AnchorMax": {
+              "x": 0.5,
+              "y": 0
+            },
+            "m_AnchoredPosition": {
+              "x": -36,
+              "y": 125
+            },
+            "m_SizeDelta": {
+              "x": 644,
+              "y": 60
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 1
+            }
+          },
+          "components": [
+            {
+              "file": "sharedassets3.assets",
+              "path_id": 622,
+              "type": "RectTransform",
+              "class_id": 224,
+              "byte_offset": 653504,
+              "byte_size": 180,
+              "raw_sha256": "5c158b6845907eaef7b931f216e3042e110b5651c0bddbd44e1ea4170d791d3a",
+              "decoded": true,
+              "name": "",
+              "references": [
+                {
+                  "field": "$.m_GameObject",
+                  "file": "sharedassets3.assets",
+                  "path_id": 548
+                },
+                {
+                  "field": "$.m_Children[0]",
+                  "file": "sharedassets3.assets",
+                  "path_id": 617
+                },
+                {
+                  "field": "$.m_Children[1]",
+                  "file": "sharedassets3.assets",
+                  "path_id": 611
+                },
+                {
+                  "field": "$.m_Children[2]",
+                  "file": "sharedassets3.assets",
+                  "path_id": 616
+                },
+                {
+                  "field": "$.m_Children[3]",
+                  "file": "sharedassets3.assets",
+                  "path_id": 613
+                },
+                {
+                  "field": "$.m_Children[4]",
+                  "file": "sharedassets3.assets",
+                  "path_id": 620
+                },
+                {
+                  "field": "$.m_Children[5]",
+                  "file": "sharedassets3.assets",
+                  "path_id": 615
+                },
+                {
+                  "field": "$.m_Father",
+                  "file": "sharedassets3.assets",
+                  "path_id": 614
+                }
+              ],
+              "data": {
+                "path": "Data/sharedassets3.assets/RectTransform.jsonl",
+                "line": 12
+              }
+            },
+            {
+              "file": "sharedassets3.assets",
+              "path_id": 867,
+              "type": "MonoBehaviour",
+              "class_id": 114,
+              "byte_offset": 694584,
+              "byte_size": 356,
+              "raw_sha256": "096b497aff0d33f95d31b4419b279e9fc192f725c9a611b18a5f742c1a713f3f",
+              "decoded": true,
+              "name": "",
+              "script": {
+                "assembly": "UnityEngine.UI",
+                "namespace": "UnityEngine.UI",
+                "class": "Slider",
+                "full_name": "UnityEngine.UI.Slider"
+              },
+              "references": [
+                {
+                  "field": "$.m_GameObject",
+                  "file": "sharedassets3.assets",
+                  "path_id": 548
+                },
+                {
+                  "field": "$.m_Script",
+                  "file": "globalgamemanagers.assets",
+                  "path_id": 1008
+                },
+                {
+                  "field": "$.m_FillRect",
+                  "file": "sharedassets3.assets",
+                  "path_id": 619
+                }
+              ],
+              "data": {
+                "path": "Data/sharedassets3.assets/MonoBehaviour.UnityEngine.UI.Slider.jsonl",
+                "line": 3
+              }
+            }
+          ]
+        },
+        {
+          "file": "sharedassets3.assets",
+          "path_id": 524,
+          "name": "Background",
+          "active": true,
+          "layer": 5,
+          "source": {
+            "path": "Data/sharedassets3.assets/GameObject.jsonl",
+            "line": 13
+          },
+          "transform": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 524
+            },
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_Children": [],
+            "m_Father": {
+              "m_FileID": 0,
+              "m_PathID": 622
+            },
+            "m_AnchorMin": {
+              "x": 0,
+              "y": 0.5
+            },
+            "m_AnchorMax": {
+              "x": 1,
+              "y": 0.5
+            },
+            "m_AnchoredPosition": {
+              "x": 16.9534912109375,
+              "y": 3.2197265625
+            },
+            "m_SizeDelta": {
+              "x": 25.83769989013672,
+              "y": 31.702999114990234
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "components": [
+            {
+              "file": "sharedassets3.assets",
+              "path_id": 617,
+              "type": "RectTransform",
+              "class_id": 224,
+              "byte_offset": 652936,
+              "byte_size": 108,
+              "raw_sha256": "14e63182ec3e5fccf13dfa4969aa56de0069bf815cf1823740b8c66b9c605982",
+              "decoded": true,
+              "name": "",
+              "references": [
+                {
+                  "field": "$.m_GameObject",
+                  "file": "sharedassets3.assets",
+                  "path_id": 524
+                },
+                {
+                  "field": "$.m_Father",
+                  "file": "sharedassets3.assets",
+                  "path_id": 622
+                }
+              ],
+              "data": {
+                "path": "Data/sharedassets3.assets/RectTransform.jsonl",
+                "line": 7
+              }
+            },
+            {
+              "file": "sharedassets3.assets",
+              "path_id": 602,
+              "type": "CanvasRenderer",
+              "class_id": 222,
+              "byte_offset": 651976,
+              "byte_size": 13,
+              "raw_sha256": "e36c12bba0de72d8841c4dd1ef839395afbe36c5f96201d390ac1eec73aa7c53",
+              "decoded": true,
+              "name": "",
+              "references": [
+                {
+                  "field": "$.m_GameObject",
+                  "file": "sharedassets3.assets",
+                  "path_id": 524
+                }
+              ],
+              "data": {
+                "path": "Data/sharedassets3.assets/CanvasRenderer.jsonl",
+                "line": 2
+              }
+            },
+            {
+              "file": "sharedassets3.assets",
+              "path_id": 853,
+              "type": "MonoBehaviour",
+              "class_id": 114,
+              "byte_offset": 692272,
+              "byte_size": 136,
+              "raw_sha256": "4601b6ff2b64173d7b7040cbdf2de6c7b2801e35f04a1cc87b85de41f13d2942",
+              "decoded": true,
+              "name": "",
+              "script": {
+                "assembly": "UnityEngine.UI",
+                "namespace": "UnityEngine.UI",
+                "class": "Image",
+                "full_name": "UnityEngine.UI.Image"
+              },
+              "references": [
+                {
+                  "field": "$.m_GameObject",
+                  "file": "sharedassets3.assets",
+                  "path_id": 524
+                },
+                {
+                  "field": "$.m_Script",
+                  "file": "globalgamemanagers.assets",
+                  "path_id": 2372
+                }
+              ],
+              "data": {
+                "path": "Data/sharedassets3.assets/MonoBehaviour.UnityEngine.UI.Image.jsonl",
+                "line": 4
+              }
+            }
+          ]
+        },
+        {
+          "file": "sharedassets3.assets",
+          "path_id": 526,
+          "name": "UI_JiangjunLv2HealthDelay",
+          "active": true,
+          "layer": 5,
+          "source": {
+            "path": "Data/sharedassets3.assets/GameObject.jsonl",
+            "line": 15
+          },
+          "transform": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 526
+            },
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_Children": [
+              {
+                "m_FileID": 0,
+                "m_PathID": 623
+              }
+            ],
+            "m_Father": {
+              "m_FileID": 0,
+              "m_PathID": 622
+            },
+            "m_AnchorMin": {
+              "x": 0,
+              "y": 0.5
+            },
+            "m_AnchorMax": {
+              "x": 1,
+              "y": 0.5
+            },
+            "m_AnchoredPosition": {
+              "x": 8.984375,
+              "y": 0
+            },
+            "m_SizeDelta": {
+              "x": 17.968700408935547,
+              "y": 60
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "components": [
+            {
+              "file": "sharedassets3.assets",
+              "path_id": 611,
+              "type": "RectTransform",
+              "class_id": 224,
+              "byte_offset": 652216,
+              "byte_size": 120,
+              "raw_sha256": "c8952a18c98ff72f1c29add5c9a1186ad60eb8c439a67a16d488c45e031f89bd",
+              "decoded": true,
+              "name": "",
+              "references": [
+                {
+                  "field": "$.m_GameObject",
+                  "file": "sharedassets3.assets",
+                  "path_id": 526
+                },
+                {
+                  "field": "$.m_Children[0]",
+                  "file": "sharedassets3.assets",
+                  "path_id": 623
+                },
+                {
+                  "field": "$.m_Father",
+                  "file": "sharedassets3.assets",
+                  "path_id": 622
+                }
+              ],
+              "data": {
+                "path": "Data/sharedassets3.assets/RectTransform.jsonl",
+                "line": 1
+              }
+            },
+            {
+              "file": "sharedassets3.assets",
+              "path_id": 841,
+              "type": "MonoBehaviour",
+              "class_id": 114,
+              "byte_offset": 689896,
+              "byte_size": 356,
+              "raw_sha256": "4a29601ba14c8eb7c15856879ba02cd57d211656e76671d357c8bbd97288962f",
+              "decoded": true,
+              "name": "",
+              "script": {
+                "assembly": "UnityEngine.UI",
+                "namespace": "UnityEngine.UI",
+                "class": "Slider",
+                "full_name": "UnityEngine.UI.Slider"
+              },
+              "references": [
+                {
+                  "field": "$.m_GameObject",
+                  "file": "sharedassets3.assets",
+                  "path_id": 526
+                },
+                {
+                  "field": "$.m_Script",
+                  "file": "globalgamemanagers.assets",
+                  "path_id": 1008
+                },
+                {
+                  "field": "$.m_FillRect",
+                  "file": "sharedassets3.assets",
+                  "path_id": 618
+                }
+              ],
+              "data": {
+                "path": "Data/sharedassets3.assets/MonoBehaviour.UnityEngine.UI.Slider.jsonl",
+                "line": 1
+              }
+            }
+          ]
+        },
+        {
+          "file": "sharedassets3.assets",
+          "path_id": 514,
+          "name": "Fill Area",
+          "active": true,
+          "layer": 5,
+          "source": {
+            "path": "Data/sharedassets3.assets/GameObject.jsonl",
+            "line": 3
+          },
+          "transform": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 514
+            },
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_Children": [
+              {
+                "m_FileID": 0,
+                "m_PathID": 618
+              }
+            ],
+            "m_Father": {
+              "m_FileID": 0,
+              "m_PathID": 611
+            },
+            "m_AnchorMin": {
+              "x": 0,
+              "y": 0.25
+            },
+            "m_AnchorMax": {
+              "x": 1,
+              "y": 0.75
+            },
+            "m_AnchoredPosition": {
+              "x": 0.8612060546875,
+              "y": 0.06464385986328125
+            },
+            "m_SizeDelta": {
+              "x": 0.3176000118255615,
+              "y": 7.442599773406982
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "components": [
+            {
+              "file": "sharedassets3.assets",
+              "path_id": 623,
+              "type": "RectTransform",
+              "class_id": 224,
+              "byte_offset": 653688,
+              "byte_size": 120,
+              "raw_sha256": "e1b19e967b7279b2d7041f90a14f7a8377f61c0637d8e7e6957a5237ca823b25",
+              "decoded": true,
+              "name": "",
+              "references": [
+                {
+                  "field": "$.m_GameObject",
+                  "file": "sharedassets3.assets",
+                  "path_id": 514
+                },
+                {
+                  "field": "$.m_Children[0]",
+                  "file": "sharedassets3.assets",
+                  "path_id": 618
+                },
+                {
+                  "field": "$.m_Father",
+                  "file": "sharedassets3.assets",
+                  "path_id": 611
+                }
+              ],
+              "data": {
+                "path": "Data/sharedassets3.assets/RectTransform.jsonl",
+                "line": 13
+              }
+            }
+          ]
+        },
+        {
+          "file": "sharedassets3.assets",
+          "path_id": 517,
+          "name": "FillRed",
+          "active": true,
+          "layer": 5,
+          "source": {
+            "path": "Data/sharedassets3.assets/GameObject.jsonl",
+            "line": 6
+          },
+          "transform": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 517
+            },
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_Children": [],
+            "m_Father": {
+              "m_FileID": 0,
+              "m_PathID": 623
+            },
+            "m_AnchorMin": {
+              "x": 0,
+              "y": 0
+            },
+            "m_AnchorMax": {
+              "x": 0,
+              "y": 0
+            },
+            "m_AnchoredPosition": {
+              "x": -0.010009765625,
+              "y": 1.5354995727539062
+            },
+            "m_SizeDelta": {
+              "x": -2.440000057220459,
+              "y": -19.442899703979492
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "components": [
+            {
+              "file": "sharedassets3.assets",
+              "path_id": 618,
+              "type": "RectTransform",
+              "class_id": 224,
+              "byte_offset": 653048,
+              "byte_size": 108,
+              "raw_sha256": "d3609a6c5a3df34c8f09d8b02851a4b9f8eedd3fb09c6027a9b2f476c574d7b1",
+              "decoded": true,
+              "name": "",
+              "references": [
+                {
+                  "field": "$.m_GameObject",
+                  "file": "sharedassets3.assets",
+                  "path_id": 517
+                },
+                {
+                  "field": "$.m_Father",
+                  "file": "sharedassets3.assets",
+                  "path_id": 623
+                }
+              ],
+              "data": {
+                "path": "Data/sharedassets3.assets/RectTransform.jsonl",
+                "line": 8
+              }
+            },
+            {
+              "file": "sharedassets3.assets",
+              "path_id": 601,
+              "type": "CanvasRenderer",
+              "class_id": 222,
+              "byte_offset": 651960,
+              "byte_size": 13,
+              "raw_sha256": "21e7580754244019114c2d0c30c253a99070f0f469c3fbbd798ce4b9377d4784",
+              "decoded": true,
+              "name": "",
+              "references": [
+                {
+                  "field": "$.m_GameObject",
+                  "file": "sharedassets3.assets",
+                  "path_id": 517
+                }
+              ],
+              "data": {
+                "path": "Data/sharedassets3.assets/CanvasRenderer.jsonl",
+                "line": 1
+              }
+            },
+            {
+              "file": "sharedassets3.assets",
+              "path_id": 860,
+              "type": "MonoBehaviour",
+              "class_id": 114,
+              "byte_offset": 693760,
+              "byte_size": 136,
+              "raw_sha256": "0b6513f051118a3ac9880f8461b3f18b78254892cb4b21a94e629450d3ed3a5e",
+              "decoded": true,
+              "name": "",
+              "script": {
+                "assembly": "UnityEngine.UI",
+                "namespace": "UnityEngine.UI",
+                "class": "Image",
+                "full_name": "UnityEngine.UI.Image"
+              },
+              "references": [
+                {
+                  "field": "$.m_GameObject",
+                  "file": "sharedassets3.assets",
+                  "path_id": 517
+                },
+                {
+                  "field": "$.m_Script",
+                  "file": "globalgamemanagers.assets",
+                  "path_id": 2372
+                },
+                {
+                  "field": "$.m_Sprite",
+                  "file": "sharedassets0.assets",
+                  "path_id": 140
+                }
+              ],
+              "data": {
+                "path": "Data/sharedassets3.assets/MonoBehaviour.UnityEngine.UI.Image.jsonl",
+                "line": 6
+              }
+            }
+          ]
+        },
+        {
+          "file": "sharedassets3.assets",
+          "path_id": 521,
+          "name": "Fill Area",
+          "active": true,
+          "layer": 5,
+          "source": {
+            "path": "Data/sharedassets3.assets/GameObject.jsonl",
+            "line": 10
+          },
+          "transform": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 521
+            },
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_Children": [
+              {
+                "m_FileID": 0,
+                "m_PathID": 619
+              }
+            ],
+            "m_Father": {
+              "m_FileID": 0,
+              "m_PathID": 622
+            },
+            "m_AnchorMin": {
+              "x": 0,
+              "y": 0.25
+            },
+            "m_AnchorMax": {
+              "x": 1,
+              "y": 0.75
+            },
+            "m_AnchoredPosition": {
+              "x": 9.335693359375,
+              "y": 0.06463623046875
+            },
+            "m_SizeDelta": {
+              "x": 17.266000747680664,
+              "y": 7.442599773406982
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "components": [
+            {
+              "file": "sharedassets3.assets",
+              "path_id": 616,
+              "type": "RectTransform",
+              "class_id": 224,
+              "byte_offset": 652816,
+              "byte_size": 120,
+              "raw_sha256": "8e3844718d1e403fc68c5de1a43fcdd692dbed8349712a303136cbfc34855bae",
+              "decoded": true,
+              "name": "",
+              "references": [
+                {
+                  "field": "$.m_GameObject",
+                  "file": "sharedassets3.assets",
+                  "path_id": 521
+                },
+                {
+                  "field": "$.m_Children[0]",
+                  "file": "sharedassets3.assets",
+                  "path_id": 619
+                },
+                {
+                  "field": "$.m_Father",
+                  "file": "sharedassets3.assets",
+                  "path_id": 622
+                }
+              ],
+              "data": {
+                "path": "Data/sharedassets3.assets/RectTransform.jsonl",
+                "line": 6
+              }
+            }
+          ]
+        },
+        {
+          "file": "sharedassets3.assets",
+          "path_id": 541,
+          "name": "FillRed",
+          "active": true,
+          "layer": 5,
+          "source": {
+            "path": "Data/sharedassets3.assets/GameObject.jsonl",
+            "line": 30
+          },
+          "transform": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 541
+            },
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_Children": [],
+            "m_Father": {
+              "m_FileID": 0,
+              "m_PathID": 616
+            },
+            "m_AnchorMin": {
+              "x": 0,
+              "y": 0
+            },
+            "m_AnchorMax": {
+              "x": 0,
+              "y": 0
+            },
+            "m_AnchoredPosition": {
+              "x": 0.68597412109375,
+              "y": 1.522308349609375
+            },
+            "m_SizeDelta": {
+              "x": -1.3717999458312988,
+              "y": -19.029399871826172
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "components": [
+            {
+              "file": "sharedassets3.assets",
+              "path_id": 619,
+              "type": "RectTransform",
+              "class_id": 224,
+              "byte_offset": 653160,
+              "byte_size": 108,
+              "raw_sha256": "2828434fc0d2074989a2c89bb0725d9c23b8bb2db0d4bbd2e2d8908ee3086d64",
+              "decoded": true,
+              "name": "",
+              "references": [
+                {
+                  "field": "$.m_GameObject",
+                  "file": "sharedassets3.assets",
+                  "path_id": 541
+                },
+                {
+                  "field": "$.m_Father",
+                  "file": "sharedassets3.assets",
+                  "path_id": 616
+                }
+              ],
+              "data": {
+                "path": "Data/sharedassets3.assets/RectTransform.jsonl",
+                "line": 9
+              }
+            },
+            {
+              "file": "sharedassets3.assets",
+              "path_id": 605,
+              "type": "CanvasRenderer",
+              "class_id": 222,
+              "byte_offset": 652024,
+              "byte_size": 13,
+              "raw_sha256": "25eeabb2f92b0def43cb2f18b44febf59425d16dc49b87b7758f63896f6f9eac",
+              "decoded": true,
+              "name": "",
+              "references": [
+                {
+                  "field": "$.m_GameObject",
+                  "file": "sharedassets3.assets",
+                  "path_id": 541
+                }
+              ],
+              "data": {
+                "path": "Data/sharedassets3.assets/CanvasRenderer.jsonl",
+                "line": 5
+              }
+            },
+            {
+              "file": "sharedassets3.assets",
+              "path_id": 839,
+              "type": "MonoBehaviour",
+              "class_id": 114,
+              "byte_offset": 689616,
+              "byte_size": 136,
+              "raw_sha256": "d9449f4f833a4479d672bdc309771635599b9c6f1d534492b67ed735a2e2434d",
+              "decoded": true,
+              "name": "",
+              "script": {
+                "assembly": "UnityEngine.UI",
+                "namespace": "UnityEngine.UI",
+                "class": "Image",
+                "full_name": "UnityEngine.UI.Image"
+              },
+              "references": [
+                {
+                  "field": "$.m_GameObject",
+                  "file": "sharedassets3.assets",
+                  "path_id": 541
+                },
+                {
+                  "field": "$.m_Script",
+                  "file": "globalgamemanagers.assets",
+                  "path_id": 2372
+                },
+                {
+                  "field": "$.m_Sprite",
+                  "file": "sharedassets1.assets",
+                  "path_id": 877
+                }
+              ],
+              "data": {
+                "path": "Data/sharedassets3.assets/MonoBehaviour.UnityEngine.UI.Image.jsonl",
+                "line": 1
+              }
+            }
+          ]
+        },
+        {
+          "file": "sharedassets3.assets",
+          "path_id": 536,
+          "name": "Borders",
+          "active": true,
+          "layer": 5,
+          "source": {
+            "path": "Data/sharedassets3.assets/GameObject.jsonl",
+            "line": 25
+          },
+          "transform": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 536
+            },
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_Children": [],
+            "m_Father": {
+              "m_FileID": 0,
+              "m_PathID": 622
+            },
+            "m_AnchorMin": {
+              "x": 0,
+              "y": 0.25
+            },
+            "m_AnchorMax": {
+              "x": 1,
+              "y": 0.75
+            },
+            "m_AnchoredPosition": {
+              "x": 40.884002685546875,
+              "y": 0
+            },
+            "m_SizeDelta": {
+              "x": 109.1978988647461,
+              "y": 10
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "components": [
+            {
+              "file": "sharedassets3.assets",
+              "path_id": 613,
+              "type": "RectTransform",
+              "class_id": 224,
+              "byte_offset": 652472,
+              "byte_size": 108,
+              "raw_sha256": "1abc2676585453249af6d97105700df45d795cdeae3d31cbf5ad86a70477c569",
+              "decoded": true,
+              "name": "",
+              "references": [
+                {
+                  "field": "$.m_GameObject",
+                  "file": "sharedassets3.assets",
+                  "path_id": 536
+                },
+                {
+                  "field": "$.m_Father",
+                  "file": "sharedassets3.assets",
+                  "path_id": 622
+                }
+              ],
+              "data": {
+                "path": "Data/sharedassets3.assets/RectTransform.jsonl",
+                "line": 3
+              }
+            },
+            {
+              "file": "sharedassets3.assets",
+              "path_id": 603,
+              "type": "CanvasRenderer",
+              "class_id": 222,
+              "byte_offset": 651992,
+              "byte_size": 13,
+              "raw_sha256": "a5cc185b71699702c32616ccf60072eee64eb2dfeb50a0b3c64256fe0ec666a1",
+              "decoded": true,
+              "name": "",
+              "references": [
+                {
+                  "field": "$.m_GameObject",
+                  "file": "sharedassets3.assets",
+                  "path_id": 536
+                }
+              ],
+              "data": {
+                "path": "Data/sharedassets3.assets/CanvasRenderer.jsonl",
+                "line": 3
+              }
+            },
+            {
+              "file": "sharedassets3.assets",
+              "path_id": 852,
+              "type": "MonoBehaviour",
+              "class_id": 114,
+              "byte_offset": 692136,
+              "byte_size": 136,
+              "raw_sha256": "5fc09573678eab2293e336692eed728d2e7dda08e095b7f2a30ec30ed1a815b7",
+              "decoded": true,
+              "name": "",
+              "script": {
+                "assembly": "UnityEngine.UI",
+                "namespace": "UnityEngine.UI",
+                "class": "Image",
+                "full_name": "UnityEngine.UI.Image"
+              },
+              "references": [
+                {
+                  "field": "$.m_GameObject",
+                  "file": "sharedassets3.assets",
+                  "path_id": 536
+                },
+                {
+                  "field": "$.m_Script",
+                  "file": "globalgamemanagers.assets",
+                  "path_id": 2372
+                },
+                {
+                  "field": "$.m_Sprite",
+                  "file": "sharedassets1.assets",
+                  "path_id": 876
+                }
+              ],
+              "data": {
+                "path": "Data/sharedassets3.assets/MonoBehaviour.UnityEngine.UI.Image.jsonl",
+                "line": 3
+              }
+            }
+          ]
+        },
+        {
+          "file": "sharedassets3.assets",
+          "path_id": 543,
+          "name": "HealthValueText",
+          "active": false,
+          "layer": 5,
+          "source": {
+            "path": "Data/sharedassets3.assets/GameObject.jsonl",
+            "line": 32
+          },
+          "transform": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 543
+            },
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_Children": [],
+            "m_Father": {
+              "m_FileID": 0,
+              "m_PathID": 622
+            },
+            "m_AnchorMin": {
+              "x": 1,
+              "y": 0.5
+            },
+            "m_AnchorMax": {
+              "x": 1,
+              "y": 0.5
+            },
+            "m_AnchoredPosition": {
+              "x": -8.68505859375,
+              "y": 0
+            },
+            "m_SizeDelta": {
+              "x": 151.30999755859375,
+              "y": 50
+            },
+            "m_Pivot": {
+              "x": 1,
+              "y": 0.5
+            }
+          },
+          "components": [
+            {
+              "file": "sharedassets3.assets",
+              "path_id": 620,
+              "type": "RectTransform",
+              "class_id": 224,
+              "byte_offset": 653272,
+              "byte_size": 108,
+              "raw_sha256": "5d58745a8f48a26b38377037ef3dd21de4d71b6697d1c83f4814c144e1936255",
+              "decoded": true,
+              "name": "",
+              "references": [
+                {
+                  "field": "$.m_GameObject",
+                  "file": "sharedassets3.assets",
+                  "path_id": 543
+                },
+                {
+                  "field": "$.m_Father",
+                  "file": "sharedassets3.assets",
+                  "path_id": 622
+                }
+              ],
+              "data": {
+                "path": "Data/sharedassets3.assets/RectTransform.jsonl",
+                "line": 10
+              }
+            },
+            {
+              "file": "sharedassets3.assets",
+              "path_id": 604,
+              "type": "CanvasRenderer",
+              "class_id": 222,
+              "byte_offset": 652008,
+              "byte_size": 13,
+              "raw_sha256": "20b2f666d2d76323ff0f08555bd2f5f5d10afe71c87bea920bf7d8d09987a083",
+              "decoded": true,
+              "name": "",
+              "references": [
+                {
+                  "field": "$.m_GameObject",
+                  "file": "sharedassets3.assets",
+                  "path_id": 543
+                }
+              ],
+              "data": {
+                "path": "Data/sharedassets3.assets/CanvasRenderer.jsonl",
+                "line": 4
+              }
+            },
+            {
+              "file": "sharedassets3.assets",
+              "path_id": 858,
+              "type": "MonoBehaviour",
+              "class_id": 114,
+              "byte_offset": 692672,
+              "byte_size": 512,
+              "raw_sha256": "0f1ec3c58983b83033bc0084c8002a8dd4e141ef2cb0307984b69dd4fb05ca6b",
+              "decoded": true,
+              "name": "",
+              "script": {
+                "assembly": "Unity.TextMeshPro",
+                "namespace": "TMPro",
+                "class": "TextMeshProUGUI",
+                "full_name": "TMPro.TextMeshProUGUI"
+              },
+              "references": [
+                {
+                  "field": "$.m_GameObject",
+                  "file": "sharedassets3.assets",
+                  "path_id": 543
+                },
+                {
+                  "field": "$.m_Script",
+                  "file": "globalgamemanagers.assets",
+                  "path_id": 2281
+                },
+                {
+                  "field": "$.m_fontAsset",
+                  "file": "sharedassets0.assets",
+                  "path_id": 159
+                },
+                {
+                  "field": "$.m_sharedMaterial",
+                  "file": "sharedassets0.assets",
+                  "path_id": 12
+                }
+              ],
+              "data": {
+                "path": "Data/sharedassets3.assets/MonoBehaviour.TMPro.TextMeshProUGUI.jsonl",
+                "line": 2
+              }
+            }
+          ]
+        },
+        {
+          "file": "sharedassets3.assets",
+          "path_id": 545,
+          "name": "Name_JiangjunLv2",
+          "active": true,
+          "layer": 5,
+          "source": {
+            "path": "Data/sharedassets3.assets/GameObject.jsonl",
+            "line": 34
+          },
+          "transform": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 545
+            },
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalPosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_Children": [],
+            "m_Father": {
+              "m_FileID": 0,
+              "m_PathID": 622
+            },
+            "m_AnchorMin": {
+              "x": 0,
+              "y": 0.5
+            },
+            "m_AnchorMax": {
+              "x": 0,
+              "y": 0.5
+            },
+            "m_AnchoredPosition": {
+              "x": 0,
+              "y": 42
+            },
+            "m_SizeDelta": {
+              "x": 200,
+              "y": 50
+            },
+            "m_Pivot": {
+              "x": 0,
+              "y": 0.5
+            }
+          },
+          "components": [
+            {
+              "file": "sharedassets3.assets",
+              "path_id": 615,
+              "type": "RectTransform",
+              "class_id": 224,
+              "byte_offset": 652704,
+              "byte_size": 108,
+              "raw_sha256": "42f9efb5a4a40a2c502feddd072b51da451e1a20639bcf860433ea0aa768da10",
+              "decoded": true,
+              "name": "",
+              "references": [
+                {
+                  "field": "$.m_GameObject",
+                  "file": "sharedassets3.assets",
+                  "path_id": 545
+                },
+                {
+                  "field": "$.m_Father",
+                  "file": "sharedassets3.assets",
+                  "path_id": 622
+                }
+              ],
+              "data": {
+                "path": "Data/sharedassets3.assets/RectTransform.jsonl",
+                "line": 5
+              }
+            },
+            {
+              "file": "sharedassets3.assets",
+              "path_id": 607,
+              "type": "CanvasRenderer",
+              "class_id": 222,
+              "byte_offset": 652056,
+              "byte_size": 13,
+              "raw_sha256": "4e56d25fbcbbb727788557ab0c579dda00113916fbd957c7866c2a2c6f20319d",
+              "decoded": true,
+              "name": "",
+              "references": [
+                {
+                  "field": "$.m_GameObject",
+                  "file": "sharedassets3.assets",
+                  "path_id": 545
+                }
+              ],
+              "data": {
+                "path": "Data/sharedassets3.assets/CanvasRenderer.jsonl",
+                "line": 7
+              }
+            },
+            {
+              "file": "sharedassets3.assets",
+              "path_id": 846,
+              "type": "MonoBehaviour",
+              "class_id": 114,
+              "byte_offset": 690744,
+              "byte_size": 508,
+              "raw_sha256": "8c739faef2f096a4279a84e21bcfcdf0a0c962612433ddbe6bd6e263bcbe925a",
+              "decoded": true,
+              "name": "",
+              "script": {
+                "assembly": "Unity.TextMeshPro",
+                "namespace": "TMPro",
+                "class": "TextMeshProUGUI",
+                "full_name": "TMPro.TextMeshProUGUI"
+              },
+              "references": [
+                {
+                  "field": "$.m_GameObject",
+                  "file": "sharedassets3.assets",
+                  "path_id": 545
+                },
+                {
+                  "field": "$.m_Script",
+                  "file": "globalgamemanagers.assets",
+                  "path_id": 2281
+                },
+                {
+                  "field": "$.m_fontAsset",
+                  "file": "sharedassets0.assets",
+                  "path_id": 156
+                },
+                {
+                  "field": "$.m_sharedMaterial",
+                  "file": "sharedassets0.assets",
+                  "path_id": 15
+                }
+              ],
+              "data": {
+                "path": "Data/sharedassets3.assets/MonoBehaviour.TMPro.TextMeshProUGUI.jsonl",
+                "line": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "effectVisuals": {
+    "water": {
+      "x": 0,
+      "y": -9.600000381469727,
+      "scaleX": 1,
+      "scaleY": 1,
+      "alpha": 0.7019608020782471,
+      "layer": -6,
+      "order": 0
+    },
+    "fireboom": {
+      "x": 0,
+      "y": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "alpha": 1,
+      "layer": -7,
+      "order": 11
+    },
+    "meteorite": {
+      "x": 0,
+      "y": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "alpha": 1,
+      "layer": -7,
+      "order": 10
+    }
+  },
+  "doorVisuals": [
+    168
+  ],
+  "meteorite": {
+    "values": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 534
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 1,
+        "m_PathID": 409
+      },
+      "m_Name": "",
+      "fallSpeed": 20,
+      "whatCanCollideWith": {
+        "m_Bits": 128
+      },
+      "damageMultiplier": 1.5,
+      "impactVFXPrefab": {
+        "m_FileID": 0,
+        "m_PathID": 538
+      },
+      "destroyDelay": 1.5,
+      "impactVFXOffset": {
+        "x": 0,
+        "y": -1.5,
+        "z": 0
+      },
+      "maxLifeTime": 10,
+      "shakeForce": 3,
+      "groundLayer": {
+        "m_Bits": 0
+      },
+      "groundCheckDistance": 0.5,
+      "impactSoundName": "meteorite_Impact"
+    },
+    "impulse": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 534
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 1,
+        "m_PathID": 310
+      },
+      "m_Name": "",
+      "ImpulseDefinition": {
+        "ImpulseChannel": 1,
+        "ImpulseShape": 2,
+        "CustomImpulseShape": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "ImpulseDuration": 0.20000000298023224,
+        "ImpulseType": 0,
+        "DissipationRate": 0.25,
+        "RawSignal": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "AmplitudeGain": 1,
+        "FrequencyGain": 1,
+        "RepeatMode": 0,
+        "Randomize": 1,
+        "TimeEnvelope": {
+          "AttackShape": {
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "DecayShape": {
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "AttackTime": 0,
+          "SustainTime": 0.20000000298023224,
+          "DecayTime": 0.699999988079071,
+          "ScaleWithImpact": 1,
+          "HoldForever": 0
+        },
+        "ImpactRadius": 100,
+        "DirectionMode": 0,
+        "DissipationMode": 2,
+        "DissipationDistance": 100,
+        "PropagationSpeed": 343
+      },
+      "DefaultVelocity": {
+        "x": 0.07999999821186066,
+        "y": -0.05000000074505806,
+        "z": 0
+      }
+    },
+    "shape": {
+      "type": "capsule",
+      "width": 24.5250244140625,
+      "height": 62.666900634765625,
+      "x": -1.89935302734375,
+      "y": 4.5552825927734375
+    }
+  },
+  "banks": {
+    "jiangjun": {
+      "actions": [
+        "JiangJunIdle",
+        "JiangJun2level",
+        "JiangJunAttack1",
+        "JiangJunAttack2",
+        "JiangJunBattleIdle",
+        "JiangJunCharge",
+        "JiangJunDash",
+        "JiangJunHurt",
+        "JiangJunMove",
+        "JiangJunSpecialAttack",
+        "JiangJunStab",
+        "JiangJunStabEnd",
+        "JiangJunStunned"
+      ],
+      "emission": false
+    },
+    "jiangjunlv2": {
+      "actions": [
+        "JiangJun2LvIdle",
+        "JiangJun2LvAttack1",
+        "JiangJun2LvAttack2",
+        "JiangJun2LvBattleIdle",
+        "JiangJun2LvCharge",
+        "JiangJun2LvDie",
+        "JiangJun2LvMove",
+        "JiangJun2LvSpecialAttack",
+        "JiangJun2LvStab",
+        "JiangJun2LvStabEnd",
+        "JiangJun2LvStunned",
+        "JiangJun2LvUltimate",
+        "jiangJun2LvHurt"
+      ],
+      "emission": false
+    },
+    "meteorite": {
+      "actions": [
+        "JiangJun2LvFire"
+      ],
+      "emission": false
+    },
+    "water": {
+      "actions": [
+        "Vfx_Splash_s"
+      ],
+      "emission": false
+    },
+    "fireboom": {
+      "actions": [
+        "Vfx_FireBoom"
+      ],
+      "emission": false
+    }
+  },
+  "converterVersion": 1
+}

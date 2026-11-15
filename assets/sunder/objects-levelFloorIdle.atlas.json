@@ -1,0 +1,34 @@
+{
+  "frames": {
+    "f00000.png": {
+      "frame": {
+        "x": 897,
+        "y": 1,
+        "w": 46,
+        "h": 29
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 46,
+        "h": 29
+      },
+      "spriteSourceSize": {
+        "x": 34.5,
+        "y": 39.5,
+        "w": 46,
+        "h": 29
+      }
+    }
+  },
+  "meta": {
+    "image": "objects.png",
+    "size": {
+      "w": 2017,
+      "h": 141
+    },
+    "scale": "1",
+    "scaleMode": "nearest",
+    "baseUrl": "objects/objects-levelFloorIdle.atlas.json"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "frames": {
+    "f00000.png": {
+      "frame": {
+        "x": 205,
+        "y": 1,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 18,
+        "h": 18
+      },
+      "spriteSourceSize": {
+        "x": -2,
+        "y": -2,
+        "w": 36,
+        "h": 36
+      }
+    },
+    "f00001.png": {
+      "frame": {
+        "x": 225,
+        "y": 1,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 18,
+        "h": 18
+      },
+      "spriteSourceSize": {
+        "x": -2,
+        "y": -2,
+        "w": 36,
+        "h": 36
+      }
+    },
+    "f00002.png": {
+      "frame": {
+        "x": 245,
+        "y": 1,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 18,
+        "h": 18
+      },
+      "spriteSourceSize": {
+        "x": -2,
+        "y": -2,
+        "w": 36,
+        "h": 36
+      }
+    },
+    "f00003.png": {
+      "frame": {
+        "x": 265,
+        "y": 1,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 18,
+        "h": 18
+      },
+      "spriteSourceSize": {
+        "x": -2,
+        "y": -2,
+        "w": 36,
+        "h": 36
+      }
+    }
+  },
+  "meta": {
+    "image": "interactions.png",
+    "size": {
+      "w": 530,
+      "h": 62
+    },
+    "scale": "1",
+    "scaleMode": "nearest",
+    "baseUrl": "interactions/interactions-UI_button.atlas.json"
+  }
+}

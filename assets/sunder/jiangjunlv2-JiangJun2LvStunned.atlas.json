@@ -1,0 +1,34 @@
+{
+  "frames": {
+    "f00000.png": {
+      "frame": {
+        "x": 568,
+        "y": 197,
+        "w": 96,
+        "h": 95
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 96,
+        "h": 95
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0.9999992251396179,
+        "w": 96,
+        "h": 95
+      }
+    }
+  },
+  "meta": {
+    "image": "jiangjunlv2.png",
+    "size": {
+      "w": 2044,
+      "h": 569
+    },
+    "scale": "1",
+    "scaleMode": "nearest",
+    "baseUrl": "jiangjunlv2/jiangjunlv2-JiangJun2LvStunned.atlas.json"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "url": "presentation-sharedassets0-assets-112.png",
+  "width": 301,
+  "height": 172,
+  "ppu": 32,
+  "pivot": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "border": {
+    "x": 55,
+    "y": 50,
+    "z": 55,
+    "w": 50
+  },
+  "source": {
+    "path": "Data/sharedassets0.assets/Sprite.jsonl",
+    "line": 1
+  },
+  "serializedFile": "sharedassets0.assets",
+  "pathId": 112,
+  "converterVersion": 1
+}

@@ -1,0 +1,274 @@
+{
+  "frames": {
+    "f00000.png": {
+      "frame": {
+        "x": 1275,
+        "y": 99,
+        "w": 96,
+        "h": 96
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": -27.999999046325684,
+        "w": 96,
+        "h": 96
+      }
+    },
+    "f00001.png": {
+      "frame": {
+        "x": 1373,
+        "y": 99,
+        "w": 96,
+        "h": 96
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": -28.000000476837158,
+        "w": 96,
+        "h": 96
+      }
+    },
+    "f00002.png": {
+      "frame": {
+        "x": 1471,
+        "y": 99,
+        "w": 96,
+        "h": 96
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": -28.000000476837158,
+        "w": 96,
+        "h": 96
+      }
+    },
+    "f00003.png": {
+      "frame": {
+        "x": 1569,
+        "y": 99,
+        "w": 96,
+        "h": 96
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 2.0000038146972656,
+        "w": 96,
+        "h": 96
+      }
+    },
+    "f00004.png": {
+      "frame": {
+        "x": 1667,
+        "y": 99,
+        "w": 96,
+        "h": 96
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 5.000003814697266,
+        "w": 96,
+        "h": 96
+      }
+    },
+    "f00005.png": {
+      "frame": {
+        "x": 1765,
+        "y": 99,
+        "w": 96,
+        "h": 96
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 6,
+        "w": 96,
+        "h": 96
+      }
+    },
+    "f00006.png": {
+      "frame": {
+        "x": 1765,
+        "y": 99,
+        "w": 96,
+        "h": 96
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 6,
+        "w": 96,
+        "h": 96
+      }
+    },
+    "f00007.png": {
+      "frame": {
+        "x": 1863,
+        "y": 99,
+        "w": 96,
+        "h": 96
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 4.000001907348633,
+        "w": 96,
+        "h": 96
+      }
+    },
+    "f00008.png": {
+      "frame": {
+        "x": 1,
+        "y": 197,
+        "w": 96,
+        "h": 96
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": -18.999999046325684,
+        "w": 96,
+        "h": 96
+      }
+    },
+    "f00009.png": {
+      "frame": {
+        "x": 99,
+        "y": 197,
+        "w": 96,
+        "h": 96
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": -28.000000476837158,
+        "w": 96,
+        "h": 96
+      }
+    },
+    "f00010.png": {
+      "frame": {
+        "x": 197,
+        "y": 197,
+        "w": 96,
+        "h": 96
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": -28.000000476837158,
+        "w": 96,
+        "h": 96
+      }
+    },
+    "f00011.png": {
+      "frame": {
+        "x": 295,
+        "y": 197,
+        "w": 96,
+        "h": 96
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": -28.000000476837158,
+        "w": 96,
+        "h": 96
+      }
+    },
+    "f00012.png": {
+      "frame": {
+        "x": 393,
+        "y": 197,
+        "w": 96,
+        "h": 96
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": -28.000000476837158,
+        "w": 96,
+        "h": 96
+      }
+    }
+  },
+  "meta": {
+    "image": "player.png",
+    "size": {
+      "w": 1961,
+      "h": 686
+    },
+    "scale": "1",
+    "scaleMode": "nearest",
+    "baseUrl": "player/player-playerChargeAttack.atlas.json"
+  }
+}

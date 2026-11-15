@@ -1,0 +1,1627 @@
+{
+  "JiangJunIdle": {
+    "serializedFile": "sharedassets3.assets",
+    "pathId": 58,
+    "source": {
+      "path": "Data/sharedassets3.assets/AnimationClip.jsonl",
+      "line": 8
+    },
+    "start": 0,
+    "stop": 1,
+    "sampleRate": 6,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 496
+      },
+      {
+        "time": 0.1666666716337204,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 508
+      },
+      {
+        "time": 0.3333333432674408,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 92
+      },
+      {
+        "time": 0.5,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 115
+      },
+      {
+        "time": 0.6666666865348816,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 110
+      },
+      {
+        "time": 0.8333333134651184,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 111
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 8,
+      "m_CurveCount": 0,
+      "m_SampleRate": 6,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "JiangJun2level": {
+    "serializedFile": "sharedassets3.assets",
+    "pathId": 51,
+    "source": {
+      "path": "Data/sharedassets3.assets/AnimationClip.jsonl",
+      "line": 1
+    },
+    "start": 0,
+    "stop": 7.785714626312256,
+    "sampleRate": 14,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 301
+      },
+      {
+        "time": 0.1428571492433548,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 218
+      },
+      {
+        "time": 0.2857142984867096,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 496
+      },
+      {
+        "time": 0.4285714328289032,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 131
+      },
+      {
+        "time": 0.7142857313156128,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 372
+      },
+      {
+        "time": 1,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 302
+      },
+      {
+        "time": 2.857142925262451,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 190
+      },
+      {
+        "time": 3,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 350
+      },
+      {
+        "time": 3.0714285373687744,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 237
+      },
+      {
+        "time": 4.285714149475098,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 256
+      },
+      {
+        "time": 4.357142925262451,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 482
+      },
+      {
+        "time": 4.4285712242126465,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 491
+      },
+      {
+        "time": 4.5,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 498
+      },
+      {
+        "time": 4.5714287757873535,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 484
+      },
+      {
+        "time": 4.642857074737549,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 89
+      },
+      {
+        "time": 4.714285850524902,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 465
+      },
+      {
+        "time": 4.785714149475098,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 210
+      },
+      {
+        "time": 4.857142925262451,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 252
+      },
+      {
+        "time": 4.9285712242126465,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 155
+      },
+      {
+        "time": 5,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 210
+      },
+      {
+        "time": 5.0714287757873535,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 252
+      },
+      {
+        "time": 5.142857074737549,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 155
+      },
+      {
+        "time": 5.214285850524902,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 210
+      },
+      {
+        "time": 5.285714149475098,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 252
+      },
+      {
+        "time": 5.357142925262451,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 155
+      },
+      {
+        "time": 5.4285712242126465,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 210
+      },
+      {
+        "time": 5.5,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 252
+      },
+      {
+        "time": 5.5714287757873535,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 155
+      },
+      {
+        "time": 5.642857074737549,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 210
+      },
+      {
+        "time": 5.714285850524902,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 252
+      },
+      {
+        "time": 5.785714149475098,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 155
+      },
+      {
+        "time": 5.857142925262451,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 210
+      },
+      {
+        "time": 5.9285712242126465,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 252
+      },
+      {
+        "time": 6,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 155
+      },
+      {
+        "time": 6.0714287757873535,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 284
+      },
+      {
+        "time": 6.142857074737549,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 495
+      },
+      {
+        "time": 6.285714149475098,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 120
+      },
+      {
+        "time": 6.4285712242126465,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 511
+      },
+      {
+        "time": 6.5714287757873535,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 107
+      },
+      {
+        "time": 6.714285850524902,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 91
+      },
+      {
+        "time": 6.857142925262451,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 118
+      },
+      {
+        "time": 7,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 495
+      },
+      {
+        "time": 7.142857074737549,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 120
+      },
+      {
+        "time": 7.285714149475098,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 511
+      },
+      {
+        "time": 7.4285712242126465,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 107
+      },
+      {
+        "time": 7.5714287757873535,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 91
+      },
+      {
+        "time": 7.714285850524902,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 118
+      }
+    ],
+    "events": [
+      {
+        "time": 4.357142925262451,
+        "functionName": "CameraShake",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 4.357142925262451,
+        "functionName": "TriggerShockWave",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 4.357142925262451,
+        "functionName": "PlayRoarSound",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 4.4285712242126465,
+        "functionName": "CameraShake",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 4.5,
+        "functionName": "CameraShake",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 4.5714287757873535,
+        "functionName": "CameraShake",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 4.642857074737549,
+        "functionName": "CameraShake",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 4.714285850524902,
+        "functionName": "CameraShake",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 4.785714149475098,
+        "functionName": "CameraShake",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 4.857142925262451,
+        "functionName": "CameraShake",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 4.9285712242126465,
+        "functionName": "CameraShake",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 5,
+        "functionName": "CameraShake",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 5.0714287757873535,
+        "functionName": "CameraShake",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 5.142857551574707,
+        "functionName": "CameraShake",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 5.2142863273620605,
+        "functionName": "CameraShake",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 5.285714626312256,
+        "functionName": "CameraShake",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 5.357143402099609,
+        "functionName": "CameraShake",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 5.428571701049805,
+        "functionName": "CameraShake",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 5.500000476837158,
+        "functionName": "CameraShake",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 5.5714287757873535,
+        "functionName": "CameraShake",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 5.642857551574707,
+        "functionName": "CameraShake",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 5.714285850524902,
+        "functionName": "CameraShake",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 5.785714626312256,
+        "functionName": "CameraShake",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 5.857143402099609,
+        "functionName": "CameraShake",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 5.928571701049805,
+        "functionName": "CameraShake",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 6.000000476837158,
+        "functionName": "CameraShake",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 6.0714287757873535,
+        "functionName": "CameraShake",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 6.142857551574707,
+        "functionName": "CameraShake",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 7.785714149475098,
+        "functionName": "SpawnSecondPhase",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 7.785714149475098,
+        "functionName": "DestroyAfterAnimation",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      }
+    ],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 111,
+      "m_CurveCount": 0,
+      "m_SampleRate": 14,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "JiangJunAttack1": {
+    "serializedFile": "sharedassets3.assets",
+    "pathId": 52,
+    "source": {
+      "path": "Data/sharedassets3.assets/AnimationClip.jsonl",
+      "line": 2
+    },
+    "start": 0,
+    "stop": 2.5,
+    "sampleRate": 12,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 393
+      },
+      {
+        "time": 0.0833333358168602,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 403
+      },
+      {
+        "time": 0.4166666567325592,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 208
+      },
+      {
+        "time": 0.5,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 275
+      },
+      {
+        "time": 0.5833333134651184,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 314
+      },
+      {
+        "time": 0.6666666865348816,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 130
+      },
+      {
+        "time": 0.75,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 311
+      },
+      {
+        "time": 0.8333333134651184,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 380
+      },
+      {
+        "time": 0.9166666865348816,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 367
+      },
+      {
+        "time": 1,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 200
+      },
+      {
+        "time": 1.0833333730697632,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 213
+      },
+      {
+        "time": 1.1666666269302368,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 384
+      },
+      {
+        "time": 1.25,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 349
+      },
+      {
+        "time": 1.3333333730697632,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 283
+      },
+      {
+        "time": 1.4166666269302368,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 419
+      },
+      {
+        "time": 1.5,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 317
+      },
+      {
+        "time": 1.5833333730697632,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 332
+      },
+      {
+        "time": 1.6666666269302368,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 138
+      },
+      {
+        "time": 1.75,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 194
+      },
+      {
+        "time": 1.9166666269302368,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 168
+      },
+      {
+        "time": 2.0833332538604736,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 212
+      },
+      {
+        "time": 2.25,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 168
+      },
+      {
+        "time": 2.4166667461395264,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 184
+      }
+    ],
+    "events": [
+      {
+        "time": 0.4166666567325592,
+        "functionName": "EnableCounterWindow",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 0.5,
+        "functionName": "AttackTrigger",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 0.5,
+        "functionName": "DisableCounterWindow",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 1,
+        "functionName": "AttackTrigger",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 1.5,
+        "functionName": "AttackTrigger",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 1.75,
+        "functionName": "BlockWindowEndTrigger",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 2.4166667461395264,
+        "functionName": "CurrentStateTrigger",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      }
+    ],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 32,
+      "m_CurveCount": 0,
+      "m_SampleRate": 12,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "JiangJunAttack2": {
+    "serializedFile": "sharedassets3.assets",
+    "pathId": 53,
+    "source": {
+      "path": "Data/sharedassets3.assets/AnimationClip.jsonl",
+      "line": 3
+    },
+    "start": 0,
+    "stop": 1.5833333730697632,
+    "sampleRate": 12,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 380
+      },
+      {
+        "time": 0.3333333432674408,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 367
+      },
+      {
+        "time": 0.4166666567325592,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 200
+      },
+      {
+        "time": 0.5,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 213
+      },
+      {
+        "time": 0.5833333134651184,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 384
+      },
+      {
+        "time": 0.75,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 384
+      },
+      {
+        "time": 0.8333333134651184,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 463
+      },
+      {
+        "time": 1,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 228
+      },
+      {
+        "time": 1.1666666269302368,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 458
+      },
+      {
+        "time": 1.3333333730697632,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 228
+      },
+      {
+        "time": 1.5,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 463
+      }
+    ],
+    "events": [
+      {
+        "time": 0.3333333432674408,
+        "functionName": "EnableCounterWindow",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 0.4166666567325592,
+        "functionName": "DisableCounterWindow",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 0.4166666567325592,
+        "functionName": "AttackTrigger",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 0.75,
+        "functionName": "BlockWindowEndTrigger",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 1.5,
+        "functionName": "CurrentStateTrigger",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      }
+    ],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 21,
+      "m_CurveCount": 0,
+      "m_SampleRate": 12,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "JiangJunBattleIdle": {
+    "serializedFile": "sharedassets3.assets",
+    "pathId": 54,
+    "source": {
+      "path": "Data/sharedassets3.assets/AnimationClip.jsonl",
+      "line": 4
+    },
+    "start": 0,
+    "stop": 2,
+    "sampleRate": 2,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 463
+      },
+      {
+        "time": 0.5,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 228
+      },
+      {
+        "time": 1,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 458
+      },
+      {
+        "time": 1.5,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 463
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 6,
+      "m_CurveCount": 0,
+      "m_SampleRate": 2,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "JiangJunCharge": {
+    "serializedFile": "sharedassets3.assets",
+    "pathId": 55,
+    "source": {
+      "path": "Data/sharedassets3.assets/AnimationClip.jsonl",
+      "line": 5
+    },
+    "start": 0,
+    "stop": 1.4166667461395264,
+    "sampleRate": 12,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 193
+      },
+      {
+        "time": 0.0833333358168602,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 296
+      },
+      {
+        "time": 0.1666666716337204,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 245
+      },
+      {
+        "time": 0.25,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 158
+      },
+      {
+        "time": 0.3333333432674408,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 299
+      },
+      {
+        "time": 0.4166666567325592,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 143
+      },
+      {
+        "time": 0.5,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 365
+      },
+      {
+        "time": 0.5833333134651184,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 181
+      },
+      {
+        "time": 0.6666666865348816,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 147
+      },
+      {
+        "time": 0.75,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 224
+      },
+      {
+        "time": 0.8333333134651184,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 371
+      },
+      {
+        "time": 0.9166666865348816,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 378
+      },
+      {
+        "time": 1,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 286
+      },
+      {
+        "time": 1.0833333730697632,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 234
+      },
+      {
+        "time": 1.1666666269302368,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 226
+      },
+      {
+        "time": 1.25,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 250
+      },
+      {
+        "time": 1.3333333730697632,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 250
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 19,
+      "m_CurveCount": 0,
+      "m_SampleRate": 12,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "JiangJunDash": {
+    "serializedFile": "sharedassets3.assets",
+    "pathId": 56,
+    "source": {
+      "path": "Data/sharedassets3.assets/AnimationClip.jsonl",
+      "line": 6
+    },
+    "start": 0,
+    "stop": 0.01666666753590107,
+    "sampleRate": 60,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 307
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 3,
+      "m_CurveCount": 0,
+      "m_SampleRate": 60,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "JiangJunHurt": {
+    "serializedFile": "sharedassets3.assets",
+    "pathId": 57,
+    "source": {
+      "path": "Data/sharedassets3.assets/AnimationClip.jsonl",
+      "line": 7
+    },
+    "start": 0,
+    "stop": 0.3333333432674408,
+    "sampleRate": 12,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 301
+      },
+      {
+        "time": 0.0833333358168602,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 301
+      },
+      {
+        "time": 0.1666666716337204,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 218
+      },
+      {
+        "time": 0.25,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 131
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 6,
+      "m_CurveCount": 0,
+      "m_SampleRate": 12,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "JiangJunMove": {
+    "serializedFile": "sharedassets3.assets",
+    "pathId": 59,
+    "source": {
+      "path": "Data/sharedassets3.assets/AnimationClip.jsonl",
+      "line": 9
+    },
+    "start": 0,
+    "stop": 2,
+    "sampleRate": 4,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 217
+      },
+      {
+        "time": 0.25,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 307
+      },
+      {
+        "time": 0.5,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 182
+      },
+      {
+        "time": 0.75,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 192
+      },
+      {
+        "time": 1,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 139
+      },
+      {
+        "time": 1.25,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 211
+      },
+      {
+        "time": 1.5,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 461
+      },
+      {
+        "time": 1.75,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 251
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 10,
+      "m_CurveCount": 0,
+      "m_SampleRate": 4,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "JiangJunSpecialAttack": {
+    "serializedFile": "sharedassets3.assets",
+    "pathId": 60,
+    "source": {
+      "path": "Data/sharedassets3.assets/AnimationClip.jsonl",
+      "line": 10
+    },
+    "start": 0,
+    "stop": 1.9166667461395264,
+    "sampleRate": 12,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 175
+      },
+      {
+        "time": 0.0833333358168602,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 197
+      },
+      {
+        "time": 0.1666666716337204,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 281
+      },
+      {
+        "time": 0.25,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 254
+      },
+      {
+        "time": 0.5,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 425
+      },
+      {
+        "time": 0.5833333134651184,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 238
+      },
+      {
+        "time": 0.6666666865348816,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 449
+      },
+      {
+        "time": 0.75,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 417
+      },
+      {
+        "time": 0.9166666865348816,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 230
+      },
+      {
+        "time": 1,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 454
+      },
+      {
+        "time": 1.0833333730697632,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 448
+      },
+      {
+        "time": 1.1666666269302368,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 358
+      },
+      {
+        "time": 1.3333333730697632,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 168
+      },
+      {
+        "time": 1.5,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 212
+      },
+      {
+        "time": 1.6666666269302368,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 168
+      },
+      {
+        "time": 1.8333333730697632,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 184
+      }
+    ],
+    "events": [
+      {
+        "time": 0.5,
+        "functionName": "EnableCounterWindow",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 0.5833333134651184,
+        "functionName": "AttackTrigger",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 0.5833333134651184,
+        "functionName": "DisableCounterWindow",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 0.9166666865348816,
+        "functionName": "AttackTrigger",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 1.1666666269302368,
+        "functionName": "BlockWindowEndTrigger",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 1.8333333730697632,
+        "functionName": "CurrentStateTrigger",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      }
+    ],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 25,
+      "m_CurveCount": 0,
+      "m_SampleRate": 12,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "JiangJunStab": {
+    "serializedFile": "sharedassets3.assets",
+    "pathId": 61,
+    "source": {
+      "path": "Data/sharedassets3.assets/AnimationClip.jsonl",
+      "line": 11
+    },
+    "start": 0,
+    "stop": 0.01666666753590107,
+    "sampleRate": 60,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 287
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 3,
+      "m_CurveCount": 0,
+      "m_SampleRate": 60,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "JiangJunStabEnd": {
+    "serializedFile": "sharedassets3.assets",
+    "pathId": 62,
+    "source": {
+      "path": "Data/sharedassets3.assets/AnimationClip.jsonl",
+      "line": 12
+    },
+    "start": 0,
+    "stop": 0.3333333432674408,
+    "sampleRate": 15,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 287
+      },
+      {
+        "time": 0.06666667014360428,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 246
+      },
+      {
+        "time": 0.13333334028720856,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 170
+      },
+      {
+        "time": 0.20000000298023224,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 246
+      },
+      {
+        "time": 0.2666666805744171,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 287
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 7,
+      "m_CurveCount": 0,
+      "m_SampleRate": 15,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "JiangJunStunned": {
+    "serializedFile": "sharedassets3.assets",
+    "pathId": 63,
+    "source": {
+      "path": "Data/sharedassets3.assets/AnimationClip.jsonl",
+      "line": 13
+    },
+    "start": 0,
+    "stop": 0.01666666753590107,
+    "sampleRate": 60,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 301
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 3,
+      "m_CurveCount": 0,
+      "m_SampleRate": 60,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  }
+}

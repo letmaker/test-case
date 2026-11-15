@@ -1,0 +1,530 @@
+{
+  "archerIdle": {
+    "serializedFile": "sharedassets2.assets",
+    "pathId": 68,
+    "source": {
+      "path": "Data/sharedassets2.assets/AnimationClip.jsonl",
+      "line": 4
+    },
+    "start": 0,
+    "stop": 0.8333333134651184,
+    "sampleRate": 12,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 122
+      },
+      {
+        "time": 0.0833333358168602,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 154
+      },
+      {
+        "time": 0.1666666716337204,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 353
+      },
+      {
+        "time": 0.25,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 146
+      },
+      {
+        "time": 0.3333333432674408,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 345
+      },
+      {
+        "time": 0.4166666567325592,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 143
+      },
+      {
+        "time": 0.5,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 372
+      },
+      {
+        "time": 0.5833333134651184,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 135
+      },
+      {
+        "time": 0.6666666865348816,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 127
+      },
+      {
+        "time": 0.75,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 383
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 12,
+      "m_CurveCount": 0,
+      "m_SampleRate": 12,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "archerAttack": {
+    "serializedFile": "sharedassets2.assets",
+    "pathId": 65,
+    "source": {
+      "path": "Data/sharedassets2.assets/AnimationClip.jsonl",
+      "line": 1
+    },
+    "start": 0,
+    "stop": 1,
+    "sampleRate": 12,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 347
+      },
+      {
+        "time": 0.0833333358168602,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 368
+      },
+      {
+        "time": 0.1666666716337204,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 377
+      },
+      {
+        "time": 0.25,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 142
+      },
+      {
+        "time": 0.3333333432674408,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 373
+      },
+      {
+        "time": 0.4166666567325592,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 131
+      },
+      {
+        "time": 0.5,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 121
+      },
+      {
+        "time": 0.5833333134651184,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 145
+      },
+      {
+        "time": 0.6666666865348816,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 124
+      },
+      {
+        "time": 0.75,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 362
+      },
+      {
+        "time": 0.8333333134651184,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 141
+      },
+      {
+        "time": 0.9166666865348816,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 358
+      }
+    ],
+    "events": [
+      {
+        "time": 0.5,
+        "functionName": "SpecialAttackTrigger",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 0.9166666865348816,
+        "functionName": "CurrentStateTrigger",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 0.9166666865348816,
+        "functionName": "BlockWindowEndTrigger",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      }
+    ],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 14,
+      "m_CurveCount": 0,
+      "m_SampleRate": 12,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "archerDie": {
+    "serializedFile": "sharedassets2.assets",
+    "pathId": 66,
+    "source": {
+      "path": "Data/sharedassets2.assets/AnimationClip.jsonl",
+      "line": 2
+    },
+    "start": 0,
+    "stop": 1.0833333730697632,
+    "sampleRate": 12,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 370
+      },
+      {
+        "time": 0.0833333358168602,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 371
+      },
+      {
+        "time": 0.1666666716337204,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 365
+      },
+      {
+        "time": 0.25,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 155
+      },
+      {
+        "time": 0.3333333432674408,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 350
+      },
+      {
+        "time": 0.4166666567325592,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 125
+      },
+      {
+        "time": 0.5,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 129
+      },
+      {
+        "time": 0.5833333134651184,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 156
+      },
+      {
+        "time": 0.6666666865348816,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 360
+      },
+      {
+        "time": 0.75,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 352
+      },
+      {
+        "time": 0.8333333134651184,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 134
+      },
+      {
+        "time": 0.9166666865348816,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 134
+      },
+      {
+        "time": 1,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 134
+      }
+    ],
+    "events": [
+      {
+        "time": 1,
+        "functionName": "DestroyAfterAnimation",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      }
+    ],
+    "tracks": [
+      {
+        "curve_offset": 0,
+        "curve_width": 1,
+        "binding": {
+          "path": 0,
+          "attribute": 304273561,
+          "script": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "typeID": 212,
+          "customType": 0,
+          "isPPtrCurve": 0,
+          "isIntCurve": 0,
+          "isSerializeReferenceCurve": 0
+        },
+        "keys": [
+          {
+            "time": 0,
+            "component": 0,
+            "value": 1,
+            "coefficients": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "initial_sentinel": true
+          },
+          {
+            "time": 0,
+            "component": 0,
+            "value": 1,
+            "coefficients": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "initial_sentinel": false
+          },
+          {
+            "time": 0.75,
+            "component": 0,
+            "value": 1,
+            "coefficients": [
+              128,
+              -48,
+              0,
+              1
+            ],
+            "initial_sentinel": false
+          },
+          {
+            "time": 1,
+            "component": 0,
+            "value": 0,
+            "coefficients": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "initial_sentinel": false
+          }
+        ]
+      }
+    ],
+    "dense": {
+      "m_FrameCount": 15,
+      "m_CurveCount": 0,
+      "m_SampleRate": 12,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "archerHurt": {
+    "serializedFile": "sharedassets2.assets",
+    "pathId": 67,
+    "source": {
+      "path": "Data/sharedassets2.assets/AnimationClip.jsonl",
+      "line": 3
+    },
+    "start": 0,
+    "stop": 0.3333333432674408,
+    "sampleRate": 12,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 363
+      },
+      {
+        "time": 0.0833333358168602,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 363
+      },
+      {
+        "time": 0.25,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 370
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 6,
+      "m_CurveCount": 0,
+      "m_SampleRate": 12,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "archerMove": {
+    "serializedFile": "sharedassets2.assets",
+    "pathId": 69,
+    "source": {
+      "path": "Data/sharedassets2.assets/AnimationClip.jsonl",
+      "line": 5
+    },
+    "start": 0,
+    "stop": 0.6666666269302368,
+    "sampleRate": 12,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 379
+      },
+      {
+        "time": 0.0833333358168602,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 153
+      },
+      {
+        "time": 0.1666666716337204,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 115
+      },
+      {
+        "time": 0.25,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 351
+      },
+      {
+        "time": 0.3333333432674408,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 118
+      },
+      {
+        "time": 0.4166666567325592,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 148
+      },
+      {
+        "time": 0.5,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 144
+      },
+      {
+        "time": 0.5833333134651184,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 344
+      }
+    ],
+    "events": [
+      {
+        "time": 0.25,
+        "functionName": "Footstep",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 0.5833333134651184,
+        "functionName": "Footstep",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      }
+    ],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 9,
+      "m_CurveCount": 0,
+      "m_SampleRate": 12,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "archerStunned": {
+    "serializedFile": "sharedassets2.assets",
+    "pathId": 70,
+    "source": {
+      "path": "Data/sharedassets2.assets/AnimationClip.jsonl",
+      "line": 6
+    },
+    "start": 0,
+    "stop": 0.0833333358168602,
+    "sampleRate": 12,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 363
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 3,
+      "m_CurveCount": 0,
+      "m_SampleRate": 12,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  }
+}

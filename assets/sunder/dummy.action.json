@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "poster": {
+    "url": "dummy-poster.png",
+    "width": 41,
+    "height": 41
+  },
+  "defaultAction": "TrainingDunmmyIdle",
+  "actions": {
+    "TrainingDunmmyIdle": {
+      "url": "dummy-TrainingDunmmyIdle.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 12,
+      "loop": true,
+      "durations": [
+        1.0000000298023224
+      ],
+      "events": []
+    },
+    "TrainingDunmmyDamaged": {
+      "url": "dummy-TrainingDunmmyDamaged.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 15,
+      "loop": false,
+      "durations": [
+        1.0000000521540642,
+        1.0000000521540642,
+        0.9999999403953552,
+        1.0000001639127731,
+        0.9999999403953552,
+        0.9999999403953552
+      ],
+      "events": []
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "原主菜单静态预览",
+  "description": "按原场景精灵顺序、相机和倒影合成，用于动态背景就绪前的预览。",
+  "width": 1920,
+  "height": 1080,
+  "source": "Scenes/level0.json"
+}

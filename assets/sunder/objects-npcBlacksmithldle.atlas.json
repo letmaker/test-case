@@ -1,0 +1,254 @@
+{
+  "frames": {
+    "f00000.png": {
+      "frame": {
+        "x": 1101,
+        "y": 1,
+        "w": 39,
+        "h": 41
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 39,
+        "h": 41
+      },
+      "spriteSourceSize": {
+        "x": 38,
+        "y": 33.5,
+        "w": 39,
+        "h": 41
+      }
+    },
+    "f00001.png": {
+      "frame": {
+        "x": 1142,
+        "y": 1,
+        "w": 39,
+        "h": 41
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 39,
+        "h": 41
+      },
+      "spriteSourceSize": {
+        "x": 38,
+        "y": 33.5,
+        "w": 39,
+        "h": 41
+      }
+    },
+    "f00002.png": {
+      "frame": {
+        "x": 1183,
+        "y": 1,
+        "w": 39,
+        "h": 41
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 39,
+        "h": 41
+      },
+      "spriteSourceSize": {
+        "x": 38,
+        "y": 33.5,
+        "w": 39,
+        "h": 41
+      }
+    },
+    "f00003.png": {
+      "frame": {
+        "x": 1224,
+        "y": 1,
+        "w": 39,
+        "h": 41
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 39,
+        "h": 41
+      },
+      "spriteSourceSize": {
+        "x": 38,
+        "y": 33.5,
+        "w": 39,
+        "h": 41
+      }
+    },
+    "f00004.png": {
+      "frame": {
+        "x": 1265,
+        "y": 1,
+        "w": 39,
+        "h": 41
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 39,
+        "h": 41
+      },
+      "spriteSourceSize": {
+        "x": 38,
+        "y": 33.5,
+        "w": 39,
+        "h": 41
+      }
+    },
+    "f00005.png": {
+      "frame": {
+        "x": 1306,
+        "y": 1,
+        "w": 39,
+        "h": 41
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 39,
+        "h": 41
+      },
+      "spriteSourceSize": {
+        "x": 38,
+        "y": 33.5,
+        "w": 39,
+        "h": 41
+      }
+    },
+    "f00006.png": {
+      "frame": {
+        "x": 1347,
+        "y": 1,
+        "w": 39,
+        "h": 41
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 39,
+        "h": 41
+      },
+      "spriteSourceSize": {
+        "x": 38,
+        "y": 33.5,
+        "w": 39,
+        "h": 41
+      }
+    },
+    "f00007.png": {
+      "frame": {
+        "x": 1388,
+        "y": 1,
+        "w": 39,
+        "h": 41
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 39,
+        "h": 41
+      },
+      "spriteSourceSize": {
+        "x": 38,
+        "y": 33.5,
+        "w": 39,
+        "h": 41
+      }
+    },
+    "f00008.png": {
+      "frame": {
+        "x": 1429,
+        "y": 1,
+        "w": 39,
+        "h": 41
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 39,
+        "h": 41
+      },
+      "spriteSourceSize": {
+        "x": 38,
+        "y": 33.5,
+        "w": 39,
+        "h": 41
+      }
+    },
+    "f00009.png": {
+      "frame": {
+        "x": 1470,
+        "y": 1,
+        "w": 39,
+        "h": 41
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 39,
+        "h": 41
+      },
+      "spriteSourceSize": {
+        "x": 38,
+        "y": 33.5,
+        "w": 39,
+        "h": 41
+      }
+    },
+    "f00010.png": {
+      "frame": {
+        "x": 1511,
+        "y": 1,
+        "w": 39,
+        "h": 41
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 39,
+        "h": 41
+      },
+      "spriteSourceSize": {
+        "x": 38,
+        "y": 33.5,
+        "w": 39,
+        "h": 41
+      }
+    },
+    "f00011.png": {
+      "frame": {
+        "x": 1552,
+        "y": 1,
+        "w": 39,
+        "h": 41
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 39,
+        "h": 41
+      },
+      "spriteSourceSize": {
+        "x": 38,
+        "y": 33.5,
+        "w": 39,
+        "h": 41
+      }
+    }
+  },
+  "meta": {
+    "image": "objects.png",
+    "size": {
+      "w": 2017,
+      "h": 141
+    },
+    "scale": "1",
+    "scaleMode": "nearest",
+    "baseUrl": "objects/objects-npcBlacksmithldle.atlas.json"
+  }
+}

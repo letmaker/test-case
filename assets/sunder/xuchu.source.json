@@ -1,0 +1,87 @@
+{
+  "npcXuChu": {
+    "serializedFile": "sharedassets5.assets",
+    "pathId": 4,
+    "source": {
+      "path": "Data/sharedassets5.assets/AnimationClip.jsonl",
+      "line": 1
+    },
+    "start": 0,
+    "stop": 1,
+    "sampleRate": 12,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets5.assets",
+        "pathId": 6
+      },
+      {
+        "time": 0.0833333358168602,
+        "serializedFile": "sharedassets5.assets",
+        "pathId": 16
+      },
+      {
+        "time": 0.1666666716337204,
+        "serializedFile": "sharedassets5.assets",
+        "pathId": 13
+      },
+      {
+        "time": 0.25,
+        "serializedFile": "sharedassets5.assets",
+        "pathId": 8
+      },
+      {
+        "time": 0.3333333432674408,
+        "serializedFile": "sharedassets5.assets",
+        "pathId": 10
+      },
+      {
+        "time": 0.4166666567325592,
+        "serializedFile": "sharedassets5.assets",
+        "pathId": 17
+      },
+      {
+        "time": 0.5,
+        "serializedFile": "sharedassets5.assets",
+        "pathId": 18
+      },
+      {
+        "time": 0.5833333134651184,
+        "serializedFile": "sharedassets5.assets",
+        "pathId": 15
+      },
+      {
+        "time": 0.6666666865348816,
+        "serializedFile": "sharedassets5.assets",
+        "pathId": 22
+      },
+      {
+        "time": 0.75,
+        "serializedFile": "sharedassets5.assets",
+        "pathId": 7
+      },
+      {
+        "time": 0.8333333134651184,
+        "serializedFile": "sharedassets5.assets",
+        "pathId": 21
+      },
+      {
+        "time": 0.9166666865348816,
+        "serializedFile": "sharedassets5.assets",
+        "pathId": 11
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 14,
+      "m_CurveCount": 0,
+      "m_SampleRate": 12,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  }
+}

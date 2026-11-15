@@ -1,0 +1,555 @@
+{
+  "version": 1,
+  "poster": {
+    "url": "jiangjun-poster.png",
+    "width": 96,
+    "height": 96
+  },
+  "defaultAction": "JiangJunIdle",
+  "actions": {
+    "JiangJunIdle": {
+      "url": "jiangjun-JiangJunIdle.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 6,
+      "loop": true,
+      "durations": [
+        1.0000000298023224,
+        1.0000000298023224,
+        0.9999999403953552,
+        1.0000001192092896,
+        0.9999997615814209,
+        1.0000001192092896
+      ],
+      "events": []
+    },
+    "JiangJun2level": {
+      "url": "jiangjun-JiangJun2level.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 14,
+      "loop": false,
+      "durations": [
+        2.000000089406967,
+        2.000000089406967,
+        1.9999998807907104,
+        4.000000178813934,
+        3.999999761581421,
+        26.000000953674316,
+        1.9999990463256836,
+        0.9999995231628418,
+        16.999998569488525,
+        1.0000028610229492,
+        0.9999961853027344,
+        1.0000028610229492,
+        1.0000028610229492,
+        0.9999961853027344,
+        1.0000028610229492,
+        0.9999961853027344,
+        1.0000028610229492,
+        0.9999961853027344,
+        1.0000028610229492,
+        1.0000028610229492,
+        0.9999961853027344,
+        1.0000028610229492,
+        0.9999961853027344,
+        1.0000028610229492,
+        0.9999961853027344,
+        1.0000028610229492,
+        1.0000028610229492,
+        0.9999961853027344,
+        1.0000028610229492,
+        0.9999961853027344,
+        1.0000028610229492,
+        0.9999961853027344,
+        1.0000028610229492,
+        1.0000028610229492,
+        0.9999961853027344,
+        1.9999990463256836,
+        1.9999990463256836,
+        2.0000057220458984,
+        1.9999990463256836,
+        1.9999990463256836,
+        1.9999990463256836,
+        1.9999990463256836,
+        1.9999990463256836,
+        1.9999990463256836,
+        2.0000057220458984,
+        1.9999990463256836,
+        1.0000028610229492
+      ],
+      "events": [
+        {
+          "time": 4.357142925262451,
+          "name": "CameraShake",
+          "data": 0
+        },
+        {
+          "time": 4.357142925262451,
+          "name": "TriggerShockWave",
+          "data": 1
+        },
+        {
+          "time": 4.357142925262451,
+          "name": "PlayRoarSound",
+          "data": 2
+        },
+        {
+          "time": 4.4285712242126465,
+          "name": "CameraShake",
+          "data": 3
+        },
+        {
+          "time": 4.5,
+          "name": "CameraShake",
+          "data": 4
+        },
+        {
+          "time": 4.5714287757873535,
+          "name": "CameraShake",
+          "data": 5
+        },
+        {
+          "time": 4.642857074737549,
+          "name": "CameraShake",
+          "data": 6
+        },
+        {
+          "time": 4.714285850524902,
+          "name": "CameraShake",
+          "data": 7
+        },
+        {
+          "time": 4.785714149475098,
+          "name": "CameraShake",
+          "data": 8
+        },
+        {
+          "time": 4.857142925262451,
+          "name": "CameraShake",
+          "data": 9
+        },
+        {
+          "time": 4.9285712242126465,
+          "name": "CameraShake",
+          "data": 10
+        },
+        {
+          "time": 5,
+          "name": "CameraShake",
+          "data": 11
+        },
+        {
+          "time": 5.0714287757873535,
+          "name": "CameraShake",
+          "data": 12
+        },
+        {
+          "time": 5.142857551574707,
+          "name": "CameraShake",
+          "data": 13
+        },
+        {
+          "time": 5.2142863273620605,
+          "name": "CameraShake",
+          "data": 14
+        },
+        {
+          "time": 5.285714626312256,
+          "name": "CameraShake",
+          "data": 15
+        },
+        {
+          "time": 5.357143402099609,
+          "name": "CameraShake",
+          "data": 16
+        },
+        {
+          "time": 5.428571701049805,
+          "name": "CameraShake",
+          "data": 17
+        },
+        {
+          "time": 5.500000476837158,
+          "name": "CameraShake",
+          "data": 18
+        },
+        {
+          "time": 5.5714287757873535,
+          "name": "CameraShake",
+          "data": 19
+        },
+        {
+          "time": 5.642857551574707,
+          "name": "CameraShake",
+          "data": 20
+        },
+        {
+          "time": 5.714285850524902,
+          "name": "CameraShake",
+          "data": 21
+        },
+        {
+          "time": 5.785714626312256,
+          "name": "CameraShake",
+          "data": 22
+        },
+        {
+          "time": 5.857143402099609,
+          "name": "CameraShake",
+          "data": 23
+        },
+        {
+          "time": 5.928571701049805,
+          "name": "CameraShake",
+          "data": 24
+        },
+        {
+          "time": 6.000000476837158,
+          "name": "CameraShake",
+          "data": 25
+        },
+        {
+          "time": 6.0714287757873535,
+          "name": "CameraShake",
+          "data": 26
+        },
+        {
+          "time": 6.142857551574707,
+          "name": "CameraShake",
+          "data": 27
+        },
+        {
+          "time": 7.785714149475098,
+          "name": "SpawnSecondPhase",
+          "data": 28
+        },
+        {
+          "time": 7.785714149475098,
+          "name": "DestroyAfterAnimation",
+          "data": 29
+        }
+      ]
+    },
+    "JiangJunAttack1": {
+      "url": "jiangjun-JiangJunAttack1.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 12,
+      "loop": false,
+      "durations": [
+        1.0000000298023224,
+        3.999999850988388,
+        1.0000001192092896,
+        0.9999997615814209,
+        1.0000004768371582,
+        0.9999997615814209,
+        0.9999997615814209,
+        1.0000004768371582,
+        0.9999997615814209,
+        1.0000004768371582,
+        0.9999990463256836,
+        1.0000004768371582,
+        1.0000004768371582,
+        0.9999990463256836,
+        1.0000004768371582,
+        1.0000004768371582,
+        0.9999990463256836,
+        1.0000004768371582,
+        1.9999995231628418,
+        1.9999995231628418,
+        2.0000009536743164,
+        2.0000009536743164,
+        0.9999990463256836
+      ],
+      "events": [
+        {
+          "time": 0.4166666567325592,
+          "name": "EnableCounterWindow",
+          "data": 0
+        },
+        {
+          "time": 0.5,
+          "name": "AttackTrigger",
+          "data": 1
+        },
+        {
+          "time": 0.5,
+          "name": "DisableCounterWindow",
+          "data": 2
+        },
+        {
+          "time": 1,
+          "name": "AttackTrigger",
+          "data": 3
+        },
+        {
+          "time": 1.5,
+          "name": "AttackTrigger",
+          "data": 4
+        },
+        {
+          "time": 1.75,
+          "name": "BlockWindowEndTrigger",
+          "data": 5
+        },
+        {
+          "time": 2.4166667461395264,
+          "name": "CurrentStateTrigger",
+          "data": 6
+        }
+      ]
+    },
+    "JiangJunAttack2": {
+      "url": "jiangjun-JiangJunAttack2.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 12,
+      "loop": false,
+      "durations": [
+        4.0000001192092896,
+        0.9999997615814209,
+        1.0000001192092896,
+        0.9999997615814209,
+        2.000000238418579,
+        0.9999997615814209,
+        2.000000238418579,
+        1.9999995231628418,
+        2.0000009536743164,
+        1.9999995231628418,
+        1.0000004768371582
+      ],
+      "events": [
+        {
+          "time": 0.3333333432674408,
+          "name": "EnableCounterWindow",
+          "data": 0
+        },
+        {
+          "time": 0.4166666567325592,
+          "name": "DisableCounterWindow",
+          "data": 1
+        },
+        {
+          "time": 0.4166666567325592,
+          "name": "AttackTrigger",
+          "data": 2
+        },
+        {
+          "time": 0.75,
+          "name": "BlockWindowEndTrigger",
+          "data": 3
+        },
+        {
+          "time": 1.5,
+          "name": "CurrentStateTrigger",
+          "data": 4
+        }
+      ]
+    },
+    "JiangJunBattleIdle": {
+      "url": "jiangjun-JiangJunBattleIdle.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 2,
+      "loop": true,
+      "durations": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "events": []
+    },
+    "JiangJunCharge": {
+      "url": "jiangjun-JiangJunCharge.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 12,
+      "loop": false,
+      "durations": [
+        1.0000000298023224,
+        1.0000000298023224,
+        0.9999999403953552,
+        1.0000001192092896,
+        0.9999997615814209,
+        1.0000001192092896,
+        0.9999997615814209,
+        1.0000004768371582,
+        0.9999997615814209,
+        0.9999997615814209,
+        1.0000004768371582,
+        0.9999997615814209,
+        1.0000004768371582,
+        0.9999990463256836,
+        1.0000004768371582,
+        1.0000004768371582,
+        1.0000004768371582
+      ],
+      "events": []
+    },
+    "JiangJunDash": {
+      "url": "jiangjun-JiangJunDash.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 60,
+      "loop": true,
+      "durations": [
+        1.0000000521540642
+      ],
+      "events": []
+    },
+    "JiangJunHurt": {
+      "url": "jiangjun-JiangJunHurt.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 12,
+      "loop": false,
+      "durations": [
+        1.0000000298023224,
+        1.0000000298023224,
+        0.9999999403953552,
+        1.0000001192092896
+      ],
+      "events": []
+    },
+    "JiangJunMove": {
+      "url": "jiangjun-JiangJunMove.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 4,
+      "loop": true,
+      "durations": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "events": []
+    },
+    "JiangJunSpecialAttack": {
+      "url": "jiangjun-JiangJunSpecialAttack.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 12,
+      "loop": false,
+      "durations": [
+        1.0000000298023224,
+        1.0000000298023224,
+        0.9999999403953552,
+        3,
+        0.9999997615814209,
+        1.0000004768371582,
+        0.9999997615814209,
+        2.000000238418579,
+        0.9999997615814209,
+        1.0000004768371582,
+        0.9999990463256836,
+        2.0000009536743164,
+        1.9999995231628418,
+        1.9999995231628418,
+        2.0000009536743164,
+        1.0000004768371582
+      ],
+      "events": [
+        {
+          "time": 0.5,
+          "name": "EnableCounterWindow",
+          "data": 0
+        },
+        {
+          "time": 0.5833333134651184,
+          "name": "AttackTrigger",
+          "data": 1
+        },
+        {
+          "time": 0.5833333134651184,
+          "name": "DisableCounterWindow",
+          "data": 2
+        },
+        {
+          "time": 0.9166666865348816,
+          "name": "AttackTrigger",
+          "data": 3
+        },
+        {
+          "time": 1.1666666269302368,
+          "name": "BlockWindowEndTrigger",
+          "data": 4
+        },
+        {
+          "time": 1.8333333730697632,
+          "name": "CurrentStateTrigger",
+          "data": 5
+        }
+      ]
+    },
+    "JiangJunStab": {
+      "url": "jiangjun-JiangJunStab.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 60,
+      "loop": true,
+      "durations": [
+        1.0000000521540642
+      ],
+      "events": []
+    },
+    "JiangJunStabEnd": {
+      "url": "jiangjun-JiangJunStabEnd.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 15,
+      "loop": false,
+      "durations": [
+        1.0000000521540642,
+        1.0000000521540642,
+        0.9999999403953552,
+        1.0000001639127731,
+        0.9999999403953552
+      ],
+      "events": []
+    },
+    "JiangJunStunned": {
+      "url": "jiangjun-JiangJunStunned.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 60,
+      "loop": true,
+      "durations": [
+        1.0000000521540642
+      ],
+      "events": []
+    }
+  }
+}

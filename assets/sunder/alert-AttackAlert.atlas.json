@@ -1,0 +1,114 @@
+{
+  "frames": {
+    "f00000.png": {
+      "frame": {
+        "x": 1,
+        "y": 1,
+        "w": 133,
+        "h": 9
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 133,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 133,
+        "h": 9
+      }
+    },
+    "f00001.png": {
+      "frame": {
+        "x": 136,
+        "y": 1,
+        "w": 133,
+        "h": 9
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 133,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 133,
+        "h": 9
+      }
+    },
+    "f00002.png": {
+      "frame": {
+        "x": 271,
+        "y": 1,
+        "w": 133,
+        "h": 9
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 133,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 133,
+        "h": 9
+      }
+    },
+    "f00003.png": {
+      "frame": {
+        "x": 406,
+        "y": 1,
+        "w": 133,
+        "h": 9
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 133,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 133,
+        "h": 9
+      }
+    },
+    "f00004.png": {
+      "frame": {
+        "x": 541,
+        "y": 1,
+        "w": 4,
+        "h": 4
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 65.99999809265137,
+        "y": 3.5,
+        "w": 2,
+        "h": 2
+      }
+    }
+  },
+  "meta": {
+    "image": "alert.png",
+    "size": {
+      "w": 547,
+      "h": 11
+    },
+    "scale": "1",
+    "scaleMode": "nearest",
+    "baseUrl": "alert/alert-AttackAlert.atlas.json"
+  }
+}

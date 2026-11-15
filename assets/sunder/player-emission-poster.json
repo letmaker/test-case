@@ -1,0 +1,13 @@
+{
+  "source": {
+    "path": "Data/sharedassets1.assets/Sprite.jsonl",
+    "line": 194
+  },
+  "secondaryTexture": {
+    "path": "Data/sharedassets1.assets/Texture2D.jsonl",
+    "line": 15
+  },
+  "width": 96,
+  "height": 96,
+  "converterVersion": 1
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "poster": {
+    "url": "water-poster.png",
+    "width": 16,
+    "height": 15
+  },
+  "defaultAction": "Vfx_Splash_s",
+  "actions": {
+    "Vfx_Splash_s": {
+      "url": "water-Vfx_Splash_s.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 20,
+      "loop": false,
+      "durations": [
+        1.0000000149011612,
+        1.0000000149011612,
+        1.0000000894069672,
+        0.9999999403953552,
+        0.9999999403953552,
+        1.000000238418579,
+        0.9999996423721313,
+        1.000000238418579
+      ],
+      "events": []
+    }
+  }
+}

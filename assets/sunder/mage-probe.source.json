@@ -1,0 +1,133 @@
+{
+  "MageDie": {
+    "serializedFile": "sharedassets2.assets",
+    "pathId": 79,
+    "source": {
+      "path": "Data/sharedassets2.assets/AnimationClip.jsonl",
+      "line": 15
+    },
+    "start": 0,
+    "stop": 0.75,
+    "sampleRate": 12,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 375
+      },
+      {
+        "time": 0.0833333358168602,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 137
+      },
+      {
+        "time": 0.1666666716337204,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 374
+      },
+      {
+        "time": 0.25,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 140
+      },
+      {
+        "time": 0.3333333432674408,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 367
+      }
+    ],
+    "events": [
+      {
+        "time": 0.75,
+        "functionName": "DestroyAfterAnimation",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      }
+    ],
+    "tracks": [
+      {
+        "curve_offset": 0,
+        "curve_width": 1,
+        "binding": {
+          "path": 0,
+          "attribute": 304273561,
+          "script": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "typeID": 212,
+          "customType": 0,
+          "isPPtrCurve": 0,
+          "isIntCurve": 0,
+          "isSerializeReferenceCurve": 0
+        },
+        "keys": [
+          {
+            "time": 0,
+            "component": 0,
+            "value": 1,
+            "coefficients": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "initial_sentinel": true
+          },
+          {
+            "time": 0,
+            "component": 0,
+            "value": 1,
+            "coefficients": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "initial_sentinel": false
+          },
+          {
+            "time": 0.5,
+            "component": 0,
+            "value": 1,
+            "coefficients": [
+              128,
+              -48,
+              0,
+              1
+            ],
+            "initial_sentinel": false
+          },
+          {
+            "time": 0.75,
+            "component": 0,
+            "value": 0,
+            "coefficients": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "initial_sentinel": false
+          }
+        ]
+      }
+    ],
+    "dense": {
+      "m_FrameCount": 11,
+      "m_CurveCount": 0,
+      "m_SampleRate": 12,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  }
+}

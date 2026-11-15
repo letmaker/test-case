@@ -1,0 +1,92 @@
+{
+  "Vfx_FireBoom": {
+    "serializedFile": "sharedassets3.assets",
+    "pathId": 78,
+    "source": {
+      "path": "Data/sharedassets3.assets/AnimationClip.jsonl",
+      "line": 28
+    },
+    "start": 0,
+    "stop": 0.8666666746139526,
+    "sampleRate": 15,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 216
+      },
+      {
+        "time": 0.06666667014360428,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 351
+      },
+      {
+        "time": 0.13333334028720856,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 195
+      },
+      {
+        "time": 0.20000000298023224,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 387
+      },
+      {
+        "time": 0.2666666805744171,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 220
+      },
+      {
+        "time": 0.3333333432674408,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 204
+      },
+      {
+        "time": 0.4000000059604645,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 407
+      },
+      {
+        "time": 0.46666666865348816,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 422
+      },
+      {
+        "time": 0.5333333611488342,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 431
+      },
+      {
+        "time": 0.6000000238418579,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 273
+      },
+      {
+        "time": 0.6666666865348816,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 415
+      },
+      {
+        "time": 0.7333333492279053,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 376
+      },
+      {
+        "time": 0.800000011920929,
+        "serializedFile": "sharedassets3.assets",
+        "pathId": 404
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 15,
+      "m_CurveCount": 0,
+      "m_SampleRate": 15,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  }
+}

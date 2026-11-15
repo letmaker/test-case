@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "poster": {
+    "url": "shielder-poster.png",
+    "width": 48,
+    "height": 48
+  },
+  "defaultAction": "shielderIdle",
+  "actions": {
+    "shielderIdle": {
+      "url": "shielder-shielderIdle.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 5,
+      "loop": true,
+      "durations": [
+        1.0000000149011612,
+        1.0000000149011612,
+        1.0000000894069672,
+        0.9999999403953552
+      ],
+      "events": []
+    },
+    "shielderAttack": {
+      "url": "shielder-shielderAttack.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 12,
+      "loop": true,
+      "durations": [
+        1.0000000298023224
+      ],
+      "events": []
+    },
+    "shielderAttackCharge": {
+      "url": "shielder-shielderAttackCharge.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 12,
+      "loop": false,
+      "durations": [
+        1.0000000298023224,
+        1.0000000298023224,
+        0.9999999403953552,
+        1.0000001192092896,
+        0.9999997615814209,
+        1.0000001192092896,
+        0.9999997615814209,
+        0.9999997615814209
+      ],
+      "events": [
+        {
+          "time": 0.5833333134651184,
+          "name": "AttackTrigger",
+          "data": 0
+        }
+      ]
+    },
+    "shielderAttackEnd": {
+      "url": "shielder-shielderAttackEnd.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 12,
+      "loop": false,
+      "durations": [
+        1.0000000298023224
+      ],
+      "events": []
+    },
+    "shielderDie": {
+      "url": "shielder-shielderDie.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 12,
+      "loop": false,
+      "durations": [
+        1.0000000298023224,
+        1.0000000298023224,
+        0.9999999403953552,
+        1.0000001192092896,
+        0.9999997615814209,
+        1.0000001192092896,
+        0.9999997615814209,
+        1.0000004768371582,
+        3,
+        0.9999997615814209
+      ],
+      "events": [
+        {
+          "time": 0.9166666865348816,
+          "name": "DestroyAfterAnimation",
+          "data": 0
+        }
+      ]
+    },
+    "shielderMove": {
+      "url": "shielder-shielderMove.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 5,
+      "loop": true,
+      "durations": [
+        1.0000000149011612,
+        1.0000000149011612,
+        1.0000000894069672,
+        0.9999999403953552
+      ],
+      "events": []
+    }
+  }
+}

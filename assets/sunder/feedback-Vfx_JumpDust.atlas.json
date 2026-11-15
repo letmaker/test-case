@@ -1,0 +1,134 @@
+{
+  "frames": {
+    "f00000.png": {
+      "frame": {
+        "x": 802,
+        "y": 114,
+        "w": 39,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 39,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 177,
+        "y": 51.5,
+        "w": 39,
+        "h": 8
+      }
+    },
+    "f00001.png": {
+      "frame": {
+        "x": 843,
+        "y": 114,
+        "w": 39,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 39,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 177,
+        "y": 51.5,
+        "w": 39,
+        "h": 8
+      }
+    },
+    "f00002.png": {
+      "frame": {
+        "x": 884,
+        "y": 114,
+        "w": 39,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 39,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 177,
+        "y": 51.5,
+        "w": 39,
+        "h": 8
+      }
+    },
+    "f00003.png": {
+      "frame": {
+        "x": 925,
+        "y": 114,
+        "w": 39,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 39,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 177,
+        "y": 51.5,
+        "w": 39,
+        "h": 8
+      }
+    },
+    "f00004.png": {
+      "frame": {
+        "x": 966,
+        "y": 114,
+        "w": 39,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 39,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 177,
+        "y": 51.5,
+        "w": 39,
+        "h": 8
+      }
+    },
+    "f00005.png": {
+      "frame": {
+        "x": 796,
+        "y": 114,
+        "w": 4,
+        "h": 4
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 195.5,
+        "y": 54.5,
+        "w": 2,
+        "h": 2
+      }
+    }
+  },
+  "meta": {
+    "image": "feedback.png",
+    "size": {
+      "w": 1976,
+      "h": 226
+    },
+    "scale": "1",
+    "scaleMode": "nearest",
+    "baseUrl": "feedback/feedback-Vfx_JumpDust.atlas.json"
+  }
+}

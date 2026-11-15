@@ -1,0 +1,134 @@
+{
+  "frames": {
+    "f00000.png": {
+      "frame": {
+        "x": 32,
+        "y": 1,
+        "w": 29,
+        "h": 35
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 29,
+        "h": 35
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 29,
+        "h": 35
+      }
+    },
+    "f00001.png": {
+      "frame": {
+        "x": 63,
+        "y": 1,
+        "w": 29,
+        "h": 35
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 29,
+        "h": 35
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 29,
+        "h": 35
+      }
+    },
+    "f00002.png": {
+      "frame": {
+        "x": 94,
+        "y": 1,
+        "w": 29,
+        "h": 35
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 29,
+        "h": 35
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 29,
+        "h": 35
+      }
+    },
+    "f00003.png": {
+      "frame": {
+        "x": 125,
+        "y": 1,
+        "w": 29,
+        "h": 35
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 29,
+        "h": 35
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 29,
+        "h": 35
+      }
+    },
+    "f00004.png": {
+      "frame": {
+        "x": 156,
+        "y": 1,
+        "w": 29,
+        "h": 35
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 29,
+        "h": 35
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 29,
+        "h": 35
+      }
+    },
+    "f00005.png": {
+      "frame": {
+        "x": 187,
+        "y": 1,
+        "w": 29,
+        "h": 35
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 29,
+        "h": 35
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 29,
+        "h": 35
+      }
+    }
+  },
+  "meta": {
+    "image": "checkpoint.png",
+    "size": {
+      "w": 218,
+      "h": 37
+    },
+    "scale": "1",
+    "scaleMode": "nearest",
+    "baseUrl": "checkpoint/checkpoint-checkpointActive.atlas.json"
+  }
+}

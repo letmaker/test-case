@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "poster": {
+    "url": "arrow-poster.png",
+    "width": 92,
+    "height": 54
+  },
+  "defaultAction": "archer_Arrow",
+  "actions": {
+    "archer_Arrow": {
+      "url": "arrow-archer_Arrow.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 30,
+      "loop": true,
+      "durations": [
+        1.0000000521540642,
+        1.0000000521540642,
+        0.9999999403953552,
+        1.0000001639127731
+      ],
+      "events": []
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "frames": {
+    "f00000.png": {
+      "frame": {
+        "x": 1145,
+        "y": 395,
+        "w": 78,
+        "h": 55
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 78,
+        "h": 55
+      },
+      "spriteSourceSize": {
+        "x": 24.999999046325684,
+        "y": 45.99999862909317,
+        "w": 78,
+        "h": 55
+      }
+    },
+    "f00001.png": {
+      "frame": {
+        "x": 1225,
+        "y": 395,
+        "w": 79,
+        "h": 55
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 79,
+        "h": 55
+      },
+      "spriteSourceSize": {
+        "x": 26.000000476837158,
+        "y": 45.99999862909317,
+        "w": 79,
+        "h": 55
+      }
+    },
+    "f00002.png": {
+      "frame": {
+        "x": 1306,
+        "y": 395,
+        "w": 77,
+        "h": 55
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 77,
+        "h": 55
+      },
+      "spriteSourceSize": {
+        "x": 25.99999901652336,
+        "y": 45.99999862909317,
+        "w": 77,
+        "h": 55
+      }
+    },
+    "f00003.png": {
+      "frame": {
+        "x": 1385,
+        "y": 395,
+        "w": 77,
+        "h": 55
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 77,
+        "h": 55
+      },
+      "spriteSourceSize": {
+        "x": 26.99999937415123,
+        "y": 45.99999862909317,
+        "w": 77,
+        "h": 55
+      }
+    },
+    "f00004.png": {
+      "frame": {
+        "x": 1306,
+        "y": 395,
+        "w": 77,
+        "h": 55
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 77,
+        "h": 55
+      },
+      "spriteSourceSize": {
+        "x": 25.99999901652336,
+        "y": 45.99999862909317,
+        "w": 77,
+        "h": 55
+      }
+    },
+    "f00005.png": {
+      "frame": {
+        "x": 1225,
+        "y": 395,
+        "w": 79,
+        "h": 55
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 79,
+        "h": 55
+      },
+      "spriteSourceSize": {
+        "x": 26.000000476837158,
+        "y": 45.99999862909317,
+        "w": 79,
+        "h": 55
+      }
+    }
+  },
+  "meta": {
+    "image": "jiangjunlv2.png",
+    "size": {
+      "w": 2044,
+      "h": 569
+    },
+    "scale": "1",
+    "scaleMode": "nearest",
+    "baseUrl": "jiangjunlv2/jiangjunlv2-JiangJun2LvStabEnd.atlas.json"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "name": "原菜单落叶",
+  "description": "原 Sprite 像素按两倍 nearest 重复，透明补边保留尺寸比例和枢轴；不重画、不改色。",
+  "width": 51,
+  "height": 10,
+  "referenceSize": 4,
+  "sampleScale": 2,
+  "frames": [
+    {
+      "source": "sharedassets0.assets:138",
+      "width": 4,
+      "height": 3,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "padding": {
+        "left": 0,
+        "top": 1
+      },
+      "frame": {
+        "x": 1,
+        "y": 1,
+        "w": 8,
+        "h": 8
+      }
+    },
+    {
+      "source": "sharedassets0.assets:113",
+      "width": 2,
+      "height": 2,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "padding": {
+        "left": 2,
+        "top": 2
+      },
+      "frame": {
+        "x": 11,
+        "y": 1,
+        "w": 8,
+        "h": 8
+      }
+    },
+    {
+      "source": "sharedassets0.assets:136",
+      "width": 2,
+      "height": 2,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "padding": {
+        "left": 2,
+        "top": 2
+      },
+      "frame": {
+        "x": 21,
+        "y": 1,
+        "w": 8,
+        "h": 8
+      }
+    },
+    {
+      "source": "sharedassets0.assets:137",
+      "width": 4,
+      "height": 3,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "padding": {
+        "left": 0,
+        "top": 1
+      },
+      "frame": {
+        "x": 31,
+        "y": 1,
+        "w": 8,
+        "h": 8
+      }
+    },
+    {
+      "source": "sharedassets0.assets:114",
+      "width": 3,
+      "height": 4,
+      "ppu": 16,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "padding": {
+        "left": 1,
+        "top": 0
+      },
+      "frame": {
+        "x": 41,
+        "y": 1,
+        "w": 8,
+        "h": 8
+      }
+    }
+  ]
+}

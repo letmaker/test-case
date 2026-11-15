@@ -1,0 +1,334 @@
+{
+  "frames": {
+    "f00000.png": {
+      "frame": {
+        "x": 1,
+        "y": 1,
+        "w": 47,
+        "h": 75
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 47,
+        "h": 75
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 47,
+        "h": 75
+      }
+    },
+    "f00001.png": {
+      "frame": {
+        "x": 50,
+        "y": 1,
+        "w": 47,
+        "h": 75
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 47,
+        "h": 75
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 47,
+        "h": 75
+      }
+    },
+    "f00002.png": {
+      "frame": {
+        "x": 99,
+        "y": 1,
+        "w": 47,
+        "h": 75
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 47,
+        "h": 75
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 47,
+        "h": 75
+      }
+    },
+    "f00003.png": {
+      "frame": {
+        "x": 148,
+        "y": 1,
+        "w": 47,
+        "h": 75
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 47,
+        "h": 75
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 47,
+        "h": 75
+      }
+    },
+    "f00004.png": {
+      "frame": {
+        "x": 197,
+        "y": 1,
+        "w": 47,
+        "h": 75
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 47,
+        "h": 75
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 47,
+        "h": 75
+      }
+    },
+    "f00005.png": {
+      "frame": {
+        "x": 246,
+        "y": 1,
+        "w": 47,
+        "h": 75
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 47,
+        "h": 75
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 47,
+        "h": 75
+      }
+    },
+    "f00006.png": {
+      "frame": {
+        "x": 295,
+        "y": 1,
+        "w": 47,
+        "h": 75
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 47,
+        "h": 75
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 47,
+        "h": 75
+      }
+    },
+    "f00007.png": {
+      "frame": {
+        "x": 344,
+        "y": 1,
+        "w": 47,
+        "h": 75
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 47,
+        "h": 75
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 47,
+        "h": 75
+      }
+    },
+    "f00008.png": {
+      "frame": {
+        "x": 393,
+        "y": 1,
+        "w": 47,
+        "h": 75
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 47,
+        "h": 75
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 47,
+        "h": 75
+      }
+    },
+    "f00009.png": {
+      "frame": {
+        "x": 442,
+        "y": 1,
+        "w": 47,
+        "h": 75
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 47,
+        "h": 75
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 47,
+        "h": 75
+      }
+    },
+    "f00010.png": {
+      "frame": {
+        "x": 491,
+        "y": 1,
+        "w": 47,
+        "h": 75
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 47,
+        "h": 75
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 47,
+        "h": 75
+      }
+    },
+    "f00011.png": {
+      "frame": {
+        "x": 540,
+        "y": 1,
+        "w": 47,
+        "h": 75
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 47,
+        "h": 75
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 47,
+        "h": 75
+      }
+    },
+    "f00012.png": {
+      "frame": {
+        "x": 589,
+        "y": 1,
+        "w": 47,
+        "h": 75
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 47,
+        "h": 75
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 47,
+        "h": 75
+      }
+    },
+    "f00013.png": {
+      "frame": {
+        "x": 638,
+        "y": 1,
+        "w": 47,
+        "h": 75
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 47,
+        "h": 75
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 47,
+        "h": 75
+      }
+    },
+    "f00014.png": {
+      "frame": {
+        "x": 687,
+        "y": 1,
+        "w": 47,
+        "h": 75
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 47,
+        "h": 75
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 47,
+        "h": 75
+      }
+    },
+    "f00015.png": {
+      "frame": {
+        "x": 736,
+        "y": 1,
+        "w": 47,
+        "h": 75
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 47,
+        "h": 75
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 47,
+        "h": 75
+      }
+    }
+  },
+  "meta": {
+    "image": "meteorite.png",
+    "size": {
+      "w": 785,
+      "h": 77
+    },
+    "scale": "1",
+    "scaleMode": "nearest",
+    "baseUrl": "meteorite/meteorite-JiangJun2LvFire.atlas.json"
+  }
+}

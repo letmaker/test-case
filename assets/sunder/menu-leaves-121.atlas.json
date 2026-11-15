@@ -1,0 +1,114 @@
+{
+  "frames": {
+    "f00000.png": {
+      "frame": {
+        "x": 1,
+        "y": 1,
+        "w": 8,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 8,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 8,
+        "h": 8
+      }
+    },
+    "f00001.png": {
+      "frame": {
+        "x": 11,
+        "y": 1,
+        "w": 8,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 8,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 8,
+        "h": 8
+      }
+    },
+    "f00002.png": {
+      "frame": {
+        "x": 21,
+        "y": 1,
+        "w": 8,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 8,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 8,
+        "h": 8
+      }
+    },
+    "f00003.png": {
+      "frame": {
+        "x": 31,
+        "y": 1,
+        "w": 8,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 8,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 8,
+        "h": 8
+      }
+    },
+    "f00004.png": {
+      "frame": {
+        "x": 41,
+        "y": 1,
+        "w": 8,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 8,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 8,
+        "h": 8
+      }
+    }
+  },
+  "meta": {
+    "image": "menu-leaves-121.png",
+    "size": {
+      "w": 51,
+      "h": 10
+    },
+    "scale": "1",
+    "scaleMode": "nearest",
+    "baseUrl": "menu-leaves-121.atlas.json/"
+  }
+}

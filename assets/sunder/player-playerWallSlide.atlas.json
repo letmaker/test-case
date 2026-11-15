@@ -1,0 +1,74 @@
+{
+  "frames": {
+    "f00000.png": {
+      "frame": {
+        "x": 1275,
+        "y": 589,
+        "w": 96,
+        "h": 96
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      }
+    },
+    "f00001.png": {
+      "frame": {
+        "x": 1373,
+        "y": 589,
+        "w": 96,
+        "h": 96
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      }
+    },
+    "f00002.png": {
+      "frame": {
+        "x": 1471,
+        "y": 589,
+        "w": 96,
+        "h": 96
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      }
+    }
+  },
+  "meta": {
+    "image": "player.png",
+    "size": {
+      "w": 1961,
+      "h": 686
+    },
+    "scale": "1",
+    "scaleMode": "nearest",
+    "baseUrl": "player/player-playerWallSlide.atlas.json"
+  }
+}

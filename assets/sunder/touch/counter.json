@@ -1,0 +1,24 @@
+{
+  "name": "格挡",
+  "description": "铜缘蓝钢盾，盾心有一枚象牙色菱形高光。",
+  "type": "ui",
+  "designWidth": 36,
+  "designHeight": 36,
+  "width": 36,
+  "height": 36,
+  "generation": {
+    "model": "gpt-image-2",
+    "artStyle": "src/test/x/remake/art-style.json",
+    "source": "破阵触屏动作图标精灵图",
+    "row": 2,
+    "column": 2,
+    "crop": {
+      "left": 385,
+      "top": 347,
+      "width": 181,
+      "height": 229
+    },
+    "sizing": "最近邻缩放到指定可见尺寸，居中放在透明正方形中",
+    "visibleExtent": 31
+  }
+}

@@ -1,0 +1,2053 @@
+{
+  "playerIdle": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 149,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 21
+    },
+    "start": 0,
+    "stop": 1,
+    "sampleRate": 10,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 433
+      },
+      {
+        "time": 0.10000000149011612,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 666
+      },
+      {
+        "time": 0.20000000298023224,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 437
+      },
+      {
+        "time": 0.30000001192092896,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 398
+      },
+      {
+        "time": 0.4000000059604645,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 827
+      },
+      {
+        "time": 0.5,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 739
+      },
+      {
+        "time": 0.6000000238418579,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 301
+      },
+      {
+        "time": 0.699999988079071,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 342
+      },
+      {
+        "time": 0.800000011920929,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 631
+      },
+      {
+        "time": 0.8999999761581421,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 861
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 12,
+      "m_CurveCount": 0,
+      "m_SampleRate": 10,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "playerWallGrabIdle": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 163,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 35
+    },
+    "start": 0,
+    "stop": 0.20000000298023224,
+    "sampleRate": 5,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 864
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 3,
+      "m_CurveCount": 0,
+      "m_SampleRate": 5,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "playerAirAttack": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 133,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 5
+    },
+    "start": 0,
+    "stop": 0.3888888955116272,
+    "sampleRate": 18,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 334
+      },
+      {
+        "time": 0.0555555559694767,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 291
+      },
+      {
+        "time": 0.1111111119389534,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 802
+      },
+      {
+        "time": 0.1666666716337204,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 726
+      },
+      {
+        "time": 0.2222222238779068,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 534
+      },
+      {
+        "time": 0.2777777910232544,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 825
+      },
+      {
+        "time": 0.3333333432674408,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 372
+      }
+    ],
+    "events": [
+      {
+        "time": 0.1111111119389534,
+        "functionName": "AttackTrigger",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 0.3333333432674408,
+        "functionName": "CurrentStateTrigger",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      }
+    ],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 9,
+      "m_CurveCount": 0,
+      "m_SampleRate": 18,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "playerAirUpwardStrike": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 134,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 6
+    },
+    "start": 0,
+    "stop": 0.3888888955116272,
+    "sampleRate": 18,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 334
+      },
+      {
+        "time": 0.0555555559694767,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 291
+      },
+      {
+        "time": 0.1111111119389534,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 730
+      },
+      {
+        "time": 0.1666666716337204,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 647
+      },
+      {
+        "time": 0.2222222238779068,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 862
+      },
+      {
+        "time": 0.2777777910232544,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 825
+      },
+      {
+        "time": 0.3333333432674408,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 372
+      }
+    ],
+    "events": [
+      {
+        "time": 0.1111111119389534,
+        "functionName": "UpwardAttackTrigger",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 0.3333333432674408,
+        "functionName": "CurrentStateTrigger",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      }
+    ],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 9,
+      "m_CurveCount": 0,
+      "m_SampleRate": 18,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "playerBasicAttack_1": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 135,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 7
+    },
+    "start": 0,
+    "stop": 0.3888888955116272,
+    "sampleRate": 18,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 334
+      },
+      {
+        "time": 0.0555555559694767,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 291
+      },
+      {
+        "time": 0.1111111119389534,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 802
+      },
+      {
+        "time": 0.1666666716337204,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 726
+      },
+      {
+        "time": 0.2222222238779068,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 534
+      },
+      {
+        "time": 0.2777777910232544,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 825
+      },
+      {
+        "time": 0.3333333432674408,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 372
+      }
+    ],
+    "events": [
+      {
+        "time": 0.1111111119389534,
+        "functionName": "AttackTrigger",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 0.3333333432674408,
+        "functionName": "CurrentStateTrigger",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      }
+    ],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 9,
+      "m_CurveCount": 0,
+      "m_SampleRate": 18,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "playerBasicAttack_2": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 136,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 8
+    },
+    "start": 0,
+    "stop": 0.25,
+    "sampleRate": 16,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 869
+      },
+      {
+        "time": 0.0625,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 325
+      },
+      {
+        "time": 0.125,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 693
+      },
+      {
+        "time": 0.1875,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 482
+      }
+    ],
+    "events": [
+      {
+        "time": 0,
+        "functionName": "AttackTrigger",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 0.1875,
+        "functionName": "CurrentStateTrigger",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      }
+    ],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 6,
+      "m_CurveCount": 0,
+      "m_SampleRate": 16,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "playerBasicAttack_3": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 137,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 9
+    },
+    "start": 0,
+    "stop": 0.3333333432674408,
+    "sampleRate": 18,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 420
+      },
+      {
+        "time": 0.0555555559694767,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 725
+      },
+      {
+        "time": 0.1111111119389534,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 344
+      },
+      {
+        "time": 0.1666666716337204,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 416
+      },
+      {
+        "time": 0.2222222238779068,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 637
+      },
+      {
+        "time": 0.2777777910232544,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 637
+      }
+    ],
+    "events": [
+      {
+        "time": 0.0555555559694767,
+        "functionName": "AttackTrigger",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 0.2777777910232544,
+        "functionName": "CurrentStateTrigger",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      }
+    ],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 8,
+      "m_CurveCount": 0,
+      "m_SampleRate": 18,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "playerCatchSword": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 138,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 10
+    },
+    "start": 0,
+    "stop": 0.3571428656578064,
+    "sampleRate": 14,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 786
+      },
+      {
+        "time": 0.0714285746216774,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 397
+      },
+      {
+        "time": 0.1428571492433548,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 777
+      },
+      {
+        "time": 0.2142857164144516,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 777
+      },
+      {
+        "time": 0.2857142984867096,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 777
+      }
+    ],
+    "events": [
+      {
+        "time": 0.2857142984867096,
+        "functionName": "AnimationTrigger",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      }
+    ],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 7,
+      "m_CurveCount": 0,
+      "m_SampleRate": 14,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "playerChargeAttack": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 139,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 11
+    },
+    "start": 0,
+    "stop": 0.8666666746139526,
+    "sampleRate": 15,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 859
+      },
+      {
+        "time": 0.06666667014360428,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 606
+      },
+      {
+        "time": 0.13333334028720856,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 502
+      },
+      {
+        "time": 0.20000000298023224,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 791
+      },
+      {
+        "time": 0.2666666805744171,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 622
+      },
+      {
+        "time": 0.3333333432674408,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 457
+      },
+      {
+        "time": 0.4000000059604645,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 457
+      },
+      {
+        "time": 0.46666666865348816,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 281
+      },
+      {
+        "time": 0.5333333611488342,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 405
+      },
+      {
+        "time": 0.6000000238418579,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 341
+      },
+      {
+        "time": 0.6666666865348816,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 709
+      },
+      {
+        "time": 0.7333333492279053,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 663
+      },
+      {
+        "time": 0.800000011920929,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 501
+      }
+    ],
+    "events": [
+      {
+        "time": 0.20000000298023224,
+        "functionName": "AttackTrigger",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 0.800000011920929,
+        "functionName": "CurrentStateTrigger",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      }
+    ],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 15,
+      "m_CurveCount": 0,
+      "m_SampleRate": 15,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "playerCounterAttack": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 140,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 12
+    },
+    "start": 0,
+    "stop": 0.01666666753590107,
+    "sampleRate": 60,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 756
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 3,
+      "m_CurveCount": 0,
+      "m_SampleRate": 60,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "playerCrouch": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 141,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 13
+    },
+    "start": 0,
+    "stop": 5.75,
+    "sampleRate": 8,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 857
+      },
+      {
+        "time": 0.125,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 388
+      },
+      {
+        "time": 0.25,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 402
+      },
+      {
+        "time": 3.25,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 388
+      },
+      {
+        "time": 3.375,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 857
+      },
+      {
+        "time": 3.5,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 388
+      },
+      {
+        "time": 3.625,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 402
+      },
+      {
+        "time": 5.625,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 402
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 48,
+      "m_CurveCount": 0,
+      "m_SampleRate": 8,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "playerCrouchAttack": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 142,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 14
+    },
+    "start": 0,
+    "stop": 0.3333333432674408,
+    "sampleRate": 18,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 840
+      },
+      {
+        "time": 0.1111111119389534,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 497
+      },
+      {
+        "time": 0.1666666716337204,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 585
+      },
+      {
+        "time": 0.2222222238779068,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 811
+      },
+      {
+        "time": 0.2777777910232544,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 811
+      }
+    ],
+    "events": [
+      {
+        "time": 0.1111111119389534,
+        "functionName": "AttackTrigger",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 0.2777777910232544,
+        "functionName": "CurrentStateTrigger",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      }
+    ],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 8,
+      "m_CurveCount": 0,
+      "m_SampleRate": 18,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "playerDash": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 143,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 15
+    },
+    "start": 0,
+    "stop": 0.01666666753590107,
+    "sampleRate": 60,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 359
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 3,
+      "m_CurveCount": 0,
+      "m_SampleRate": 60,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "playerDie": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 144,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 16
+    },
+    "start": 0,
+    "stop": 0.75,
+    "sampleRate": 12,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 467
+      },
+      {
+        "time": 0.0833333358168602,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 853
+      },
+      {
+        "time": 0.1666666716337204,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 529
+      },
+      {
+        "time": 0.25,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 767
+      },
+      {
+        "time": 0.3333333432674408,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 494
+      },
+      {
+        "time": 0.4166666567325592,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 427
+      },
+      {
+        "time": 0.5,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 479
+      },
+      {
+        "time": 0.5833333134651184,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 650
+      },
+      {
+        "time": 0.6666666865348816,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 620
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 11,
+      "m_CurveCount": 0,
+      "m_SampleRate": 12,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "playerDownwardStrike": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 145,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 17
+    },
+    "start": 0,
+    "stop": 0.2222222238779068,
+    "sampleRate": 18,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 317
+      },
+      {
+        "time": 0.0555555559694767,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 822
+      },
+      {
+        "time": 0.1111111119389534,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 838
+      },
+      {
+        "time": 0.1666666716337204,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 390
+      }
+    ],
+    "events": [
+      {
+        "time": 0.0555555559694767,
+        "functionName": "DownwardAttackTrigger",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 0.1666666716337204,
+        "functionName": "CurrentStateTrigger",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      }
+    ],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 6,
+      "m_CurveCount": 0,
+      "m_SampleRate": 18,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "playerFall": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 146,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 18
+    },
+    "start": 0,
+    "stop": 0.30000001192092896,
+    "sampleRate": 10,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 629
+      },
+      {
+        "time": 0.10000000149011612,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 789
+      },
+      {
+        "time": 0.20000000298023224,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 331
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 5,
+      "m_CurveCount": 0,
+      "m_SampleRate": 10,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "playerGrabClimb": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 147,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 19
+    },
+    "start": 0,
+    "stop": 0.5,
+    "sampleRate": 18,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 864
+      },
+      {
+        "time": 0.0555555559694767,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 505
+      },
+      {
+        "time": 0.1111111119389534,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 314
+      },
+      {
+        "time": 0.1666666716337204,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 465
+      },
+      {
+        "time": 0.2222222238779068,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 429
+      },
+      {
+        "time": 0.2777777910232544,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 790
+      },
+      {
+        "time": 0.3333333432674408,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 820
+      },
+      {
+        "time": 0.3888888955116272,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 450
+      },
+      {
+        "time": 0.4444444477558136,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 656
+      }
+    ],
+    "events": [
+      {
+        "time": 0.4444444477558136,
+        "functionName": "GrabClimbMoveTrigger",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 0.4444444477558136,
+        "functionName": "CurrentStateTrigger",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      }
+    ],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 11,
+      "m_CurveCount": 0,
+      "m_SampleRate": 18,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "playerHurt": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 148,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 20
+    },
+    "start": 0,
+    "stop": 0.3333333432674408,
+    "sampleRate": 12,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 470
+      },
+      {
+        "time": 0.0833333358168602,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 470
+      },
+      {
+        "time": 0.1666666716337204,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 690
+      },
+      {
+        "time": 0.25,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 472
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 6,
+      "m_CurveCount": 0,
+      "m_SampleRate": 12,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "playerJump": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 150,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 22
+    },
+    "start": 0,
+    "stop": 0.30000001192092896,
+    "sampleRate": 10,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 743
+      },
+      {
+        "time": 0.10000000149011612,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 682
+      },
+      {
+        "time": 0.20000000298023224,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 428
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 5,
+      "m_CurveCount": 0,
+      "m_SampleRate": 10,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "playerJump2": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 151,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 23
+    },
+    "start": 0,
+    "stop": 0.30000001192092896,
+    "sampleRate": 10,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 660
+      },
+      {
+        "time": 0.10000000149011612,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 818
+      },
+      {
+        "time": 0.20000000298023224,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 456
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 5,
+      "m_CurveCount": 0,
+      "m_SampleRate": 10,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "playerJumpAttack_end": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 152,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 24
+    },
+    "start": 0,
+    "stop": 0.2777777910232544,
+    "sampleRate": 18,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 725
+      },
+      {
+        "time": 0.0555555559694767,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 344
+      },
+      {
+        "time": 0.1111111119389534,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 416
+      },
+      {
+        "time": 0.1666666716337204,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 637
+      },
+      {
+        "time": 0.2222222238779068,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 637
+      }
+    ],
+    "events": [
+      {
+        "time": 0,
+        "functionName": "AttackTrigger",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 0.2222222238779068,
+        "functionName": "CurrentStateTrigger",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      }
+    ],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 7,
+      "m_CurveCount": 0,
+      "m_SampleRate": 18,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "playerJumpAttack_start": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 153,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 25
+    },
+    "start": 0,
+    "stop": 0.1666666716337204,
+    "sampleRate": 18,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 693
+      },
+      {
+        "time": 0.0555555559694767,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 482
+      },
+      {
+        "time": 0.1111111119389534,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 420
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 5,
+      "m_CurveCount": 0,
+      "m_SampleRate": 18,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "playerMove": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 154,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 26
+    },
+    "start": 0,
+    "stop": 0.800000011920929,
+    "sampleRate": 20,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 338
+      },
+      {
+        "time": 0.05000000074505806,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 283
+      },
+      {
+        "time": 0.10000000149011612,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 772
+      },
+      {
+        "time": 0.15000000596046448,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 512
+      },
+      {
+        "time": 0.20000000298023224,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 793
+      },
+      {
+        "time": 0.25,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 294
+      },
+      {
+        "time": 0.30000001192092896,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 721
+      },
+      {
+        "time": 0.3499999940395355,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 738
+      },
+      {
+        "time": 0.4000000059604645,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 367
+      },
+      {
+        "time": 0.44999998807907104,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 848
+      },
+      {
+        "time": 0.5,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 679
+      },
+      {
+        "time": 0.550000011920929,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 354
+      },
+      {
+        "time": 0.6000000238418579,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 287
+      },
+      {
+        "time": 0.6499999761581421,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 646
+      },
+      {
+        "time": 0.699999988079071,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 538
+      },
+      {
+        "time": 0.75,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 466
+      }
+    ],
+    "events": [
+      {
+        "time": 0.25,
+        "functionName": "Footstep",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 0.6499999761581421,
+        "functionName": "Footstep",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      }
+    ],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 18,
+      "m_CurveCount": 0,
+      "m_SampleRate": 20,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "playerSlide": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 155,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 27
+    },
+    "start": 0,
+    "stop": 0.3333333432674408,
+    "sampleRate": 12,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 621
+      },
+      {
+        "time": 0.0833333358168602,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 406
+      },
+      {
+        "time": 0.1666666716337204,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 627
+      },
+      {
+        "time": 0.25,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 677
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 6,
+      "m_CurveCount": 0,
+      "m_SampleRate": 12,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "playerSuccessfulCounterAttack": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 156,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 28
+    },
+    "start": 0,
+    "stop": 0.25,
+    "sampleRate": 20,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 734
+      },
+      {
+        "time": 0.05000000074505806,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 329
+      },
+      {
+        "time": 0.10000000149011612,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 478
+      },
+      {
+        "time": 0.15000000596046448,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 778
+      },
+      {
+        "time": 0.20000000298023224,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 718
+      }
+    ],
+    "events": [
+      {
+        "time": 0.20000000298023224,
+        "functionName": "CurrentStateTrigger",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      }
+    ],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 7,
+      "m_CurveCount": 0,
+      "m_SampleRate": 20,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "playerThrowSword": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 157,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 29
+    },
+    "start": 0,
+    "stop": 0.2142857313156128,
+    "sampleRate": 14,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 334
+      },
+      {
+        "time": 0.0714285746216774,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 511
+      },
+      {
+        "time": 0.1428571492433548,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 291
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 5,
+      "m_CurveCount": 0,
+      "m_SampleRate": 14,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "playerThrowSword_Performed": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 158,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 30
+    },
+    "start": 0,
+    "stop": 0.2857142984867096,
+    "sampleRate": 14,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 381
+      },
+      {
+        "time": 0.0714285746216774,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 431
+      },
+      {
+        "time": 0.1428571492433548,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 594
+      },
+      {
+        "time": 0.2142857164144516,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 518
+      }
+    ],
+    "events": [
+      {
+        "time": 0.0714285746216774,
+        "functionName": "ThrowSword",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 0.2142857164144516,
+        "functionName": "CurrentStateTrigger",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      }
+    ],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 6,
+      "m_CurveCount": 0,
+      "m_SampleRate": 14,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "playerUpwardStrike": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 159,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 31
+    },
+    "start": 0,
+    "stop": 0.3529411852359772,
+    "sampleRate": 17,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 475
+      },
+      {
+        "time": 0.05882352963089943,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 291
+      },
+      {
+        "time": 0.11764705926179886,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 788
+      },
+      {
+        "time": 0.1764705926179886,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 412
+      },
+      {
+        "time": 0.23529411852359772,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 363
+      },
+      {
+        "time": 0.29411765933036804,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 363
+      }
+    ],
+    "events": [
+      {
+        "time": 0.11764705926179886,
+        "functionName": "UpwardAttackTrigger",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 0.29411765933036804,
+        "functionName": "CurrentStateTrigger",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      }
+    ],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 8,
+      "m_CurveCount": 0,
+      "m_SampleRate": 17,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "playerWalk": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 160,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 32
+    },
+    "start": 0,
+    "stop": 1,
+    "sampleRate": 12,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 775
+      },
+      {
+        "time": 0.0833333358168602,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 335
+      },
+      {
+        "time": 0.1666666716337204,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 735
+      },
+      {
+        "time": 0.25,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 618
+      },
+      {
+        "time": 0.3333333432674408,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 430
+      },
+      {
+        "time": 0.4166666567325592,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 311
+      },
+      {
+        "time": 0.5,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 770
+      },
+      {
+        "time": 0.5833333134651184,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 365
+      },
+      {
+        "time": 0.6666666865348816,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 389
+      },
+      {
+        "time": 0.75,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 519
+      },
+      {
+        "time": 0.8333333134651184,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 815
+      },
+      {
+        "time": 0.9166666865348816,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 798
+      }
+    ],
+    "events": [
+      {
+        "time": 0.1666666716337204,
+        "functionName": "Footstep",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      },
+      {
+        "time": 0.6666666865348816,
+        "functionName": "Footstep",
+        "data": "",
+        "objectReferenceParameter": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "floatParameter": 0,
+        "intParameter": 0,
+        "messageOptions": 0
+      }
+    ],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 14,
+      "m_CurveCount": 0,
+      "m_SampleRate": 12,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "playerWallGrab": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 161,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 33
+    },
+    "start": 0,
+    "stop": 0.20000000298023224,
+    "sampleRate": 5,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 864
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 3,
+      "m_CurveCount": 0,
+      "m_SampleRate": 5,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "playerWallGrabClimb": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 162,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 34
+    },
+    "start": 0,
+    "stop": 0.30000001192092896,
+    "sampleRate": 10,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 743
+      },
+      {
+        "time": 0.10000000149011612,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 682
+      },
+      {
+        "time": 0.20000000298023224,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 428
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 5,
+      "m_CurveCount": 0,
+      "m_SampleRate": 10,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "playerWallSlide": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 164,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 36
+    },
+    "start": 0,
+    "stop": 0.30000001192092896,
+    "sampleRate": 10,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 855
+      },
+      {
+        "time": 0.10000000149011612,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 599
+      },
+      {
+        "time": 0.20000000298023224,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 619
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 5,
+      "m_CurveCount": 0,
+      "m_SampleRate": 10,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  }
+}

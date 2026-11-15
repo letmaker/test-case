@@ -1,0 +1,17 @@
+{
+  "url": "static-sharedassets6-assets-24.png",
+  "width": 112,
+  "height": 368,
+  "scale": 1,
+  "anchor": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "source": {
+    "path": "Data/sharedassets6.assets/Sprite.jsonl",
+    "line": 17
+  },
+  "serializedFile": "sharedassets6.assets",
+  "pathId": 24,
+  "converterVersion": 2
+}

@@ -1,0 +1,94 @@
+{
+  "frames": {
+    "f00000.png": {
+      "frame": {
+        "x": 568,
+        "y": 197,
+        "w": 96,
+        "h": 95
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 96,
+        "h": 95
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0.9999992251396179,
+        "w": 96,
+        "h": 95
+      }
+    },
+    "f00001.png": {
+      "frame": {
+        "x": 568,
+        "y": 197,
+        "w": 96,
+        "h": 95
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 96,
+        "h": 95
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0.9999992251396179,
+        "w": 96,
+        "h": 95
+      }
+    },
+    "f00002.png": {
+      "frame": {
+        "x": 666,
+        "y": 197,
+        "w": 96,
+        "h": 96
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      }
+    },
+    "f00003.png": {
+      "frame": {
+        "x": 1,
+        "y": 1,
+        "w": 96,
+        "h": 96
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      }
+    }
+  },
+  "meta": {
+    "image": "jiangjunlv2.png",
+    "size": {
+      "w": 2044,
+      "h": 569
+    },
+    "scale": "1",
+    "scaleMode": "nearest",
+    "baseUrl": "jiangjunlv2/jiangjunlv2-jiangJun2LvHurt.atlas.json"
+  }
+}

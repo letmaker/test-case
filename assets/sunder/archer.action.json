@@ -1,0 +1,163 @@
+{
+  "version": 1,
+  "poster": {
+    "url": "archer-poster.png",
+    "width": 92,
+    "height": 54
+  },
+  "defaultAction": "archerIdle",
+  "actions": {
+    "archerIdle": {
+      "url": "archer-archerIdle.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 12,
+      "loop": true,
+      "durations": [
+        1.0000000298023224,
+        1.0000000298023224,
+        0.9999999403953552,
+        1.0000001192092896,
+        0.9999997615814209,
+        1.0000001192092896,
+        0.9999997615814209,
+        1.0000004768371582,
+        0.9999997615814209,
+        0.9999997615814209
+      ],
+      "events": []
+    },
+    "archerAttack": {
+      "url": "archer-archerAttack.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 12,
+      "loop": false,
+      "durations": [
+        1.0000000298023224,
+        1.0000000298023224,
+        0.9999999403953552,
+        1.0000001192092896,
+        0.9999997615814209,
+        1.0000001192092896,
+        0.9999997615814209,
+        1.0000004768371582,
+        0.9999997615814209,
+        0.9999997615814209,
+        1.0000004768371582,
+        0.9999997615814209
+      ],
+      "events": [
+        {
+          "time": 0.5,
+          "name": "SpecialAttackTrigger",
+          "data": 0
+        },
+        {
+          "time": 0.9166666865348816,
+          "name": "CurrentStateTrigger",
+          "data": 1
+        },
+        {
+          "time": 0.9166666865348816,
+          "name": "BlockWindowEndTrigger",
+          "data": 2
+        }
+      ]
+    },
+    "archerDie": {
+      "url": "archer-archerDie.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 12,
+      "loop": false,
+      "durations": [
+        1.0000000298023224,
+        1.0000000298023224,
+        0.9999999403953552,
+        1.0000001192092896,
+        0.9999997615814209,
+        1.0000001192092896,
+        0.9999997615814209,
+        1.0000004768371582,
+        0.9999997615814209,
+        0.9999997615814209,
+        1.0000004768371582,
+        0.9999997615814209,
+        1.0000004768371582
+      ],
+      "events": [
+        {
+          "time": 1,
+          "name": "DestroyAfterAnimation",
+          "data": 0
+        }
+      ]
+    },
+    "archerHurt": {
+      "url": "archer-archerHurt.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 12,
+      "loop": false,
+      "durations": [
+        1.0000000298023224,
+        1.9999999701976776,
+        1.0000001192092896
+      ],
+      "events": []
+    },
+    "archerMove": {
+      "url": "archer-archerMove.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 12,
+      "loop": true,
+      "durations": [
+        1.0000000298023224,
+        1.0000000298023224,
+        0.9999999403953552,
+        1.0000001192092896,
+        0.9999997615814209,
+        1.0000001192092896,
+        0.9999997615814209,
+        0.9999997615814209
+      ],
+      "events": [
+        {
+          "time": 0.25,
+          "name": "Footstep",
+          "data": 0
+        },
+        {
+          "time": 0.5833333134651184,
+          "name": "Footstep",
+          "data": 1
+        }
+      ]
+    },
+    "archerStunned": {
+      "url": "archer-archerStunned.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 12,
+      "loop": true,
+      "durations": [
+        1.0000000298023224
+      ],
+      "events": []
+    }
+  }
+}

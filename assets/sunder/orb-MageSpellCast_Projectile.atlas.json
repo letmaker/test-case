@@ -1,0 +1,154 @@
+{
+  "frames": {
+    "f00000.png": {
+      "frame": {
+        "x": 1,
+        "y": 1,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      }
+    },
+    "f00001.png": {
+      "frame": {
+        "x": 131,
+        "y": 1,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      }
+    },
+    "f00002.png": {
+      "frame": {
+        "x": 261,
+        "y": 1,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      }
+    },
+    "f00003.png": {
+      "frame": {
+        "x": 391,
+        "y": 1,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      }
+    },
+    "f00004.png": {
+      "frame": {
+        "x": 521,
+        "y": 1,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      }
+    },
+    "f00005.png": {
+      "frame": {
+        "x": 651,
+        "y": 1,
+        "w": 128,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      }
+    },
+    "f00006.png": {
+      "frame": {
+        "x": 781,
+        "y": 1,
+        "w": 89,
+        "h": 69
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 89,
+        "h": 69
+      },
+      "spriteSourceSize": {
+        "x": 19.5,
+        "y": 29.5,
+        "w": 89,
+        "h": 69
+      }
+    }
+  },
+  "meta": {
+    "image": "orb.png",
+    "size": {
+      "w": 872,
+      "h": 130
+    },
+    "scale": "1",
+    "scaleMode": "nearest",
+    "baseUrl": "orb/orb-MageSpellCast_Projectile.atlas.json"
+  }
+}

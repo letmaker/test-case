@@ -1,0 +1,52 @@
+{
+  "AttackAlert": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 167,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 39
+    },
+    "start": 0,
+    "stop": 0.1666666716337204,
+    "sampleRate": 30,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 464
+      },
+      {
+        "time": 0.03333333507180214,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 744
+      },
+      {
+        "time": 0.06666667014360428,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 277
+      },
+      {
+        "time": 0.10000000149011612,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 852
+      },
+      {
+        "time": 0.13333334028720856,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 880
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 7,
+      "m_CurveCount": 0,
+      "m_SampleRate": 30,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  }
+}

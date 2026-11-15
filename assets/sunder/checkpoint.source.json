@@ -1,0 +1,87 @@
+{
+  "checkpointIdle": {
+    "serializedFile": "sharedassets2.assets",
+    "pathId": 73,
+    "source": {
+      "path": "Data/sharedassets2.assets/AnimationClip.jsonl",
+      "line": 9
+    },
+    "start": 0,
+    "stop": 0.01666666753590107,
+    "sampleRate": 60,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 254
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 3,
+      "m_CurveCount": 0,
+      "m_SampleRate": 60,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "checkpointActive": {
+    "serializedFile": "sharedassets2.assets",
+    "pathId": 72,
+    "source": {
+      "path": "Data/sharedassets2.assets/AnimationClip.jsonl",
+      "line": 8
+    },
+    "start": 0,
+    "stop": 0.30000001192092896,
+    "sampleRate": 20,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 149
+      },
+      {
+        "time": 0.05000000074505806,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 163
+      },
+      {
+        "time": 0.10000000149011612,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 276
+      },
+      {
+        "time": 0.15000000596046448,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 292
+      },
+      {
+        "time": 0.20000000298023224,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 173
+      },
+      {
+        "time": 0.25,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 332
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 8,
+      "m_CurveCount": 0,
+      "m_SampleRate": 20,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  }
+}

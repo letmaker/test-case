@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "poster": {
+    "url": "alert-poster.png",
+    "width": 133,
+    "height": 9
+  },
+  "defaultAction": "AttackAlert",
+  "actions": {
+    "AttackAlert": {
+      "url": "alert-AttackAlert.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 30,
+      "loop": false,
+      "durations": [
+        1.0000000521540642,
+        1.0000000521540642,
+        0.9999999403953552,
+        1.0000001639127731,
+        0.9999999403953552
+      ],
+      "events": []
+    }
+  }
+}

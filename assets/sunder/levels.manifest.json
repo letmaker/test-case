@@ -1,0 +1,1017 @@
+{
+  "converterVersion": 2,
+  "levels": [
+    {
+      "key": "level0",
+      "actors": [
+        {
+          "id": 593,
+          "kind": "dummy"
+        },
+        {
+          "id": 820,
+          "kind": "player"
+        }
+      ],
+      "deferredActors": [],
+      "objects": [
+        {
+          "id": 28,
+          "kind": "Trigger_FadeControl"
+        },
+        {
+          "id": 65,
+          "kind": "Trigger_Slope"
+        },
+        {
+          "id": 82,
+          "kind": "Trigger_FadeControl"
+        },
+        {
+          "id": 143,
+          "kind": "Trigger_ForcedMove"
+        },
+        {
+          "id": 485,
+          "kind": "Object_Bank"
+        },
+        {
+          "id": 852,
+          "kind": "Object_Merchant"
+        },
+        {
+          "id": 877,
+          "kind": "Object_Blacksmith"
+        },
+        {
+          "id": 940,
+          "kind": "Object_Portal"
+        },
+        {
+          "id": 997,
+          "kind": "Object_Waypoint"
+        }
+      ],
+      "tiles": 493,
+      "contours": 1,
+      "decorations": 134
+    },
+    {
+      "key": "level1",
+      "actors": [
+        {
+          "id": 826,
+          "kind": "mage"
+        },
+        {
+          "id": 827,
+          "kind": "mage"
+        },
+        {
+          "id": 1220,
+          "kind": "player"
+        },
+        {
+          "id": 1600,
+          "kind": "vagrant"
+        },
+        {
+          "id": 1602,
+          "kind": "vagrant"
+        },
+        {
+          "id": 1603,
+          "kind": "vagrant"
+        },
+        {
+          "id": 1605,
+          "kind": "vagrant"
+        },
+        {
+          "id": 1607,
+          "kind": "vagrant"
+        },
+        {
+          "id": 1876,
+          "kind": "mage"
+        },
+        {
+          "id": 2156,
+          "kind": "archer"
+        },
+        {
+          "id": 2157,
+          "kind": "archer"
+        },
+        {
+          "id": 2158,
+          "kind": "archer"
+        },
+        {
+          "id": 2159,
+          "kind": "archer"
+        }
+      ],
+      "deferredActors": [],
+      "objects": [
+        {
+          "id": 52,
+          "kind": "Trigger_FadeControl"
+        },
+        {
+          "id": 69,
+          "kind": "Object_Sign"
+        },
+        {
+          "id": 77,
+          "kind": "Trigger_FadeControl"
+        },
+        {
+          "id": 110,
+          "kind": "Object_Waypoint"
+        },
+        {
+          "id": 127,
+          "kind": "Wall_FadeScreen"
+        },
+        {
+          "id": 155,
+          "kind": "Object_LeverFloor"
+        },
+        {
+          "id": 209,
+          "kind": "Trigger_Slope"
+        },
+        {
+          "id": 250,
+          "kind": "Object_Sign"
+        },
+        {
+          "id": 272,
+          "kind": "Object_Door"
+        },
+        {
+          "id": 276,
+          "kind": "Object_LeverFloor"
+        },
+        {
+          "id": 306,
+          "kind": "Object_Door"
+        },
+        {
+          "id": 307,
+          "kind": "Trigger_Slope"
+        },
+        {
+          "id": 324,
+          "kind": "Trigger_FadeControl"
+        },
+        {
+          "id": 326,
+          "kind": "Trigger_FadeControl"
+        },
+        {
+          "id": 357,
+          "kind": "Trigger_ForcedMove"
+        },
+        {
+          "id": 362,
+          "kind": "Trigger_ForcedMove"
+        },
+        {
+          "id": 375,
+          "kind": "Trigger_FadeControl"
+        },
+        {
+          "id": 376,
+          "kind": "Trigger_Slope"
+        },
+        {
+          "id": 379,
+          "kind": "Object_Door"
+        },
+        {
+          "id": 383,
+          "kind": "Object_Sign"
+        },
+        {
+          "id": 462,
+          "kind": "Object_Sign"
+        },
+        {
+          "id": 480,
+          "kind": "Object_LeverFloor"
+        },
+        {
+          "id": 501,
+          "kind": "Trigger_ForcedMove"
+        },
+        {
+          "id": 539,
+          "kind": "Trigger_FadeControl"
+        },
+        {
+          "id": 1105,
+          "kind": "Object_Chest"
+        },
+        {
+          "id": 1106,
+          "kind": "Object_Chest"
+        },
+        {
+          "id": 1334,
+          "kind": "Object_Portal"
+        },
+        {
+          "id": 1460,
+          "kind": "Object_Waypoint"
+        },
+        {
+          "id": 1461,
+          "kind": "Object_Waypoint"
+        },
+        {
+          "id": 1889,
+          "kind": "Object_Merchant"
+        },
+        {
+          "id": 2124,
+          "kind": "Object_Torch"
+        },
+        {
+          "id": 2125,
+          "kind": "Object_Torch"
+        },
+        {
+          "id": 2126,
+          "kind": "Object_Torch"
+        },
+        {
+          "id": 2127,
+          "kind": "Object_Torch"
+        },
+        {
+          "id": 2128,
+          "kind": "Object_Torch"
+        },
+        {
+          "id": 2129,
+          "kind": "Object_Torch"
+        },
+        {
+          "id": 2130,
+          "kind": "Object_Torch"
+        },
+        {
+          "id": 2131,
+          "kind": "Object_Torch"
+        },
+        {
+          "id": 2132,
+          "kind": "Object_Torch"
+        },
+        {
+          "id": 2133,
+          "kind": "Object_Torch"
+        },
+        {
+          "id": 2134,
+          "kind": "Object_Torch"
+        },
+        {
+          "id": 2135,
+          "kind": "Object_Torch"
+        },
+        {
+          "id": 2136,
+          "kind": "Object_Torch"
+        },
+        {
+          "id": 2137,
+          "kind": "Object_Torch"
+        },
+        {
+          "id": 2138,
+          "kind": "Object_Torch"
+        },
+        {
+          "id": 2765,
+          "kind": "Object_Checkpoint"
+        }
+      ],
+      "tiles": 5606,
+      "contours": 5,
+      "decorations": 369
+    },
+    {
+      "key": "level2",
+      "actors": [
+        {
+          "id": 633,
+          "kind": "mage"
+        },
+        {
+          "id": 1022,
+          "kind": "player"
+        },
+        {
+          "id": 1394,
+          "kind": "vagrant"
+        },
+        {
+          "id": 1395,
+          "kind": "vagrant"
+        },
+        {
+          "id": 1396,
+          "kind": "vagrant"
+        },
+        {
+          "id": 1398,
+          "kind": "vagrant"
+        },
+        {
+          "id": 1901,
+          "kind": "archer"
+        },
+        {
+          "id": 1903,
+          "kind": "archer"
+        },
+        {
+          "id": 2473,
+          "kind": "shielder"
+        }
+      ],
+      "deferredActors": [
+        {
+          "id": 1874,
+          "kind": "jiangjun",
+          "handler": "SunderBoss / SunderLevel 两阶段与死亡链"
+        }
+      ],
+      "objects": [
+        {
+          "id": 103,
+          "kind": "Trigger_ForcedMove"
+        },
+        {
+          "id": 109,
+          "kind": "Trigger_Slope"
+        },
+        {
+          "id": 110,
+          "kind": "Trigger_Slope"
+        },
+        {
+          "id": 142,
+          "kind": "Trigger_Slope"
+        },
+        {
+          "id": 193,
+          "kind": "Trigger_ForcedMove"
+        },
+        {
+          "id": 312,
+          "kind": "Trigger_Slope"
+        },
+        {
+          "id": 908,
+          "kind": "Object_Chest"
+        },
+        {
+          "id": 1177,
+          "kind": "Object_Portal"
+        },
+        {
+          "id": 1258,
+          "kind": "Object_Waypoint"
+        },
+        {
+          "id": 1655,
+          "kind": "Object_Merchant"
+        },
+        {
+          "id": 1883,
+          "kind": "Object_Torch"
+        },
+        {
+          "id": 1968,
+          "kind": "Object_Checkpoint"
+        }
+      ],
+      "tiles": 2643,
+      "contours": 4,
+      "decorations": 307
+    },
+    {
+      "key": "level3",
+      "actors": [
+        {
+          "id": 675,
+          "kind": "mage"
+        },
+        {
+          "id": 676,
+          "kind": "mage"
+        },
+        {
+          "id": 1073,
+          "kind": "player"
+        },
+        {
+          "id": 1457,
+          "kind": "vagrant"
+        },
+        {
+          "id": 1462,
+          "kind": "vagrant"
+        },
+        {
+          "id": 1464,
+          "kind": "vagrant"
+        },
+        {
+          "id": 1635,
+          "kind": "shielder"
+        },
+        {
+          "id": 2026,
+          "kind": "archer"
+        },
+        {
+          "id": 2647,
+          "kind": "shielder"
+        }
+      ],
+      "deferredActors": [],
+      "objects": [
+        {
+          "id": 1,
+          "kind": "Trigger_Slope"
+        },
+        {
+          "id": 16,
+          "kind": "Trigger_ForcedMove"
+        },
+        {
+          "id": 43,
+          "kind": "Object_Sign"
+        },
+        {
+          "id": 74,
+          "kind": "Trigger_Slope"
+        },
+        {
+          "id": 84,
+          "kind": "Wall_FadeScreen"
+        },
+        {
+          "id": 144,
+          "kind": "Trigger_Slope"
+        },
+        {
+          "id": 200,
+          "kind": "Trigger_Slope"
+        },
+        {
+          "id": 215,
+          "kind": "Object_Waypoint"
+        },
+        {
+          "id": 225,
+          "kind": "Trigger_Slope"
+        },
+        {
+          "id": 264,
+          "kind": "Trigger_ForcedMove"
+        },
+        {
+          "id": 274,
+          "kind": "Trigger_Slope"
+        },
+        {
+          "id": 362,
+          "kind": "Trigger_ForcedMove"
+        },
+        {
+          "id": 956,
+          "kind": "Object_Chest"
+        },
+        {
+          "id": 957,
+          "kind": "Object_Chest"
+        },
+        {
+          "id": 1190,
+          "kind": "Object_Portal"
+        },
+        {
+          "id": 1316,
+          "kind": "Object_Waypoint"
+        },
+        {
+          "id": 1317,
+          "kind": "Object_Waypoint"
+        },
+        {
+          "id": 1753,
+          "kind": "Object_Merchant"
+        },
+        {
+          "id": 1995,
+          "kind": "Object_Torch"
+        },
+        {
+          "id": 1996,
+          "kind": "Object_Torch"
+        },
+        {
+          "id": 1997,
+          "kind": "Object_Torch"
+        },
+        {
+          "id": 1998,
+          "kind": "Object_Torch"
+        },
+        {
+          "id": 1999,
+          "kind": "Object_Torch"
+        },
+        {
+          "id": 2000,
+          "kind": "Object_Torch"
+        },
+        {
+          "id": 2001,
+          "kind": "Object_Torch"
+        },
+        {
+          "id": 2002,
+          "kind": "Object_Torch"
+        },
+        {
+          "id": 2003,
+          "kind": "Object_Torch"
+        },
+        {
+          "id": 2004,
+          "kind": "Object_Torch"
+        },
+        {
+          "id": 2005,
+          "kind": "Object_Torch"
+        },
+        {
+          "id": 2006,
+          "kind": "Object_Torch"
+        },
+        {
+          "id": 2007,
+          "kind": "Object_Torch"
+        },
+        {
+          "id": 2008,
+          "kind": "Object_Torch"
+        },
+        {
+          "id": 2009,
+          "kind": "Object_Torch"
+        },
+        {
+          "id": 2653,
+          "kind": "Object_Checkpoint"
+        }
+      ],
+      "tiles": 5218,
+      "contours": 4,
+      "decorations": 268
+    },
+    {
+      "key": "level4",
+      "actors": [
+        {
+          "id": 1091,
+          "kind": "player"
+        }
+      ],
+      "deferredActors": [],
+      "objects": [
+        {
+          "id": 1,
+          "kind": "Trigger_Slope"
+        },
+        {
+          "id": 77,
+          "kind": "Trigger_Slope"
+        },
+        {
+          "id": 90,
+          "kind": "Object_Sign"
+        },
+        {
+          "id": 151,
+          "kind": "Trigger_Slope"
+        },
+        {
+          "id": 205,
+          "kind": "Trigger_Slope"
+        },
+        {
+          "id": 233,
+          "kind": "Trigger_Slope"
+        },
+        {
+          "id": 272,
+          "kind": "Trigger_ForcedMove"
+        },
+        {
+          "id": 282,
+          "kind": "Trigger_Slope"
+        },
+        {
+          "id": 378,
+          "kind": "Trigger_ForcedMove"
+        },
+        {
+          "id": 1188,
+          "kind": "Object_Jiangjun"
+        },
+        {
+          "id": 1209,
+          "kind": "Object_Portal"
+        },
+        {
+          "id": 1336,
+          "kind": "Object_Waypoint"
+        },
+        {
+          "id": 1771,
+          "kind": "Object_Merchant"
+        },
+        {
+          "id": 2011,
+          "kind": "Object_Torch"
+        },
+        {
+          "id": 2012,
+          "kind": "Object_Torch"
+        },
+        {
+          "id": 2013,
+          "kind": "Object_Torch"
+        },
+        {
+          "id": 2014,
+          "kind": "Object_Torch"
+        },
+        {
+          "id": 2015,
+          "kind": "Object_Torch"
+        },
+        {
+          "id": 2016,
+          "kind": "Object_Torch"
+        },
+        {
+          "id": 2017,
+          "kind": "Object_Torch"
+        },
+        {
+          "id": 2018,
+          "kind": "Object_Torch"
+        },
+        {
+          "id": 2019,
+          "kind": "Object_Torch"
+        },
+        {
+          "id": 2020,
+          "kind": "Object_Torch"
+        },
+        {
+          "id": 2021,
+          "kind": "Object_Torch"
+        },
+        {
+          "id": 2022,
+          "kind": "Object_Torch"
+        },
+        {
+          "id": 2023,
+          "kind": "Object_Torch"
+        },
+        {
+          "id": 2024,
+          "kind": "Object_Torch"
+        },
+        {
+          "id": 2025,
+          "kind": "Object_Torch"
+        }
+      ],
+      "tiles": 2765,
+      "contours": 4,
+      "decorations": 267
+    },
+    {
+      "key": "level30",
+      "actors": [
+        {
+          "id": 897,
+          "kind": "player"
+        }
+      ],
+      "deferredActors": [],
+      "objects": [
+        {
+          "id": 49,
+          "kind": "Trigger_ForcedMove"
+        },
+        {
+          "id": 91,
+          "kind": "Trigger_Slope"
+        },
+        {
+          "id": 93,
+          "kind": "Trigger_Slope"
+        },
+        {
+          "id": 123,
+          "kind": "Trigger_Slope"
+        },
+        {
+          "id": 282,
+          "kind": "Trigger_Slope"
+        },
+        {
+          "id": 1036,
+          "kind": "Object_Portal"
+        },
+        {
+          "id": 1108,
+          "kind": "Object_Waypoint"
+        },
+        {
+          "id": 1452,
+          "kind": "Object_Merchant"
+        },
+        {
+          "id": 1739,
+          "kind": "Object_Checkpoint"
+        }
+      ],
+      "tiles": 824,
+      "contours": 1,
+      "decorations": 198
+    }
+  ],
+  "actions": [
+    {
+      "name": "player",
+      "actions": [
+        "playerIdle",
+        "playerWallGrabIdle",
+        "playerAirAttack",
+        "playerAirUpwardStrike",
+        "playerBasicAttack_1",
+        "playerBasicAttack_2",
+        "playerBasicAttack_3",
+        "playerCatchSword",
+        "playerChargeAttack",
+        "playerCounterAttack",
+        "playerCrouch",
+        "playerCrouchAttack",
+        "playerDash",
+        "playerDie",
+        "playerDownwardStrike",
+        "playerFall",
+        "playerGrabClimb",
+        "playerHurt",
+        "playerJump",
+        "playerJump2",
+        "playerJumpAttack_end",
+        "playerJumpAttack_start",
+        "playerMove",
+        "playerSlide",
+        "playerSuccessfulCounterAttack",
+        "playerThrowSword",
+        "playerThrowSword_Performed",
+        "playerUpwardStrike",
+        "playerWalk",
+        "playerWallGrab",
+        "playerWallGrabClimb",
+        "playerWallSlide"
+      ],
+      "width": 96,
+      "height": 96,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "ppu": 16,
+      "emission": true
+    },
+    {
+      "name": "archer",
+      "actions": [
+        "archerIdle",
+        "archerAttack",
+        "archerDie",
+        "archerHurt",
+        "archerMove",
+        "archerStunned"
+      ],
+      "width": 92,
+      "height": 54,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "ppu": 16,
+      "emission": false
+    },
+    {
+      "name": "mage",
+      "actions": [
+        "MageIdle",
+        "MageAttack",
+        "MageDie",
+        "MageHurt",
+        "MageMove",
+        "MageSpellCast",
+        "MageSpellCast_performed",
+        "MageStunned"
+      ],
+      "width": 48,
+      "height": 48,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "ppu": 32,
+      "emission": false
+    },
+    {
+      "name": "arrow",
+      "actions": [
+        "archer_Arrow"
+      ],
+      "width": 92,
+      "height": 54,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.4444444477558136
+      },
+      "ppu": 16,
+      "emission": false
+    },
+    {
+      "name": "orb",
+      "actions": [
+        "MageSpellCast_Projectile"
+      ],
+      "width": 128,
+      "height": 128,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "ppu": 32,
+      "emission": false
+    },
+    {
+      "name": "sword",
+      "actions": [
+        "skillObjectSwordIdle",
+        "skillObjectSwordSpinning"
+      ],
+      "width": 32,
+      "height": 33,
+      "pivot": {
+        "x": 0.5600000023841858,
+        "y": 0.45283252000808716
+      },
+      "ppu": 16,
+      "emission": false
+    },
+    {
+      "name": "dummy",
+      "actions": [
+        "TrainingDunmmyIdle",
+        "TrainingDunmmyDamaged"
+      ],
+      "width": 41,
+      "height": 41,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "ppu": 16,
+      "emission": false
+    },
+    {
+      "name": "shielder",
+      "actions": [
+        "shielderIdle",
+        "shielderAttack",
+        "shielderAttackCharge",
+        "shielderAttackEnd",
+        "shielderDie",
+        "shielderMove"
+      ],
+      "width": 48,
+      "height": 48,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "ppu": 16,
+      "emission": false
+    },
+    {
+      "name": "objects",
+      "actions": [
+        "BlacksmithCornerIdle",
+        "chestIdle",
+        "npcBankIdle",
+        "levelFloorIdle",
+        "chestOpen",
+        "npcBlacksmithldle",
+        "npcMerchantIldle",
+        "npcSwordswoman",
+        "levelFloorOpen"
+      ],
+      "width": 115,
+      "height": 108,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "ppu": 16,
+      "emission": false
+    },
+    {
+      "name": "growth",
+      "actions": [
+        "skillObjectShardIdle",
+        "Vfx_ShardExplosion",
+        "Vfx_SmokeCloud"
+      ],
+      "width": 128,
+      "height": 128,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "ppu": 32,
+      "emission": false
+    },
+    {
+      "name": "checkpoint",
+      "actions": [
+        "checkpointIdle",
+        "checkpointActive"
+      ],
+      "width": 29,
+      "height": 35,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "ppu": 16,
+      "emission": false
+    },
+    {
+      "name": "xuchu",
+      "actions": [
+        "npcXuChu"
+      ],
+      "width": 75,
+      "height": 75,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "ppu": 16,
+      "emission": false
+    },
+    {
+      "name": "interactions",
+      "actions": [
+        "teleportIdle",
+        "UI_button",
+        "objectWapoint"
+      ],
+      "width": 32,
+      "height": 32,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "ppu": 32,
+      "emission": false
+    }
+  ],
+  "sprites": 168
+}

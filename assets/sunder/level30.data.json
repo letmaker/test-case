@@ -1,0 +1,8223 @@
+{
+  "key": "level30",
+  "serializedFile": "level6",
+  "terrain": {
+    "origin": {
+      "x": -72,
+      "y": 24
+    },
+    "bounds": {
+      "minX": -48,
+      "maxX": 157,
+      "minY": -33,
+      "maxY": 15
+    },
+    "width": 4944,
+    "height": 1176,
+    "sourcePolygonCount": 824,
+    "tileCount": 824,
+    "layers": [
+      {
+        "name": "Ground",
+        "source": {
+          "serializedFile": "level6",
+          "pathId": 6146
+        },
+        "layer": -11,
+        "order": 0,
+        "sortingLayerID": -1217059901,
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "collider": {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 286
+          },
+          "m_Enabled": 1,
+          "m_Density": 1,
+          "m_Material": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_IncludeLayers": {
+            "m_Bits": 0
+          },
+          "m_ExcludeLayers": {
+            "m_Bits": 0
+          },
+          "m_LayerOverridePriority": 0,
+          "m_ForceSendLayers": {
+            "m_Bits": 4294967295
+          },
+          "m_ForceReceiveLayers": {
+            "m_Bits": 4294967295
+          },
+          "m_ContactCaptureLayers": {
+            "m_Bits": 4294967295
+          },
+          "m_CallbackLayers": {
+            "m_Bits": 4294967295
+          },
+          "m_IsTrigger": false,
+          "m_UsedByEffector": false,
+          "m_UsedByComposite": false,
+          "m_Offset": {
+            "x": 0,
+            "y": 0
+          },
+          "m_MaximumTileChangeCount": 1000,
+          "m_ExtrusionFactor": 0,
+          "m_UseDelaunayMesh": false
+        },
+        "tiles": 824
+      }
+    ]
+  },
+  "hidden": null,
+  "actors": [
+    {
+      "serializedFile": "level6",
+      "pathId": 897,
+      "kind": "player",
+      "source": {
+        "path": "Data/level6/GameObject.jsonl",
+        "line": 897
+      },
+      "z": 0,
+      "world": {
+        "x": -11.604999542236328,
+        "y": -1.7389999628067017
+      },
+      "visual": {
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "layer": -7,
+        "order": 0
+      },
+      "motion": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 897
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 626
+        },
+        "m_Name": "",
+        "facingRight": 1,
+        "whatIsGround": {
+          "m_Bits": 80
+        },
+        "whatIsOneWayPlatform": {
+          "m_Bits": 8192
+        },
+        "groundCheckDistance": 1.399999976158142,
+        "wallCheckDistance": 0.6499999761581421,
+        "groundCheck": {
+          "m_FileID": 0,
+          "m_PathID": 2526
+        },
+        "primaryWallCheck": {
+          "m_FileID": 0,
+          "m_PathID": 2522
+        },
+        "secondaryWallCheck": {
+          "m_FileID": 0,
+          "m_PathID": 2602
+        },
+        "wallGrabAboveCheck": {
+          "m_FileID": 0,
+          "m_PathID": 2562
+        },
+        "wallGrabAboveDistance": 1,
+        "wallGrabBelowCheck": {
+          "m_FileID": 0,
+          "m_PathID": 2527
+        },
+        "wallGrabBelowDistance": 0.47999998927116394,
+        "enableAnimSpeedDebug": 0,
+        "coyoteTime": 0.20000000298023224,
+        "coyotaTimeCouter": 0,
+        "attackVelocity": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ],
+        "jumpAttackVelocity": {
+          "x": 5,
+          "y": 4
+        },
+        "attackVelocityDuration": 0.10000000149011612,
+        "comboResetTime": 0.20000000298023224,
+        "wallJumpCheck": 0.800000011920929,
+        "wallJumpTimeCouter": 0,
+        "canNotMoveInAir": 0,
+        "moveX": 1,
+        "slideDuration": 0.30000001192092896,
+        "slideSpeed": 20,
+        "slideCooldown": 1,
+        "canSlide": 1,
+        "standingOffset": {
+          "x": 0.04600000008940697,
+          "y": -0.20800000429153442
+        },
+        "standingSize": {
+          "x": 0.9139999747276306,
+          "y": 2.0739998817443848
+        },
+        "crouchOffset": {
+          "x": 0.04600000008940697,
+          "y": -0.5540000200271606
+        },
+        "crouchSize": {
+          "x": 0.9139999747276306,
+          "y": 1.3799999952316284
+        },
+        "riseSpeed": 25,
+        "riseMaxDistance": 3,
+        "blockKnockbackVelocity": {
+          "x": 6,
+          "y": 1
+        },
+        "blockKnockbackDuration": 0.4000000059604645,
+        "defaultFootstepSound": "player_step",
+        "currentFootstepSound": "",
+        "jumpSoundName": "Jump",
+        "landSoundName": "player_land",
+        "waterLandSoundName": "",
+        "trigger_Water": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "moveSpeed": 8,
+        "jumpForce": 16,
+        "wallJumpForce": {
+          "x": 8,
+          "y": 12
+        },
+        "acceleration": 7,
+        "decceleration": 7,
+        "velocityPower": 0.8999999761581421,
+        "slipperyMaterial": {
+          "m_FileID": 2,
+          "m_PathID": 128
+        },
+        "roughMaterial": {
+          "m_FileID": 2,
+          "m_PathID": 127
+        },
+        "isForcedMoving": 0,
+        "forcedMoveSpeed": 5,
+        "forcedMoveRemainingDistance": 0,
+        "forcedMoveDirection": 1,
+        "isEntryMovement": 0,
+        "dashDustPrefab": {
+          "m_FileID": 2,
+          "m_PathID": 935
+        },
+        "enableLaunch": 1,
+        "launchForce": 8,
+        "launchableLayerMask": {
+          "m_Bits": 4294967295
+        },
+        "inAirMoveMultiplier": 0.800000011920929,
+        "wallSlideSlowMultiplier": 0.4000000059604645,
+        "dashDuration": 0.25,
+        "dashSpeed": 20
+      },
+      "combat": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 897
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 548
+        },
+        "m_Name": "",
+        "basicAttackScale": {
+          "phyiscal": 1,
+          "elemental": 0.4000000059604645,
+          "chillDuration": 3,
+          "chillSlowMulitplier": 0.20000000298023224,
+          "burnDuratin": 3,
+          "burnDamageScale": 1,
+          "shockDuration": 3,
+          "shockDamageScale": 1,
+          "shockCharge": 0.4000000059604645
+        },
+        "targetCheck": {
+          "m_FileID": 0,
+          "m_PathID": 2572
+        },
+        "targetCheckRadius": 1.2599999904632568,
+        "whatIsTarget": {
+          "m_Bits": 256
+        },
+        "downwardCheck": {
+          "m_FileID": 0,
+          "m_PathID": 2530
+        },
+        "downwardCheckRadius": 1.600000023841858,
+        "whatIsDownwardTarget": {
+          "m_Bits": 256
+        },
+        "upwardCheck": {
+          "m_FileID": 0,
+          "m_PathID": 2538
+        },
+        "upwardCheckRadius": 1.399999976158142,
+        "whatIsUpwardTarget": {
+          "m_Bits": 256
+        },
+        "hitStopDuration": 0.10000000149011612,
+        "hitStopAnimSpeed": 0.10000000149011612,
+        "enableHitStop": 1,
+        "enableHitStopDebug": 1,
+        "counterRecovery": 0.800000011920929,
+        "whatIsCounterable": {
+          "m_Bits": 2304
+        },
+        "counterShakeForce": 1.5,
+        "blockShakeForce": 1,
+        "counterSoundName": "Counter"
+      },
+      "stats": {
+        "maxHealth": 200,
+        "healthRegen": 0,
+        "attackSpeed": 1,
+        "damage": 20,
+        "critPower": 150,
+        "critChance": 0,
+        "armorReduction": 0,
+        "fireDamage": 0,
+        "iceDamage": 0,
+        "lightningDamage": 0,
+        "armor": 0,
+        "evasion": 0,
+        "fireRes": 0,
+        "iceRes": 0,
+        "lightningRes": 0,
+        "strength": 0,
+        "agility": 0,
+        "intelligence": 0,
+        "vitality": 0
+      },
+      "health": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 897
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 1112
+        },
+        "m_Name": "",
+        "currentHealth": 0,
+        "regenInterval": 1,
+        "canRegenerateHealth": 1,
+        "invincibilityDuration": 1.3,
+        "blinkInterval": 0.15,
+        "knockbackPower": {
+          "x": 5,
+          "y": 3
+        },
+        "heavyKnockbackPower": {
+          "x": 7,
+          "y": 7
+        },
+        "knockbackDuration": 0.20000000298023224,
+        "heavyKnockbackDuration": 0.5,
+        "heavyDamageThreshold": 0.30000001192092896,
+        "shielderImpactMultiplier": 2.5
+      },
+      "vfx": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 897
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 1747
+        },
+        "m_Name": "",
+        "popUpTextPrefab": {
+          "m_FileID": 2,
+          "m_PathID": 922
+        },
+        "imageEchoInterval": 0.07999999821186066,
+        "imageEchoPrefab": {
+          "m_FileID": 2,
+          "m_PathID": 901
+        },
+        "onDamageMaterial": {
+          "m_FileID": 2,
+          "m_PathID": 7
+        },
+        "onDamageVfxDuration": 0.15000000596046448,
+        "hitVfxColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "hitVfx": {
+          "m_FileID": 2,
+          "m_PathID": 907
+        },
+        "hitVfx2": {
+          "m_FileID": 2,
+          "m_PathID": 919
+        },
+        "critHitVfx": {
+          "m_FileID": 2,
+          "m_PathID": 932
+        },
+        "chillColur": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "burnColur": {
+          "r": 1,
+          "g": 0.2905203700065613,
+          "b": 0.0896226167678833,
+          "a": 1
+        },
+        "shockColur": {
+          "r": 1,
+          "g": 0.9215686321258545,
+          "b": 0.01568627543747425,
+          "a": 1
+        },
+        "burnVFX": {
+          "m_FileID": 0,
+          "m_PathID": 2679
+        },
+        "chillVFX": {
+          "m_FileID": 0,
+          "m_PathID": 2680
+        },
+        "shockVFX": {
+          "m_FileID": 0,
+          "m_PathID": 2681
+        },
+        "perfectCounterVFXPrefab": {
+          "m_FileID": 2,
+          "m_PathID": 913
+        },
+        "perfectCounterAnimationPrefab": {
+          "m_FileID": 2,
+          "m_PathID": 931
+        },
+        "perfectCounterAnimationPrefab2": {
+          "m_FileID": 2,
+          "m_PathID": 910
+        },
+        "vfxSpawnPoint": {
+          "m_FileID": 0,
+          "m_PathID": 2606
+        },
+        "blockParticlePrefab": {
+          "m_FileID": 2,
+          "m_PathID": 912
+        },
+        "blockAnimationPrefab": {
+          "m_FileID": 2,
+          "m_PathID": 910
+        },
+        "jumpDustPrefab": {
+          "m_FileID": 2,
+          "m_PathID": 902
+        },
+        "landDustPrefab": {
+          "m_FileID": 2,
+          "m_PathID": 926
+        },
+        "waterLandPrefab": {
+          "m_FileID": 7,
+          "m_PathID": 522
+        },
+        "waterSplashPrefab": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "waterSplashDuration": 0.5
+      },
+      "sfx": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 897
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 1678
+        },
+        "m_Name": "",
+        "attackHit": "player_attackHit",
+        "attackMiss": "player_akkactMiss",
+        "skillHit": "player_attackHit",
+        "footstep": "player_step",
+        "waterFootstep": "",
+        "dash": "player_dash",
+        "slide": "player_slide",
+        "jump": "player_jump",
+        "land": "player_land",
+        "grabClimb": "player_climb",
+        "wallJump": "player_wallJump",
+        "counter": "player_counter",
+        "block": "player_block",
+        "contactHit": "player_contactHit",
+        "soundDistance": 15,
+        "showGizmo": 0
+      },
+      "probes": {
+        "groundCheck": {
+          "x": 0,
+          "y": 0
+        },
+        "primaryWallCheck": {
+          "x": 0,
+          "y": -9.279999732971191
+        },
+        "secondaryWallCheck": {
+          "x": 0,
+          "y": 10.880000114440918
+        },
+        "wallGrabAboveCheck": {
+          "x": 0,
+          "y": -18.719999313354492
+        },
+        "wallGrabBelowCheck": {
+          "x": 4.831999778747559,
+          "y": -16
+        },
+        "targetCheck": {
+          "x": 22.447999954223633,
+          "y": 3.5199999809265137
+        },
+        "upwardCheck": {
+          "x": 2.240000009536743,
+          "y": -11.359999656677246
+        },
+        "downwardCheck": {
+          "x": 4,
+          "y": 16.959999084472656
+        },
+        "vfxSpawnPoint": {
+          "x": 13.4399995803833,
+          "y": 0
+        }
+      },
+      "contact": null,
+      "material": {
+        "id": "sharedassets1.assets:128",
+        "source": {
+          "path": "Data/sharedassets1.assets/PhysicsMaterial2D.jsonl",
+          "line": 2
+        },
+        "m_Name": "SlippyMaterial",
+        "friction": 0,
+        "bounciness": 0
+      },
+      "materials": {
+        "roughMaterial": {
+          "id": "sharedassets1.assets:127",
+          "source": {
+            "path": "Data/sharedassets1.assets/PhysicsMaterial2D.jsonl",
+            "line": 1
+          },
+          "m_Name": "RoughMaterial",
+          "friction": 1,
+          "bounciness": 0
+        },
+        "slipperyMaterial": {
+          "id": "sharedassets1.assets:128",
+          "source": {
+            "path": "Data/sharedassets1.assets/PhysicsMaterial2D.jsonl",
+            "line": 2
+          },
+          "m_Name": "SlippyMaterial",
+          "friction": 0,
+          "bounciness": 0
+        }
+      },
+      "drops": null,
+      "components": {
+        "Inventory_Player": {
+          "serializedFile": "level6",
+          "pathId": 6842,
+          "source": {
+            "path": "Data/level6/MonoBehaviour.Inventory_Player.jsonl",
+            "line": 1
+          }
+        },
+        "Player": {
+          "serializedFile": "level6",
+          "pathId": 8071,
+          "source": {
+            "path": "Data/level6/MonoBehaviour.Player.jsonl",
+            "line": 1
+          }
+        },
+        "Player_Combat": {
+          "serializedFile": "level6",
+          "pathId": 6971,
+          "source": {
+            "path": "Data/level6/MonoBehaviour.Player_Combat.jsonl",
+            "line": 1
+          }
+        },
+        "Entity_StatusHandler": {
+          "serializedFile": "level6",
+          "pathId": 6800,
+          "source": {
+            "path": "Data/level6/MonoBehaviour.Entity_StatusHandler.jsonl",
+            "line": 1
+          }
+        },
+        "Player_SkillManager": {
+          "serializedFile": "level6",
+          "pathId": 7585,
+          "source": {
+            "path": "Data/level6/MonoBehaviour.Player_SkillManager.jsonl",
+            "line": 1
+          }
+        },
+        "Player_VFX": {
+          "serializedFile": "level6",
+          "pathId": 7393,
+          "source": {
+            "path": "Data/level6/MonoBehaviour.Player_VFX.jsonl",
+            "line": 1
+          }
+        },
+        "Player_Stats": {
+          "serializedFile": "level6",
+          "pathId": 7783,
+          "source": {
+            "path": "Data/level6/MonoBehaviour.Player_Stats.jsonl",
+            "line": 1
+          }
+        },
+        "Player_DropManager": {
+          "serializedFile": "level6",
+          "pathId": 7077,
+          "source": {
+            "path": "Data/level6/MonoBehaviour.Player_DropManager.jsonl",
+            "line": 1
+          }
+        },
+        "Player_Health": {
+          "serializedFile": "level6",
+          "pathId": 7332,
+          "source": {
+            "path": "Data/level6/MonoBehaviour.Player_Health.jsonl",
+            "line": 1
+          }
+        },
+        "Entity_SFX": {
+          "serializedFile": "level6",
+          "pathId": 8066,
+          "source": {
+            "path": "Data/level6/MonoBehaviour.Entity_SFX.jsonl",
+            "line": 1
+          }
+        },
+        "Player_QuestManager": {
+          "serializedFile": "level6",
+          "pathId": 7900,
+          "source": {
+            "path": "Data/level6/MonoBehaviour.Player_QuestManager.jsonl",
+            "line": 1
+          }
+        },
+        "CinemachineImpulseSource": {
+          "serializedFile": "level6",
+          "pathId": 7625,
+          "source": {
+            "path": "Data/level6/MonoBehaviour.Unity.Cinemachine.CinemachineImpulseSource.jsonl",
+            "line": 1
+          }
+        }
+      },
+      "defaultStatsSource": {
+        "path": "Data/sharedassets1.assets/MonoBehaviour.Stat_SetupSO.jsonl",
+        "line": 1
+      },
+      "shape": {
+        "type": "capsule",
+        "width": 14.628311157226562,
+        "height": 33.18964385986328,
+        "x": 0.7288894653320312,
+        "y": 3.3079795837402344
+      },
+      "position": {
+        "x": 966.3200073242188,
+        "y": 411.8239994049072
+      },
+      "loot": null
+    }
+  ],
+  "deferredActors": [],
+  "objects": [
+    {
+      "pathId": 49,
+      "componentId": 6712,
+      "name": "Trigger_ExitMove - Level_3",
+      "kind": "Trigger_ForcedMove",
+      "position": {
+        "x": 908.6399993896484,
+        "y": 392.64000034332275
+      },
+      "rotation": 0,
+      "shape": {
+        "type": "box",
+        "width": 11.938720703125,
+        "height": 181.7304229736328,
+        "x": 0,
+        "y": -50.19054412841797
+      },
+      "sensor": true,
+      "colliderEnabled": true,
+      "values": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 49
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 910
+        },
+        "m_Name": "",
+        "moveDistance": 10,
+        "moveSpeed": 5,
+        "moveRight": 0,
+        "isOneTime": 0,
+        "isEntryMove": 0,
+        "visualIndicator": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "drops": null,
+      "defaultSpawn": null,
+      "respawn": null,
+      "texts": [],
+      "dialogue": [],
+      "ambient": null,
+      "parents": [],
+      "loot": null,
+      "fadeVisuals": [],
+      "npcVisuals": [],
+      "interactVisuals": [],
+      "animationVisuals": []
+    },
+    {
+      "pathId": 91,
+      "componentId": 6720,
+      "name": "Trigger_Slope",
+      "kind": "Trigger_Slope",
+      "position": {
+        "x": 3912.800048828125,
+        "y": 410.23999977111816
+      },
+      "rotation": 0,
+      "shape": {
+        "type": "box",
+        "width": 47.187255859375,
+        "height": 24.009746551513672,
+        "x": -24.032470703125,
+        "y": 9.726118087768555
+      },
+      "sensor": true,
+      "colliderEnabled": true,
+      "values": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 91
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 165
+        },
+        "m_Name": "",
+        "roughMaterial": {
+          "m_FileID": 2,
+          "m_PathID": 127
+        },
+        "slipperyMaterial": {
+          "m_FileID": 2,
+          "m_PathID": 128
+        }
+      },
+      "drops": null,
+      "defaultSpawn": null,
+      "respawn": null,
+      "texts": [],
+      "dialogue": [],
+      "ambient": null,
+      "parents": [
+        228
+      ],
+      "loot": null,
+      "fadeVisuals": [],
+      "npcVisuals": [],
+      "interactVisuals": [],
+      "animationVisuals": []
+    },
+    {
+      "pathId": 93,
+      "componentId": 6721,
+      "name": "Trigger_Slope",
+      "kind": "Trigger_Slope",
+      "position": {
+        "x": 3550.320068359375,
+        "y": 434.3841438293457
+      },
+      "rotation": 0,
+      "shape": {
+        "type": "box",
+        "width": 47.187255859375,
+        "height": 24.009746551513672,
+        "x": -24.032470703125,
+        "y": 9.726118087768555
+      },
+      "sensor": true,
+      "colliderEnabled": true,
+      "values": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 93
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 165
+        },
+        "m_Name": "",
+        "roughMaterial": {
+          "m_FileID": 2,
+          "m_PathID": 127
+        },
+        "slipperyMaterial": {
+          "m_FileID": 2,
+          "m_PathID": 128
+        }
+      },
+      "drops": null,
+      "defaultSpawn": null,
+      "respawn": null,
+      "texts": [],
+      "dialogue": [],
+      "ambient": null,
+      "parents": [
+        228
+      ],
+      "loot": null,
+      "fadeVisuals": [],
+      "npcVisuals": [],
+      "interactVisuals": [],
+      "animationVisuals": []
+    },
+    {
+      "pathId": 123,
+      "componentId": 6731,
+      "name": "Trigger_Slope",
+      "kind": "Trigger_Slope",
+      "position": {
+        "x": 1391.568115234375,
+        "y": 410.23999977111816
+      },
+      "rotation": 0,
+      "shape": {
+        "type": "box",
+        "width": 47.187255859375,
+        "height": 24.009746551513672,
+        "x": -24.032470703125,
+        "y": 9.726118087768555
+      },
+      "sensor": true,
+      "colliderEnabled": true,
+      "values": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 123
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 165
+        },
+        "m_Name": "",
+        "roughMaterial": {
+          "m_FileID": 2,
+          "m_PathID": 127
+        },
+        "slipperyMaterial": {
+          "m_FileID": 2,
+          "m_PathID": 128
+        }
+      },
+      "drops": null,
+      "defaultSpawn": null,
+      "respawn": null,
+      "texts": [],
+      "dialogue": [],
+      "ambient": null,
+      "parents": [
+        228
+      ],
+      "loot": null,
+      "fadeVisuals": [],
+      "npcVisuals": [],
+      "interactVisuals": [],
+      "animationVisuals": []
+    },
+    {
+      "pathId": 282,
+      "componentId": 6746,
+      "name": "Trigger_Slope",
+      "kind": "Trigger_Slope",
+      "position": {
+        "x": 2688.7293701171875,
+        "y": 434.3841438293457
+      },
+      "rotation": 0,
+      "shape": {
+        "type": "box",
+        "width": 47.187255859375,
+        "height": 24.009746551513672,
+        "x": -24.032470703125,
+        "y": 9.726118087768555
+      },
+      "sensor": true,
+      "colliderEnabled": true,
+      "values": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 282
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 165
+        },
+        "m_Name": "",
+        "roughMaterial": {
+          "m_FileID": 2,
+          "m_PathID": 127
+        },
+        "slipperyMaterial": {
+          "m_FileID": 2,
+          "m_PathID": 128
+        }
+      },
+      "drops": null,
+      "defaultSpawn": null,
+      "respawn": null,
+      "texts": [],
+      "dialogue": [],
+      "ambient": null,
+      "parents": [
+        228
+      ],
+      "loot": null,
+      "fadeVisuals": [],
+      "npcVisuals": [],
+      "interactVisuals": [],
+      "animationVisuals": []
+    },
+    {
+      "pathId": 1036,
+      "componentId": 7890,
+      "name": "Object_Teleport",
+      "kind": "Object_Portal",
+      "position": {
+        "x": 1027.3600006103516,
+        "y": 143.52000427246094
+      },
+      "rotation": 0,
+      "shape": {
+        "type": "box",
+        "width": 17.58380889892578,
+        "height": 48.65681457519531,
+        "x": 1.4902839660644531,
+        "y": -1.108952522277832
+      },
+      "sensor": true,
+      "colliderEnabled": true,
+      "values": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1036
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 2143
+        },
+        "m_Name": "",
+        "interactToolTip": {
+          "m_FileID": 0,
+          "m_PathID": 2173
+        },
+        "defaultPosition": {
+          "x": 1,
+          "y": -3.200000047683716
+        },
+        "townSceneName": "Level_0",
+        "respawnPoint": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "canBeTriggered": 1,
+        "portalOpenSoundName": "object_portalOpen",
+        "returningFromTown": 0
+      },
+      "drops": null,
+      "defaultSpawn": {
+        "x": 1168,
+        "y": 435.20000076293945
+      },
+      "respawn": null,
+      "texts": [],
+      "dialogue": [],
+      "ambient": null,
+      "parents": [],
+      "loot": null,
+      "fadeVisuals": [],
+      "npcVisuals": [],
+      "interactVisuals": [
+        1848
+      ],
+      "animationVisuals": [
+        1274,
+        1848
+      ]
+    },
+    {
+      "pathId": 1108,
+      "componentId": 6886,
+      "name": "Object_Waypoint - Enter - Level_3",
+      "kind": "Object_Waypoint",
+      "position": {
+        "x": 955.8399963378906,
+        "y": 402.23999977111816
+      },
+      "rotation": 0,
+      "shape": {
+        "type": "box",
+        "width": 22.1341552734375,
+        "height": 196.693115234375,
+        "x": -73.72042846679688,
+        "y": -56.326446533203125
+      },
+      "sensor": true,
+      "colliderEnabled": true,
+      "values": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1108
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 2201
+        },
+        "m_Name": "",
+        "transferToScene": "Level_3",
+        "waypointType": 0,
+        "conntedWaypoint": 1,
+        "waypointId": "L3_Enter_From_L30",
+        "targetEnterId": "L30_Exit_To_L3",
+        "respwanPoint": {
+          "m_FileID": 0,
+          "m_PathID": 2569
+        },
+        "spawnFacingLeft": 0
+      },
+      "drops": null,
+      "defaultSpawn": null,
+      "respawn": {
+        "pathId": 1429,
+        "x": 955.8399963378906,
+        "y": 402.23999977111816
+      },
+      "texts": [],
+      "dialogue": [],
+      "ambient": null,
+      "parents": [],
+      "loot": null,
+      "fadeVisuals": [],
+      "npcVisuals": [],
+      "interactVisuals": [],
+      "animationVisuals": [
+        1951
+      ]
+    },
+    {
+      "pathId": 1452,
+      "componentId": 7794,
+      "name": "Object_MerchantNPC",
+      "kind": "Object_Merchant",
+      "position": {
+        "x": 932.3944549560547,
+        "y": 155.56167602539062
+      },
+      "rotation": 0,
+      "shape": {
+        "type": "box",
+        "width": 32.5537109375,
+        "height": 40,
+        "x": 0.5279922485351562,
+        "y": -7.520000457763672
+      },
+      "sensor": true,
+      "colliderEnabled": true,
+      "values": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1452
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 517
+        },
+        "m_Name": "",
+        "npcTargetQuestId": "merchant_ao",
+        "rewardNpc": 0,
+        "npc": {
+          "m_FileID": 0,
+          "m_PathID": 2551
+        },
+        "interactToolTip": {
+          "m_FileID": 0,
+          "m_PathID": 1890
+        },
+        "facingRight": 1,
+        "floatSpeed": 8,
+        "floatRange": 0.10000000149011612,
+        "facePlayer": 1,
+        "firstDialogueLine": {
+          "m_FileID": 2,
+          "m_PathID": 1064
+        },
+        "quests": [
+          {
+            "m_FileID": 2,
+            "m_PathID": 1165
+          },
+          {
+            "m_FileID": 2,
+            "m_PathID": 1166
+          },
+          {
+            "m_FileID": 2,
+            "m_PathID": 1164
+          }
+        ]
+      },
+      "drops": null,
+      "defaultSpawn": null,
+      "respawn": null,
+      "texts": [],
+      "dialogue": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 1,
+            "m_PathID": 2107
+          },
+          "m_Name": "Line - 商人_1",
+          "dialogueGroupName": "商人",
+          "speaker": {
+            "m_FileID": 0,
+            "m_PathID": 1075
+          },
+          "textLine": [
+            "今天真是太忙了，但还是想喝上一壶。",
+            "很高兴又见到你，想要点什么吗？ ",
+            "我进了点新货，要看看吗？",
+            "嘿，天气真好。适合喝上一杯不是吗？",
+            "又见面啦，看看新货吧！",
+            "旅途辛苦，选购些补给吧。",
+            "身上物资是不是快要用完了，尽管挑选就行。",
+            "好久不见，近来一路还顺利吗？"
+          ],
+          "playerChoiceAnswer": "",
+          "choiceLines": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 1065
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 1068
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 1069
+            }
+          ],
+          "actionLine": "",
+          "actionType": 5,
+          "requiredQuestId": "",
+          "showOnlyIfQuestActive": 0
+        }
+      ],
+      "ambient": null,
+      "parents": [],
+      "loot": null,
+      "fadeVisuals": [],
+      "npcVisuals": [],
+      "interactVisuals": [
+        1687
+      ],
+      "animationVisuals": [
+        800,
+        1687
+      ]
+    },
+    {
+      "pathId": 1739,
+      "componentId": 7918,
+      "name": "Object_Checkpoint",
+      "kind": "Object_Checkpoint",
+      "position": {
+        "x": 1116.7999992370605,
+        "y": 406.01600074768066
+      },
+      "rotation": 0,
+      "shape": {
+        "type": "box",
+        "width": 20.15999984741211,
+        "height": 50.410919189453125,
+        "x": 0,
+        "y": 1.1842498779296875
+      },
+      "sensor": true,
+      "colliderEnabled": true,
+      "values": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1739
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 186
+        },
+        "m_Name": "",
+        "checkpointId": "point-level30",
+        "respawnPoint": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "drops": null,
+      "defaultSpawn": null,
+      "respawn": null,
+      "texts": [],
+      "dialogue": [],
+      "ambient": {
+        "url": "ambient-sharedassets2-assets-100.wav",
+        "volume": 0.5,
+        "pitch": 1,
+        "loop": true,
+        "range": 192
+      },
+      "parents": [],
+      "loot": null,
+      "fadeVisuals": [],
+      "npcVisuals": [],
+      "interactVisuals": [],
+      "animationVisuals": [
+        431
+      ]
+    }
+  ],
+  "decorations": [
+    {
+      "pathId": 2,
+      "name": "rock_2 (4)",
+      "position": {
+        "x": 1317.8225555419922,
+        "y": 427.36000061035156
+      },
+      "url": "static-sharedassets0-assets-125.png",
+      "width": 27,
+      "height": 12,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 0.6995816826820374,
+        "g": 0.7452830076217651,
+        "b": 0.7350690364837646,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 14,
+      "z": 0.10747110098600388,
+      "parents": [
+        207,
+        304
+      ]
+    },
+    {
+      "pathId": 4,
+      "name": "leaves1_b (4)",
+      "position": {
+        "x": 4039.8400268554688,
+        "y": 544.7999982833862
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 6,
+      "name": "leaves1 (18)",
+      "position": {
+        "x": 1497.1199340820312,
+        "y": 569.4400062561035
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 7,
+      "name": "T6BB_2",
+      "position": {
+        "x": 1193.9199905395508,
+        "y": 386.89598083496094
+      },
+      "url": "static-sharedassets6-assets-29.png",
+      "width": 110,
+      "height": 361,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 6,
+      "z": 0,
+      "parents": [
+        247,
+        235
+      ]
+    },
+    {
+      "pathId": 8,
+      "name": "T5_1",
+      "position": {
+        "x": 1476.0000076293945,
+        "y": 284.3199996948242
+      },
+      "url": "static-sharedassets6-assets-49.png",
+      "width": 21,
+      "height": 313,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 9,
+      "z": 0,
+      "parents": [
+        247,
+        260
+      ]
+    },
+    {
+      "pathId": 9,
+      "name": "T1BB_2",
+      "position": {
+        "x": 928.3200149536133,
+        "y": 379.8400001525879
+      },
+      "url": "static-sharedassets6-assets-46.png",
+      "width": 72,
+      "height": 109,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 6,
+      "z": 0,
+      "parents": [
+        247,
+        235
+      ]
+    },
+    {
+      "pathId": 10,
+      "name": "Tussock2 (14)",
+      "position": {
+        "x": 1737.8225860595703,
+        "y": 414.23999786376953
+      },
+      "url": "static-sharedassets0-assets-129.png",
+      "width": 124,
+      "height": 43,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 13,
+      "z": 0.10747110098600388,
+      "parents": [
+        207,
+        280
+      ]
+    },
+    {
+      "pathId": 12,
+      "name": "leaves2 (9)",
+      "position": {
+        "x": 1289.9199829101562,
+        "y": 536.8000068664551
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 13,
+      "name": "leaves1_b (9)",
+      "position": {
+        "x": 3609.1200561523438,
+        "y": 557.6000061035156
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": -1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 14,
+      "name": "leaves2_b (19)",
+      "position": {
+        "x": 3711.9999389648438,
+        "y": 580.640007019043
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 15,
+      "name": "leaves3 (11)",
+      "position": {
+        "x": 3813.9201049804688,
+        "y": 528.3200054168701
+      },
+      "url": "static-sharedassets1-assets-563.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": -1,
+      "z": 0,
+      "parents": [
+        98,
+        27
+      ]
+    },
+    {
+      "pathId": 18,
+      "name": "leaves2_b (21)",
+      "position": {
+        "x": 3948.1600952148438,
+        "y": 557.920006275177
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 21,
+      "name": "leaves2_b (30)",
+      "position": {
+        "x": 4240.479919433594,
+        "y": 580.0000057220459
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 22,
+      "name": "T3B_1",
+      "position": {
+        "x": 892.2560501098633,
+        "y": 360.6399688720703
+      },
+      "url": "static-sharedassets6-assets-38.png",
+      "width": 22,
+      "height": 144,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 7,
+      "z": 0,
+      "parents": [
+        247,
+        99
+      ]
+    },
+    {
+      "pathId": 23,
+      "name": "leaves2_b (31)",
+      "position": {
+        "x": 3389.2799682617188,
+        "y": 544.4800062179565
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": -1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 0.8990927338600159,
+        "b": 0.8443396091461182,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": -1,
+      "z": 0,
+      "parents": [
+        98,
+        27
+      ]
+    },
+    {
+      "pathId": 24,
+      "name": "T3_2",
+      "position": {
+        "x": 1147.6799926757812,
+        "y": 359.5200004577637
+      },
+      "url": "static-sharedassets6-assets-43.png",
+      "width": 88,
+      "height": 144,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 10,
+      "z": 0,
+      "parents": [
+        247,
+        260
+      ]
+    },
+    {
+      "pathId": 26,
+      "name": "T5B_2",
+      "position": {
+        "x": 1273.2800064086914,
+        "y": 361.67999267578125
+      },
+      "url": "static-sharedassets6-assets-39.png",
+      "width": 108,
+      "height": 313,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 8,
+      "z": 0,
+      "parents": [
+        247,
+        99
+      ]
+    },
+    {
+      "pathId": 28,
+      "name": "leaves2_b (20)",
+      "position": {
+        "x": 4114.080017089844,
+        "y": 574.4000053405762
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 29,
+      "name": "Tussock2 (2)",
+      "position": {
+        "x": 1931.102554321289,
+        "y": 412.4800033569336
+      },
+      "url": "static-sharedassets0-assets-129.png",
+      "width": 124,
+      "height": 43,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": -1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 13,
+      "z": 0.10747110098600388,
+      "parents": [
+        207,
+        280
+      ]
+    },
+    {
+      "pathId": 33,
+      "name": "T4B_2",
+      "position": {
+        "x": 1050.880012512207,
+        "y": 334.0800018310547
+      },
+      "url": "static-sharedassets6-assets-36.png",
+      "width": 88,
+      "height": 208,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 8,
+      "z": 0,
+      "parents": [
+        247,
+        99
+      ]
+    },
+    {
+      "pathId": 35,
+      "name": "leaves1 (29)",
+      "position": {
+        "x": 926.5599975585938,
+        "y": 484.4800033569336
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 37,
+      "name": "leaves1 (19)",
+      "position": {
+        "x": 1401.9199829101562,
+        "y": 567.3600063323975
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 39,
+      "name": "leaves2 (10)",
+      "position": {
+        "x": 1382.2399291992188,
+        "y": 525.7600059509277
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 40,
+      "name": "leaves2 (15)",
+      "position": {
+        "x": 1741.7599487304688,
+        "y": 549.2800059318542
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 43,
+      "name": "leaves2_b (17)",
+      "position": {
+        "x": 4852.640319824219,
+        "y": 581.4400062561035
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 45,
+      "name": "rock_3 (2)",
+      "position": {
+        "x": 917.0225601196289,
+        "y": 424.1600036621094
+      },
+      "url": "static-sharedassets0-assets-134.png",
+      "width": 45,
+      "height": 18,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 0.6995816826820374,
+        "g": 0.7452830076217651,
+        "b": 0.7350690364837646,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 14,
+      "z": 0.10747110098600388,
+      "parents": [
+        207,
+        304
+      ]
+    },
+    {
+      "pathId": 47,
+      "name": "leaves1 (23)",
+      "position": {
+        "x": 2400.6400756835938,
+        "y": 582.5600051879883
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 52,
+      "name": "leaves1 (8)",
+      "position": {
+        "x": 1652.1599731445312,
+        "y": 532.640007019043
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 57,
+      "name": "Tussock2 (11)",
+      "position": {
+        "x": 2628.702590942383,
+        "y": 419.04000091552734
+      },
+      "url": "static-sharedassets0-assets-129.png",
+      "width": 124,
+      "height": 43,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": -1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 13,
+      "z": 0.10747110098600388,
+      "parents": [
+        207,
+        280
+      ]
+    },
+    {
+      "pathId": 58,
+      "name": "leaves2_b (29)",
+      "position": {
+        "x": 4122.080017089844,
+        "y": 544.4800062179565
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 0.8990927338600159,
+        "b": 0.8443396091461182,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": -1,
+      "z": 0,
+      "parents": [
+        98,
+        27
+      ]
+    },
+    {
+      "pathId": 59,
+      "name": "leaves2_b (16)",
+      "position": {
+        "x": 4755.040222167969,
+        "y": 581.1200065612793
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 60,
+      "name": "leaves1 (27)",
+      "position": {
+        "x": 3308.6400756835938,
+        "y": 523.3600063323975
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 64,
+      "name": "leaves2 (14)",
+      "position": {
+        "x": 1677.6000366210938,
+        "y": 538.2400064468384
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 65,
+      "name": "leaves1_b",
+      "position": {
+        "x": 1148.6400146484375,
+        "y": 547.3600063323975
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 68,
+      "name": "T3BB_2",
+      "position": {
+        "x": 1653.1557388305664,
+        "y": 361.2707920074463
+      },
+      "url": "static-sharedassets6-assets-23.png",
+      "width": 32,
+      "height": 145,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 6,
+      "z": 0,
+      "parents": [
+        247,
+        235
+      ]
+    },
+    {
+      "pathId": 70,
+      "name": "rock_2 (2)",
+      "position": {
+        "x": 1186.62255859375,
+        "y": 427.6800003051758
+      },
+      "url": "static-sharedassets0-assets-125.png",
+      "width": 27,
+      "height": 12,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 0.6995816826820374,
+        "g": 0.7452830076217651,
+        "b": 0.7350690364837646,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 14,
+      "z": 0.10747110098600388,
+      "parents": [
+        207,
+        304
+      ]
+    },
+    {
+      "pathId": 72,
+      "name": "leaves2_b (15)",
+      "position": {
+        "x": 3392.1600952148438,
+        "y": 596.0000076293945
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 73,
+      "name": "Tussock2 (9)",
+      "position": {
+        "x": 2223.2625274658203,
+        "y": 416.63999938964844
+      },
+      "url": "static-sharedassets0-assets-129.png",
+      "width": 124,
+      "height": 43,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": -1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 13,
+      "z": 0.10747110098600388,
+      "parents": [
+        207,
+        280
+      ]
+    },
+    {
+      "pathId": 74,
+      "name": "T1BB_2",
+      "position": {
+        "x": 1447.8429336547852,
+        "y": 380.5683135986328
+      },
+      "url": "static-sharedassets6-assets-9.png",
+      "width": 25,
+      "height": 109,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 6,
+      "z": 0,
+      "parents": [
+        247,
+        235
+      ]
+    },
+    {
+      "pathId": 75,
+      "name": "leaves1 (22)",
+      "position": {
+        "x": 2186.0800170898438,
+        "y": 562.7200059890747
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 76,
+      "name": "T4B_1",
+      "position": {
+        "x": 1050.465187072754,
+        "y": 334.3485565185547
+      },
+      "url": "static-sharedassets6-assets-41.png",
+      "width": 17,
+      "height": 208,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 7,
+      "z": 0,
+      "parents": [
+        247,
+        99
+      ]
+    },
+    {
+      "pathId": 77,
+      "name": "leaves1 (25)",
+      "position": {
+        "x": 2243.9999389648438,
+        "y": 582.4000053405762
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 78,
+      "name": "leaves1 (3)",
+      "position": {
+        "x": 1084.9599609375,
+        "y": 477.2800064086914
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 82,
+      "name": "T4B_1",
+      "position": {
+        "x": 1409.185188293457,
+        "y": 330.9885559082031
+      },
+      "url": "static-sharedassets6-assets-41.png",
+      "width": 17,
+      "height": 208,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 7,
+      "z": 0,
+      "parents": [
+        247,
+        99
+      ]
+    },
+    {
+      "pathId": 86,
+      "name": "T1_1",
+      "position": {
+        "x": 1686.8540725708008,
+        "y": 378.55518341064453
+      },
+      "url": "static-sharedassets6-assets-34.png",
+      "width": 12,
+      "height": 108,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 9,
+      "z": 0,
+      "parents": [
+        247,
+        260
+      ]
+    },
+    {
+      "pathId": 87,
+      "name": "leaves2_b (3)",
+      "position": {
+        "x": 1040.47998046875,
+        "y": 565.4400062561035
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 92,
+      "name": "T6B_2",
+      "position": {
+        "x": 1574.671974182129,
+        "y": 343.83999252319336
+      },
+      "url": "static-sharedassets6-assets-20.png",
+      "width": 110,
+      "height": 368,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 8,
+      "z": 0,
+      "parents": [
+        247,
+        99
+      ]
+    },
+    {
+      "pathId": 94,
+      "name": "leaves1 (10)",
+      "position": {
+        "x": 1874.2399291992188,
+        "y": 550.7200059890747
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 95,
+      "name": "leaves2_b (30)",
+      "position": {
+        "x": 3247.6798706054688,
+        "y": 544.4800062179565
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 0.8990927338600159,
+        "b": 0.8443396091461182,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": -1,
+      "z": 0,
+      "parents": [
+        98,
+        27
+      ]
+    },
+    {
+      "pathId": 96,
+      "name": "fence_2",
+      "position": {
+        "x": 1563.2625274658203,
+        "y": 424.3199996948242
+      },
+      "url": "static-sharedassets1-assets-554.png",
+      "width": 72,
+      "height": 19,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 0.6995816826820374,
+        "g": 0.7452830076217651,
+        "b": 0.7350690364837646,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 13,
+      "z": 0.10747110098600388,
+      "parents": [
+        207,
+        304
+      ]
+    },
+    {
+      "pathId": 97,
+      "name": "leaves1_b (12)",
+      "position": {
+        "x": 3941.6000366210938,
+        "y": 560.1600060462952
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 100,
+      "name": "Tussock2 (8)",
+      "position": {
+        "x": 2008.382583618164,
+        "y": 417.12000274658203
+      },
+      "url": "static-sharedassets0-assets-129.png",
+      "width": 124,
+      "height": 43,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 0.6226415038108826,
+        "g": 0.6020826101303101,
+        "b": 0.6020826101303101,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 13,
+      "z": 0.10747110098600388,
+      "parents": [
+        207,
+        280
+      ]
+    },
+    {
+      "pathId": 102,
+      "name": "leaves2_b (10)",
+      "position": {
+        "x": 2177.6000366210938,
+        "y": 599.2000045776367
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 104,
+      "name": "leaves2_b (12)",
+      "position": {
+        "x": 2347.9999389648438,
+        "y": 542.2400064468384
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 106,
+      "name": "T6B_1",
+      "position": {
+        "x": 1577.920021057129,
+        "y": 344.1599998474121
+      },
+      "url": "static-sharedassets6-assets-15.png",
+      "width": 27,
+      "height": 367,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 7,
+      "z": 0,
+      "parents": [
+        247,
+        99
+      ]
+    },
+    {
+      "pathId": 110,
+      "name": "T6_1",
+      "position": {
+        "x": 1044.7839889526367,
+        "y": 306.7839889526367
+      },
+      "url": "static-sharedassets6-assets-12.png",
+      "width": 27,
+      "height": 367,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 9,
+      "z": 0,
+      "parents": [
+        247,
+        260
+      ]
+    },
+    {
+      "pathId": 111,
+      "name": "leaves2_b (33)",
+      "position": {
+        "x": 3751.6798706054688,
+        "y": 556.3200061321259
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 0.8990927338600159,
+        "b": 0.8443396091461182,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": -1,
+      "z": 0,
+      "parents": [
+        98,
+        27
+      ]
+    },
+    {
+      "pathId": 113,
+      "name": "T6BB_1",
+      "position": {
+        "x": 1198.0800018310547,
+        "y": 390.40000009536743
+      },
+      "url": "static-sharedassets6-assets-27.png",
+      "width": 49,
+      "height": 368,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 5,
+      "z": 0,
+      "parents": [
+        247,
+        235
+      ]
+    },
+    {
+      "pathId": 114,
+      "name": "T6B_2",
+      "position": {
+        "x": 962.5119705200195,
+        "y": 359.5199966430664
+      },
+      "url": "static-sharedassets6-assets-20.png",
+      "width": 110,
+      "height": 368,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 8,
+      "z": 0,
+      "parents": [
+        247,
+        99
+      ]
+    },
+    {
+      "pathId": 115,
+      "name": "T6B_2",
+      "position": {
+        "x": 1234.7360305786133,
+        "y": 339.1360092163086
+      },
+      "url": "static-sharedassets6-assets-24.png",
+      "width": 112,
+      "height": 368,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 8,
+      "z": 0,
+      "parents": [
+        247,
+        99
+      ]
+    },
+    {
+      "pathId": 116,
+      "name": "leaves2_b (31)",
+      "position": {
+        "x": 5274.559753417969,
+        "y": 579.6800060272217
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 117,
+      "name": "leaves2_b (25)",
+      "position": {
+        "x": 1954.8799438476562,
+        "y": 536.9600067138672
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": -1,
+      "z": 0,
+      "parents": [
+        98,
+        27
+      ]
+    },
+    {
+      "pathId": 118,
+      "name": "leaves1_b (8)",
+      "position": {
+        "x": 3509.9201049804688,
+        "y": 556.1600060462952
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": -1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 119,
+      "name": "leaves2 (5)",
+      "position": {
+        "x": 940.3200073242188,
+        "y": 510.8800048828125
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 124,
+      "name": "T6B_2",
+      "position": {
+        "x": 1540.4960403442383,
+        "y": 288.7360076904297
+      },
+      "url": "static-sharedassets6-assets-24.png",
+      "width": 112,
+      "height": 368,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 8,
+      "z": 0,
+      "parents": [
+        247,
+        99
+      ]
+    },
+    {
+      "pathId": 127,
+      "name": "rock_1 (1)",
+      "position": {
+        "x": 1167.7425537109375,
+        "y": 430.8800048828125
+      },
+      "url": "static-sharedassets1-assets-573.png",
+      "width": 20,
+      "height": 11,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 0.6995816826820374,
+        "g": 0.7452830076217651,
+        "b": 0.7350690364837646,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 14,
+      "z": 0.10747110098600388,
+      "parents": [
+        207,
+        304
+      ]
+    },
+    {
+      "pathId": 128,
+      "name": "T3B_2",
+      "position": {
+        "x": 890.2399978637695,
+        "y": 360.8000030517578
+      },
+      "url": "static-sharedassets6-assets-28.png",
+      "width": 88,
+      "height": 144,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 8,
+      "z": 0,
+      "parents": [
+        247,
+        99
+      ]
+    },
+    {
+      "pathId": 131,
+      "name": "Tussock2 (4)",
+      "position": {
+        "x": 3231.7425079345703,
+        "y": 416.4800033569336
+      },
+      "url": "static-sharedassets0-assets-129.png",
+      "width": 124,
+      "height": 43,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": -1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 13,
+      "z": 0.10747110098600388,
+      "parents": [
+        207,
+        280
+      ]
+    },
+    {
+      "pathId": 134,
+      "name": "leaves1_b (16)",
+      "position": {
+        "x": 4448.480163574219,
+        "y": 551.680006146431
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": -1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 135,
+      "name": "leaves1_b (13)",
+      "position": {
+        "x": 3848.4799194335938,
+        "y": 557.6000061035156
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 136,
+      "name": "leaves1_b (5)",
+      "position": {
+        "x": 3291.1998901367188,
+        "y": 551.6800060272217
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": -1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 138,
+      "name": "T1BB_1",
+      "position": {
+        "x": 1448.9599990844727,
+        "y": 378.7199993133545
+      },
+      "url": "static-sharedassets6-assets-46.png",
+      "width": 72,
+      "height": 109,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 5,
+      "z": 0,
+      "parents": [
+        247,
+        235
+      ]
+    },
+    {
+      "pathId": 139,
+      "name": "T5B_1",
+      "position": {
+        "x": 1276.4800186157227,
+        "y": 361.12000274658203
+      },
+      "url": "static-sharedassets6-assets-10.png",
+      "width": 21,
+      "height": 313,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 7,
+      "z": 0,
+      "parents": [
+        247,
+        99
+      ]
+    },
+    {
+      "pathId": 140,
+      "name": "leaves1 (17)",
+      "position": {
+        "x": 1453.9199829101562,
+        "y": 524.1600036621094
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 142,
+      "name": "rock_3 (1)",
+      "position": {
+        "x": 1046.3025588989258,
+        "y": 424.1599884033203
+      },
+      "url": "static-sharedassets0-assets-134.png",
+      "width": 45,
+      "height": 18,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 0.6995816826820374,
+        "g": 0.7452830076217651,
+        "b": 0.7350690364837646,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 14,
+      "z": 0.10747110098600388,
+      "parents": [
+        207,
+        304
+      ]
+    },
+    {
+      "pathId": 144,
+      "name": "Tussock2",
+      "position": {
+        "x": 1268.0625610351562,
+        "y": 423.04000091552734
+      },
+      "url": "static-sharedassets0-assets-129.png",
+      "width": 124,
+      "height": 43,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 0.7026744484901428,
+        "g": 0.8207547068595886,
+        "b": 0.5845941305160522,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 13,
+      "z": 0.10747110098600388,
+      "parents": [
+        207,
+        280
+      ]
+    },
+    {
+      "pathId": 145,
+      "name": "mask_down (1)",
+      "position": {
+        "x": 4699.139343261719,
+        "y": 553.6000061035156
+      },
+      "url": "static-sharedassets0-assets-126.png",
+      "width": 637,
+      "height": 99,
+      "scale": 1.1428571428571428,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 2.36198125566755,
+      "scaleY": 0.979698862348284,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 0.1411764770746231
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 1,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 147,
+      "name": "leaves1_b (1)",
+      "position": {
+        "x": 1734.7200317382812,
+        "y": 574.720006942749
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 148,
+      "name": "T3_1",
+      "position": {
+        "x": 1357.9199905395508,
+        "y": 360.3048400878906
+      },
+      "url": "static-sharedassets6-assets-19.png",
+      "width": 22,
+      "height": 144,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 9,
+      "z": 0,
+      "parents": [
+        247,
+        260
+      ]
+    },
+    {
+      "pathId": 149,
+      "name": "T1B_2",
+      "position": {
+        "x": 1788.7564163208008,
+        "y": 378.3514938354492
+      },
+      "url": "static-sharedassets6-assets-18.png",
+      "width": 70,
+      "height": 108,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 8,
+      "z": 0,
+      "parents": [
+        247,
+        99
+      ]
+    },
+    {
+      "pathId": 151,
+      "name": "leaves1_b (6)",
+      "position": {
+        "x": 4349.279968261719,
+        "y": 538.5600061416626
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 152,
+      "name": "leaves2_b (26)",
+      "position": {
+        "x": 3577.7599487304688,
+        "y": 544.4800062179565
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 0.8990927338600159,
+        "b": 0.8443396091461182,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": -1,
+      "z": 0,
+      "parents": [
+        98,
+        27
+      ]
+    },
+    {
+      "pathId": 153,
+      "name": "T4BB_2",
+      "position": {
+        "x": 1096.0786361694336,
+        "y": 343.25522232055664
+      },
+      "url": "static-sharedassets6-assets-47.png",
+      "width": 89,
+      "height": 199,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 6,
+      "z": 0,
+      "parents": [
+        247,
+        235
+      ]
+    },
+    {
+      "pathId": 154,
+      "name": "leaves2_b (22)",
+      "position": {
+        "x": 3983.9999389648438,
+        "y": 603.2000045776367
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 155,
+      "name": "leaves2_b (8)",
+      "position": {
+        "x": 1951.6799926757812,
+        "y": 602.4000053405762
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 157,
+      "name": "leaves3 (10)",
+      "position": {
+        "x": 4012.4799194335938,
+        "y": 528.3200054168701
+      },
+      "url": "static-sharedassets1-assets-563.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": -1,
+      "z": 0,
+      "parents": [
+        98,
+        27
+      ]
+    },
+    {
+      "pathId": 159,
+      "name": "leaves1 (1)",
+      "position": {
+        "x": 1054.239990234375,
+        "y": 542.8800058364868
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 160,
+      "name": "T5BB_1",
+      "position": {
+        "x": 1603.8400039672852,
+        "y": 303.36000061035156
+      },
+      "url": "static-sharedassets6-assets-17.png",
+      "width": 39,
+      "height": 314,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 5,
+      "z": 0,
+      "parents": [
+        247,
+        235
+      ]
+    },
+    {
+      "pathId": 161,
+      "name": "leaves2_b (26)",
+      "position": {
+        "x": 4349.600036621094,
+        "y": 605.9200057983398
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 163,
+      "name": "leaves1_b (15)",
+      "position": {
+        "x": 4529.759948730469,
+        "y": 538.5600061416626
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 164,
+      "name": "rock_1 (2)",
+      "position": {
+        "x": 1018.4625568389893,
+        "y": 429.5999984741211
+      },
+      "url": "static-sharedassets1-assets-573.png",
+      "width": 20,
+      "height": 11,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 0.6995816826820374,
+        "g": 0.7452830076217651,
+        "b": 0.7350690364837646,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 14,
+      "z": 0.10747110098600388,
+      "parents": [
+        207,
+        304
+      ]
+    },
+    {
+      "pathId": 165,
+      "name": "T1_2",
+      "position": {
+        "x": 1686.5600051879883,
+        "y": 378.7200012207031
+      },
+      "url": "static-sharedassets6-assets-48.png",
+      "width": 70,
+      "height": 108,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 10,
+      "z": 0,
+      "parents": [
+        247,
+        260
+      ]
+    },
+    {
+      "pathId": 166,
+      "name": "leaves2_b (2)",
+      "position": {
+        "x": 1148.3200073242188,
+        "y": 547.2000045776367
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 167,
+      "name": "leaves2_b (13)",
+      "position": {
+        "x": 2420.6400756835938,
+        "y": 543.3600063323975
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 168,
+      "name": "T6B_1",
+      "position": {
+        "x": 1545.920021057129,
+        "y": 289.2799987792969
+      },
+      "url": "static-sharedassets6-assets-12.png",
+      "width": 27,
+      "height": 367,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 7,
+      "z": 0,
+      "parents": [
+        247,
+        99
+      ]
+    },
+    {
+      "pathId": 171,
+      "name": "leaves2_b (32)",
+      "position": {
+        "x": 4423.039978027344,
+        "y": 601.7600059509277
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 178,
+      "name": "leaves1 (12)",
+      "position": {
+        "x": 1815.5199584960938,
+        "y": 600.4800071716309
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 180,
+      "name": "leaves1 (24)",
+      "position": {
+        "x": 2314.2399291992188,
+        "y": 571.8400058746338
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 181,
+      "name": "leaves1_b",
+      "position": {
+        "x": 1298.0800170898438,
+        "y": 550.2400062084198
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 182,
+      "name": "leaves2 (8)",
+      "position": {
+        "x": 1205.4400024414062,
+        "y": 513.4400062561035
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 183,
+      "name": "leaves2 (11)",
+      "position": {
+        "x": 1467.2000122070312,
+        "y": 541.2800064086914
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 184,
+      "name": "leaves2 (7)",
+      "position": {
+        "x": 1002.239990234375,
+        "y": 527.3600063323975
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 185,
+      "name": "Tussock2 (6)",
+      "position": {
+        "x": 3762.1424102783203,
+        "y": 425.76000213623047
+      },
+      "url": "static-sharedassets0-assets-129.png",
+      "width": 124,
+      "height": 43,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": -1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 13,
+      "z": 0.10747110098600388,
+      "parents": [
+        207,
+        280
+      ]
+    },
+    {
+      "pathId": 187,
+      "name": "leaves2_b (6)",
+      "position": {
+        "x": 1675.0399780273438,
+        "y": 596.4800071716309
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 188,
+      "name": "T5_2",
+      "position": {
+        "x": 1473.4400100708008,
+        "y": 284.65601348876953
+      },
+      "url": "static-sharedassets6-assets-44.png",
+      "width": 108,
+      "height": 313,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 10,
+      "z": 0,
+      "parents": [
+        247,
+        260
+      ]
+    },
+    {
+      "pathId": 189,
+      "name": "Tussock2 (1)",
+      "position": {
+        "x": 984.862548828125,
+        "y": 423.04000091552734
+      },
+      "url": "static-sharedassets0-assets-129.png",
+      "width": 124,
+      "height": 43,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": -1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 13,
+      "z": 0.10747110098600388,
+      "parents": [
+        207,
+        280
+      ]
+    },
+    {
+      "pathId": 191,
+      "name": "leaves1_b (11)",
+      "position": {
+        "x": 4158.880065917969,
+        "y": 542.0799980163574
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 192,
+      "name": "Tussock2 (12)",
+      "position": {
+        "x": 2710.7825469970703,
+        "y": 447.1999969482422
+      },
+      "url": "static-sharedassets0-assets-129.png",
+      "width": 124,
+      "height": 43,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 13,
+      "z": 0.10747110098600388,
+      "parents": [
+        207,
+        280
+      ]
+    },
+    {
+      "pathId": 193,
+      "name": "leaves2_b (9)",
+      "position": {
+        "x": 2079.9999389648438,
+        "y": 581.1200065612793
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 194,
+      "name": "T3_2",
+      "position": {
+        "x": 1356.3502883911133,
+        "y": 359.5200004577637
+      },
+      "url": "static-sharedassets6-assets-43.png",
+      "width": 88,
+      "height": 144,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 10,
+      "z": 0,
+      "parents": [
+        247,
+        260
+      ]
+    },
+    {
+      "pathId": 198,
+      "name": "rock_2 (1)",
+      "position": {
+        "x": 1671.7619171142578,
+        "y": 427.52000427246094
+      },
+      "url": "static-sharedassets0-assets-125.png",
+      "width": 27,
+      "height": 12,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 0.6995816826820374,
+        "g": 0.7452830076217651,
+        "b": 0.7350690364837646,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 14,
+      "z": 0.10747110098600388,
+      "parents": [
+        207,
+        304
+      ]
+    },
+    {
+      "pathId": 200,
+      "name": "leaves1 (13)",
+      "position": {
+        "x": 1815.5199584960938,
+        "y": 522.5600051879883
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 201,
+      "name": "rock_3 (3)",
+      "position": {
+        "x": 1809.1825714111328,
+        "y": 423.52000427246094
+      },
+      "url": "static-sharedassets0-assets-134.png",
+      "width": 45,
+      "height": 18,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 0.6995816826820374,
+        "g": 0.7452830076217651,
+        "b": 0.7350690364837646,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 14,
+      "z": 0.10747110098600388,
+      "parents": [
+        207,
+        304
+      ]
+    },
+    {
+      "pathId": 204,
+      "name": "Tussock2 (7)",
+      "position": {
+        "x": 3659.7425079345703,
+        "y": 418.0800018310547
+      },
+      "url": "static-sharedassets0-assets-129.png",
+      "width": 124,
+      "height": 43,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": -1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 13,
+      "z": 0.10747110098600388,
+      "parents": [
+        207,
+        280
+      ]
+    },
+    {
+      "pathId": 206,
+      "name": "T6B_1",
+      "position": {
+        "x": 1240.160011291504,
+        "y": 339.6800003051758
+      },
+      "url": "static-sharedassets6-assets-12.png",
+      "width": 27,
+      "height": 367,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 7,
+      "z": 0,
+      "parents": [
+        247,
+        99
+      ]
+    },
+    {
+      "pathId": 208,
+      "name": "leaves2_b (27)",
+      "position": {
+        "x": 3915.3600463867188,
+        "y": 544.4800062179565
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 0.8990927338600159,
+        "b": 0.8443396091461182,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": -1,
+      "z": 0,
+      "parents": [
+        98,
+        27
+      ]
+    },
+    {
+      "pathId": 209,
+      "name": "leaves1 (6)",
+      "position": {
+        "x": 1299.3599853515625,
+        "y": 482.8800048828125
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 213,
+      "name": "Tussock2 (3)",
+      "position": {
+        "x": 2413.3426055908203,
+        "y": 420.63999938964844
+      },
+      "url": "static-sharedassets0-assets-129.png",
+      "width": 124,
+      "height": 43,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": -1,
+      "scaleY": 1,
+      "color": {
+        "r": 0.5849056243896484,
+        "g": 0.5849056243896484,
+        "b": 0.5849056243896484,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 13,
+      "z": 0.10747110098600388,
+      "parents": [
+        207,
+        280
+      ]
+    },
+    {
+      "pathId": 214,
+      "name": "leaves1_b (3)",
+      "position": {
+        "x": 2098.8799438476562,
+        "y": 564.4800062179565
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 215,
+      "name": "leaves2 (17)",
+      "position": {
+        "x": 1968.3200073242188,
+        "y": 555.3600060939789
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": -1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 217,
+      "name": "T5BB_2",
+      "position": {
+        "x": 1357.2800064086914,
+        "y": 341.11999893188477
+      },
+      "url": "static-sharedassets6-assets-40.png",
+      "width": 116,
+      "height": 294,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 6,
+      "z": 0,
+      "parents": [
+        247,
+        235
+      ]
+    },
+    {
+      "pathId": 223,
+      "name": "leaves2_b (34)",
+      "position": {
+        "x": 1778.3695678710938,
+        "y": 566.7200012207031
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 225,
+      "name": "T4BB_1",
+      "position": {
+        "x": 1518.400001525879,
+        "y": 330.2400016784668
+      },
+      "url": "static-sharedassets6-assets-26.png",
+      "width": 44,
+      "height": 208,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 5,
+      "z": 0,
+      "parents": [
+        247,
+        235
+      ]
+    },
+    {
+      "pathId": 226,
+      "name": "T3BB_1",
+      "position": {
+        "x": 1005.6000137329102,
+        "y": 371.19999980926514
+      },
+      "url": "static-sharedassets6-assets-23.png",
+      "width": 32,
+      "height": 145,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 5,
+      "z": 0,
+      "parents": [
+        247,
+        235
+      ]
+    },
+    {
+      "pathId": 227,
+      "name": "T6B_1",
+      "position": {
+        "x": 965.7600173950195,
+        "y": 359.8399963378906
+      },
+      "url": "static-sharedassets6-assets-15.png",
+      "width": 27,
+      "height": 367,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 7,
+      "z": 0,
+      "parents": [
+        247,
+        99
+      ]
+    },
+    {
+      "pathId": 229,
+      "name": "T4BB_2",
+      "position": {
+        "x": 1520.0786514282227,
+        "y": 325.3352394104004
+      },
+      "url": "static-sharedassets6-assets-47.png",
+      "width": 89,
+      "height": 199,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 6,
+      "z": 0,
+      "parents": [
+        247,
+        235
+      ]
+    },
+    {
+      "pathId": 230,
+      "name": "leaves1 (7)",
+      "position": {
+        "x": 1364.3200073242188,
+        "y": 513.4400062561035
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 232,
+      "name": "rock_3",
+      "position": {
+        "x": 1467.4065704345703,
+        "y": 424.1600036621094
+      },
+      "url": "static-sharedassets0-assets-134.png",
+      "width": 45,
+      "height": 18,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 0.6995816826820374,
+        "g": 0.7452830076217651,
+        "b": 0.7350690364837646,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 14,
+      "z": 0.10747110098600388,
+      "parents": [
+        207,
+        304
+      ]
+    },
+    {
+      "pathId": 233,
+      "name": "leaves1 (16)",
+      "position": {
+        "x": 1392.9600219726562,
+        "y": 491.52000427246094
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 234,
+      "name": "leaves1_b (7)",
+      "position": {
+        "x": 3422.0800170898438,
+        "y": 554.8800060749054
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 236,
+      "name": "leaves1 (14)",
+      "position": {
+        "x": 996.9599609375,
+        "y": 506.08000564575195
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 237,
+      "name": "leaves2_b (23)",
+      "position": {
+        "x": 5023.040222167969,
+        "y": 565.7600107192993
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 238,
+      "name": "leaves2_b (14)",
+      "position": {
+        "x": 2491.8400268554688,
+        "y": 561.7600059509277
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 239,
+      "name": "T3BB_1",
+      "position": {
+        "x": 1650.7200088500977,
+        "y": 357.6000003814697
+      },
+      "url": "static-sharedassets6-assets-35.png",
+      "width": 89,
+      "height": 143,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 5,
+      "z": 0,
+      "parents": [
+        247,
+        235
+      ]
+    },
+    {
+      "pathId": 240,
+      "name": "leaves3 (9)",
+      "position": {
+        "x": 3650.2399291992188,
+        "y": 528.3200054168701
+      },
+      "url": "static-sharedassets1-assets-563.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": -1,
+      "z": 0,
+      "parents": [
+        98,
+        27
+      ]
+    },
+    {
+      "pathId": 241,
+      "name": "leaves1 (15)",
+      "position": {
+        "x": 1103.5199584960938,
+        "y": 542.8800058364868
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 242,
+      "name": "T3_1",
+      "position": {
+        "x": 1149.2497024536133,
+        "y": 360.3048400878906
+      },
+      "url": "static-sharedassets6-assets-19.png",
+      "width": 22,
+      "height": 144,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 9,
+      "z": 0,
+      "parents": [
+        247,
+        260
+      ]
+    },
+    {
+      "pathId": 243,
+      "name": "leaves2_b (28)",
+      "position": {
+        "x": 4251.999938964844,
+        "y": 552.4800060987473
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": -1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 0.8990927338600159,
+        "b": 0.8443396091461182,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": -1,
+      "z": 0,
+      "parents": [
+        98,
+        27
+      ]
+    },
+    {
+      "pathId": 244,
+      "name": "leaves1 (28)",
+      "position": {
+        "x": 3681.9201049804688,
+        "y": 531.5200061798096
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 245,
+      "name": "leaves2_b (4)",
+      "position": {
+        "x": 1368.9600219726562,
+        "y": 588.8000068664551
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 246,
+      "name": "leaves2_b (24)",
+      "position": {
+        "x": 4484.000183105469,
+        "y": 545.1200065612793
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 248,
+      "name": "T4BB_1",
+      "position": {
+        "x": 1094.400001525879,
+        "y": 348.1599998474121
+      },
+      "url": "static-sharedassets6-assets-26.png",
+      "width": 44,
+      "height": 208,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 5,
+      "z": 0,
+      "parents": [
+        247,
+        235
+      ]
+    },
+    {
+      "pathId": 250,
+      "name": "Tussock2 (13)",
+      "position": {
+        "x": 2798.942581176758,
+        "y": 433.5999984741211
+      },
+      "url": "static-sharedassets0-assets-129.png",
+      "width": 124,
+      "height": 43,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": -1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 13,
+      "z": 0.10747110098600388,
+      "parents": [
+        207,
+        280
+      ]
+    },
+    {
+      "pathId": 251,
+      "name": "T5BB_2",
+      "position": {
+        "x": 1603.7668228149414,
+        "y": 294.9468994140625
+      },
+      "url": "static-sharedassets6-assets-40.png",
+      "width": 116,
+      "height": 294,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 6,
+      "z": 0,
+      "parents": [
+        247,
+        235
+      ]
+    },
+    {
+      "pathId": 252,
+      "name": "leaves2 (16)",
+      "position": {
+        "x": 1875.2000122070312,
+        "y": 540.4800062179565
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 253,
+      "name": "rock_2 (5)",
+      "position": {
+        "x": 2577.9824981689453,
+        "y": 446.7200012207031
+      },
+      "url": "static-sharedassets0-assets-125.png",
+      "width": 27,
+      "height": 12,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 0.6995816826820374,
+        "g": 0.7452830076217651,
+        "b": 0.7350690364837646,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 14,
+      "z": 0.10747110098600388,
+      "parents": [
+        207,
+        304
+      ]
+    },
+    {
+      "pathId": 257,
+      "name": "leaves2_b (33)",
+      "position": {
+        "x": 4548.000183105469,
+        "y": 622.0800094604492
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 263,
+      "name": "rock_2",
+      "position": {
+        "x": 1088.6399955749512,
+        "y": 426.55999755859375
+      },
+      "url": "static-sharedassets0-assets-125.png",
+      "width": 27,
+      "height": 12,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 0.6995816826820374,
+        "g": 0.7452830076217651,
+        "b": 0.7350690364837646,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 14,
+      "z": 0.10747110098600388,
+      "parents": [
+        207,
+        304
+      ]
+    },
+    {
+      "pathId": 266,
+      "name": "leaves1 (2)",
+      "position": {
+        "x": 950.239990234375,
+        "y": 530.2400054931641
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 267,
+      "name": "leaves1 (9)",
+      "position": {
+        "x": 1604.7999877929688,
+        "y": 583.8400058746338
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 271,
+      "name": "leaves2_b (11)",
+      "position": {
+        "x": 2276.6399536132812,
+        "y": 595.0400047302246
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 272,
+      "name": "leaves1 (26)",
+      "position": {
+        "x": 3767.8400268554688,
+        "y": 531.3600063323975
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 275,
+      "name": "leaves2_b (7)",
+      "position": {
+        "x": 1836.9600219726562,
+        "y": 610.080005645752
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 276,
+      "name": "leaves1 (11)",
+      "position": {
+        "x": 1909.7599487304688,
+        "y": 597.4400062561035
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 283,
+      "name": "leaves1_b (2)",
+      "position": {
+        "x": 1999.6799926757812,
+        "y": 575.0400066375732
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": -1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 285,
+      "name": "T3BB_2",
+      "position": {
+        "x": 1003.4924697875977,
+        "y": 371.31761169433594
+      },
+      "url": "static-sharedassets6-assets-35.png",
+      "width": 89,
+      "height": 143,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 6,
+      "z": 0,
+      "parents": [
+        247,
+        235
+      ]
+    },
+    {
+      "pathId": 287,
+      "name": "leaves2 (12)",
+      "position": {
+        "x": 1517.7599487304688,
+        "y": 548.4800062179565
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 290,
+      "name": "leaves1_b (10)",
+      "position": {
+        "x": 4251.199890136719,
+        "y": 558.2399978637695
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 291,
+      "name": "T4B_2",
+      "position": {
+        "x": 1409.6000137329102,
+        "y": 330.7200012207031
+      },
+      "url": "static-sharedassets6-assets-36.png",
+      "width": 88,
+      "height": 208,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 8,
+      "z": 0,
+      "parents": [
+        247,
+        99
+      ]
+    },
+    {
+      "pathId": 292,
+      "name": "leaves2_b (25)",
+      "position": {
+        "x": 4642.559753417969,
+        "y": 570.8800067901611
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 293,
+      "name": "T5BB_1",
+      "position": {
+        "x": 1357.3531875610352,
+        "y": 349.5331001281738
+      },
+      "url": "static-sharedassets6-assets-17.png",
+      "width": 39,
+      "height": 314,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 5,
+      "z": 0,
+      "parents": [
+        247,
+        235
+      ]
+    },
+    {
+      "pathId": 296,
+      "name": "mask_down",
+      "position": {
+        "x": 1661.6063842773438,
+        "y": 513.6768074035645
+      },
+      "url": "static-sharedassets0-assets-126.png",
+      "width": 637,
+      "height": 99,
+      "scale": 1.1428571428571428,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 2.4409408569335938,
+      "scaleY": 1.384216444832938,
+      "color": {
+        "r": 0.8820754885673523,
+        "g": 1,
+        "b": 0.8948240876197815,
+        "a": 0.1921568661928177
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 1,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 299,
+      "name": "leaves2 (13)",
+      "position": {
+        "x": 1594.8799438476562,
+        "y": 543.2000064849854
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 301,
+      "name": "leaves2_b (29)",
+      "position": {
+        "x": 3842.7199096679688,
+        "y": 607.5200042724609
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 302,
+      "name": "leaves2_b (32)",
+      "position": {
+        "x": 3476.4799194335938,
+        "y": 551.2000060081482
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 0.8990927338600159,
+        "b": 0.8443396091461182,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": -1,
+      "z": 0,
+      "parents": [
+        98,
+        27
+      ]
+    },
+    {
+      "pathId": 303,
+      "name": "leaves2_b (28)",
+      "position": {
+        "x": 5166.880065917969,
+        "y": 585.2800064086914
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 305,
+      "name": "T6_2",
+      "position": {
+        "x": 1039.359992980957,
+        "y": 306.23999786376953
+      },
+      "url": "static-sharedassets6-assets-24.png",
+      "width": 112,
+      "height": 368,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 10,
+      "z": 0,
+      "parents": [
+        247,
+        260
+      ]
+    },
+    {
+      "pathId": 307,
+      "name": "leaves2_b (5)",
+      "position": {
+        "x": 1526.7200317382812,
+        "y": 601.2800064086914
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 308,
+      "name": "Tussock2 (5)",
+      "position": {
+        "x": 2292.222610473633,
+        "y": 427.2000045776367
+      },
+      "url": "static-sharedassets0-assets-129.png",
+      "width": 124,
+      "height": 43,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": -1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 13,
+      "z": 0.10747110098600388,
+      "parents": [
+        207,
+        280
+      ]
+    },
+    {
+      "pathId": 310,
+      "name": "leaves1_b (14)",
+      "position": {
+        "x": 3732.1600952148438,
+        "y": 565.4400062561035
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 311,
+      "name": "Tussock2 (10)",
+      "position": {
+        "x": 2478.142532348633,
+        "y": 414.8800048828125
+      },
+      "url": "static-sharedassets0-assets-129.png",
+      "width": 124,
+      "height": 43,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": -1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 13,
+      "z": 0.10747110098600388,
+      "parents": [
+        207,
+        280
+      ]
+    },
+    {
+      "pathId": 312,
+      "name": "leaves2_b (18)",
+      "position": {
+        "x": 4951.679870605469,
+        "y": 595.0400047302246
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 313,
+      "name": "T1BB_1",
+      "position": {
+        "x": 927.9839248657227,
+        "y": 380.0320143699646
+      },
+      "url": "static-sharedassets6-assets-9.png",
+      "width": 25,
+      "height": 109,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 5,
+      "z": 0,
+      "parents": [
+        247,
+        235
+      ]
+    },
+    {
+      "pathId": 314,
+      "name": "T1B_1",
+      "position": {
+        "x": 1788.7999954223633,
+        "y": 378.4000015258789
+      },
+      "url": "static-sharedassets6-assets-16.png",
+      "width": 12,
+      "height": 108,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 7,
+      "z": 0,
+      "parents": [
+        247,
+        99
+      ]
+    },
+    {
+      "pathId": 318,
+      "name": "leaves2_b (27)",
+      "position": {
+        "x": 5095.680358886719,
+        "y": 566.8800106048584
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 2,
+      "z": 0,
+      "parents": [
+        98,
+        112
+      ]
+    },
+    {
+      "pathId": 319,
+      "name": "leaves1 (20)",
+      "position": {
+        "x": 1551.2000122070312,
+        "y": 540.8000059127808
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 320,
+      "name": "leaves1 (21)",
+      "position": {
+        "x": 1936.4800415039062,
+        "y": 548.1600060462952
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 322,
+      "name": "leaves1 (4)",
+      "position": {
+        "x": 1158.719970703125,
+        "y": 480.4800033569336
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 323,
+      "name": "leaves1 (5)",
+      "position": {
+        "x": 1238.0800170898438,
+        "y": 491.8400077819824
+      },
+      "url": "static-sharedassets1-assets-583.png",
+      "width": 124,
+      "height": 86,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -5,
+      "sortingLayerID": -1424336479,
+      "order": 0,
+      "z": 0,
+      "parents": [
+        98,
+        218
+      ]
+    },
+    {
+      "pathId": 365,
+      "name": "BG_Trees_2_Left",
+      "position": {
+        "x": 804,
+        "y": 407.5200023651123
+      },
+      "url": "static-sharedassets6-assets-32.png",
+      "width": 320,
+      "height": 256,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 0.6392157077789307,
+        "g": 0.6384834051132202,
+        "b": 0.6384834051132202,
+        "a": 1
+      },
+      "layer": -13,
+      "sortingLayerID": 2120407225,
+      "order": -9,
+      "z": 0,
+      "parents": [
+        523,
+        639
+      ]
+    },
+    {
+      "pathId": 431,
+      "name": "Animator",
+      "position": {
+        "x": 1116.7999992370605,
+        "y": 414.6560010910034
+      },
+      "url": "static-sharedassets2-assets-254.png",
+      "width": 29,
+      "height": 35,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "owner": 1739,
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -9,
+      "sortingLayerID": -1867409727,
+      "order": -5,
+      "z": 0,
+      "parents": [
+        1739
+      ]
+    },
+    {
+      "pathId": 639,
+      "name": "BG_Trees_2",
+      "position": {
+        "x": 1124,
+        "y": 407.5200023651123
+      },
+      "url": "static-sharedassets6-assets-32.png",
+      "width": 320,
+      "height": 256,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 0.6392157077789307,
+        "g": 0.6392157077789307,
+        "b": 0.6392157077789307,
+        "a": 1
+      },
+      "layer": -13,
+      "sortingLayerID": 2120407225,
+      "order": -9,
+      "z": 0,
+      "parents": [
+        523
+      ]
+    },
+    {
+      "pathId": 718,
+      "name": "BG_Trees_1",
+      "position": {
+        "x": 1156,
+        "y": 401.6000003814697
+      },
+      "url": "static-sharedassets6-assets-33.png",
+      "width": 320,
+      "height": 256,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 0.7372549176216125,
+        "g": 0.7372549176216125,
+        "b": 0.7372549176216125,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": -7,
+      "z": 0,
+      "parents": [
+        523
+      ]
+    },
+    {
+      "pathId": 763,
+      "name": "Merchant_Wagon",
+      "position": {
+        "x": 933.8344550132751,
+        "y": 126.44167518615723
+      },
+      "url": "static-sharedassets1-assets-255.png",
+      "width": 129,
+      "height": 83,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "owner": 1452,
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -11,
+      "sortingLayerID": -1217059901,
+      "order": -1,
+      "z": 0,
+      "parents": [
+        1452
+      ]
+    },
+    {
+      "pathId": 791,
+      "name": "BG_Trees_Right",
+      "position": {
+        "x": 1636.4800000190735,
+        "y": 346.4000005722046
+      },
+      "url": "static-sharedassets6-assets-30.png",
+      "width": 480,
+      "height": 272,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 0.6792452931404114,
+        "g": 0.6792452931404114,
+        "b": 0.6792452931404114,
+        "a": 1
+      },
+      "layer": -13,
+      "sortingLayerID": 2120407225,
+      "order": -10,
+      "z": 0,
+      "parents": [
+        523,
+        1669
+      ]
+    },
+    {
+      "pathId": 800,
+      "name": "NPC_Merchant",
+      "position": {
+        "x": 931.9144549667835,
+        "y": 149.36967611312866
+      },
+      "url": "static-sharedassets1-assets-874.png",
+      "width": 26,
+      "height": 45,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "owner": 1452,
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -7,
+      "sortingLayerID": 16220261,
+      "order": -1,
+      "z": 0,
+      "parents": [
+        1452
+      ]
+    },
+    {
+      "pathId": 913,
+      "name": "BG_Trees_Left",
+      "position": {
+        "x": 676.4800000190735,
+        "y": 346.4000005722046
+      },
+      "url": "static-sharedassets6-assets-30.png",
+      "width": 480,
+      "height": 272,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 0.6792452931404114,
+        "g": 0.6792452931404114,
+        "b": 0.6792452931404114,
+        "a": 1
+      },
+      "layer": -13,
+      "sortingLayerID": 2120407225,
+      "order": -10,
+      "z": 0,
+      "parents": [
+        523,
+        1669
+      ]
+    },
+    {
+      "pathId": 1051,
+      "name": "Object_Lamp",
+      "position": {
+        "x": 1198.62255859375,
+        "y": 398.55999755859375
+      },
+      "url": "static-sharedassets0-assets-123.png",
+      "width": 26,
+      "height": 67,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 14,
+      "z": 0.10747110098600388,
+      "parents": [
+        207,
+        304
+      ]
+    },
+    {
+      "pathId": 1052,
+      "name": "Object_Lamp (1)",
+      "position": {
+        "x": 1419.102554321289,
+        "y": 401.12000274658203
+      },
+      "url": "static-sharedassets0-assets-123.png",
+      "width": 26,
+      "height": 67,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 14,
+      "z": 0.10747110098600388,
+      "parents": [
+        207,
+        304
+      ]
+    },
+    {
+      "pathId": 1274,
+      "name": "Animator",
+      "position": {
+        "x": 1027.3600006103516,
+        "y": 140.32000422477722
+      },
+      "url": "static-sharedassets1-assets-250.png",
+      "width": 32,
+      "height": 32,
+      "scale": 0.5,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "owner": 1036,
+      "animation": {
+        "bank": "interactions",
+        "action": "teleportIdle"
+      },
+      "rotation": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -7,
+      "sortingLayerID": 16220261,
+      "order": -10,
+      "z": 0,
+      "parents": [
+        1036
+      ]
+    },
+    {
+      "pathId": 1487,
+      "name": "mask_down",
+      "position": {
+        "x": 1131.7635498046875,
+        "y": 426.58239936828613
+      },
+      "url": "static-sharedassets0-assets-126.png",
+      "width": 637,
+      "height": 99,
+      "scale": 1.1428571428571428,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1.1428571428571428,
+      "scaleY": 1.0139710562569755,
+      "color": {
+        "r": 0.9204788208007812,
+        "g": 0.9905660152435303,
+        "b": 0.9289742112159729,
+        "a": 0.09803921729326248
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": 14,
+      "z": 0,
+      "parents": [
+        523
+      ]
+    },
+    {
+      "pathId": 1493,
+      "name": "BG_Trees_3_Right",
+      "position": {
+        "x": 1476,
+        "y": 401.6000003814697
+      },
+      "url": "static-sharedassets6-assets-33.png",
+      "width": 320,
+      "height": 256,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 0.7372549176216125,
+        "g": 0.7372549176216125,
+        "b": 0.7372549176216125,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": -7,
+      "z": 0,
+      "parents": [
+        523,
+        718
+      ]
+    },
+    {
+      "pathId": 1669,
+      "name": "BG_Sky",
+      "position": {
+        "x": 1156.4800000190735,
+        "y": 346.4000005722046
+      },
+      "url": "static-sharedassets6-assets-30.png",
+      "width": 480,
+      "height": 272,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 0.6792452931404114,
+        "g": 0.6792452931404114,
+        "b": 0.6792452931404114,
+        "a": 1
+      },
+      "layer": -13,
+      "sortingLayerID": 2120407225,
+      "order": -10,
+      "z": 0,
+      "parents": [
+        523
+      ]
+    },
+    {
+      "pathId": 1687,
+      "name": "Animator",
+      "position": {
+        "x": 932.3944549560547,
+        "y": 118.02567672729492
+      },
+      "url": "static-sharedassets1-assets-290.png",
+      "width": 18,
+      "height": 18,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "owner": 1452,
+      "animation": {
+        "bank": "interactions",
+        "action": "UI_button"
+      },
+      "rotation": 0,
+      "scaleX": 0.800000011920929,
+      "scaleY": 0.800000011920929,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -7,
+      "sortingLayerID": 16220261,
+      "order": -1,
+      "z": 0,
+      "parents": [
+        1452,
+        1890
+      ]
+    },
+    {
+      "pathId": 1848,
+      "name": "Animator",
+      "position": {
+        "x": 1029.4400005340576,
+        "y": 107.84000396728516
+      },
+      "url": "static-sharedassets1-assets-290.png",
+      "width": 18,
+      "height": 18,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "owner": 1036,
+      "animation": {
+        "bank": "interactions",
+        "action": "UI_button"
+      },
+      "rotation": 0,
+      "scaleX": 0.800000011920929,
+      "scaleY": 0.800000011920929,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -7,
+      "sortingLayerID": 16220261,
+      "order": -1,
+      "z": 0,
+      "parents": [
+        1036,
+        2173
+      ]
+    },
+    {
+      "pathId": 1951,
+      "name": "Animator",
+      "position": {
+        "x": 955.8399963378906,
+        "y": 402.23999977111816
+      },
+      "url": "static-sharedassets1-assets-550.png",
+      "width": 47,
+      "height": 60,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "owner": 1108,
+      "animation": {
+        "bank": "interactions",
+        "action": "objectWapoint"
+      },
+      "rotation": 0,
+      "scaleX": -1,
+      "scaleY": 1,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "layer": -11,
+      "sortingLayerID": -1217059901,
+      "order": -5,
+      "z": 0,
+      "parents": [
+        1108
+      ]
+    },
+    {
+      "pathId": 2140,
+      "name": "BG_Trees_3_Left",
+      "position": {
+        "x": 836,
+        "y": 401.6000003814697
+      },
+      "url": "static-sharedassets6-assets-33.png",
+      "width": 320,
+      "height": 256,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 0.7358490228652954,
+        "g": 0.7358490228652954,
+        "b": 0.7358490228652954,
+        "a": 1
+      },
+      "layer": -12,
+      "sortingLayerID": -360106713,
+      "order": -7,
+      "z": 0,
+      "parents": [
+        523,
+        718
+      ]
+    },
+    {
+      "pathId": 2163,
+      "name": "BG_Trees_2_Right",
+      "position": {
+        "x": 1444,
+        "y": 407.5200023651123
+      },
+      "url": "static-sharedassets6-assets-32.png",
+      "width": 320,
+      "height": 256,
+      "scale": 1,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": null,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "color": {
+        "r": 0.6392157077789307,
+        "g": 0.6392157077789307,
+        "b": 0.6392157077789307,
+        "a": 1
+      },
+      "layer": -13,
+      "sortingLayerID": 2120407225,
+      "order": -9,
+      "z": 0,
+      "parents": [
+        523,
+        639
+      ]
+    }
+  ],
+  "platforms": [],
+  "independent": [],
+  "disabled": [],
+  "worldTexts": [
+    {
+      "pathId": 1816,
+      "position": {
+        "x": 957.5999963283539,
+        "y": 363.83999824523926
+      },
+      "parents": [
+        1108
+      ],
+      "text": "通往密道\n",
+      "font": "sharedassets1.assets:1229",
+      "fontFamily": "SunderWenkai",
+      "fontSize": 8.00000011920929,
+      "lineHeight": 9.472000263214113,
+      "bold": true,
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "align": "center",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "offset": {
+        "x": -0.42565918603031605,
+        "y": -0.42563896813450697
+      },
+      "wrapWidth": 0,
+      "rotation": 0,
+      "layer": 0,
+      "order": 0,
+      "source": {
+        "serializedFile": "level6",
+        "componentId": 6148,
+        "values": {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1816
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 1,
+            "m_PathID": 1438
+          },
+          "m_Name": "",
+          "m_Material": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_Color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "m_RaycastTarget": 1,
+          "m_RaycastPadding": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 0
+          },
+          "m_Maskable": 1,
+          "m_OnCullStateChanged": {
+            "m_PersistentCalls": {
+              "m_Calls": []
+            }
+          },
+          "m_text": "通往密道\n",
+          "m_isRightToLeft": 0,
+          "m_fontAsset": {
+            "m_FileID": 2,
+            "m_PathID": 1229
+          },
+          "m_sharedMaterial": {
+            "m_FileID": 2,
+            "m_PathID": 18
+          },
+          "m_fontSharedMaterials": [],
+          "m_fontMaterial": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_fontMaterials": [],
+          "m_fontColor32": {
+            "rgba": 4294967295
+          },
+          "m_fontColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "m_enableVertexGradient": 0,
+          "m_colorMode": 3,
+          "m_fontColorGradient": {
+            "topLeft": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "topRight": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "bottomLeft": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "bottomRight": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            }
+          },
+          "m_fontColorGradientPreset": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_spriteAsset": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_tintAllSprites": 0,
+          "m_StyleSheet": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_TextStyleHashCode": -1183493901,
+          "m_overrideHtmlColors": 0,
+          "m_faceColor": {
+            "rgba": 4294967295
+          },
+          "m_fontSize": 50,
+          "m_fontSizeBase": 50,
+          "m_fontWeight": 400,
+          "m_enableAutoSizing": 0,
+          "m_fontSizeMin": 18,
+          "m_fontSizeMax": 72,
+          "m_fontStyle": 1,
+          "m_HorizontalAlignment": 2,
+          "m_VerticalAlignment": 512,
+          "m_textAlignment": 65535,
+          "m_characterSpacing": 0,
+          "m_wordSpacing": 0,
+          "m_lineSpacing": 0,
+          "m_lineSpacingMax": 0,
+          "m_paragraphSpacing": 0,
+          "m_charWidthMaxAdj": 0,
+          "m_enableWordWrapping": 0,
+          "m_wordWrappingRatios": 0.4000000059604645,
+          "m_overflowMode": 0,
+          "m_linkedTextComponent": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "parentLinkedComponent": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_enableKerning": 0,
+          "m_enableExtraPadding": 0,
+          "checkPaddingRequired": 0,
+          "m_isRichText": 1,
+          "m_parseCtrlCharacters": 1,
+          "m_isOrthographic": 0,
+          "m_isCullingEnabled": 0,
+          "m_horizontalMapping": 0,
+          "m_verticalMapping": 0,
+          "m_uvLineOffset": 0,
+          "m_geometrySortingOrder": 0,
+          "m_IsTextObjectScaleStatic": 0,
+          "m_VertexBufferAutoSizeReduction": 0,
+          "m_useMaxVisibleDescender": 1,
+          "m_pageToDisplay": 1,
+          "m_margin": {
+            "x": -4.5224761962890625,
+            "y": -2.8376221656799316,
+            "z": -3.9904022216796875,
+            "w": -2.3055734634399414
+          },
+          "m_isUsingLegacyAnimationComponent": 0,
+          "m_isVolumetricText": 0,
+          "_SortingLayer": 0,
+          "_SortingLayerID": 0,
+          "_SortingOrder": 0,
+          "m_hasFontAssetChanged": 0,
+          "m_renderer": {
+            "m_FileID": 0,
+            "m_PathID": 2609
+          },
+          "m_maskType": 0
+        }
+      }
+    }
+  ]
+}

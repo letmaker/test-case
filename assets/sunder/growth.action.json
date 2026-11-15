@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "poster": {
+    "url": "growth-poster.png",
+    "width": 128,
+    "height": 128
+  },
+  "defaultAction": "skillObjectShardIdle",
+  "actions": {
+    "skillObjectShardIdle": {
+      "url": "growth-skillObjectShardIdle.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 18,
+      "loop": true,
+      "durations": [
+        1.0000000074505806,
+        1.0000000074505806,
+        1.000000074505806,
+        0.9999999403953552,
+        1.0000002086162567,
+        0.9999999403953552
+      ],
+      "events": []
+    },
+    "Vfx_ShardExplosion": {
+      "url": "growth-Vfx_ShardExplosion.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 15,
+      "loop": false,
+      "durations": [
+        1.0000000521540642,
+        1.0000000521540642,
+        0.9999999403953552,
+        1.0000001639127731,
+        0.9999999403953552
+      ],
+      "events": []
+    },
+    "Vfx_SmokeCloud": {
+      "url": "growth-Vfx_SmokeCloud.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 18,
+      "loop": false,
+      "durations": [
+        1.0000000074505806,
+        1.0000000074505806,
+        1.000000074505806,
+        0.9999999403953552,
+        1.0000002086162567,
+        0.9999999403953552,
+        0.9999999403953552,
+        0.9999999403953552,
+        0.9999999403953552,
+        1.0000004768371582,
+        0.9999994039535522,
+        1.0000004768371582
+      ],
+      "events": []
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "poster": {
+    "url": "sword-poster.png",
+    "width": 32,
+    "height": 33
+  },
+  "defaultAction": "skillObjectSwordIdle",
+  "actions": {
+    "skillObjectSwordIdle": {
+      "url": "sword-skillObjectSwordIdle.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 60,
+      "loop": true,
+      "durations": [
+        1.0000000521540642
+      ],
+      "events": []
+    },
+    "skillObjectSwordSpinning": {
+      "url": "sword-skillObjectSwordSpinning.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 20,
+      "loop": true,
+      "durations": [
+        1.0000000149011612,
+        1.0000000149011612,
+        1.0000000894069672,
+        0.9999999403953552
+      ],
+      "events": []
+    }
+  }
+}

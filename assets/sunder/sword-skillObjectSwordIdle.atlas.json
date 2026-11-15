@@ -1,0 +1,34 @@
+{
+  "frames": {
+    "f00000.png": {
+      "frame": {
+        "x": 1,
+        "y": 1,
+        "w": 32,
+        "h": 33
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 32,
+        "h": 33
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 32,
+        "h": 33
+      }
+    }
+  },
+  "meta": {
+    "image": "sword.png",
+    "size": {
+      "w": 171,
+      "h": 35
+    },
+    "scale": "1",
+    "scaleMode": "nearest",
+    "baseUrl": "sword/sword-skillObjectSwordIdle.atlas.json"
+  }
+}

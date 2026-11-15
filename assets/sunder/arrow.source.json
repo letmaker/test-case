@@ -1,0 +1,47 @@
+{
+  "archer_Arrow": {
+    "serializedFile": "sharedassets2.assets",
+    "pathId": 71,
+    "source": {
+      "path": "Data/sharedassets2.assets/AnimationClip.jsonl",
+      "line": 7
+    },
+    "start": 0,
+    "stop": 0.13333334028720856,
+    "sampleRate": 30,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 138
+      },
+      {
+        "time": 0.03333333507180214,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 126
+      },
+      {
+        "time": 0.06666667014360428,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 152
+      },
+      {
+        "time": 0.10000000149011612,
+        "serializedFile": "sharedassets2.assets",
+        "pathId": 366
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 6,
+      "m_CurveCount": 0,
+      "m_SampleRate": 30,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  }
+}

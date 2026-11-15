@@ -1,0 +1,134 @@
+{
+  "frames": {
+    "f00000.png": {
+      "frame": {
+        "x": 1,
+        "y": 1,
+        "w": 393,
+        "h": 111
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 393,
+        "h": 111
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 111
+      }
+    },
+    "f00001.png": {
+      "frame": {
+        "x": 396,
+        "y": 1,
+        "w": 393,
+        "h": 111
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 393,
+        "h": 111
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 111
+      }
+    },
+    "f00002.png": {
+      "frame": {
+        "x": 791,
+        "y": 1,
+        "w": 393,
+        "h": 111
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 393,
+        "h": 111
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 111
+      }
+    },
+    "f00003.png": {
+      "frame": {
+        "x": 1186,
+        "y": 1,
+        "w": 393,
+        "h": 111
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 393,
+        "h": 111
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 111
+      }
+    },
+    "f00004.png": {
+      "frame": {
+        "x": 1581,
+        "y": 1,
+        "w": 393,
+        "h": 111
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 393,
+        "h": 111
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 111
+      }
+    },
+    "f00005.png": {
+      "frame": {
+        "x": 1,
+        "y": 114,
+        "w": 393,
+        "h": 111
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 393,
+        "h": 111
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 111
+      }
+    }
+  },
+  "meta": {
+    "image": "feedback.png",
+    "size": {
+      "w": 1976,
+      "h": 226
+    },
+    "scale": "1",
+    "scaleMode": "nearest",
+    "baseUrl": "feedback/feedback-Vfx_Counter.atlas.json"
+  }
+}

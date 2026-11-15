@@ -1,0 +1,114 @@
+{
+  "frames": {
+    "f00000.png": {
+      "frame": {
+        "x": 703,
+        "y": 1,
+        "w": 37,
+        "h": 22
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 37,
+        "h": 22
+      },
+      "spriteSourceSize": {
+        "x": 39,
+        "y": 43,
+        "w": 37,
+        "h": 22
+      }
+    },
+    "f00001.png": {
+      "frame": {
+        "x": 945,
+        "y": 1,
+        "w": 37,
+        "h": 22
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 37,
+        "h": 22
+      },
+      "spriteSourceSize": {
+        "x": 39,
+        "y": 43,
+        "w": 37,
+        "h": 22
+      }
+    },
+    "f00002.png": {
+      "frame": {
+        "x": 984,
+        "y": 1,
+        "w": 37,
+        "h": 22
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 37,
+        "h": 22
+      },
+      "spriteSourceSize": {
+        "x": 39,
+        "y": 43,
+        "w": 37,
+        "h": 22
+      }
+    },
+    "f00003.png": {
+      "frame": {
+        "x": 1023,
+        "y": 1,
+        "w": 37,
+        "h": 22
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 37,
+        "h": 22
+      },
+      "spriteSourceSize": {
+        "x": 39,
+        "y": 43,
+        "w": 37,
+        "h": 22
+      }
+    },
+    "f00004.png": {
+      "frame": {
+        "x": 1062,
+        "y": 1,
+        "w": 37,
+        "h": 22
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 37,
+        "h": 22
+      },
+      "spriteSourceSize": {
+        "x": 39,
+        "y": 43,
+        "w": 37,
+        "h": 22
+      }
+    }
+  },
+  "meta": {
+    "image": "objects.png",
+    "size": {
+      "w": 2017,
+      "h": 141
+    },
+    "scale": "1",
+    "scaleMode": "nearest",
+    "baseUrl": "objects/objects-chestOpen.atlas.json"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "frames": {
+    "f00000.png": {
+      "frame": {
+        "x": 1045,
+        "y": 99,
+        "w": 62,
+        "h": 45
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 62,
+        "h": 45
+      },
+      "spriteSourceSize": {
+        "x": 7.000002145767212,
+        "y": 48,
+        "w": 62,
+        "h": 45
+      }
+    },
+    "f00001.png": {
+      "frame": {
+        "x": 1109,
+        "y": 99,
+        "w": 62,
+        "h": 45
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 62,
+        "h": 45
+      },
+      "spriteSourceSize": {
+        "x": 7.000002145767212,
+        "y": 48,
+        "w": 62,
+        "h": 45
+      }
+    },
+    "f00002.png": {
+      "frame": {
+        "x": 1173,
+        "y": 99,
+        "w": 62,
+        "h": 45
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 62,
+        "h": 45
+      },
+      "spriteSourceSize": {
+        "x": 7.000002145767212,
+        "y": 48,
+        "w": 62,
+        "h": 45
+      }
+    },
+    "f00003.png": {
+      "frame": {
+        "x": 1237,
+        "y": 99,
+        "w": 62,
+        "h": 45
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 62,
+        "h": 45
+      },
+      "spriteSourceSize": {
+        "x": 7.000002145767212,
+        "y": 48,
+        "w": 62,
+        "h": 45
+      }
+    }
+  },
+  "meta": {
+    "image": "jiangjunlv2.png",
+    "size": {
+      "w": 2044,
+      "h": 569
+    },
+    "scale": "1",
+    "scaleMode": "nearest",
+    "baseUrl": "jiangjunlv2/jiangjunlv2-JiangJun2LvBattleIdle.atlas.json"
+  }
+}

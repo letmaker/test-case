@@ -1,0 +1,16 @@
+{
+  "source": {
+    "path": "Data/sharedassets1.assets/Sprite.jsonl",
+    "line": 298
+  },
+  "serializedFile": "sharedassets1.assets",
+  "pathId": 537,
+  "width": 32,
+  "height": 33,
+  "pivot": {
+    "x": 0.5600000023841858,
+    "y": 0.45283252000808716
+  },
+  "ppu": 16,
+  "converterVersion": 1
+}

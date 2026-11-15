@@ -1,0 +1,77 @@
+{
+  "skillObjectSwordIdle": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 202,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 74
+    },
+    "start": 0,
+    "stop": 0.01666666753590107,
+    "sampleRate": 60,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 537
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 3,
+      "m_CurveCount": 0,
+      "m_SampleRate": 60,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  },
+  "skillObjectSwordSpinning": {
+    "serializedFile": "sharedassets1.assets",
+    "pathId": 203,
+    "source": {
+      "path": "Data/sharedassets1.assets/AnimationClip.jsonl",
+      "line": 75
+    },
+    "start": 0,
+    "stop": 0.20000000298023224,
+    "sampleRate": 20,
+    "frames": [
+      {
+        "time": 0,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 645
+      },
+      {
+        "time": 0.05000000074505806,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 593
+      },
+      {
+        "time": 0.10000000149011612,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 446
+      },
+      {
+        "time": 0.15000000596046448,
+        "serializedFile": "sharedassets1.assets",
+        "pathId": 527
+      }
+    ],
+    "events": [],
+    "tracks": [],
+    "dense": {
+      "m_FrameCount": 6,
+      "m_CurveCount": 0,
+      "m_SampleRate": 20,
+      "m_BeginTime": 0,
+      "m_SampleArray": []
+    },
+    "constant": {
+      "data": []
+    }
+  }
+}

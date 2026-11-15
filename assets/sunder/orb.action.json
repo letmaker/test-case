@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "poster": {
+    "url": "orb-poster.png",
+    "width": 128,
+    "height": 128
+  },
+  "defaultAction": "MageSpellCast_Projectile",
+  "actions": {
+    "MageSpellCast_Projectile": {
+      "url": "orb-MageSpellCast_Projectile.atlas.json",
+      "offset": [
+        0,
+        0
+      ],
+      "fps": 12,
+      "loop": false,
+      "durations": [
+        1.0000000298023224,
+        1.0000000298023224,
+        0.9999999403953552,
+        1.0000001192092896,
+        0.9999997615814209,
+        1.0000001192092896,
+        0.9999997615814209
+      ],
+      "events": []
+    }
+  }
+}
