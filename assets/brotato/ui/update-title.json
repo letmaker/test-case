@@ -1,0 +1,11 @@
+{
+  "name": "update-title",
+  "description": "Hud_Img_DLC_cn",
+  "width": 875,
+  "height": 494,
+  "orientation": "top_left",
+  "origin": "extracted_from_original_game",
+  "sources": [
+    "src/test/y/brotato-decompiled/Assets/FairyGUI/HallUI/Images/Hud_Img_DLC_cn__xmrj351.png"
+  ]
+}

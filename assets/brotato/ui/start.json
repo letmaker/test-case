@@ -1,0 +1,27 @@
+{
+  "name": "start",
+  "description": "原Start按钮骨骼animation2在0.35秒的完整网格静态采样，不含文字",
+  "width": 558,
+  "height": 182,
+  "orientation": "top_left",
+  "origin": "extracted_from_original_game",
+  "sources": [
+    "Assets/Spine/Start_SkeletonData/Start.skel",
+    "Assets/Spine/Start_SkeletonData/Start.atlas",
+    "Assets/Spine/Start_SkeletonData/Start.png"
+  ],
+  "spineVersion": "4.2.43",
+  "runtimeVersion": "4.2.119",
+  "time": 0.35,
+  "bounds": [
+    -279,
+    -89,
+    279,
+    93
+  ],
+  "sourcesSha256": {
+    "Start.skel": "07ce4fe209f9c9f44ec3ec3e1093335470b55642a4a65a751cc34a6bc320a4ab",
+    "Start.atlas": "ba823e96580866f310e6da8532eda55a35e7b239a881ab8174cbfbb1a219b064",
+    "Start.png": "910dffb1b72c105a48cffd8ec54a1dab768b84584a464ab7832ebb747aea342e"
+  }
+}

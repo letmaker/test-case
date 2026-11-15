@@ -1,0 +1,22 @@
+{
+  "name": "road-preview",
+  "description": "原 RoadUI 的45图标网格与普通地面第一种装饰；固定菜单抽样",
+  "width": 960,
+  "height": 512,
+  "orientation": "top_left",
+  "origin": "extracted_from_original_game",
+  "sources": [
+    "src/test/y/brotato-decompiled/Assets/Sprites/tiles_1_0.png",
+    "src/test/y/brotato-decompiled/Assets/Sprites/tiles_1_7.png",
+    "src/test/y/brotato-decompiled/Assets/Sprites/tiles_1_2.png",
+    "src/test/y/brotato-decompiled/Assets/Sprites/tiles_1_9.png",
+    "src/test/y/brotato-decompiled/Assets/Sprites/tiles_1_4.png",
+    "src/test/y/brotato-decompiled/Assets/Sprites/tiles_1_11.png",
+    "src/test/y/brotato-decompiled/Assets/Sprites/tiles_1_6.png",
+    "src/test/y/brotato-decompiled/Assets/Sprites/tiles_1_1.png",
+    "src/test/y/brotato-decompiled/Assets/Sprites/tiles_1_8.png",
+    "src/test/y/brotato-decompiled/Assets/Sprites/tiles_1_3.png",
+    "src/test/y/brotato-decompiled/Assets/Sprites/tiles_1_10.png",
+    "src/test/y/brotato-decompiled/Assets/Sprites/tiles_1_5.png"
+  ]
+}

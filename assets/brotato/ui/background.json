@@ -1,0 +1,11 @@
+{
+  "name": "background",
+  "description": "shop_background",
+  "width": 1920,
+  "height": 1080,
+  "orientation": "top_left",
+  "origin": "extracted_from_original_game",
+  "sources": [
+    "src/test/y/brotato-decompiled/Assets/FairyGUI/CommonUI/Images/shop_background__kddcp.png"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "logo",
+  "description": "ui_logo",
+  "width": 1122,
+  "height": 330,
+  "orientation": "top_left",
+  "origin": "extracted_from_original_game",
+  "sources": [
+    "src/test/y/brotato-decompiled/Assets/FairyGUI/CommonUI/Images/ui_logo__firmh.png"
+  ]
+}

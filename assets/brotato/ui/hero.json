@@ -1,0 +1,11 @@
+{
+  "name": "hero",
+  "description": "原全能者头像",
+  "width": 96,
+  "height": 96,
+  "orientation": "top_left",
+  "origin": "extracted_from_original_game",
+  "sources": [
+    "src/test/y/brotato-decompiled/Assets/Sprites/well_rounded_icon.png"
+  ]
+}

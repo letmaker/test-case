@@ -1,0 +1,11 @@
+{
+  "name": "level",
+  "description": "原版暂停及结算界面素材",
+  "width": 80,
+  "height": 80,
+  "orientation": "top_left",
+  "origin": "extracted_from_original_game",
+  "sources": [
+    "src/test/y/brotato-decompiled/Assets/FairyGUI/CommonUI/Images/upgrade_icon__j9rb25.png"
+  ]
+}

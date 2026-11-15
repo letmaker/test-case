@@ -1,0 +1,11 @@
+{
+  "name": "settings",
+  "description": "setting",
+  "width": 72,
+  "height": 72,
+  "orientation": "top_left",
+  "origin": "extracted_from_original_game",
+  "sources": [
+    "src/test/y/brotato-decompiled/Assets/FairyGUI/CommonUI/Images/setting__n20x35.png"
+  ]
+}

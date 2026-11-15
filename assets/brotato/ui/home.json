@@ -1,0 +1,24 @@
+{
+  "name": "home",
+  "description": "原 HallUIPain 图层按组件静态位置合成；不包含原首页动画、广告和账号服务",
+  "width": 1920,
+  "height": 1080,
+  "orientation": "top_left",
+  "origin": "extracted_from_original_game",
+  "sources": [
+    "src/test/y/brotato-decompiled/Assets/FairyGUI/CommonUI/Images/keyart_u33_background__l8ne6mp.png",
+    "src/test/y/brotato-decompiled/Assets/FairyGUI/CommonUI/Images/keyart_u33_horned_bruiser__l8ne6mv.png",
+    "src/test/y/brotato-decompiled/Assets/FairyGUI/CommonUI/Images/keyart_u33_colossus__l8ne6mr.png",
+    "src/test/y/brotato-decompiled/Assets/FairyGUI/CommonUI/Images/keyart_u33_mantis__l8ne6mw.png",
+    "src/test/y/brotato-decompiled/Assets/FairyGUI/CommonUI/Images/keyart_u33_tentacle__l8ne6mz.png",
+    "src/test/y/brotato-decompiled/Assets/FairyGUI/CommonUI/Images/keyart_u33_fin_alien__l8ne6ms.png",
+    "src/test/y/brotato-decompiled/Assets/FairyGUI/CommonUI/Images/keyart_u33_baby_alien__l8ne6mo.png",
+    "src/test/y/brotato-decompiled/Assets/FairyGUI/CommonUI/Images/keyart_u33_slasher__l8ne6my.png",
+    "src/test/y/brotato-decompiled/Assets/FairyGUI/CommonUI/Images/keyart_u33_ramp__l8ne6mx.png",
+    "src/test/y/brotato-decompiled/Assets/FairyGUI/CommonUI/Images/keyart_u33_brotato__l8ne6mq.png",
+    "src/test/y/brotato-decompiled/Assets/FairyGUI/CommonUI/Images/keyart_u33_gate_1__l8ne6n1.png",
+    "src/test/y/brotato-decompiled/Assets/FairyGUI/CommonUI/Images/keyart_u33_gate_light_1__l8ne6n3.png",
+    "src/test/y/brotato-decompiled/Assets/FairyGUI/CommonUI/Images/keyart_u33_gate_2__l8ne6n2.png",
+    "src/test/y/brotato-decompiled/Assets/FairyGUI/CommonUI/Images/keyart_u33_gate_light_2__l8ne6n4.png"
+  ]
+}

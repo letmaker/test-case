@@ -1,0 +1,34 @@
+{
+  "pivot": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "pixels_per_unit": 100.0,
+  "border": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "w": 0.0
+  },
+  "atlas_tags": [
+    "item"
+  ],
+  "original_rect": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 150,
+    "height": 150
+  },
+  "orientation": "top_left",
+  "transparent_canvas_restored": true,
+  "name": "hourglass_broken_icon",
+  "source": {
+    "file": "d28ac41b771361d4e84a7aa56ba8b755",
+    "path_id": 1,
+    "type": "Sprite"
+  },
+  "origin": "extracted_from_original_game",
+  "width": 150,
+  "height": 150,
+  "mode": "RGBA"
+}

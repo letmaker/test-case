@@ -1,0 +1,18 @@
+{
+  "name": "focus",
+  "description": "原按钮聚焦九宫格，按设计分辨率缩为一半",
+  "width": 47,
+  "height": 47,
+  "orientation": "top_left",
+  "origin": "extracted_from_original_game",
+  "sources": [
+    "src/test/y/brotato-decompiled/Assets/FairyGUI/CommonUI/Images/聚焦__oyg44b.png"
+  ],
+  "scale": 0.5,
+  "scale9_grid": [
+    19,
+    20,
+    10,
+    10
+  ]
+}

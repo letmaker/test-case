@@ -1,0 +1,34 @@
+{
+  "pivot": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "pixels_per_unit": 100.0,
+  "border": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "w": 0.0
+  },
+  "atlas_tags": [
+    "item"
+  ],
+  "original_rect": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 96,
+    "height": 96
+  },
+  "orientation": "top_left",
+  "transparent_canvas_restored": true,
+  "name": "doc_moth_icon",
+  "source": {
+    "file": "0ce1b0bc553bf65408066eab3d78085e",
+    "path_id": 1,
+    "type": "Sprite"
+  },
+  "origin": "extracted_from_original_game",
+  "width": 96,
+  "height": 96,
+  "mode": "RGBA"
+}

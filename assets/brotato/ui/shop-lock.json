@@ -1,0 +1,11 @@
+{
+  "name": "shop-lock",
+  "description": "locked_icon",
+  "width": 60,
+  "height": 77,
+  "orientation": "top_left",
+  "origin": "extracted_from_original_game",
+  "sources": [
+    "src/test/y/brotato-decompiled/Assets/FairyGUI/CommonUI/Images/locked_icon__kddc1c.png"
+  ]
+}

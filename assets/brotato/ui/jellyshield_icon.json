@@ -1,0 +1,34 @@
+{
+  "pivot": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "pixels_per_unit": 100.0,
+  "border": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "w": 0.0
+  },
+  "atlas_tags": [
+    "item"
+  ],
+  "original_rect": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 95,
+    "height": 95
+  },
+  "orientation": "top_left",
+  "transparent_canvas_restored": true,
+  "name": "jellyshield_icon",
+  "source": {
+    "file": "03f92b1612e401d4ab7fd4a10bc373b2",
+    "path_id": 1,
+    "type": "Sprite"
+  },
+  "origin": "extracted_from_original_game",
+  "width": 95,
+  "height": 95,
+  "mode": "RGBA"
+}

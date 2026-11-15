@@ -1,0 +1,11 @@
+{
+  "name": "codex",
+  "description": "HUD_Btn_Guide",
+  "width": 120,
+  "height": 120,
+  "orientation": "top_left",
+  "origin": "extracted_from_original_game",
+  "sources": [
+    "src/test/y/brotato-decompiled/Assets/FairyGUI/HallUI/Images/HUD_Btn_Guide__mpnb32.png"
+  ]
+}

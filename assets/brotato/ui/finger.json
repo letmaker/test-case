@@ -1,0 +1,11 @@
+{
+  "name": "finger",
+  "description": "原首页开始按钮指手第一帧",
+  "width": 180,
+  "height": 180,
+  "orientation": "top_left",
+  "origin": "extracted_from_original_game",
+  "sources": [
+    "src/test/y/brotato-decompiled/Assets/FairyGUI/GuideUI/MovieClips/MovieClip_finger/0000.png"
+  ]
+}

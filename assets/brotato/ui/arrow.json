@@ -1,0 +1,11 @@
+{
+  "name": "arrow",
+  "description": "Road_Btn_Switch",
+  "width": 68,
+  "height": 76,
+  "orientation": "top_left",
+  "origin": "extracted_from_original_game",
+  "sources": [
+    "src/test/y/brotato-decompiled/Assets/FairyGUI/RoadUI/Images/Road_Btn_Switch__y4lam.png"
+  ]
+}

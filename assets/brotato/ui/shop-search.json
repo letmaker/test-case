@@ -1,0 +1,11 @@
+{
+  "name": "shop-search",
+  "description": "search",
+  "width": 44,
+  "height": 46,
+  "orientation": "top_left",
+  "origin": "extracted_from_original_game",
+  "sources": [
+    "src/test/y/brotato-decompiled/Assets/FairyGUI/CommonUI/Images/search__g3qkep.png"
+  ]
+}

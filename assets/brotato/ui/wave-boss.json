@@ -1,0 +1,11 @@
+{
+  "name": "wave-boss",
+  "description": "原版暂停及结算界面素材",
+  "width": 96,
+  "height": 96,
+  "orientation": "top_left",
+  "origin": "extracted_from_original_game",
+  "sources": [
+    "src/test/y/brotato-decompiled/Assets/FairyGUI/PauseUI/Images/boss_icon__bupn6j5.png"
+  ]
+}

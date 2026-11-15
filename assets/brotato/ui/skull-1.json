@@ -1,0 +1,11 @@
+{
+  "name": "skull-1",
+  "description": "Road_Icon_Boss_Low",
+  "width": 56,
+  "height": 52,
+  "orientation": "top_left",
+  "origin": "extracted_from_original_game",
+  "sources": [
+    "src/test/y/brotato-decompiled/Assets/FairyGUI/RoadUI/Images/Road_Icon_Boss_Low__y4lak.png"
+  ]
+}

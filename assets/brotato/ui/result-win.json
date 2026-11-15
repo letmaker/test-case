@@ -1,0 +1,11 @@
+{
+  "name": "result-win",
+  "description": "原版暂停及结算界面素材",
+  "width": 677,
+  "height": 568,
+  "orientation": "top_left",
+  "origin": "extracted_from_original_game",
+  "sources": [
+    "src/test/y/brotato-decompiled/Assets/FairyGUI/CommonUI/Images/win__i7ps37.png"
+  ]
+}

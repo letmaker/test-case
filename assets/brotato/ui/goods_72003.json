@@ -1,0 +1,34 @@
+{
+  "pivot": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "pixels_per_unit": 100.0,
+  "border": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "w": 0.0
+  },
+  "atlas_tags": [
+    "item"
+  ],
+  "original_rect": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 500,
+    "height": 500
+  },
+  "orientation": "top_left",
+  "transparent_canvas_restored": true,
+  "name": "goods_72003",
+  "source": {
+    "file": "813c10c3ade113542ad0bdbfe93bdaba",
+    "path_id": 1,
+    "type": "Sprite"
+  },
+  "origin": "extracted_from_original_game",
+  "width": 500,
+  "height": 500,
+  "mode": "RGBA"
+}

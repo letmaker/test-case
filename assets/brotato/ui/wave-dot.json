@@ -1,0 +1,11 @@
+{
+  "name": "wave-dot",
+  "description": "原版暂停及结算界面素材",
+  "width": 64,
+  "height": 64,
+  "orientation": "top_left",
+  "origin": "extracted_from_original_game",
+  "sources": [
+    "src/test/y/brotato-decompiled/Assets/FairyGUI/PauseUI/Images/particle_9__bupn6j4.png"
+  ]
+}
