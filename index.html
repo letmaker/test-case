@@ -11,8 +11,8 @@
       body { margin: 0; --toolbar-height: calc(44px + env(safe-area-inset-bottom, 0px)); }
       body.playing { position: fixed; inset: 0 0 var(--toolbar-height); }
       .panel { width: min(22rem, 86vw); margin: 8vh auto 0; }
-      label, input, .panel button, #games a { display: block; margin: .75rem 0; }
-      input, .panel button, #games a { box-sizing: border-box; width: 100%; font: inherit; padding: .65rem .8rem; }
+      #password, #games a { display: block; box-sizing: border-box; font: inherit; padding: .65rem .8rem; }
+      #games a { margin: .75rem 0; }
       button, #games a, #toolbar a { color: #fff; background: #27354a; border: 0; border-radius: .45rem; text-decoration: none; }
       #toolbar {
         position: fixed; z-index: 1001; inset: auto 0 0; height: var(--toolbar-height); box-sizing: border-box;
@@ -25,17 +25,11 @@
       #loading { position: relative; z-index: 1000; width: fit-content; margin: 12px auto 0; padding: 8px 12px; background: #181d25; }
       [hidden] { display: none !important; }
     </style>
-    <script type="module" crossorigin src="./assets/index-Bk0xBDDy.js"></script>
+    <script type="module" crossorigin src="./assets/gate-03ec9a6f9717.js"></script>
     <link rel="modulepreload" crossorigin href="./assets/preload-helper-HclGiUj8.js">
   </head>
   <body>
-    <form id="gate" class="panel" hidden>
-      <h1>游戏手机测试</h1>
-      <label for="password">测试密码</label>
-      <input id="password" type="password" required />
-      <button>解锁</button>
-      <p role="status"></p>
-    </form>
+    <input id="password" class="panel" type="password" aria-label="测试密码" autocomplete="off" hidden />
     <main id="menu" class="panel" hidden>
       <h1>选择游戏</h1>
       <nav id="games" aria-label="测试游戏"></nav>
