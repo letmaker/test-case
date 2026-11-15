@@ -16,10 +16,11 @@
       #start { position: absolute; top: 16px; left: 0; right: 0; margin: 0; text-align: center; }
       #password[hidden] + #start { display: none; }
       #games a { margin: .75rem 0; color: #fff; background: #27354a; border-radius: .45rem; text-decoration: none; }
+      #game-switch { position: fixed; top: 10px; left: 10px; z-index: 10000; padding: 5px; font-size: 14px; field-sizing: content; }
       #loading { position: relative; z-index: 1000; width: fit-content; margin: 12px auto 0; padding: 8px 12px; background: #181d25; }
       [hidden] { display: none !important; }
     </style>
-    <script type="module" crossorigin src="./assets/index-C3UE6API.js"></script>
+    <script type="module" crossorigin src="./assets/index-DVjpN92g.js"></script>
     <link rel="modulepreload" crossorigin href="./assets/preload-helper-HclGiUj8.js">
   </head>
   <body>
@@ -29,6 +30,7 @@
       <h1>选择游戏</h1>
       <nav id="games" aria-label="测试游戏"></nav>
     </main>
+    <select id="game-switch" aria-label="切换测试" hidden></select>
     <p id="loading" role="status" hidden></p>
   </body>
 </html>
