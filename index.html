@@ -8,24 +8,14 @@
     <title>游戏手机测试</title>
     <style>
       html { background: #000; color: #eee; font: 16px system-ui, sans-serif; }
-      body { margin: 0; --toolbar-height: calc(44px + env(safe-area-inset-bottom, 0px)); }
-      body.playing { position: fixed; inset: 0 0 var(--toolbar-height); }
+      body { margin: 0; }
       .panel { width: min(22rem, 86vw); margin: 8vh auto 0; }
       #password, #games a { display: block; box-sizing: border-box; font: inherit; padding: .65rem .8rem; }
-      #games a { margin: .75rem 0; }
-      button, #games a, #toolbar a { color: #fff; background: #27354a; border: 0; border-radius: .45rem; text-decoration: none; }
-      #toolbar {
-        position: fixed; z-index: 1001; inset: auto 0 0; height: var(--toolbar-height); box-sizing: border-box;
-        display: flex; align-items: center; gap: 8px; background: #181d25;
-        padding: 0 max(10px, env(safe-area-inset-right, 0px)) env(safe-area-inset-bottom, 0px) max(10px, env(safe-area-inset-left, 0px));
-      }
-      #toolbar :is(a, button) { font: inherit; padding: 7px 10px; white-space: nowrap; }
-      #toolbar a { margin-right: auto; }
-      #fullscreen-status { font-size: .75rem; }
+      #games a { margin: .75rem 0; color: #fff; background: #27354a; border-radius: .45rem; text-decoration: none; }
       #loading { position: relative; z-index: 1000; width: fit-content; margin: 12px auto 0; padding: 8px 12px; background: #181d25; }
       [hidden] { display: none !important; }
     </style>
-    <script type="module" crossorigin src="./assets/gate-03ec9a6f9717.js"></script>
+    <script type="module" crossorigin src="./assets/gate-e31414532d22.js"></script>
     <link rel="modulepreload" crossorigin href="./assets/preload-helper-HclGiUj8.js">
   </head>
   <body>
@@ -35,10 +25,5 @@
       <nav id="games" aria-label="测试游戏"></nav>
     </main>
     <p id="loading" role="status" hidden></p>
-    <nav id="toolbar" aria-label="测试工具" hidden>
-      <a href="?">返回列表</a>
-      <span id="fullscreen-status" role="status"></span>
-      <button id="fullscreen" type="button">全屏</button>
-    </nav>
   </body>
 </html>
