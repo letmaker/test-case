@@ -13,6 +13,7 @@
       #password, #games a { display: block; box-sizing: border-box; font: inherit; padding: .65rem .8rem; }
       #password { appearance: none; background: transparent; border-color: transparent; outline: none; color: transparent; cursor: default; }
       #password:focus { color: inherit; cursor: text; }
+      #password::placeholder { color: #eee; opacity: 1; }
       #games a { margin: .75rem 0; color: #fff; background: #27354a; border-radius: .45rem; text-decoration: none; }
       #loading { position: relative; z-index: 1000; width: fit-content; margin: 12px auto 0; padding: 8px 12px; background: #181d25; }
       [hidden] { display: none !important; }
@@ -21,7 +22,7 @@
     <link rel="modulepreload" crossorigin href="./assets/preload-helper-HclGiUj8.js">
   </head>
   <body>
-    <input id="password" class="panel" type="password" aria-label="测试密码" autocomplete="off" hidden />
+    <input id="password" class="panel" type="password" aria-label="测试密码" placeholder="start" autocomplete="off" hidden />
     <main id="menu" class="panel" hidden>
       <h1>选择游戏</h1>
       <nav id="games" aria-label="测试游戏"></nav>
