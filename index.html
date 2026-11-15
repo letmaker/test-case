@@ -13,8 +13,8 @@
       #password, #games a { display: block; box-sizing: border-box; font: inherit; padding: .65rem .8rem; }
       #password { appearance: none; background: transparent; border-color: transparent; outline: none; color: transparent; cursor: default; }
       #password:focus { color: inherit; cursor: text; }
-      #start { position: absolute; top: 0; left: 0; right: 0; box-sizing: border-box; padding: .65rem .8rem; cursor: text; }
-      #password[hidden] + #start, #password:focus + #start { display: none; }
+      #start { position: absolute; top: 16px; left: 0; right: 0; margin: 0; text-align: center; }
+      #password[hidden] + #start { display: none; }
       #games a { margin: .75rem 0; color: #fff; background: #27354a; border-radius: .45rem; text-decoration: none; }
       #loading { position: relative; z-index: 1000; width: fit-content; margin: 12px auto 0; padding: 8px 12px; background: #181d25; }
       [hidden] { display: none !important; }
@@ -24,7 +24,7 @@
   </head>
   <body>
     <input id="password" class="panel" type="password" aria-label="测试密码" autocomplete="off" hidden />
-    <label id="start" class="panel" for="password">start</label>
+    <p id="start">start</p>
     <main id="menu" class="panel" hidden>
       <h1>选择游戏</h1>
       <nav id="games" aria-label="测试游戏"></nav>
