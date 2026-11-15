@@ -11,6 +11,8 @@
       body { margin: 0; }
       .panel { width: min(22rem, 86vw); margin: 8vh auto 0; }
       #password, #games a { display: block; box-sizing: border-box; font: inherit; padding: .65rem .8rem; }
+      #password { appearance: none; background: transparent; border-color: transparent; outline: none; color: transparent; cursor: default; }
+      #password:focus { color: inherit; cursor: text; }
       #games a { margin: .75rem 0; color: #fff; background: #27354a; border-radius: .45rem; text-decoration: none; }
       #loading { position: relative; z-index: 1000; width: fit-content; margin: 12px auto 0; padding: 8px 12px; background: #181d25; }
       [hidden] { display: none !important; }
